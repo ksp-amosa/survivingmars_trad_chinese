@@ -851,17 +851,17 @@ id <u(id)>, version <version></color>",
 5036,Concrete Depot,混凝土存放區
 5037,Concrete Depots,混凝土存放區
 5038,Stores <concrete(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <concrete(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-7666,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.","+<upgrade1_mul_value_1>% Production as long as the building is supplied with 燃料. If not supplied with 燃料, the building will continue to operate but will lose the bonus."
-5031,+<upgrade3_mul_value_1>% Production.,+<upgrade3_mul_value_1>% Production.
+7666,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",
+5031,+<upgrade3_mul_value_1>% Production.,
 5032,Concrete Extractor,混凝土挖掘站
 5033,Concrete Extractors,混凝土挖掘站
-5034,Extracts sulfurous rich regolith from Concrete deposits and produces Concrete. All extractors contaminate nearby buildings with dust.,Extracts sulfurous rich regolith from 混凝土 deposits and produces 混凝土. All extractors contaminate nearby buildings with dust.
+5034,Extracts sulfurous rich regolith from Concrete deposits and produces Concrete. All extractors contaminate nearby buildings with dust.,
 5039,Cube Depot,Cube 存放區
 5040,Cube Depots,Cube 存放區
 5041,A safe place to store Black Cubes.,一個安全存放 Black Cubes 的地方
 6984,Defensive Turret,防禦砲塔
 6985,Defensive Turrets,防禦砲塔
-6986,A laser-targeting defense structure. Protect nearby buildings from meteors. Can attack enemy vehicles at extreme range.,A laser-targeting defense structure. Protect nearby buildings from meteors. Can attack enemy vehicles at extreme range.
+6986,A laser-targeting defense structure. Protect nearby buildings from meteors. Can attack enemy vehicles at extreme range.,
 5042,Diner,餐廳
 5043,Diners,餐廳
 5044,Serves the finest dishes on Mars. Now featuring non-plastic tableware.,提供火星上最好的餐點。現在主打非塑膠餐具。
@@ -869,10 +869,10 @@ id <u(id)>, version <version></color>",
 5046,Drone Assemblers,無人機裝配廠
 5047,Produces Drones Prefabs which can then be used to order new drones in Drone Hubs multiplying the obedient workforce of the Colony. Probably not a threat to humans.,生產無人機預製件，然後可用於在無人機中心訂購新的無人機，從而使殖民地服從的勞動力增加。應該不會對人類造成威脅。
 4478,<description><newline><newline>Current status: <DronesStatusText><newline>Drones<right><drone(DronesCount)>,<description><newline><newline> 目前狀態： <DronesStatusText><newline> 無人機 <right><drone(DronesCount)>
-4479,<DronesCount><icon_Drone_small>,<DronesCount><icon_Drone_small>
+4479,<DronesCount><icon_Drone_small>,
 5048,Drone Hubs,無人機中心
 5049,Controls Drones and allocates them to different tasks.,控制並分派不同任務給無人機。
-5050,<wasterock(Stored_WasteRock)>,<wasterock(Stored_WasteRock)>
+5050,<wasterock(Stored_WasteRock)>,
 5051,Dumping Site,棄置場
 5052,Dumping Sites,棄置場
 5053,Stores <wasterock(max_amount_WasteRock)>. Waste Rock is produced as side product of different mining activities.,存放 <wasterock(max_amount_WasteRock)>。廢石是挖礦的副產品。
@@ -880,26 +880,26 @@ id <u(id)>, version <version></color>",
 5062,Electronics Depot,電子零件存放區
 5063,Electronics Depots,電子零件存放區
 5064,Stores <electronics(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <electronics(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-7667,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% Production.
+7667,+<upgrade1_mul_value_1>% Production.,
 3523,Electronics Factory,電子零件工廠
 5059,Electronics Factories,電子零件工廠
 5060,Creates Electronics from Rare Metals.,用稀有金屬製造電子零件。
 5065,Electronics Store,全國電子火星店
 5066,Electronics Stores,全國電子火星店
 5067,Buy the latest and greatest gadgets Mars has to offer! Consumes Electronics on each visit.,購買火星上最感心的小工具！每次造訪時消耗電子零件。
-8044,Decreases Workplaces by <abs(upgrade1_add_value_1)>.,Decreases Workplaces by <abs(upgrade1_add_value_1)>.
+8044,Decreases Workplaces by <abs(upgrade1_add_value_1)>.,
 4812,Farm,農場
-5070,<food(Stored_Food)>,<food(Stored_食物)>
+5070,<food(Stored_Food)>,
 5071,Food Depot,食物存放區
 5072,Food Depots,食物存放區
 5073,Stores <food(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <food(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
 5114,Fountain,噴泉
 5115,Fountains,噴泉
-5077,<fuel(Stored_Fuel)>,<fuel(Stored_燃料)>
+5077,<fuel(Stored_Fuel)>,
 5078,Fuel Depot,燃料存放區
 5079,Fuel Depots,燃料存放區
 5080,Stores <fuel(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <fuel(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-5029,+<upgrade1_mul_value_1>% Production; +<power(upgrade1_add_value_2)> Consumption.,+<upgrade1_mul_value_1>% Production; +<power(upgrade1_add_value_2)> Consumption.
+5029,+<upgrade1_mul_value_1>% Production; +<power(upgrade1_add_value_2)> Consumption.,
 5074,Fuel Refinery,燃料精煉廠
 5075,Fuel Refineries,燃料精煉廠
 5076,Produces Fuel from Water.,從水中精煉燃料。
@@ -1108,8 +1108,8 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5247,School,學校
 5248,Schools,學校
 5249,Cultivates desired Perks in children using modern remote learning techniques.,使用新式遠距學習科技培育兒童所期望的技能。
-5233,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% Production.
-5250,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.
+5233,+<upgrade1_mul_value_1>% Production.,
+5250,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.,
 5251,Science Institute,科學研究院
 5252,Science Institutes,科學研究院
 5253,Generates Research faster than a Research Lab.,產生研究點數的速度比研究實驗室更快。
@@ -1119,9 +1119,9 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5257,Sensor Tower,掃描塔
 5258,Sensor Towers,掃描塔
 5259,"Boosts scanning speed, especially for nearby sectors. Extends the advance warning for disasters.",加速掃描速度，尤其是鄰近的地圖區塊。擴大災難預警範圍。
-3526,Shuttle Hub,Shuttle Hub
-5260,Shuttle Hubs,Shuttle Hubs
-5261,Houses and refuels Shuttles that facilitate long-range resource transportation between Depots and resettling of Colonists between Domes.,Houses and refuels Shuttles that facilitate long-range resource transportation between Depots and resettling of Colonists between Domes.
+3526,Shuttle Hub,客貨機服務站
+5260,Shuttle Hubs,客貨機服務站
+5261,Houses and refuels Shuttles that facilitate long-range resource transportation between Depots and resettling of Colonists between Domes.,
 5262,Small Alleys,小徑
 5145,A beautiful park with alleys and benches.,一座有小徑與長椅的美麗公園
 5263,Small Fountain,小型噴泉
@@ -1133,11 +1133,11 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5267,Small Monument,小型紀念碑
 5268,Small Monuments,小型紀念碑
 5269,A decorative monument created from the mysterious Black Cubes. Probably harmless.,從神秘的黑色立方體創建的裝飾性紀念碑。 可能無害。
-5272,+<upgrade1_add_value_1> Service Comfort.,+<upgrade1_add_value_1> Service Comfort.
+5272,+<upgrade1_add_value_1> Service Comfort.,
 7800,Smart Complex,智慧集合式住宅
 7801,Smart Complexes,智慧集合式住宅
 5273,Provide a very comfortable living space for Colonists. Residents will recover additional Sanity when resting.,為殖民者提供一個非常舒適的生活空間。 居民在休息時會恢復額外的理智。
-5006,+<upgrade1_add_value_1> Service Comfort.,+<upgrade1_add_value_1> Service Comfort.
+5006,+<upgrade1_add_value_1> Service Comfort.,
 5270,Smart Homes,智慧住宅
 5271,Provides a very comfortable living space for Colonists. Residents will recover additional Sanity when resting.,為殖民者提供一個非常舒適的生活空間。 居民在休息時會恢復額外的理智。
 5274,Solar Panel,太陽能板
@@ -1146,10 +1146,10 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 1120,Space Elevator,太空電梯
 5277,Space Elevators,太空電梯
 5278,"A faster way to reach space, the Elevator speeds up cargo shipments to orbit. Exports Rare Metals to Earth and offers resupply materials and prefabs at a discount.",通過更快的方式到達太空，電梯可以將貨物運到軌道。 將稀有金屬出口到地球，並以折扣價提供補給材料和預製件。
-5279,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.
+5279,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.,
 5280,Spacebar,星際酒吧
 5281,Spacebars,星際酒吧
-5282,Provides space for R&R and fancy cocktails.,Provides space for R&R and fancy cocktails.
+5282,Provides space for R&R and fancy cocktails.,
 5283,Statue,雕像
 5284,Statues,雕像
 5285,"""In honor of the Founders of Mars.""",“為了紀念火星的創始人。”
@@ -1176,7 +1176,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5305,Stores <resource(max_storage_per_resource)> units of each transportable resource. Excess resources will be delivered automatically to other depots within Drone range.,存儲每個可移動資源 <resource(max_storage_per_resource)> 單位。 剩餘資源將自動發送到Drone範圍內的其他倉庫。
 5026,Fueled Extractor,燃料式挖掘機
 5027,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",+<upgrade1_mul_value_1>% 只要建築物供應燃料，就可以生產。 如果未提供燃料，大樓將繼續運行，但將失去獎勵。
-5028,Amplify,Amplify
+5028,Amplify,
 8043,+<upgrade2_mul_value_1>% Production; +<power(upgrade2_add_value_2)> Consumption.,
 5222,+<upgrade3_mul_value_1>% Production.,
 3529,Water Extractor,水資源挖掘站
@@ -1189,7 +1189,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5311,Water Towers,水塔
 5312,Stores Water. Doesn't work during Cold Waves.,存儲水資源。在寒流中不起作用。
 5313,Polymer Blades,聚合物葉片
-5314,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產生
+5314,+<upgrade1_mul_value_1>% Production.,
 5315,Wind Turbine,風力發電機
 5316,Wind Turbines,風力發電機
 5317,Generates Power. Increased production during Dust Storms and at high elevations.,產生電力。在沙塵暴和高海拔地區增加發電量。
@@ -1249,18 +1249,18 @@ This technological challenge to take advantage of what little wind there is on M
 5337,Rocket Scientist,火箭科學家
 5338,"- Start with an extra Rocket
 - Bonus Tech: <em>CO2 Jet Propulsion</em> (unlocks Shuttle Hub and long-range transportation)","- 開始時擁有一個額外的火箭
-- 加成科技： <em>CO2 Jet Propulsion</em> （解鎖 Shuttle Hub 與 長距離運輸）"
-6987,Leaf Crops,Leaf Crops
-6989,Giant Leaf Crops,Giant Leaf Crops
+- 加成科技： <em>CO2噴射推進系統</em> （解鎖 客貨機服務站 與 長距離運輸）"
+6987,Leaf Crops,
+6989,Giant Leaf Crops,
 6988,Good yield but slow growth,產量佳，但成長緩慢
-6990,Microgreens,Microgreens
+6990,Microgreens,
 6991,"Low yield and slow growth, but require less Water",產量低，且成長緩慢，但需要的水較少
 6992,Wheat Grass,小麥草
 6994,Giant Wheat Grass,巨大小麥草
 6993,Low yield but grows very fast,產量低，但成長非常快速
 6995,Potatoes,馬鈴薯
-8069,Curetatos,Curetatos
-8470,Extract the cure for the Wildfire Infection from these potatoes.,Extract the cure for the Wildfire Infection from these potatoes.
+8069,Curetatos,
+8470,Extract the cure for the Wildfire Infection from these potatoes.,
 6997,Giant Potatoes,巨大馬鈴薯
 6996,"Good yield but grows slowly and depletes the soil, causing reduced yield of the next crop",產量佳，但成長緩慢，且會耗盡土壤，導致下一個作物的產量減少
 6998,Soybeans,黃豆
@@ -1270,7 +1270,7 @@ This technological challenge to take advantage of what little wind there is on M
 7001,Low yield but grows fast and requires less Water,產量低，但成長快速，且需要的水較少
 7003,Algae,藻類
 7004,Very low yield but produces Oxygen,產量非常低，但會產生氧氣
-7005,Cover Crops,Cover Crops
+7005,Cover Crops,
 7006,"Very low yield but increases soil quality significantly, improving the yield of the next crop",產量非常低，但會顯著提升土壤品質，改善下一個作物的產量
 7007,Rice,稻米
 7009,Giant Rice,巨大稻米
@@ -1439,9 +1439,7 @@ The most important ingredient for life as we know it to exist is by no means sca
 5394,VEHICLES,車輛
 5395,"Conditions on Mars are utterly hostile for humans to roam and work freely outside of <em>Domes</em>. This is why heavy-duty vehicles have been designed to tackle the tasks that humans can't.
 
-Vehicles are either remote-controlled <em>Rovers</em> or semi-autonomous <em>Drones</em> and <em>Shuttles</em>.","Conditions on Mars are utterly hostile for humans to roam and work freely outside of <em>Domes</em>. This is why heavy-duty vehicles have been designed to tackle the tasks that humans can't.
-
-Vehicles are either remote-controlled <em>Rovers</em> or semi-autonomous <em>Drones</em> and <em>Shuttles</em>."
+Vehicles are either remote-controlled <em>Rovers</em> or semi-autonomous <em>Drones</em> and <em>Shuttles</em>.",
 5396,"Rockets are used to deliver supplies all the way from Earth, or bring colonists which have applied for a life on Mars.
 
 They are re-usable, and once having refueled on Mars, can bring Rare Metals back to Earth for monetary gains.
@@ -1535,18 +1533,7 @@ Research Anomaly<image UI/Icons/Anomaly_Research.tga>  – These anomalies insta
 Breakthrough Anomaly <image UI/Icons/Anomaly_Breakthrough.tga>  – These anomalies reveal a tech on the Breakthrough tree in the Research Screen.
 
 Tech Anomaly <image UI/Icons/Anomaly_Tech.tga>  – These anomalies enable specific techs to be researched, no matter their place on the tech tree. 
-","Anomalies appear all over the map in scanned sectors. Sending a RC Explorer to analyze them will trigger their effects. An anomaly can be one of the following sorts:
-
-<center><image UI/Common/rollover_line.tga 2000> <left>
-
-Event Anomaly <image UI/Icons/Anomaly_Event.tga> – These anomalies trigger events, which can be associated with Mysteries or not. 
-
-Research Anomaly<image UI/Icons/Anomaly_Research.tga>  – These anomalies instantly generate Research Points, which then contribute to any ongoing research.
-
-Breakthrough Anomaly <image UI/Icons/Anomaly_Breakthrough.tga>  – These anomalies reveal a tech on the Breakthrough tree in the Research Screen.
-
-Tech Anomaly <image UI/Icons/Anomaly_Tech.tga>  – These anomalies enable specific techs to be researched, no matter their place on the tech tree. 
-"
+",
 5411,Power Distribution,電力延伸
 5412,"Power is distributed along power cables from <em>Power Production</em> buildings (or <em>Power Accumulators</em>) to all buildings connected to the same grid. 
 
@@ -1556,15 +1543,7 @@ Power cables can sustain <em>Cable Faults</em> (either from <em>Meteors</em> or 
 
 Cable Faults drain power from the grid. Repairing them requires Metals and may take some time
 
-IMPORTANT: Denser power grids develop more Cable Faults.","Power is distributed along power cables from <em>Power Production</em> buildings (or <em>Power Accumulators</em>) to all buildings connected to the same grid. 
-
-<em>Power Switches</em> can be constructed along cables, allowing us to connect or disconnect entire sectors of the grid at will. 
-
-Power cables can sustain <em>Cable Faults</em> (either from <em>Meteors</em> or just because of general erosion) and will need repair every now and then by <em>Drones</em> – provided there are Drones within reach.
-
-Cable Faults drain power from the grid. Repairing them requires Metals and may take some time
-
-IMPORTANT: Denser power grids develop more Cable Faults."
+IMPORTANT: Denser power grids develop more Cable Faults.",
 5413,"Colonists need Life Support resources in order to survive in the short term. These are <em>Water</em>, <em>Oxygen</em> and <em>Food</em>. Without access to any of these, a <em>Dome</em> will die out, with a shortage of Oxygen being the deadliest.
 
 Both Oxygen and Water are supplied to Domes via a <em>Pipe Network</em> which must be connected to Oxygen and Water production buildings to ensure the possibility of using Water and Oxygen <em>Tanks</em> to manage temporary shortages.
@@ -1573,15 +1552,7 @@ Pipes are built by <em>Drones</em> and deteriorate over time, resulting in <em>P
 
 If a Dome is left without power it won't provide heating to Colonists and they may die due to exposure to the intense cold of the Red Planet.
 
-Food, which can initially be brought from Earth via <em>Rockets</em>, can be grown later on using <em>Farms, Hydroponic Farms</em>, and <em>Fungal Farms</em>. In contrast to Water and Oxygen, Food is not a grid resource and needs to be transported with Drones.","Colonists need Life Support resources in order to survive in the short term. These are <em>Water</em>, <em>Oxygen</em> and <em>Food</em>. Without access to any of these, a <em>Dome</em> will die out, with a shortage of Oxygen being the deadliest.
-
-Both Oxygen and Water are supplied to Domes via a <em>Pipe Network</em> which must be connected to Oxygen and Water production buildings to ensure the possibility of using Water and Oxygen <em>Tanks</em> to manage temporary shortages.
-
-Pipes are built by <em>Drones</em> and deteriorate over time, resulting in <em>Pipe Leaks</em> which drain Water and Oxygen from the system. Drones repair Pipe Leaks at the cost of Metals.
-
-If a Dome is left without power it won't provide heating to Colonists and they may die due to exposure to the intense cold of the Red Planet.
-
-Food, which can initially be brought from Earth via <em>Rockets</em>, can be grown later on using <em>Farms, Hydroponic Farms</em>, and <em>Fungal Farms</em>. In contrast to Water and Oxygen, Food is not a grid resource and needs to be transported with Drones."
+Food, which can initially be brought from Earth via <em>Rockets</em>, can be grown later on using <em>Farms, Hydroponic Farms</em>, and <em>Fungal Farms</em>. In contrast to Water and Oxygen, Food is not a grid resource and needs to be transported with Drones.",
 311,Research,研究發展
 5414,"New technologies will unlock new <em> buildings, upgrades,</em> colonist <em>perks</em> and other benefits for the colony. Standard technologies are divided in five fields with different themes. Researching any technology will make a new technology within its field available for research. Some technologies have fixed positions in their fields, others have randomized positions.
 Individual technologies are researched by generating research points equal to their costs. The <em>mission sponsor</em> may provide a fixed amount of research point per Sol, but research buildings will be needed to discover the later, more advanced, technologies in a timely manner. Outsourcing research is another option granting a fixed amount of research for a certain period in exchange for <em>Funding</em>.
@@ -1590,24 +1561,13 @@ Analyzing <em>anomalies</em> with an <em>Explorer</em> vehicle may grant researc
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
-<em>Breakthroughs</em> are extraordinary technologies with powerful effects that are discovered only by special means. One way to unlock a breakthrough technology is to discover it in an anomaly on the surface of Mars. Different breakthrough technologies may appear in each playthrough.","New technologies will unlock new <em> buildings, upgrades,</em> colonist <em>perks</em> and other benefits for the colony. Standard technologies are divided in five fields with different themes. Researching any technology will make a new technology within its field available for research. Some technologies have fixed positions in their fields, others have randomized positions.
-Individual technologies are researched by generating research points equal to their costs. The <em>mission sponsor</em> may provide a fixed amount of research point per Sol, but research buildings will be needed to discover the later, more advanced, technologies in a timely manner. Outsourcing research is another option granting a fixed amount of research for a certain period in exchange for <em>Funding</em>.
-
-Analyzing <em>anomalies</em> with an <em>Explorer</em> vehicle may grant research points or make new technologies available for research.
-
-<center><image UI/Common/rollover_line.tga 2000> <left>
-
-<em>Breakthroughs</em> are extraordinary technologies with powerful effects that are discovered only by special means. One way to unlock a breakthrough technology is to discover it in an anomaly on the surface of Mars. Different breakthrough technologies may appear in each playthrough."
+<em>Breakthroughs</em> are extraordinary technologies with powerful effects that are discovered only by special means. One way to unlock a breakthrough technology is to discover it in an anomaly on the surface of Mars. Different breakthrough technologies may appear in each playthrough.",
 5415,Founders,創始者
 5416,"The Founders are the first human pioneers of the red frontier and the first residents of the fledgling Colony. Their initial task is to prove the potential of the Colony and the viability of a permanent settlement on Mars.
 
 After the Founders arrive on the planet, the Colony will be under evaluation for a certain number of <em>Sols</em>. No new Colonists will be available until the Colony is evaluated positively. A positive evaluation will be awarded if any Founders survive a certain number of Sols, or if the first child is born on the Red Planet.
 
-Since the Founders number is limited to the capacity of the rocket, you may wish to handpick them using the <em>Review</em> command on the passenger rocket screen. Take care to micromanage their priorities during their first days on the Red Planet, using building priority and work slot management to guarantee that the crucial buildings are staffed.","The Founders are the first human pioneers of the red frontier and the first residents of the fledgling Colony. Their initial task is to prove the potential of the Colony and the viability of a permanent settlement on Mars.
-
-After the Founders arrive on the planet, the Colony will be under evaluation for a certain number of <em>Sols</em>. No new Colonists will be available until the Colony is evaluated positively. A positive evaluation will be awarded if any Founders survive a certain number of Sols, or if the first child is born on the Red Planet.
-
-Since the Founders number is limited to the capacity of the rocket, you may wish to handpick them using the <em>Review</em> command on the passenger rocket screen. Take care to micromanage their priorities during their first days on the Red Planet, using building priority and work slot management to guarantee that the crucial buildings are staffed."
+Since the Founders number is limited to the capacity of the rocket, you may wish to handpick them using the <em>Review</em> command on the passenger rocket screen. Take care to micromanage their priorities during their first days on the Red Planet, using building priority and work slot management to guarantee that the crucial buildings are staffed.",
 5417,"Every Colonist is a unique individual defined by his or her name, age category, workplace specialization, traits, and stats.
 
 Colonists will automatically staff Residences within their Dome. Take care to provide enough living space for all of them.
@@ -1654,7 +1614,7 @@ Building in unexplored Sectors carries the risk of building directly on top of u
 Each wonder is unique and can be constructed only once.","世界奇觀是一座相當先進且昂貴的建築物，可以提供整個殖民地巨大的幫助。 將解鎖於 <em>科技樹</em>末期
 
 每座世界奇觀當是獨一無二的，所以他們只能被建造一次"
-5068,Farms,Farms
+5068,Farms,
 5425,Black Cube Stockpiles,
 5426,Building,
 5427,Cold-sensitive Buildings,
@@ -2054,7 +2014,7 @@ Suggested Building: <em>Infirmary</em>",
 8048,Your Officers in <dome_name> stopped the Renegades!,
 5585,Renegades Sabotage Building,
 5586,<building> destroyed in <dome_name>!,
-5587,Founder Has Trait,Founder Has Trait
+5587,Founder Has Trait,
 5588,<ColonistName(founder)>: <TraitName(trait)>,
 5589,New Deposits,
 5590,Deposits found: <count>,
@@ -5485,7 +5445,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 2,Unlock Tech,解鎖 科技
 3,Grant Research,獲得科技成長
 8,Breakthrough Tech,突破性科技
-4,Tech Action,Tech Action
+4,Tech Action,
 11,Our scientists believe that this Anomaly may lead to a <em>Breakthrough</em>.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,我們的科學家相信這個觀察點會有些 <em>突破性</em>的發現.<newline><newline>指派一台<em>探索者號</em> 前往調查觀察點
 12,Scans have detected some interesting readings that might help us discover <em>new Technologies</em>.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
 13,Sensors readings suggest that this Anomaly will help us with our current <em>Research</em> goals.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
@@ -5508,11 +5468,11 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7324,Low battery,
 7325,Empty battery,
 7601,Battery,電池
-7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可以從有源電網向蓄電池充電。 車輛也可以互相充電，平均電池的電量。<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>
+7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
 40,Recharge,充電
-41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其他車輛為電池充電。
+41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其它車輛為電池充電。
 42,Cancel recharge.,取消充電
-50,Status and current task of this vehicle.,Status and current task of this vehicle.
+50,Status and current task of this vehicle.,
 25,Anomaly Scanning,
 52,Progress<right><percent(ScanAnomalyProgress)>,
 53,Malfunction,
@@ -6241,268 +6201,262 @@ Services: <em><list></em>",
 1003,"LibelSuitRg, 25, aa","Noto Sans CJK SC Regular, 25, aa"
 1005,"LibelSuitRg, 56, aa","Noto Sans CJK SC Regular, 56, aa"
 1002,"LibelSuitRg, 36, aa","Noto Sans CJK SC Regular, 36, aa"
-1009,Load Game,Load Game
-664,Penalty Heat,Penalty Heat
-665,Penalty Percent,Penalty Percent
-8526,Defrost Time,Defrost Time
-8527,Frozen,Frozen
-8528,Desfrosting,Desfrosting
-7366,<right_click>,<right_click>
-7367,<em>Ctrl + <left_click></em>,<em>Ctrl + <left_click></em>
-1012,Social,Social
-1013,Relaxation,Relaxation
-1014,Exercise,Exercise
-1015,Gaming,Gaming
-1016,Shopping,Shopping
-1017,Luxury,Luxury
-1018,Drinking,Drinking
-1019,Gambling,Gambling
-1020,Playing,Playing
-1021,Dining,Dining
-1023,Medical Checks,Medical Checks
-1024,<red>No available service building (<interest>) </red>,<red>No available service building (<interest>) </red>
-1025,<red>Service building was closed (<interest>) </red>,<red>Service building was closed (<interest>) </red>
-1026,<red>Service building was full (<interest>) </red>,<red>Service building was full (<interest>) </red>
-1027,<red>Could not get service (<interest>) </red>,<red>Could not get service (<interest>) </red>
-1028,<red>Damage from a Dust Devil <amount></red>,<red>Damage from a Dust Devil <amount></red>
-7536,<red>Injured by a meteor <amount></red>,<red>Injured by a meteor <amount></red>
-1029,<red>Suffocating <amount></red>,<red>Suffocating <amount></red>
-1030,<red>Dehydrated <amount></red>,<red>Dehydrated <amount></red>
-1031,<red>Freezing <amount></red>,<red>Freezing <amount></red>
-1032,<red>Starving <amount></red>,<red>Starving <amount></red>
-1033,<red>Heavy Workload <amount></red>,<red>Heavy Workload <amount></red>
-1034,<red>Irradiated <amount></red>,<red>Irradiated <amount></red>
-1035,<green>Well rested <amount></green>,<green>Well rested <amount></green>
-1036,<red>Chronic Condition <amount></red>,<red>Chronic Condition <amount></red>
-1037,<red>Damage from a CO2 eruption <amount></red>,<red>Damage from a CO2 eruption <amount></red>
-1038,<red>Mourning the death of another Colonist <amount></red>,<red>Mourning the death of another Colonist <amount></red>
-1039,<green>Survived alone outside the Dome <amount></green>,<green>Survived alone outside the Dome <amount></green>
-1040,<green>Regained composure after Sanity breakdown <amount></green>,<green>Regained composure after Sanity breakdown <amount></green>
-7368,Rebooting in safe mode <amount>,Rebooting in safe mode <amount>
-1041,"<green>Dome, sweet Dome <amount></green>","<green>Dome, sweet Dome <amount></green>"
-7848,<green>Psychoanalyzed <amount></green>,<green>Psychoanalyzed <amount></green>
-1042,<red>It's too cold <amount></red>,<red>It's too cold <amount></red>
-1043,<red>A Dust Storm is raging <amount></red>,<red>A Dust Storm is raging <amount></red>
-6775,<red>My Dome was hit by a meteor <amount></red>,<red>My Dome was hit by a meteor <amount></red>
-1044,<red>Experiencing vivid hallucinations <amount></red>,<red>Experiencing vivid hallucinations <amount></red>
-6776,"<red>Cold wave, don't panic! <amount> (Security Station)</red>","<red>Cold wave, don't panic! <amount> (Security Station)</red>"
-6777,"<red>Dust storm, don't panic! <amount> (Security Station)</red>","<red>Dust storm, don't panic! <amount> (Security Station)</red>"
-6778,"<red>Meteor strike, don't panic! <amount> (Security Station)</red>","<red>Meteor strike, don't panic! <amount> (Security Station)</red>"
-1045,<red>Working during the dark hours <amount></red>,<red>Working during the dark hours <amount></red>
-1046,<red>My Comfort is too low <amount> (Whiner)</red>,<red>My Comfort is too low <amount> (Whiner)</red>
-1047,<red>Ran out of luck in the Casino <amount> (Gambler)</red>,<red>Ran out of luck in the Casino <amount> (Gambler)</red>
-1048,<red>Couldn't visit a medical facility <amount> (Hypochondriac)</red>,<red>Couldn't visit a medical facility <amount> (Hypochondriac)</red>
-1049,<red>Worked outside the Dome <amount></red>,<red>Worked outside the Dome <amount></red>
-1050,<green>Game on! <amount> (Gamer)</green>,<green>Game on! <amount> (Gamer)</green>
-1051,<red>Had an unprepared meal <amount></red>,<red>Had an unprepared meal <amount></red>
-1052,<red>No functional Residence <amount></red>,<red>No functional Residence <amount></red>
-8655,<red>My Dome has malfunctioned <amount></red>,<red>My Dome has malfunctioned <amount></red>
-1053,<red>Wants a higher Comfort Residence <amount></red>,<red>Wants a higher Comfort Residence <amount></red>
-1054,<red>Overcrowded Dome <amount></red>,<red>Overcrowded Dome <amount></red>
-1055,<red>My Dome feels overcrowded <amount> (Loner)</red>,<red>My Dome feels overcrowded <amount> (Loner)</red>
-1056,<green>Everybody party! <amount> (Party animal)</green>,<green>Everybody party! <amount> (Party animal)</green>
-1057,Struggling to survive <amount> (Health),Struggling to survive <amount> (Health)
-1058,As healthy as a bull <amount> (Health),As healthy as a bull <amount> (Health)
-1059,Severely stressed <amount> (Sanity),Severely stressed <amount> (Sanity)
-1060,One with the universe <amount> (Sanity),One with the universe <amount> (Sanity)
-1061,I can't live like this <amount> (Comfort),I can't live like this <amount> (Comfort)
-1062,Living in luxury <amount> (Comfort),Living in luxury <amount> (Comfort)
-1063,A Saint in our Dome <amount>,A Saint in our Dome <amount>
-7369,One with the collective <amount>,One with the collective <amount>
-330,Max production<right><water(production)>,Max production<right><water(production)>
-331,Water consumption<right><water(current_consumption)>,Water consumption<right><water(current_consumption)>
-543,Unused production<right><water(number)>,Unused production<right><water(number)>
-544,Insufficient production<right><water(number)>,Insufficient production<right><water(number)>
-537,Life support grid parameters. Water and Oxygen are consumed only when demanded.<newline>,Life support grid parameters. Water and 氧氣 are consumed only when demanded.<newline>
-325,Max production<right><air(production)>,Max production<right><air(production)>
-538,Hourly consumption<right><air(current_consumption)>,Hourly consumption<right><air(current_consumption)>
-539,Unused production<right><air(number)>,Unused production<right><air(number)>
-540,Insufficient production<right><air(number)>,Insufficient production<right><air(number)>
-1064,Life Support Pipe,Life Support Pipe
-1065,Water production,Water production
-482,"Hourly production<right><water(number1,number2)>","Hourly production<right><water(number1,number2)>"
-483,Hourly production<right><water(number)>,Hourly production<right><water(number)>
-479,Production capacity<right><water(production)>,Production capacity<right><water(production)>
-480,Daily production<right><water(ProductionEstimate)>,Daily production<right><water(ProductionEstimate)>
-481,Lifetime production<right><water(production_lifetime)>,Lifetime production<right><water(production_lifetime)>
-469,<newline><center><em>Storage</em>,<newline><center><em>Storage</em>
-471,"Waste Rock<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>","Waste Rock<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>"
-1066,Oxygen production,氧氣 production
-484,Daily production<right><air(ProductionEstimate)>,Daily production<right><air(ProductionEstimate)>
-485,Lifetime production<right><air(production_lifetime)>,Lifetime production<right><air(production_lifetime)>
-656,Water consumption,Water consumption
-1067,Oxygen consumption,氧氣 consumption
-29,Max water consumption while charging,Max water consumption while charging
-1068,Max water output while discharging,Max water output while discharging
-1069,Conversion efficiency % of water (charging),Conversion efficiency % of water (charging)
-30,Water Capacity,Water Capacity
-33,Stored Water,Stored Water
-1070,Max Oxygen consumption while charging,Max 氧氣 consumption while charging
-1071,Max Oxygen output while discharging,Max 氧氣 output while discharging
-1072,Conversion Oxygen efficiency % (charging),Conversion 氧氣 efficiency % (charging)
-1073,Oxygen Capacity,氧氣 Capacity
-1074,Stored Air,Stored Air
-7639,Mission Evaluation received,Mission Evaluation received
-7640,Mission Evaluation,Mission Evaluation
-7641,Mission Evaluation incoming,Mission Evaluation incoming
-8643,Drone Hub overloaded. Not enough drones to handle all tasks - construct more drones.,無人機中心 overloaded. Not enough drones to handle all tasks - construct more drones.
-8644,Drone Hub overloaded,無人機中心 overloaded
-1078,Trophy collection for Surviving Mars,Trophy collection for Surviving Mars
+1009,Load Game,
+664,Penalty Heat,
+665,Penalty Percent,
+8526,Defrost Time,
+8527,Frozen,
+8528,Desfrosting,
+7366,<right_click>,
+7367,<em>Ctrl + <left_click></em>,
+1012,Social,
+1013,Relaxation,
+1014,Exercise,
+1015,Gaming,
+1016,Shopping,
+1017,Luxury,
+1018,Drinking,
+1019,Gambling,
+1020,Playing,
+1021,Dining,
+1023,Medical Checks,
+1024,<red>No available service building (<interest>) </red>,
+1025,<red>Service building was closed (<interest>) </red>,
+1026,<red>Service building was full (<interest>) </red>,
+1027,<red>Could not get service (<interest>) </red>,
+1028,<red>Damage from a Dust Devil <amount></red>,
+7536,<red>Injured by a meteor <amount></red>,
+1029,<red>Suffocating <amount></red>,
+1030,<red>Dehydrated <amount></red>,
+1031,<red>Freezing <amount></red>,
+1032,<red>Starving <amount></red>,
+1033,<red>Heavy Workload <amount></red>,
+1034,<red>Irradiated <amount></red>,
+1035,<green>Well rested <amount></green>,
+1036,<red>Chronic Condition <amount></red>,
+1037,<red>Damage from a CO2 eruption <amount></red>,
+1038,<red>Mourning the death of another Colonist <amount></red>,
+1039,<green>Survived alone outside the Dome <amount></green>,
+1040,<green>Regained composure after Sanity breakdown <amount></green>,
+7368,Rebooting in safe mode <amount>,
+1041,"<green>Dome, sweet Dome <amount></green>",
+7848,<green>Psychoanalyzed <amount></green>,
+1042,<red>It's too cold <amount></red>,
+1043,<red>A Dust Storm is raging <amount></red>,
+6775,<red>My Dome was hit by a meteor <amount></red>,
+1044,<red>Experiencing vivid hallucinations <amount></red>,
+6776,"<red>Cold wave, don't panic! <amount> (Security Station)</red>",
+6777,"<red>Dust storm, don't panic! <amount> (Security Station)</red>",
+6778,"<red>Meteor strike, don't panic! <amount> (Security Station)</red>",
+1045,<red>Working during the dark hours <amount></red>,
+1046,<red>My Comfort is too low <amount> (Whiner)</red>,
+1047,<red>Ran out of luck in the Casino <amount> (Gambler)</red>,
+1048,<red>Couldn't visit a medical facility <amount> (Hypochondriac)</red>,
+1049,<red>Worked outside the Dome <amount></red>,
+1050,<green>Game on! <amount> (Gamer)</green>,
+1051,<red>Had an unprepared meal <amount></red>,
+1052,<red>No functional Residence <amount></red>,
+8655,<red>My Dome has malfunctioned <amount></red>,
+1053,<red>Wants a higher Comfort Residence <amount></red>,
+1054,<red>Overcrowded Dome <amount></red>,
+1055,<red>My Dome feels overcrowded <amount> (Loner)</red>,
+1056,<green>Everybody party! <amount> (Party animal)</green>,
+1057,Struggling to survive <amount> (Health),
+1058,As healthy as a bull <amount> (Health),
+1059,Severely stressed <amount> (Sanity),
+1060,One with the universe <amount> (Sanity),
+1061,I can't live like this <amount> (Comfort),
+1062,Living in luxury <amount> (Comfort),
+1063,A Saint in our Dome <amount>,
+7369,One with the collective <amount>,
+330,Max production<right><water(production)>,
+331,Water consumption<right><water(current_consumption)>,
+543,Unused production<right><water(number)>,
+544,Insufficient production<right><water(number)>,
+537,Life support grid parameters. Water and Oxygen are consumed only when demanded.<newline>,
+325,Max production<right><air(production)>,
+538,Hourly consumption<right><air(current_consumption)>,
+539,Unused production<right><air(number)>,
+540,Insufficient production<right><air(number)>,
+1064,Life Support Pipe,
+1065,Water production,
+482,"Hourly production<right><water(number1,number2)>",
+483,Hourly production<right><water(number)>,
+479,Production capacity<right><water(production)>,
+480,Daily production<right><water(ProductionEstimate)>,
+481,Lifetime production<right><water(production_lifetime)>,
+469,<newline><center><em>Storage</em>,
+471,"Waste Rock<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>",
+1066,Oxygen production,
+484,Daily production<right><air(ProductionEstimate)>,
+485,Lifetime production<right><air(production_lifetime)>,
+656,Water consumption,
+1067,Oxygen consumption,
+29,Max water consumption while charging,
+1068,Max water output while discharging,
+1069,Conversion efficiency % of water (charging),
+30,Water Capacity,
+33,Stored Water,
+1070,Max Oxygen consumption while charging,
+1071,Max Oxygen output while discharging,
+1072,Conversion Oxygen efficiency % (charging),
+1073,Oxygen Capacity,
+1074,Stored Air,
+7639,Mission Evaluation received,
+7640,Mission Evaluation,
+7641,Mission Evaluation incoming,
+8643,Drone Hub overloaded. Not enough drones to handle all tasks - construct more drones.,
+8644,Drone Hub overloaded,
+1078,Trophy collection for Surviving Mars,
 7689,"Surviving Mars is a sci-fi city builder about colonizing Mars and surviving the process. Choose a sponsor for resources and financial support before landing on the surface. Build domes and infrastructure, research new possibilities and utilize drones to maintain your colonies functions. Cultivate your own food, mine minerals or just relax by the bar after a day’s work. Most important of all, keep your colonists alive.
  
-There will be challenges to overcome. Are you ready? Mars is waiting for you.","Surviving Mars is a sci-fi city builder about colonizing Mars and surviving the process. Choose a sponsor for resources and financial support before landing on the surface. Build domes and infrastructure, research new possibilities and utilize drones to maintain your colonies functions. Cultivate your own food, mine minerals or just relax by the bar after a day’s work. Most important of all, keep your colonists alive.
- 
-There will be challenges to overcome. Are you ready? Mars is waiting for you."
-8567,The Deluxe Upgrade Pack of Surviving Mars provides ambitious colonists with a variety of new ways to customize their new homes and domes.,The Deluxe Upgrade Pack of Surviving Mars provides ambitious colonists with a variety of new ways to customize their new homes and domes.
+There will be challenges to overcome. Are you ready? Mars is waiting for you.",
+8567,The Deluxe Upgrade Pack of Surviving Mars provides ambitious colonists with a variety of new ways to customize their new homes and domes.,
 8568,"The Stellaris dome set is a thematic set of visual skins for the Martian domes with a futuristic design and star-shaped elements. It is available for the following domes:
 - Basic Dome: A small dome, suitable for the early days of the colony.
 - Medium Dome: A medium-sized dome design.
 - Oval Dome: An elongated dome design, which has space for two Spires.
-- Mega Dome: The most advanced and spacious dome design.","The Stellaris dome set is a thematic set of visual skins for the Martian domes with a futuristic design and star-shaped elements. It is available for the following domes:
-- Basic Dome: A small dome, suitable for the early days of the colony.
-- Medium Dome: A medium-sized dome design.
-- Oval Dome: An elongated dome design, which has space for two Spires.
-- Mega Dome: The most advanced and spacious dome design."
-1080,Surviving Mars Platinum Trophy,Surviving Mars Platinum Trophy
-1081,Collected all remaining Surviving Mars trophies,Collected all remaining Surviving Mars trophies
-7808,Credits,Credits
-7809,CREDITS,CREDITS
-8057,Switch To Controller?,Switch To Controller?
-7810,Do you want to command the game with a controller?,Do you want to command the game with a controller?
-7872,There are colonists suffering from status effects.,There are colonists suffering from status effects.
-7935,Wireless Controller,Wireless Controller
-7936,Wireless controller for <user> has been disconnected. Reconnect the wireless controller in order to continue.,Wireless controller for <user> has been disconnected. Reconnect the wireless controller in order to continue.
-7938,I am above the age of 13,I am above the age of 13
-8650,This savegame cannot be loaded by the current version of the game.,This savegame cannot be loaded by the current version of the game.
-1082,South Cap,South Cap
-1083,North Cap,North Cap
-1084,Arabia Terra,Arabia Terra
-1085,Utopia Planitia,Utopia Planitia
-1086,Arcadia Planitia,Arcadia Planitia
-1087,Elysium Mons,Elysium Mons
-1088,Gale Crater,Gale Crater
-1089,Hellas Planitia,Hellas Planitia
-1090,Terra Sabaea,Terra Sabaea
-1091,Argyre Planitia,Argyre Planitia
-1092,Valles Marineris,Valles Marineris
-1093,Pavonis Mons,Pavonis Mons
+- Mega Dome: The most advanced and spacious dome design.",
+1080,Surviving Mars Platinum Trophy,
+1081,Collected all remaining Surviving Mars trophies,
+7808,Credits,
+7809,CREDITS,
+8057,Switch To Controller?,
+7810,Do you want to command the game with a controller?,
+7872,There are colonists suffering from status effects.,
+7935,Wireless Controller,
+7936,Wireless controller for <user> has been disconnected. Reconnect the wireless controller in order to continue.,
+7938,I am above the age of 13,
+8650,This savegame cannot be loaded by the current version of the game.,
+1082,South Cap,
+1083,North Cap,
+1084,Arabia Terra,
+1085,Utopia Planitia,
+1086,Arcadia Planitia,
+1087,Elysium Mons,
+1088,Gale Crater,
+1089,Hellas Planitia,
+1090,Terra Sabaea,
+1091,Argyre Planitia,
+1092,Valles Marineris,
+1093,Pavonis Mons,
 1094,Olympus Mons,
-1095,Tempa Terra,Tempa Terra
-1096,Phoenix Landing Area,Phoenix Landing Area
-1097,Viking 1 Landing Area,Viking 1 Landing Area
-1098,Mars Pathfinder Landing Area,Mars Pathfinder Landing Area
-1099,Opportunity Landing Area,Opportunity Landing Area
-1100,Viking 2 Landing Area,Viking 2 Landing Area
-1101,Spirit Landing Area,Spirit Landing Area
-1102,Terra Sireum,Terra Sireum
-1104,Hecatus Tholus,Hecatus Tholus
-1105,Albor Tholus,Albor Tholus
-1106,Ascraeus Mons,Ascraeus Mons
-1107,Arsai Mons,Arsai Mons
-1154,Base Score,Base Score
-1155,Bonus Score,Bonus Score
-1156,Bonus score expiration Sols,Bonus score expiration Sols
-1157,Complete thread,Complete thread
-1158,Custom score,Custom score
-1159,<display_name> - Sol <sol>,<display_name> - Sol <sol>
-8058,Have <target> Colonists at Sol <timeout>. Current Colonists Count: <count>,Have <target> Colonists at Sol <timeout>. Current Colonists Count: <count>
-8059,Have <target> Martianborn Colonists at Sol <timeout>. Current Martianborn Count: <count>,Have <target> Martianborn Colonists at Sol <timeout>. Current Martianborn Count: <count>
-8060,Have <target> Technologies researched at Sol <timeout>. Currently Researched Technologies: <count>,Have <target> Technologies researched at Sol <timeout>. Currently Researched Technologies: <count>
-8061,Analyse <target> Anomalies at Sol <timeout>. Anomalies Analysed: <count>,Analyse <target> Anomalies at Sol <timeout>. Anomalies Analysed: <count>
-8062,Export <target> Rare Metals at Sol <timeout>. Rare Metals Exported: <count>,Export <target> 貴重金屬s at Sol <timeout>. 貴重金屬s Exported: <count>
-1000048,Entity Name,Entity Name
-1160,Decal Mod Entity,Decal Mod Entity
-1161,UI File,UI File
-1000066,Entity testing only possible when a map is loaded,Entity testing only possible when a map is loaded
-1000069,Parent entity,Parent entity
-1000071,Child entity,Child entity
-1000072,Anchor,Anchor
-1000073,Offset,Offset
-1000074,Offset Front-Back,Offset Front-Back
-1000075,Offset Left-Right,Offset Left-Right
-1000076,Offset Top-Bottom,Offset Top-Bottom
-1000077,Rotate,Rotate
-1000078,Rotate Roll,Rotate Roll
-1000079,Rotate Pitch,Rotate Pitch
-1000080,Rotate Yaw,Rotate Yaw
-1000081,Scale,Scale
-1000082,Color,Color
-1000083,When to Anchor,When to Anchor
-1000084,Anchor X-axis,Anchor X-axis
-1000085,Anchor Y-axis,Anchor Y-axis
-1000086,Anchor Z-axis,Anchor Z-axis
-1000087,Control Parent,Control Parent
-7956,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate X-axis of the object,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate X-axis of the object
-7957,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Y-axis of the object,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Y-axis of the object
-7958,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Z-axis of the object,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Z-axis of the object
-7959,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to control the parent object,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to control the parent object
-7960,Use the toggle buttons in the bottom right corner to lock one of the above modes,Use the toggle buttons in the bottom right corner to lock one of the above modes
-7961,Click <sharp_yellow><mouse_button></sharp_yellow> button to move the object,Click <sharp_yellow><mouse_button></sharp_yellow> button to move the object
-1000595,Left,Left
-7962,Click <sharp_yellow><mouse_button></sharp_yellow> button to rotate the object,Click <sharp_yellow><mouse_button></sharp_yellow> button to rotate the object
-1000596,Right,Right
-7963,Middle,Middle
-7964,Click <blue><mouse_button></blue> button to control the camera,Click <blue><mouse_button></blue> button to control the camera
-7965,Hold <blue><keyboard_key></blue> key to move the camera,Hold <blue><keyboard_key></blue> key to move the camera
-7966,Hold <blue><keyboard_key></blue> key to rotate the camera,Hold <blue><keyboard_key></blue> key to rotate the camera
-7967,Use mouse <blue><mouse_scroll></blue> to zoom in / out,Use mouse <blue><mouse_scroll></blue> to zoom in / out
+1095,Tempa Terra,
+1096,Phoenix Landing Area,
+1097,Viking 1 Landing Area,
+1098,Mars Pathfinder Landing Area,
+1099,Opportunity Landing Area,
+1100,Viking 2 Landing Area,
+1101,Spirit Landing Area,
+1102,Terra Sireum,
+1104,Hecatus Tholus,
+1105,Albor Tholus,
+1106,Ascraeus Mons,
+1107,Arsai Mons,
+1154,Base Score,
+1155,Bonus Score,
+1156,Bonus score expiration Sols,
+1157,Complete thread,
+1158,Custom score,
+1159,<display_name> - Sol <sol>,
+8058,Have <target> Colonists at Sol <timeout>. Current Colonists Count: <count>,
+8059,Have <target> Martianborn Colonists at Sol <timeout>. Current Martianborn Count: <count>,
+8060,Have <target> Technologies researched at Sol <timeout>. Currently Researched Technologies: <count>,
+8061,Analyse <target> Anomalies at Sol <timeout>. Anomalies Analysed: <count>,
+8062,Export <target> Rare Metals at Sol <timeout>. Rare Metals Exported: <count>,
+1000048,Entity Name,
+1160,Decal Mod Entity,
+1161,UI File,
+1000066,Entity testing only possible when a map is loaded,
+1000069,Parent entity,
+1000071,Child entity,
+1000072,Anchor,
+1000073,Offset,
+1000074,Offset Front-Back,
+1000075,Offset Left-Right,
+1000076,Offset Top-Bottom,
+1000077,Rotate,
+1000078,Rotate Roll,
+1000079,Rotate Pitch,
+1000080,Rotate Yaw,
+1000081,Scale,
+1000082,Color,
+1000083,When to Anchor,
+1000084,Anchor X-axis,
+1000085,Anchor Y-axis,
+1000086,Anchor Z-axis,
+1000087,Control Parent,
+7956,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate X-axis of the object,
+7957,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Y-axis of the object,
+7958,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Z-axis of the object,
+7959,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to control the parent object,
+7960,Use the toggle buttons in the bottom right corner to lock one of the above modes,
+7961,Click <sharp_yellow><mouse_button></sharp_yellow> button to move the object,
+1000595,Left,
+7962,Click <sharp_yellow><mouse_button></sharp_yellow> button to rotate the object,
+1000596,Right,
+7963,Middle,
+7964,Click <blue><mouse_button></blue> button to control the camera,
+7965,Hold <blue><keyboard_key></blue> key to move the camera,
+7966,Hold <blue><keyboard_key></blue> key to rotate the camera,
+7967,Use mouse <blue><mouse_scroll></blue> to zoom in / out,
 1000095,Scroll,捲動
 1162,Artificial Intelligence (Normal),人工智慧 (Normal)
 1163,"""I am putting myself to the fullest possible use, which is all I think that any conscious entity can ever hope to do.""<newline><right>- HAL 9000",「“我正充分發揮自己的用處，這是我認為任何有意識的實體都該要能做到的事情。」<newline><right> ─ 哈爾 9000
 1164,The Power of Three (Easy),三的次方 (Easy)
-1165,"""Science is no more than an investigation of a miracle we can never explain, and art is an interpretation of that miracle.""<newline><right>- Ray Bradbury","""Science is no more than an investigation of a miracle we can never explain, and art is an interpretation of that miracle.""<newline><right>- Ray Bradbury"
-1166,"Black. Cube-shaped. Just standing there, challenging our preconceptions.","Black. Cube-shaped. Just standing there, challenging our preconceptions."
+1165,"""Science is no more than an investigation of a miracle we can never explain, and art is an interpretation of that miracle.""<newline><right>- Ray Bradbury",
+1166,"Black. Cube-shaped. Just standing there, challenging our preconceptions.",
 1167,Black Cube Matrix,黑立方矩陣
 1168,Max Amount Black Cubes,最大量黑立方
-1169,Black Cube<right><Stored_BlackCube>/<MaxAmount_BlackCube>,Black Cube<right><Stored_BlackCube>/<MaxAmount_BlackCube>
+1169,Black Cube<right><Stored_BlackCube>/<MaxAmount_BlackCube>,
 1170,The Dredgers (Normal),疏濬者 (Normal)
 1171,"""Two possibilities exist: either we are alone in the Universe or we are not. Both are equally terrifying.""<newline><right>- Arthur C. Clarke",「有兩種可能：我們可能是宇宙中唯一的智慧生命體，或者不是。兩者都同樣可怕。」<newline><right> ─ 亞瑟‧Ｃ‧克拉克
-1172,Dredger,Dredger
-1173,A mysterious alien object which seems to excavate landmass from the Martian surface.,A mysterious alien object which seems to excavate landmass from the Martian surface.
-1174,<display_name> <idx>,<display_name> <idx>
-1179,Dredgenaught,Dredgenaught
+1172,Dredger,
+1173,A mysterious alien object which seems to excavate landmass from the Martian surface.,
+1174,<display_name> <idx>,
+1179,Dredgenaught,
 1180,Inner Light (Easy),內心之光 (Easy)
-1181,"""Seize the time... Live now! Make now always the most precious time. Now will never come again.""<newline><right>- Jean-Luc Picard","""Seize the time... Live now! Make now always the most precious time. Now will never come again.""<newline><right>- Jean-Luc Picard"
+1181,"""Seize the time... Live now! Make now always the most precious time. Now will never come again.""<newline><right>- Jean-Luc Picard",
 8063,Marsgate (Hard),火星之門 (Hard)
-7306,"""The saddest aspect of life right now is that science fiction gathers knowledge faster than society gathers wisdom.""<newline><right>- Isaac Asimov","""The saddest aspect of life right now is that science fiction gathers knowledge faster than society gathers wisdom.""<newline><right>- Isaac Asimov"
-1183,An unknown alien object.,An unknown alien object.
+7306,"""The saddest aspect of life right now is that science fiction gathers knowledge faster than society gathers wisdom.""<newline><right>- Isaac Asimov",
+1183,An unknown alien object.,
 1184,Spheres (Normal),球體 (Normal)
-1185,"""Never fire a laser at a mirror.""<newline><right>- Larry Niven","""<newline><right>- Larry Niven"
-1186,Strange pile of rocks,Strange pile of rocks
-1187,Mirror Sphere excavation site,Mirror Sphere excavation site
-1188,Action in progress.,Action in progress.
-6780,Cancel.,Cancel.
-1189,Already completed.,Already completed.
-1190,Too far from any Drone commander.,Too far from any Drone commander.
-1191,No Sensor Tower in range.,No Sensor Tower in range.
-1192,No Accumulator with stored Power in range.,No Accumulator with stored Power in range.
-1193,The necessary technology hasn't been researched.,The necessary technology hasn't been researched.
-1194,There's no trapped Sphere.,There's no trapped Sphere.
-1195,Not operational.,Not operational.
-1201,An odd-looking rock pile.,An odd-looking rock pile.
-1202,Mirror sphere excavation site,Mirror sphere excavation site
-1210,Attempting to pierce the shell,Attempting to pierce the shell
-1211,Establishing communication,Establishing communication
-1212,Feeding Power,Feeding Power
-1213,Needs further analysis,Needs further analysis
-1219,Decomposing into Metals,Decomposing into 金屬
-1220,Decomposing into Rare Metals,Decomposing into 稀有金屬
-1221,Decomposing into Polymers,Decomposing into 聚合物
-6781,Idle,Idle
-455,Occupied,Occupied
-456,Vacant,Vacant
-8066,Start mystery <mystery> (<scenario>),Start mystery <mystery> (<scenario>)
+1185,"""Never fire a laser at a mirror.""<newline><right>- Larry Niven",
+1186,Strange pile of rocks,
+1187,Mirror Sphere excavation site,
+1188,Action in progress.,
+6780,Cancel.,
+1189,Already completed.,
+1190,Too far from any Drone commander.,
+1191,No Sensor Tower in range.,
+1192,No Accumulator with stored Power in range.,
+1193,The necessary technology hasn't been researched.,
+1194,There's no trapped Sphere.,
+1195,Not operational.,
+1201,An odd-looking rock pile.,
+1202,Mirror sphere excavation site,
+1210,Attempting to pierce the shell,
+1211,Establishing communication,
+1212,Feeding Power,
+1213,Needs further analysis,
+1219,Decomposing into Metals,
+1220,Decomposing into Rare Metals,
+1221,Decomposing into Polymers,
+6781,Idle,
+455,Occupied,
+456,Vacant,
+8066,Start mystery <mystery> (<scenario>),
 8067,Wildfire (Hard),野火 (Hard)
-8068,"""The worst pandemic in modern history was the Spanish flu of 1918, which killed tens of millions of people. Today, with how interconnected the world is, it would spread faster.""<newline><right>- Bill Gates","""The worst pandemic in modern history was the Spanish flu of 1918, which killed tens of millions of people. Today, with how interconnected the world is, it would spread faster.""<newline><right>- Bill Gates"
-8458,Wildfire Cure,Wildfire Cure
-8459,Medicine preventing the Wildfire infection from destroying its host and from spreading to other humans.,Medicine preventing the Wildfire infection from destroying its host and from spreading to other humans.
-8531,Wildefire Cure Depot,Wildefire Cure Depot
-8532,Wildefire Cure Depots,Wildefire Cure Depots
-8533,Stores the cure for the Wildfire infection.,Stores the cure for the Wildfire infection.
+8068,"""The worst pandemic in modern history was the Spanish flu of 1918, which killed tens of millions of people. Today, with how interconnected the world is, it would spread faster.""<newline><right>- Bill Gates",
+8458,Wildfire Cure,
+8459,Medicine preventing the Wildfire infection from destroying its host and from spreading to other humans.,
+8531,Wildefire Cure Depot,
+8532,Wildefire Cure Depots,
+8533,Stores the cure for the Wildfire infection.,
 8070,Beyond Earth (Easy),飛出地球 (Easy)
-8071,"""It isn't all over; everything has not been invented; the human adventure is just beginning.""<newline><right>- Gene Roddenberry","""It isn't all over; everything has not been invented; the human adventure is just beginning.""<newline><right>- Gene Roddenberry"
-8072,The Last War (Hard),最後大戰 (Hard)
-8073,"""Mankind must put an end to war before war puts an end to mankind.""<newline><right>- John F. Kennedy","""Mankind must put an end to war before war puts an end to mankind.""<newline><right>- John F. Kennedy"
+8071,"""It isn't all over; everything has not been invented; the human adventure is just beginning.""<newline><right>- Gene Roddenberry",
+8072,The Last War (Hard),終戰 (Hard)
+8073,"""Mankind must put an end to war before war puts an end to mankind.""<newline><right>- John F. Kennedy",
 1222,UK,
 1233,Mars,
 1235,Washington,
@@ -9742,18 +9696,18 @@ Some features may not work.",
 <formatedbuildinginfo('LifesupportSwitch')>",
 3974,"Marks buildings, cables and pipes to be demolished. Half of the construction resource cost of any salvaged buildings will be refunded.",當您選擇摧毀建築物、電線或者管線的時候，您可以取回當初建築的一半資源。
 1000016,Title,
-1000145,Text,Text
-4094,Gamepad text,Gamepad text
-7586,<center><Back> Dismiss hint,<center><Back> Dismiss hint
-8108,<Title>,<Title>
-4079,Press a key to assign to <action>...,Press a key to assign to <action>...
-4081,<key> cannot be used for <action>.,<key> cannot be used for <action>.
-4080,Conflicting controls,Conflicting controls
-4082,Do you want to rebind <key> from <old_action> to <new_action>?,Do you want to rebind <key> from <old_action> to <new_action>?
-4091,Changes could not be applied and will be reverted.,Changes could not be applied and will be reverted.
-6884,Warning,Warning
-4089,Video mode change,Video mode change
-4090,The video mode has been changed. Keep changes?,The video mode has been changed. Keep changes?
+1000145,Text,
+4094,Gamepad text,
+7586,<center><Back> Dismiss hint,
+8108,<Title>,
+4079,Press a key to assign to <action>...,
+4081,<key> cannot be used for <action>.,
+4080,Conflicting controls,
+4082,Do you want to rebind <key> from <old_action> to <new_action>?,
+4091,Changes could not be applied and will be reverted.,
+6884,Warning,
+4089,Video mode change,
+4090,The video mode has been changed. Keep changes?,
 3474,Mission Sponsor,任務贊助者
 3475,MISSION SPONSOR,任務贊助者
 3476,"The patron country or organization standing behind the Mars mission. Grants funding, research and other benefits to colony.",這些贊助機構可能是國家或者是私人企業，他們可以在您的火星殖民任務背後提供巨大的資金支援、科學研究以及許多對任務有幫助的項目。
@@ -9779,8 +9733,8 @@ Some features may not work.",
 6880,Warning,警告
 6881,Are you sure you want to buy a new Rocket for <funding(price)>?,您確定要花費 <funding(price)> 來購買一艘火箭?
 7546,Insufficient funding! You need <funding(price)> to purchase a Rocket!,資金不足！ 您需要 <funding(price)> 以購買一艘火箭
-8536,Colonization Temporarily Suspended,Colonization Temporarily Suspended
-8537,"<SponsorDisplayName> has to make sure the Colony is sustainable before allowing more Colonists to come to Mars. Make sure the Founders are supplied with Water, Oxygen, and Food for 10 Sols after they arrive on Mars.","<SponsorDisplayName> has to make sure the Colony is sustainable before allowing more Colonists to come to Mars. Make sure the Founders are supplied with Water, 氧氣, and 食物 for 10 Sols after they arrive on Mars."
+8536,Colonization Temporarily Suspended,
+8537,"<SponsorDisplayName> has to make sure the Colony is sustainable before allowing more Colonists to come to Mars. Make sure the Founders are supplied with Water, Oxygen, and Food for 10 Sols after they arrive on Mars.",
 8538,Rockets unavailable.,無可用火箭
 4068,PREFABS,預製零件
 4067,SELECT ROCKET,選擇火箭
@@ -9805,12 +9759,12 @@ Some features may not work.",
 5446,PREVIOUS DOME,上一座蒼穹頂
 5445,NEXT DOME,下一座蒼穹頂
 410148310585,<tag>,
-727272233433,Open Empty Map,Open Empty Map
-4521,Open POC Map 1,Open POC Map 1
-722962309661,Open POC Map 2,Open POC Map 2
-753123816124,Open POC Map 3,Open POC Map 3
-4522,Open POC Map 4,Open POC Map 4
-6974,Open POC Map LateGame,Open POC Map LateGame
+727272233433,Open Empty Map,
+4521,Open POC Map 1,
+722962309661,Open POC Map 2,
+753123816124,Open POC Map 3,
+4522,Open POC Map 4,
+6974,Open POC Map LateGame,
 152768500780,Toggle In Game Main Menu,切換 遊戲內選單
 964722863858,Pan Up,視角 向上平移
 981867141540,Pan Down,視角 向下平移
@@ -9851,29 +9805,29 @@ Some features may not work.",
 225690993504,Set Workplace,指派工作場所
 542727559467,Recharge battery,電池充電
 949156525062,Change priority,變更優先權
-643321767698,Turn on/off,Turn on/off
-204031300524,Filter colonists by traits,Filter colonists by traits
+643321767698,Turn on/off,
+204031300524,Filter colonists by traits,
 292941424864,Request maintenance,維護請求
 748588275043,Last Notification,最後的通知提示
 614477738289,Last Constructed Building,最後完成的建築物
 881,Power Cables,電線
 882,Pipes,管線
-554083515055,CHEATS,CHEATS
+554083515055,CHEATS,
 867595017482,<display_name>,
 4241,Main Menu,主選單
 1010,Main Menu,主選單
 7584,Dismiss hint,關閉提示
 4246,Game Menu,遊戲選單
-4245,Notifications<newline>(Hold) Dismiss all notifications<newline>(Build menu) Previous category,Notifications<newline>(Hold) Dismiss all notifications<newline>(Build menu) Previous category
+4245,Notifications<newline>(Hold) Dismiss all notifications<newline>(Build menu) Previous category,
 4243,Game speed / Navigate,遊戲速度 / 導航
-4244,Pan view<newline>(press) Cycle Domes,Pan view<newline>(press) Cycle Domes
-4242,Rotate / Zoom view<newline>(press) Cycle Rovers,Rotate / Zoom view<newline>(press) Cycle Rovers
+4244,Pan view<newline>(press) Cycle Domes,
+4242,Rotate / Zoom view<newline>(press) Cycle Rovers,
 4238,Select Drones or Colonists,選擇無人機或殖民者
 4240,Select buildings / rovers,選擇建築物 / 車輛
 4239,Close / Cancel,關閉 / 取消
-4236,Pins<newline>(Build menu) Next category,Pins<newline>(Build menu) Next category
+4236,Pins<newline>(Build menu) Next category,
 4237,Build Menu,建造選單
-4235,Manage Infopanel<newline>(Hold) Infopanel shortcuts,Manage Infopanel<newline>(Hold) Infopanel shortcuts
+4235,Manage Infopanel<newline>(Hold) Infopanel shortcuts,
 649120194813,<ButtonY>,
 500955334824,<ButtonX>,
 262988649795,<ButtonA>,
@@ -9882,7 +9836,7 @@ Some features may not work.",
 995212188397,Best workers<right><em><UISpecialization></em>,合適的專長 <right><em><UISpecialization></em>
 4034,Set a custom name.,自訂名稱
 4033,Rename <display_name>,重新命名 <display_name>
-4041,Cycle through all <count(Skins)> skins.,Cycle through all <count(Skins)> skins.
+4041,Cycle through all <count(Skins)> skins.,
 4042,Change Skin,變更樣式
 4043,Pinned,釘選
 4044,Unpin this item from the quick bar.,從 快選欄 中移除這個項目
@@ -9956,7 +9910,7 @@ Some features may not work.",
 702142953137,RADIO STATION,收音機
 717950591874,Volume,音量
 135513074411,<display_name>,
-942201510325,"In exchange for <funding(OutsourceResearchCost)> Funding, outsourced researchers will contribute <ResearchPoints(OutsourceResearch)> in the next <time(OutsourceResearchTime)>.","In exchange for <funding(OutsourceResearchCost)> Funding, outsourced researchers will contribute <ResearchPoints(OutsourceResearch)> in the next <time(OutsourceResearchTime)>."
+942201510325,"In exchange for <funding(OutsourceResearchCost)> Funding, outsourced researchers will contribute <ResearchPoints(OutsourceResearch)> in the next <time(OutsourceResearchTime)>.",
 889032422791,OUTSOURCE,科研發包
 6882,Warning,警告
 7876,Are you sure you want to outsource research to Earth?,您確定想把科技研究發包回地球嗎？
@@ -10042,66 +9996,66 @@ Some features may not work.",
 814678720193,<ProblematicRolloverText>,
 560192517207,There are currently no colonists in this category.,此分類中沒有任何殖民者
 235056803468,<ProblematicRolloverTitle>,
-644918672836,"Drone prefabs can be used to order new drones in Drone Hubs. Drone Prefabs cost:<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>","Drone prefabs can be used to order new drones in 無人機中心. Drone Prefabs cost:<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>"
-8645,Construct Drone Prefab,Construct Drone Prefab
-6737,<left_click> Construct Drone Prefab<newline><right_click> Cancel Drone Prefab,<left_click> Construct Drone Prefab<newline><right_click> Cancel Drone Prefab
-6736,<ButtonA> Construct Drone Prefab<newline><ButtonX> Cancel Drone Prefab,<ButtonA> Construct Drone Prefab<newline><ButtonX> Cancel Drone Prefab
-702517856120,"Construction of a new Biorobot costs:<newline><resource(ConstructResource)><right><resource(ConstructAndroidCost, ConstructResource)>","Construction of a new Biorobot costs:<newline><resource(ConstructResource)><right><resource(ConstructAndroidCost, ConstructResource)>"
-6738,Construct Biorobot,Construct Biorobot
-354,<left_click> Construct Biorobot<newline><right_click> Cancel Biorobot,<left_click> Construct Biorobot<newline><right_click> Cancel Biorobot
-353,<ButtonA> Construct Biorobot<newline><ButtonX> Cancel Biorobot,<ButtonA> Construct Biorobot<newline><ButtonX> Cancel Biorobot
-408,Construction,Construction
+644918672836,"Drone prefabs can be used to order new drones in Drone Hubs. Drone Prefabs cost:<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>",
+8645,Construct Drone Prefab,
+6737,<left_click> Construct Drone Prefab<newline><right_click> Cancel Drone Prefab,
+6736,<ButtonA> Construct Drone Prefab<newline><ButtonX> Cancel Drone Prefab,
+702517856120,"Construction of a new Biorobot costs:<newline><resource(ConstructResource)><right><resource(ConstructAndroidCost, ConstructResource)>",
+6738,Construct Biorobot,
+354,<left_click> Construct Biorobot<newline><right_click> Cancel Biorobot,
+353,<ButtonA> Construct Biorobot<newline><ButtonX> Cancel Biorobot,
+408,Construction,
 410,<UIConstructionStatus>,
-8646,Available Drone Prefabs<right><drone(available_drone_prefabs)>,Available Drone Prefabs<right><drone(available_drone_prefabs)>
-8539,Scheduled Drone Prefabs<right><drone(drones_in_construction)>,Scheduled Drone Prefabs<right><drone(drones_in_construction)>
-6742,Scheduled Biorobots<right><colonist(androids_in_construction)>,Scheduled Biorobots<right><colonist(androids_in_construction)>
-693516738839,"Required <resource(ConstructResource)><right><resource(ConstructResourceAmount, ConstructResourceTotal, ConstructResource)>","Required <resource(ConstructResource)><right><resource(ConstructResourceAmount, ConstructResourceTotal, ConstructResource)>"
-8460,Use an already created Drone Prefab to build a new Drone. Drone Prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>,Use an already created Drone Prefab to build a new Drone. Drone Prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>
-994737607038,You need Drone Prefabs to order new drones. Drone prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>,You need Drone Prefabs to order new drones. Drone prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>
-349,Construct Drone,Construct Drone
-8461,<left_click> Construct Drone,<left_click> Construct Drone
-8462,<ButtonA> Construct Drone,<ButtonA> Construct Drone
+8646,Available Drone Prefabs<right><drone(available_drone_prefabs)>,
+8539,Scheduled Drone Prefabs<right><drone(drones_in_construction)>,
+6742,Scheduled Biorobots<right><colonist(androids_in_construction)>,
+693516738839,"Required <resource(ConstructResource)><right><resource(ConstructResourceAmount, ConstructResourceTotal, ConstructResource)>",
+8460,Use an already created Drone Prefab to build a new Drone. Drone Prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>,
+994737607038,You need Drone Prefabs to order new drones. Drone prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>,
+349,Construct Drone,
+8461,<left_click> Construct Drone,
+8462,<ButtonA> Construct Drone,
 359011926905,<UISectionDroneHubRollover>,
 167050805716,Drones Status,無人機 Status
 732959546527,"Drones<right><drone(DronesCount,MaxDronesCount)>","無人機<right><drone(DronesCount,MaxDronesCount)>"
 935141416350,<DronesStatusText>,
 8463,<OrderedDronesCount>,
 7977,<TrainedRollover>,
-240,Specialization,Specialization
-703125928773,<left_click> Select Specialization,<left_click> Select Specialization
-896744390747,<ButtonA> Select Specialization,<ButtonA> Select Specialization
-440284296071,Training<right><Specialization>,Training<right><Specialization>
-509074303312,Lifetime graduates<right><life_time_trained>,Lifetime graduates<right><life_time_trained>
-508811339853,Needed specializations,Needed specializations
+240,Specialization,
+703125928773,<left_click> Select Specialization,
+896744390747,<ButtonA> Select Specialization,
+440284296071,Training<right><Specialization>,
+509074303312,Lifetime graduates<right><life_time_trained>,
+508811339853,Needed specializations,
 806240447341,<NeededSpecializations>,
-448,Turn into Metals,Turn into 金屬s
-449,Convert the Mirror Sphere into Metals.,Convert the Mirror Sphere into 金屬s.
-450,Turn into Rare Metals,Turn into 貴重金屬s
-451,Convert the Mirror Sphere into Rare Metals.,Convert the Mirror Sphere into 貴重金屬s.
-452,Turn into Polymers,Turn into Polymers
-453,Convert the Mirror Sphere into Polymers.,Convert the Mirror Sphere into Polymers.
+448,Turn into Metals,
+449,Convert the Mirror Sphere into Metals.,
+450,Turn into Rare Metals,
+451,Convert the Mirror Sphere into Rare Metals.,
+452,Turn into Polymers,
+453,Convert the Mirror Sphere into Polymers.,
 494974125688,Status,狀態
 729918620182,<ActionText>,
-424501571924,Decomposition progress,Decomposition progress
-380271014404,Progress,Progress
+424501571924,Decomposition progress,
+380271014404,Progress,
 7409,<UISectionProjectMorpheusRollover>,
-431,Traits given,Traits given
-434,Lifetime<right><lifetime>,Lifetime<right><lifetime>
-429,Status and progress for the current recharge operation.,Status and progress for the current recharge operation.
+431,Traits given,
+434,Lifetime<right><lifetime>,
+429,Status and progress for the current recharge operation.,
 430,<WorkMode>,
-525,Unhappy Colonists may become Renegades. Renegades will often cause trouble in the Dome,Unhappy Colonists may become Renegades. Renegades will often cause trouble in the Dome
-524,Renegades in the Dome,Renegades in the Dome
-277702433938,Renegades in the Dome <right><RenegadesCount>,Renegades in the Dome <right><RenegadesCount>
-821612835210,Construct a Shuttle,Construct a Shuttle
-860716957818,<left_click> Construct a new Shuttle<newline><right_click> Cancel a Shuttle construction,<left_click> Construct a new Shuttle<newline><right_click> Cancel a Shuttle construction
-655064239120,<ButtonA> Construct a new Shuttle<newline><ButtonX> Cancel a Shuttle construction,<ButtonA> Construct a new Shuttle<newline><ButtonX> Cancel a Shuttle construction
-324514950847,The construction of a new Shuttle costs:<newline><SingleShuttleCostStr>,The construction of a new Shuttle costs:<newline><SingleShuttleCostStr>
-174054841334,No more shuttles can be constructed.,No more shuttles can be constructed.
-726161435938,Shuttle construction<right><queued_shuttles_for_construction>,Shuttle construction<right><queued_shuttles_for_construction>
+525,Unhappy Colonists may become Renegades. Renegades will often cause trouble in the Dome,
+524,Renegades in the Dome,
+277702433938,Renegades in the Dome <right><RenegadesCount>,
+821612835210,Construct a Shuttle,
+860716957818,<left_click> Construct a new Shuttle<newline><right_click> Cancel a Shuttle construction,
+655064239120,<ButtonA> Construct a new Shuttle<newline><ButtonX> Cancel a Shuttle construction,
+324514950847,The construction of a new Shuttle costs:<newline><SingleShuttleCostStr>,
+174054841334,No more shuttles can be constructed.,
+726161435938,Shuttle construction<right><queued_shuttles_for_construction>,
 106779987443,<ShuttleConstructionCostsStr>,
-236268272624,Shuttles facilitate long range transportation of resources between Storages and people between Domes.,Shuttles facilitate long range transportation of resources between Storages and people between Domes.
-933065747298,Shuttles,Shuttles
-766548374853,Shuttles<right><count(shuttle_infos)>/<max_shuttles>,Shuttles<right><count(shuttle_infos)>/<max_shuttles>
+236268272624,Shuttles facilitate long range transportation of resources between Storages and people between Domes.,
+933065747298,Shuttles,
+766548374853,Shuttles<right><count(shuttle_infos)>/<max_shuttles>,
 398,In flight<right><FlyingShuttles>,飛行中<right><FlyingShuttles>
 717110331584,Idle<right><IdleShuttles>,閒置<right><IdleShuttles>
 7818,Forbid Exports,禁止出口
@@ -10117,16 +10071,16 @@ Some features may not work.",
 423,Resources delivered by the Space Elevator,資源已由太空電梯運達
 422,Delivered Resources,已運達的資源
 424,<StorageManifest>,
-323140771762,Opening the generator increases Power produced but leaves it vulnerable to dust contamination.<newline><newline>Current status: <em><UIOpenStatus></em>,Opening the generator increases Power produced but leaves it vulnerable to dust contamination.<newline><newline>Current status: <em><UIOpenStatus></em>
+323140771762,Opening the generator increases Power produced but leaves it vulnerable to dust contamination.<newline><newline>Current status: <em><UIOpenStatus></em>,
 962425882475,Open/Close,開啟/關閉
-7648,<left_click> Close <newline><em>Ctrl + <left_click></em> Close all <display_name_pl>,<left_click> Close <newline><em>Ctrl + <left_click></em> Close all <display_name_pl>
-7649,<ButtonA> Close <newline><ButtonX> Close all <display_name_pl>,<ButtonA> Close <newline><ButtonX> Close all <display_name_pl>
-7650,<left_click> Open <newline><em>Ctrl + <left_click></em> Open all <display_name_pl>,<left_click> Open <newline><em>Ctrl + <left_click></em> Open all <display_name_pl>
-7651,<ButtonA> Open <newline><ButtonX> Open all <display_name_pl>,<ButtonA> Open <newline><ButtonX> Open all <display_name_pl>
-441,Producing less Power than optimal,Producing less Power than optimal
+7648,<left_click> Close <newline><em>Ctrl + <left_click></em> Close all <display_name_pl>,
+7649,<ButtonA> Close <newline><ButtonX> Close all <display_name_pl>,
+7650,<left_click> Open <newline><em>Ctrl + <left_click></em> Open all <display_name_pl>,
+7651,<ButtonA> Open <newline><ButtonX> Open all <display_name_pl>,
+441,Producing less Power than optimal,
 447,Will produce <power(AdditionalProduction)> more Power if opened,當開啟的時候，將會額外產生 <power(AdditionalProduction)> 電力
-428,Increasing the area of effect will greatly increase the Water consumption of the building.<newline><newline>Service range<right><SelectionRadiusScale> hexes,Increasing the area of effect will greatly increase the Water consumption of the building.<newline><newline>Service range<right><SelectionRadiusScale> hexes
-625375195830,Initiates launch sequence for the return trip to Earth. Note that the rocket has to be refueled and any remaining resources on board will be lost.<newline><newline>Status: <em><UILaunchStatus></em>,Initiates launch sequence for the return trip to Earth. Note that the rocket has to be refueled and any remaining resources on board will be lost.<newline><newline>Status: <em><UILaunchStatus></em>
+428,Increasing the area of effect will greatly increase the Water consumption of the building.<newline><newline>Service range<right><SelectionRadiusScale> hexes,
+625375195830,Initiates launch sequence for the return trip to Earth. Note that the rocket has to be refueled and any remaining resources on board will be lost.<newline><newline>Status: <em><UILaunchStatus></em>,
 526598507877,Launch,發射
 7815,Automated Mode not possible while Rare Metal exports are forbidden.,當貴重金屬設定為禁止出口的話，自動往返模式將不會啟用。
 7816,"If Automated mode is activated the Rocket will repeatedly travel to Earth and back. It will land on the same spot and won't carry any imports or passengers from Earth. The Rocket will launch to Earth when the cargo hold is full and the rocket is refueled.
@@ -10140,25 +10094,21 @@ Current status: <em>Automated Mode</em>","如果啟用自動往返模式的話�
 Current status: <em>Manual Mode</em>","如果啟用自動往返模式的話，火箭將會在油料補充完畢 且出口貨物滿載的時候，自動啟程飛回地球。並且不會攜帶任何乘客或貨物的直接回到原地降落。
 
 目前模式: <em>手動操作模式</em>"
-8109,<left_click> Activate<newline><em>Ctrl + <left_click></em> Activate in all Rockets,<left_click> Activate<newline><em>Ctrl + <left_click></em> Activate in all Rockets
-8110,<ButtonA> Activate<newline><ButtonX> Activate in all Rockets,<ButtonA> Activate<newline><ButtonX> Activate in all Rockets
+8109,<left_click> Activate<newline><em>Ctrl + <left_click></em> Activate in all Rockets,
+8110,<ButtonA> Activate<newline><ButtonX> Activate in all Rockets,
 8041,"Allow or forbid the exports of Precious Metals to Earth. If precious metals are exported, the colony will gain Funding in exchange.
 
-Current status: Exports are <em>allowed</em>.","Allow or forbid the exports of Precious 金屬s to Earth. If precious metals are exported, the colony will gain Funding in exchange.
-
-Current status: Exports are <em>allowed</em>."
+Current status: Exports are <em>allowed</em>.",
 8040,Allow/Forbid Exports,允許/ 禁止 出口貨物
 8042,"Allow or forbid the exports of Precious Metals to Earth. If precious metals are exported, the colony will gain Funding in exchange.
 
-Current status: Exports are <em>forbidden</em>.","Allow or forbid the exports of Precious 金屬s to Earth. If precious metals are exported, the colony will gain Funding in exchange.
-
-Current status: Exports are <em>forbidden</em>."
+Current status: Exports are <em>forbidden</em>.",
 931298770139,<CargoManifest>,
 495,Basic Resources available in this Depot.,此區域有些基本的資源可用
 509,<resource('Metals' )><right><metals(Stored_Metals)>,
 510,<resource('Concrete' )><right><concrete(Stored_Concrete)>,
 511,<resource('Food' )><right><food(Stored_Food)>,
-501,Advanced Resources available in this Depot.,Advanced Resources available in this Depot.
+501,Advanced Resources available in this Depot.,
 512,<resource('Polymers' )><right><polymers(Stored_Polymers)>,
 513,<resource('Electronics' )><right><electronics(Stored_Electronics)>,
 514,<resource('MachineParts' )><right><machineparts(Stored_MachineParts)>,
