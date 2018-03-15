@@ -997,8 +997,8 @@ These instruments require nothing but power and regular maintenance and, of cour
 5168,Mohole Mines,莫霍礦井
 1075,"Mining deep into the crust of Mars, the Mohole Mine produces Metals, Rare Metals and Waste Rock, while heating the surrounding area.",深入火星地殼挖掘礦物，莫霍礦井出產金屬、稀有金屬與廢石，同時加熱週圍區域。
 5170,Hygroscopic Coating,吸水塗料
-5126,+<upgrade1_mul_value_1>% Production.,
-5172,+<upgrade2_mul_value_1>% Production.,
+5126,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產量。
+5172,+<upgrade2_mul_value_1>% Production.,+<upgrade2_mul_value_1>% 產量。
 3519,Moisture Vaporator,水氣蒐集站
 5173,Moisture Vaporators,水氣蒐集站
 5174,Produces Water from the atmosphere. Production lowered when placed near other Vaporators. No production during Dust Storms.,從大氣中收集水分，太靠近其他蒐集器會降低產量。在沙塵暴期間無法產出。
@@ -1015,7 +1015,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 8111,"<resource(Stored_MysteryResource, MysteryResource)>",
 8112,Mystery Depot,謎團存放場
 8113,It's very mysterious.,這真的很神祕。
-5176,"+<upgrade1_mul_value_2>% Performance, +<power(upgrade1_add_value_1)> Consumption.",
+5176,"+<upgrade1_mul_value_2>% Performance, +<power(upgrade1_add_value_1)> Consumption.",+<upgrade1_mul_value_2>% 效能，+<power(upgrade1_add_value_1)> 電力消耗。
 3538,Network Node,網路節點
 5177,Network Nodes,網路節點
 5178,Increases the overall Research output of the Dome.,增加蒼穹頂的整體研究產出。
@@ -1139,7 +1139,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5276,Generates Power during daytime. Its effectiveness is decreased by dust accumulation and during sand storms. Protected from dust while turned off.,在白天發電。它的有效性會因積塵和沙塵暴而降低。 關閉時防塵。
 1120,Space Elevator,太空電梯
 5277,Space Elevators,太空電梯
-5278,"A faster way to reach space, the Elevator speeds up cargo shipments to orbit. Exports Rare Metals to Earth and offers resupply materials and prefabs at a discount.",通過更快的方式到達太空，電梯可以將貨物運到軌道。 將貴重金屬出口到地球，並以折扣價提供補給材料和預製件。
+5278,"A faster way to reach space, the Elevator speeds up cargo shipments to orbit. Exports Rare Metals to Earth and offers resupply materials and prefabs at a discount.",通過更快的方式到達太空，電梯可以將貨物運到軌道。 將稀有金屬出口到地球，並以折扣價提供補給材料和預製件。
 5279,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.
 5280,Spacebar,星際酒吧
 5281,Spacebars,星際酒吧
@@ -1280,8 +1280,8 @@ This technological challenge to take advantage of what little wind there is on M
 7018,"Good yield and grows very slowly but improves the soil, increasing the yield of the next crop",產量佳，生長緩慢，但是可以改良土壤，增加下一個作物的產量
 7019,Quinoa,藜麥
 7020,Average yield but grows fast and requires less Water,產量平均，但是生長快速， 且需要的水較少
-8114,Ganymede Rice,蓋尼米德米
-8115,Rice engineered on Ganymede. Grows very fast and has high yield.,在 Ganymede 製成的稻米。生長非常快速且有高產量
+8114,Ganymede Rice,蓋尼米德水稻
+8115,Rice engineered on Ganymede. Grows very fast and has high yield.,在蓋尼米德培育出的水稻品種，生長快速且產量高。
 3980,Buildings,建築
 1152,BUILDINGS,建築
 5373,"The Martian Colony is made up of a variety of buildings which provide power, life-support, comfort, protection from the weather, information, resources and a lot more - all things without which humans cannot exist on the red planet.
@@ -1294,17 +1294,17 @@ Some buildings require Power to operate, other are staffed by Colonists living n
 
 The <em>Performance</em> of any building indicates how effectively the building is performing its primary function. It depends on many factors such as researched technologies, upgrades and the current individual performance of the specific colonists working in the building. Qualified specialists and workers with high Morale will increase the performance of a building, while empty work slots, Renegades and workers with low Morale or other issues will be detrimental.
 
-Buildings can be set to operate in three <em>Work Shifts</em> - first, second and night. Turning off some Work Shifts will conserve power and workforce. ","火星殖民地由各種各樣的建築物組成，這些建築物提供動力，生命支持，舒適，免受天氣，信息，資源和其他方面的影響 - all things without which humans cannot exist on the red planet.
+Buildings can be set to operate in three <em>Work Shifts</em> - first, second and night. Turning off some Work Shifts will conserve power and workforce. ","火星殖民地由各種各樣的建築物組成，它們提供電力、維生、舒適、免受天氣威脅、訊息、資源和其他等等人類若沒有即無法生存的事物。
 
-建築物是通過使用火星資源建造的，而有些可以作為預製建築物從地球帶出。但是，所有建築物都需要維護資源。
+建築物利用火星資源建造的，有些也可以以預製建築型式從地球帶出。但是，所有建築物都需要維護資源。
 
-建築工地必須位於<em>無人機</ em>的<em>服務區</ em>內（相對於其控制中心），以便接收所需的資源並隨後建立起來。
+建築工地必須位於<em>無人機</em> 的 <em>服務區</em> 內（與其控制中心相關），以便接收所需的資源並隨後建立起來。
 
 一些建築物需要電力來運作，其他人則由居住在附近的殖民者配備。
 
-任何建築物的<em>性能</ em>都表明建築物的主要功能如何有效。這取決於許多因素，例如研究技術，升級和當前在建築物中工作的特定殖民者的個人表現。具有高士氣的合格專家和工人將提高建築物的性能，而空崗位，叛徒和士氣低落或其他問題的工人將是有害的。
+任何建築物的<em>性能</em>都表現建築物的主要功能如何有效。這取決於許多因素，例如研究科技、升級和當前在建築物中工作的特定殖民者的個人表現。具有高士氣的合格專家和工人將提高建築物的性能，而空崗位、叛徒和士氣低落或其他問題的工人將會對效能有害。
 
-建築物可設置為在三個<em>工作班次</em>中進行操作 - 第一個，第二個和晚上。關閉一些工作班次將節省電力和勞動力。"
+建築物可設置三個<em>工作班次</em>來運作 ─ 第一班，第二班和晚班。關閉一些工作班次將節省電力和勞動力。"
 3983,Disasters,災難
 5374,DISASTERS,災難
 5375,"Mars is a harsh environment and human life is only made possible due to incredibly durable structures - designed specifically to resist it.
@@ -1407,7 +1407,7 @@ Electrical power on Mars comes mostly from renewable and cheap sources such as w
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
-Technology and electronics go hand in hand on Mars the same way as they have, and will continue to for centuries to come, on Earth.","電子零件 <image UI/Icons/Sections/Electronics_1.tga> are manufactured in <em>電子零件 Factories</em> from <em>貴重金屬s</em> and are mainly used for vehicle operating buildings, like <em>Drone Hubs</em> and <em>Shuttle Hubs</em>. 
+Technology and electronics go hand in hand on Mars the same way as they have, and will continue to for centuries to come, on Earth.","電子零件 <image UI/Icons/Sections/Electronics_1.tga> are manufactured in <em>電子零件 Factories</em> from <em>稀有金屬s</em> and are mainly used for vehicle operating buildings, like <em>Drone Hubs</em> and <em>Shuttle Hubs</em>. 
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
@@ -1492,7 +1492,7 @@ Some of the most important and widely used materials on Earth are made from poly
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
 Some of the most important and widely used materials on Earth are made from polymers. While the dependency on such materials on Mars is artificially circumvented as much as possible due to the scarcity of the molecule (unlike Earth, Mars has no fossil fuel reserves to act as a polymer source), their importance cannot be avoided all together. Plastics, rubbers and more advanced isolations have a fundamental role to play in creating and maintaining pressure differentials between habitats and external areas."
-4139,Rare Metals,貴重金屬
+4139,Rare Metals,稀有金屬
 5391,"Rare metals  <image UI/Icons/Sections/PreciousMetals_1.tga>  are found only in underground deposit sites and need <em>Rare Metal Extractors</em> to mine them. They are mostly used for manufacturing electronics and for exporting back to Earth.
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
@@ -1533,7 +1533,7 @@ Space rockets have far a greater role to play in the mission of establishing a p
 
 Although quite expensive, re-usable rocket technology has already been mastered to a degree that can have a rocket back in space within the same day of landing on either world. ","Rockets are used to deliver supplies all the way from Earth, or bring colonists which have applied for a life on Mars.
 
-They are re-usable, and once having refueled on Mars, can bring 貴重金屬s back to Earth for monetary gains.
+They are re-usable, and once having refueled on Mars, can bring 稀有金屬s back to Earth for monetary gains.
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
@@ -2095,18 +2095,15 @@ Suggested building: A <em>Large Solar Panel</em> will generate electrical Power 
 5527,<em>The RC Rover</em> serves as a mobile base for your Drones. It can be relocated by the <em>Move/Interact</em> button in its Infopanel or using <UnitMoveControl()>.,
 5528,<em>The RC Rover</em> serves as a mobile base for your Drones. Manage the vehicle with <RT>. Relocate it by holding <RT> and then pressing <ButtonA>.,
 5530,Vehicle Orders,
-5531,"To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>.","To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>."
+5531,"To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>."
 5532,To manage the selected vehicle press <RT>. Orders can be given quickly by holding <RT> and pressing any of the button shortcuts.
 1683,RC Transport,運輸車
 5534,"The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.
-The Transport can establish a supply route between two points on the map.","The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.
 The Transport can establish a supply route between two points on the map."
 5535,"The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Manage the vehicle with <RT> or hold <RT> and press any of the button shortcuts to give orders quickly.
-The Transport can establish a supply route between two points on the map.","The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Manage the vehicle with <RT> or hold <RT> and press any of the button shortcuts to give orders quickly.
 The Transport can establish a supply route between two points on the map."
 1684,RC Explorer,探索者
-7024,The <em>RC Explorer</em> can analyze Anomalies found on the surface of Mars. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.," <em>RC Explorer</em> 可以分析火星地表找到的觀測點. 給于指令由資訊面板上的按鈕或
- <UnitMoveControl()>."
+7024,The <em>RC Explorer</em> can analyze Anomalies found on the surface of Mars. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.
 7025,The <em>RC Explorer</em> can analyze anomalies found on the surface of Mars. Manage the vehicle with <RT> or hold <RT> and press any of the button shortcuts to give orders quickly.,
 517,Drones,無人機
 7026,"Drones are automated workers that gather resources, construct structures and perform maintenance. They are controlled by a Drone Hub, Rocket or RC Rover and will automatically perform tasks in the <em>service area</em> of their controller.",
@@ -5271,7 +5268,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 6350,"Infirmary & Medical Center Upgrade (<em>Rejuvenation Treatment</em>) - Improves Service Comfort and provides Relaxation, allowing Colonists to visit and gain Comfort.
 
 <grey>You haven’t truly colonized a planet until you build the first Spa center on it.</grey>",
-6353,Stem Reconstruction,
+6353,Stem Reconstruction,人體軀幹重建
 6354,"<em>Retirement age</em> and <em>death</em> from old age happen later in the Colonists' lifespan.
 
 <grey>""Live long and prosper""
@@ -5300,7 +5297,7 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6366,"<em>Rockets</em> and <em>Shuttles</em> require less Fuel.
 
 <grey>The scarcity of Martian-made rocket fuel options has made for our first true contribution towards rocket engine efficiency.</grey>",
-6367,Low-G High-rise,
+6367,Low-G High-rise,低重力高建築學
 6368,"New Building: <em>Apartments</em> (<buildinginfo('Apartments')>) - A Residential Building that houses many Colonists.
 
 <grey>""I suggest that going to Mars means permanence on the planet - a mission by which we are building up a confidence level to become a two-planet species.""
@@ -5861,20 +5858,29 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6603,Cryo-sleep,冷凍睡眠技術
 6604,"<em>Passenger Rockets</em> carry <param1> more Colonists.
 
-<grey>Putting our Colonists in a state of suspended animation for the duration of the flight to Mars greatly reduces the space needed for a single Colonist on the rocket. Cryo-tubes will allow us to transport more Colonists on a single rocket.</grey>",
-7915,Cloning,
+<grey>Putting our Colonists in a state of suspended animation for the duration of the flight to Mars greatly reduces the space needed for a single Colonist on the rocket. Cryo-tubes will allow us to transport more Colonists on a single rocket.</grey>","<em>客運火箭</em> 可多運載 <param1> 位殖民者。
+
+<grey>Putting our Colonists in a state of suspended animation for the duration of the flight to Mars greatly reduces the space needed for a single Colonist on the rocket. Cryo-tubes will allow us to transport more Colonists on a single rocket.</grey>"
+7915,Cloning,複製技術
 7916,"New Spire Building: <em>Cloning Vats</em> (<buildinginfo('CloningVats')>) - creates Clones over time. Cloned colonists grow and age twice as fast.
 
 <grey>""Clones can think creatively. You will find that they are immensely superior to drones.""
-<right>Unnamed Martian Scientist</grey><left>",
+<right>Unnamed Martian Scientist</grey><left>","新尖塔建築： <em>複製槽</em> (<buildinginfo('CloningVats')>) ─ 隨時間製造複製人，複製出的殖民者生長與衰老的速度是一般的兩倍。
+
+<grey>""Clones can think creatively. You will find that they are immensely superior to drones.""
+<right>Unnamed Martian Scientist</grey><left>"
 7917,Good Vibrations,
 7918,"<em>Domes</em> restore Sanity to their inhabitants every Sol.
 
-<grey>Who knew that emitting a low level vibration could affect the human psyche in such a way?</grey>",
-7919,Dome Streamlining,
+<grey>Who knew that emitting a low level vibration could affect the human psyche in such a way?</grey>","<em>蒼穹頂</em> 在每個太陽日為居民恢復理智值。
+
+<grey>Who knew that emitting a low level vibration could affect the human psyche in such a way?</grey>"
+7919,Dome Streamlining,精簡化蒼穹頂
 7920,"<em>Domes</em> cost <param1>% less basic resources.
 
-<grey>Mastering of certain techniques, singled out to be crucial to the entire construction process, will result in the drop of Dome construction costs.</grey>",
+<grey>Mastering of certain techniques, singled out to be crucial to the entire construction process, will result in the drop of Dome construction costs.</grey>","<em>蒼穹頂</em> 基本資源花費減少 <param1>% 。
+
+<grey>Mastering of certain techniques, singled out to be crucial to the entire construction process, will result in the drop of Dome construction costs.</grey>"
 7921,Prefab Compression,
 7922,"All <em>Spires</em> can be ordered as prefabs from Earth.
 
@@ -5882,11 +5888,15 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7923,Extractor AI,
 7924,"<em>Metals Extractors</em> and <em>Rare Metals Extractors</em> can work without crews at <param1> performance.
 
-<grey>Extracting algorithms have been successfully implemented by new our Extractor AI, allowing for a certain degree of autonomy in mining operations.</grey>",
-5020,Service Bots,
+<grey>Extracting algorithms have been successfully implemented by new our Extractor AI, allowing for a certain degree of autonomy in mining operations.</grey>","<em>金屬挖掘站</em> 和 <em>稀有金屬挖掘站</em> 可以毋須員工，以 <param1> 效能運作。
+
+<grey>Extracting algorithms have been successfully implemented by new our Extractor AI, allowing for a certain degree of autonomy in mining operations.</grey>"
+5020,Service Bots,服務型機器人
 7925,"<em>Non-medical Service Buildings</em> Upgrade (Service Bots) - service buildings no longer require workers and operate at <param1> performance.
 
-<grey>Freeing our colonists of dealing with the most mundane of chores.</grey>",
+<grey>Freeing our colonists of dealing with the most mundane of chores.</grey>","<em>非醫療類服務性建築</em> 升級（服務型機器人） ─ 服務性建築物不再需要工人並以效率 <param1> 運作。
+
+<grey>Freeing our colonists of dealing with the most mundane of chores.</grey>"
 7926,Overcharge Amplifications,超額充能擴充套件
 7927,"<em>Amplify</em> upgrades grant a bigger boost to production.
 
@@ -5899,7 +5909,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7929,"Stirling Generator Upgrade (<em>Plutonium Core</em>) - Increased Power production while opened.
 
 <grey>""Nor are we the culmination of evolution, except in the sense that there has never been another species so bizarrely ingenious that it could create both iambic pentameter and plutonium.""
-<right>David Quammen</grey><left>","斯特林發電機升級 (<em>鈽核</em>) - 啟動時增加電力生產。
+<right>David Quammen</grey><left>","斯特林發電機升級 （<em>鈽核</em>） ─ 啟動時增加電力生產。
 
 <grey>""Nor are we the culmination of evolution, except in the sense that there has never been another species so bizarrely ingenious that it could create both iambic pentameter and plutonium.""
 <right>David Quammen</grey><left>"
@@ -5920,7 +5930,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 8003,Plasma Rocket,電漿火箭
 8004,"Rocket <em>travel time</em> to and from Earth reduced by <param1>%.
 
-<grey>Plasma engines have numerous advantages over chemical rockets. All that is left to do is make sure they don't explode on launch.</grey>","Rocket <em>travel time</em> to and from Earth reduced by <param1>%.
+<grey>Plasma engines have numerous advantages over chemical rockets. All that is left to do is make sure they don't explode on launch.</grey>","火箭往返地球的 <em>飛行時間</em> 減少 <param1>% 。
 
 <grey>Plasma engines have numerous advantages over chemical rockets. All that is left to do is make sure they don't explode on launch.</grey>"
 8005,Autonomous Hubs,自動化控制中心
@@ -6293,7 +6303,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 188,There are no exploitable deposits in range,
 189,Storage space is full,
 191,Inactive work shift,
-192,Not enough Workers,
+192,Not enough Workers,勞工不足
 194,Not enough Oxygen,
 195,Not enough Water,
 196,Must be connected to a Power consumer,
@@ -6731,14 +6741,14 @@ Services: <em><list></em>",
 867,Requires a Dome,
 868,Unbuildable area.,無法建築的區域
 7955,Unbuildable area,無法建築的區域
-869,Cannot be placed in a Dome.,
-870,Outside building,
+869,Cannot be placed in a Dome.,不可放置在蒼穹頂內
+870,Outside building,外部建築
 871,Cannot be placed at this location due to height constraints.,
-872,Too tall,
+872,Too tall,太高
 873,Must be placed adjacent to the farm or its fields.,
 874,Section is too long.,
-875,Too long,
-190,This building requires Colonists and is too far from your Domes.,
+875,Too long,太長
+190,This building requires Colonists and is too far from your Domes.,這個建築物需要殖民者操作，所以必須坐落在於您蒼穹頂的服務範圍附近
 876,Too far from Domes,
 846,Too far,
 6773,Too far from tunnel entrance.,
