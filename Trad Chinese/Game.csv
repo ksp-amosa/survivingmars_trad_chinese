@@ -1,263 +1,261 @@
 ID,Text,Translation
-1000590,Game Progress,遊戲進度
-1000001,Enter Mod Title,為模組想一個名字
-1000002,No name provided,請想一個名字
-1000591,Error,發生錯誤
-1000003,Copying <ModLabel> to <u(path)>,將 <ModLabel> 複製到 <u(path)>
-1000004,Confirm Copy,確認複製
-1000005,Mod '<u(title)>' files will be copied to <u(path)>,Mod '<u(title)>' files will be copied to <u(path)>
-1000006,Error copying <u(file)>: <u(err)>,Error copying <u(file)>: <u(err)>
-1000007,Are you sure?,你確定嗎？
-1000008,Do you want to delete all <ModLabel> files?,你想刪除所有的 <ModLabel> 文件嗎？
-1000010,Please confirm the deletion of item '<u(name)>'!,請確認刪除的項目 '<u(name)>'！
-1000011,There is an active Steam upload,有可用的Steam上傳版本
-1000592,Error,發生錯誤
-1000009,Confirmation,確認
-1000012,Mod <ModLabel> will be uploaded to Steam,模組 <ModLabel> 將會上傳到Steam工作坊
-1000013,Mod <ModLabel> was not uploaded to Steam. Code: <err>,模組 <ModLabel> 未上傳到Steam工作坊，錯誤代碼 <err>
-1000593,Error,發生錯誤
-1000014,Mod <ModLabel> was successfully uploaded to Steam!,模組 <ModLabel> 成功上傳到Steam工作坊！
-1000018,Tags,Tags
-1000019,Preview image,預覽圖
-1000021,Steam ID,Steam ID
-1000022,Author,作者
-1000023,Version,版本號
-1000024,Game version,遊戲版本
-1000025,Mod '<title>',模組 '<title>'
+1000590,Game Progress,
+1000001,Enter Mod Title,
+1000002,No name provided,
+1000591,Error,
+1000003,Copying <ModLabel> to <u(path)>,
+1000004,Confirm Copy,
+1000005,Mod '<u(title)>' files will be copied to <u(path)>,
+1000006,Error copying <u(file)>: <u(err)>,
+1000007,Are you sure?,
+1000008,Do you want to delete all <ModLabel> files?,
+1000010,Please confirm the deletion of item '<u(name)>'!,
+1000011,There is an active Steam upload,
+1000592,Error,
+1000009,Confirmation,
+1000012,Mod <ModLabel> will be uploaded to Steam,
+1000013,Mod <ModLabel> was not uploaded to Steam. Code: <err>,
+1000593,Error,
+1000014,Mod <ModLabel> was successfully uploaded to Steam!,
+1000018,Tags,
+1000019,Preview image,
+1000021,Steam ID,
+1000022,Author,
+1000023,Version,
+1000024,Game version,
+1000025,Mod '<title>',
 1000026,"<u(title)> (loaded)
-id <u(id)>, version <version>","<u(title)> (loaded)
-id <u(id)>, 版本 <version>"
+id <u(id)>, version <version>",
 1000027,"<color 128 128 128><u(title)>
-id <u(id)>, version <version></color>","<color 128 128 128><u(title)>
-id <u(id)>, 版本 <version></color>"
-1000028,"<u(title)> (id <u(id)>, version <version>)","<u(title)> (id <u(id)>, 版本 <version>)"
-1000029,Savegame Mod <ModLabel> is present but not loaded,存儲遊戲 模組 <ModLabel> 存在但未載入
-1000030,Savegame Mod <ModLabel> is loaded with a different version <version>,存儲遊戲 模組 <ModLabel> 載入了不同的版本 版本 <version>
-1000031,Savegame Mod <ModLabel>,存儲遊戲 模組 <ModLabel>
-1000032,Savegame references Mod <ModLabel> which is not present,存儲遊戲 引用的模組 <ModLabel> 不存在
-1000033,Ignored Mod <ModLabel> because it was created with an old and unsupported game version,忽略 模組 <ModLabel> 因為它是使用舊的且不支持的遊戲版本所創建
-1000034,Mod <ModLabel> ignored because a newer version is already loaded,模組 <ModLabel> 被忽略，因為已載入了更新的版本
-1000035,Mod <ModLabel> will replace an older version of the same mod,模組 <ModLabel> 將取代同一個模組的舊版本
-1000036,Error loading <u(file)>: <u(err)>,錯誤加載 <u(file)>: <u(err)>
-1000038,Comment,評論
-1000039,<color 128 128 128><u(description)></color> <u(name)> <color 0 0 255><u(comment)></color>,<color 128 128 128><u(description)></color> <u(name)> <color 0 0 255><u(comment)></color>
-1000040,Please enter a valid name,請輸入一個有效的名字
-1000041,A code item with that name already exists,具有該名稱的代碼項目已經存在
-1000042,File name,文件名稱
-1000043,Preview,預覽
-1000044,Error creating <file_name>,創建錯誤 <file_name>
-1000594,Error,Error
-1000045,Information,信息
-1000046,Your code has been loaded and is currently active in the game.,你的代碼已經載入並且當前在遊戲中處於啟動狀態。
-1000047,Copy from,複製自
-1000050,Invalid entity filename,無效的實體文件名稱
-1000051,Failed to create path <u(entity_root)>,無法創建路徑 <u(entity_root)>
-1000052,Importing entity <u(entity_name)>,導入實體 <u(entity_name)>
-1000053,Failed to copy entity <u(entity_name)> to <u(dest_path)>,無法將實體 <u(entity_name)> 複製到 <u(dest_path)>
-1000054,Failed to open entity file <u(dest_path)>,無法打開實體文件 <u(dest_path)>
-1000056,Failed to copy <u(src)> to <dest>,無法複製 <u(src)> to <dest>
-1000057,Importing <asset_type> <u(asset)>,導入 <asset_type> <u(asset)>
-1000058,Missing file <u(src)> referenced in entity,缺少實體中引用的文件 <u(src)>
-1000059,mesh,mesh
-1000060,animation,動畫
-1000061,material,material
-1000062,texture,texture
-1000055,Failed to create path <u(dest_path)>,無法創建路徑 <u(dest_path)>
-1000063,Failed to generate backup for <u(asset)>,無法為 <u(asset)> 生成備份
-1000064,Mod: <ModLabel> Entity: Failed to load <u(entity)>,模組： <ModLabel> 實體: 無法載入 <u(entity)>
-1000068,Image,圖片
-1000065,Failed to open entity file <u(filename)>,無法打開實體文件 <u(filename)>
-1000098,Default value,默認值
-1000101,Modified value,修改值
-1000103,Filename,文件名稱
-1000106,Info,訊息
-1000104,<id>,<id>
-1000105,<id> <color 0 128 0><ValueText>,<id> <color 0 128 0><ValueText>
-1000107,Mod,模組
-1000109,Template,模板
-1000111,General,雜項
-1000207,Misc,其他
-1000113,Debug,除錯
-1000208,Critical Error,關鍵錯誤
-1000209,Unspecified error occurred (code %s1). The game will now close.,發生未指定的錯誤 (code %s1). 遊戲現在將關閉。
-1000210,You need a supported DX11-compatible video card with updated drivers to play this game.,你需要一個支員DX11的兼容顯示卡和更新驅動程序來玩這個遊戲。
-1000211,Failed to initialize video mode.,初始化影像模式失敗
-1000114,Error,錯誤
-1000115,You need DirectX 11 and a DirectX 11-compatible graphics card to run this game.,您需要DirectX 11和DirectX 11兼容的顯示卡才能運行此遊戲。
-1000116,You need an OpenGL 4.2-capable graphics card to run this game.,您需要支持OpenGL 4.2的顯示卡才能運行此遊戲。
-1000117,You need an OpenGL 4.5-capable graphics card to run this game.,您需要支持OpenGL 4.2的顯示卡才能運行此遊戲。
-1000118,Failed to initialize graphics subsystem.,無法初始化圖形子系統。
-1000597,"An error has occurred: ""<err>/<context>""","發生錯誤： ""<err>/<context>"""
-1000598,Error,錯誤
-1000212,<arg1>:<arg2>:<arg3>,<arg1>:<arg2>:<arg3>
-1000213,<arg1>:<arg2>,<arg1>:<arg2>
-1000685,",",","
-1000686,Brazilian Portuguese,巴西葡萄牙文
-1000687,Bulgarian,保加利亞文
-1000688,Czech,捷克文
-1000689,Danish,丹麥文
-1000690,Dutch,荷蘭文
-1000691,English,英文
-1000692,Finnish,芬蘭文
-1000693,French,法文
-1000694,German,德文
-1000695,Hungarian,匈牙利文
-1000696,Italian,義大利文
-1000697,Japanese,日文
-1000698,Korean,韓文
-1000699,Norwegian,挪威文
-1000700,Polish,波蘭文
-1000701,Portuguese,葡萄牙文
-1000702,Romanian,羅馬尼亞文
-1000703,Russian,俄文
-1000704,Chinese (Simplified),簡體中文
-1000705,Spanish,西班牙文
-1000706,Swedish,瑞典文
-1000707,Chinese (Traditional),繁體中文
-1000708,Thai,泰文
-1000709,Turkish,土耳其文
-1000710,Auto,自動
-1000119,<FormatResolution(pt)>,<FormatResolution(pt)>
-1000121,Default,預設
-1000122,Display,顯示設定
-1000123,DISPLAY,顯示設定
-1000124,Video,影像設定
-1000125,VIDEO,影像設定
-1000126,Audio,聲音設定
-1000127,AUDIO,聲音設定
-1000128,Controls,控制設定
-1000129,CONTROLS,控制設定
-1000131,GAMEPLAY,遊戲設定
-1000132,Key Bindings,按鍵對應
-1000133,KEY BINDINGS,按鍵對應
-1000134,Change Profile,Change Profile
-1000135,CHANGE PROFILE,CHANGE PROFILE
-1000217,Checking for downloadable content... Please wait.,檢查可下載文本...請稍候.
-1000218,A downloadable content file appears to be damaged and cannot be loaded. Please delete it from the Memory section of the Dashboard and download it again.,"可下載文本損毀無法載入. 請從儀表板的記憶區段刪除, 或是重新下載."
-1000610,You are signed in as a guest. You will be unable to save any game content until you sign in to a non-guest profile.,You are signed in as a guest. You will be unable to save any game content until you sign in to a non-guest profile.
-1000611,Disconnected from multiplayer,從多人模式中斷連線
-1000612,You have been removed from multiplayer because the game was suspended.,"因為遊戲中止, 你已經從多人遊戲中被移除."
-1000613,New downloadable content has been installed and will be available after you return to the main menu.,"已經安裝新的可下載文本, 回到主選單後可以使用"
-1000717,New Downloadable Content,新的可下載文本
-1000624,This account has restricted access to multiplayer.,這個帳號被限制存取多人遊戲
-1000625,This account has been banned from Xbox Live.,這個帳號被 Xbox Live 禁用
-1000626,An Xbox Live Gold Membership is required to access this feature.,An Xbox Live Gold Membership is required to access this feature.
-1000614,<gamer>’s controller has been disconnected. Please reconnect it in order to continue your game or press any button on the user’s new controller.,<gamer>’s controller has been disconnected. Please reconnect it in order to continue your game or press any button on the user’s new controller.
-1000627,The active controller was disconnected. Please reconnect a controller which is not signed in to a profile in order to continue your game.,The active controller was disconnected. Please reconnect a controller which is not signed in to a profile in order to continue your game.
-1000628,Controller disconnected,Controller disconnected
-1000629,Continue,Continue
-1000630,Controller disconnected,Controller disconnected
-1000631,Continue,Continue
-1000178,Actions,Actions
-1000219,&Views,&Views
-1000180,&Actions,&Actions
-1000181,&Edit,&Edit
-1000182,&Cut,&Cut
-1000183,&Copy,&Copy
-1000184,&Paste,&Paste
-1000185,&Duplicate,&Duplicate
-1000186,&Reload,&Reload
-1000220,Refresh,更新
-1000221,Undo,回復
-1000222,Redo,Redo
-1000223,&Navigate,&Navigate
-1000224,Edit in &New Window,Edit in &New Window
-1000225,&Home,&Home
-1000226,&Back,&Back
-1000227,&Forward,&Forward
-1000228,Exit Application,Exit Application
-1000229,Misc,Misc
-1000230,Home,Home
-1000231,Previous,Previous
-1000232,Next,Next
-1000233,Copy,複製
-1000234,Cut,剪下
-1000235,Paste,貼上
-1000236,Duplicate,複製
-1000137,New Element,New Element
-1000138,New XTemplate,New XTemplate
-1000139,Preview XTemplate,Preview XTemplate
-1000615,Delete,刪除
-1000245,Redo,Redo
-1000616,OK,OK
-1000246,Cancel,取消
-1000617,OK,取消
-1000247,Cancel,Cancel
-1000140,Hide/show all properties with default values,Hide/show all properties with default values
-189736641365,View Object,View Object
-566561671803,Open Entity Editor,Open Entity Editor
-934619628713,Toggle Spots,Toggle Spots
-855829278936,Convert to Template,Convert to Template
-102672884722,Convert to Object,Convert to Object
-173123111544,Remove Duplicated,Remove Duplicated
-180179795778,Invert Selection,Invert Selection
-381730822640,Delete,刪除
-1000248,Remove Unselected,Remove Unselected
-623390947398,Save,儲存
-400353986243,Open Folder,開啟資料夾
-186760604064,Test,測試
-342669996355,Upload,上傳
-487939677892,Help,Help
-833734167742,Delete Item,刪除項目
-1000249,Redo,Redo
-125522858940,New Item,新項目
-1000142,New <u(item_name)>,New <u(item_name)>
-888280433864,File,檔案
-1000143,New Mod,新模組
-885629433849,Load,載入
-327465361219,Edit,編輯
-408637015506,Delete Mod,刪除模組
-791482327441,Help,Help
-234124121113,Fetch from selection,Fetch from selection
-1000716,Reapply All,Reapply All
-377547327617,New Prg,New Prg
-301269983303,Save,儲存
-102133798674,Move Out,Move Out
-978910231685,Move In,Move In
-505747953509,Delete,刪除
-1000250,Redo,Redo
-1000251,Prg,Prg
-298035641454,Object,Object
-167400996647,Move,Move
-382567554252,Slot,Slot
-283142739680,Game,Game
-699872370171,Condition,Condition
-294879472859,Rollover Mode,Rollover Mode
-464156353043,Inspect Focused Window,Inspect Focused Window
-437848878733,Toggle Focus Logging,Toggle Focus Logging
-986049161052,Toggle Rollover Logging,Toggle Rollover Logging
-741286422920,Toggle Context Logging,Toggle Context Logging
-1000144,<class> <color 128 128 128><Id><PlacementText>,<class> <color 128 128 128><Id><PlacementText>
-1000252,New Update Available,New Update Available
-1000253,Download & Install,Download & Install
-1000254,Cancel,取消
-1000255,Download error,Download error
-1000256,"Download failed, please try again later.","Download failed, please try again later."
-1000257,Connected to <host>:<port>,Connected to <host>:<port>
-1000258,game <game>,game <game>
-1000259,<newline>sent <events_sent_ps> received <events_received_ps>,<newline>sent <events_sent_ps> received <events_received_ps>
-1000260,<newline>Advance limit <advance>(<more>),<newline>Advance limit <advance>(<more>)
-1000618,Idle,閒置
-1000261,Damaged savegame,Damaged savegame
-1000146,Select Action,Select Action
-1000147,Select Action Param,Select Action Param
-1000148,Gamepad Button,Gamepad Button
-1000149,Virtual Key,Virtual Key
-1000150,Center Button,Center Button
-1000151,Go Back,Go Back
-1000152,Back Button,Back Button
-1000153,Close Parent,Close Parent
-1000154,Open Dialog,Open Dialog
-1000156,ActionFXMouseIn,ActionFXMouseIn
-1000157,ActionFXBtnPressed,ActionFXBtnPressed
-1000158,ActionFXBtnPressedDisabled,ActionFXBtnPressedDisabled
-1000262,<arg1> R,<arg1> R
-1000263,<arg1> G,<arg1> G
-1000264,<arg1> B,<arg1> B
-1000265,On,On
-1000266,Off,Off
-1000267,(press any key),(press any key)
-1000268,None,None
+id <u(id)>, version <version></color>",
+1000028,"<u(title)> (id <u(id)>, version <version>)",
+1000029,Savegame Mod <ModLabel> is present but not loaded,
+1000030,Savegame Mod <ModLabel> is loaded with a different version <version>,
+1000031,Savegame Mod <ModLabel>,
+1000032,Savegame references Mod <ModLabel> which is not present,
+1000033,Ignored Mod <ModLabel> because it was created with an old and unsupported game version,
+1000034,Mod <ModLabel> ignored because a newer version is already loaded,
+1000035,Mod <ModLabel> will replace an older version of the same mod,
+1000036,Error loading <u(file)>: <u(err)>,
+1000038,Comment,
+1000039,<color 128 128 128><u(description)></color> <u(name)> <color 0 0 255><u(comment)></color>,
+1000040,Please enter a valid name,
+1000041,A code item with that name already exists,
+1000042,File name,
+1000043,Preview,
+1000044,Error creating <file_name>,
+1000594,Error,
+1000045,Information,
+1000046,Your code has been loaded and is currently active in the game.,
+1000047,Copy from,
+1000050,Invalid entity filename,
+1000051,Failed to create path <u(entity_root)>,
+1000052,Importing entity <u(entity_name)>,
+1000053,Failed to copy entity <u(entity_name)> to <u(dest_path)>,
+1000054,Failed to open entity file <u(dest_path)>,
+1000056,Failed to copy <u(src)> to <dest>,
+1000057,Importing <asset_type> <u(asset)>,
+1000058,Missing file <u(src)> referenced in entity,
+1000059,mesh,
+1000060,animation,
+1000061,material,
+1000062,texture,
+1000055,Failed to create path <u(dest_path)>,
+1000063,Failed to generate backup for <u(asset)>,
+1000064,Mod: <ModLabel> Entity: Failed to load <u(entity)>,
+1000068,Image,
+1000065,Failed to open entity file <u(filename)>,
+1000098,Default value,
+1000101,Modified value,
+1000103,Filename,
+1000106,Info,
+1000104,<id>,
+1000105,<id> <color 0 128 0><ValueText>,
+1000107,Mod,
+1000109,Template,
+1000111,General,
+1000207,Misc,
+1000113,Debug,
+1000208,Critical Error,
+1000209,Unspecified error occurred (code %s1). The game will now close.,
+1000210,You need a supported DX11-compatible video card with updated drivers to play this game.,
+1000211,Failed to initialize video mode.,
+1000114,Error,
+1000115,You need DirectX 11 and a DirectX 11-compatible graphics card to run this game.,
+1000116,You need an OpenGL 4.2-capable graphics card to run this game.,
+1000117,You need an OpenGL 4.5-capable graphics card to run this game.,
+1000118,Failed to initialize graphics subsystem.,
+1000597,"An error has occurred: ""<err>/<context>""",
+1000598,Error,
+1000212,<arg1>:<arg2>:<arg3>,
+1000213,<arg1>:<arg2>,
+1000685,",",
+1000686,Brazilian Portuguese,
+1000687,Bulgarian,
+1000688,Czech,
+1000689,Danish,
+1000690,Dutch,
+1000691,English,
+1000692,Finnish,
+1000693,French,
+1000694,German,
+1000695,Hungarian,
+1000696,Italian,
+1000697,Japanese,
+1000698,Korean,
+1000699,Norwegian,
+1000700,Polish,
+1000701,Portuguese,
+1000702,Romanian,
+1000703,Russian,
+1000704,Chinese (Simplified),
+1000705,Spanish,
+1000706,Swedish,
+1000707,Chinese (Traditional),
+1000708,Thai,
+1000709,Turkish,
+1000710,Auto,
+1000119,<FormatResolution(pt)>,
+1000121,Default,
+1000122,Display,
+1000123,DISPLAY,
+1000124,Video,
+1000125,VIDEO,
+1000126,Audio,
+1000127,AUDIO,
+1000128,Controls,
+1000129,CONTROLS,
+1000131,GAMEPLAY,
+1000132,Key Bindings,
+1000133,KEY BINDINGS,
+1000134,Change Profile,
+1000135,CHANGE PROFILE,
+1000217,Checking for downloadable content... Please wait.,
+1000218,A downloadable content file appears to be damaged and cannot be loaded. Please delete it from the Memory section of the Dashboard and download it again.,
+1000610,You are signed in as a guest. You will be unable to save any game content until you sign in to a non-guest profile.,
+1000611,Disconnected from multiplayer,
+1000612,You have been removed from multiplayer because the game was suspended.,
+1000613,New downloadable content has been installed and will be available after you return to the main menu.,
+1000717,New Downloadable Content,
+1000624,This account has restricted access to multiplayer.,
+1000625,This account has been banned from Xbox Live.,
+1000626,An Xbox Live Gold Membership is required to access this feature.,
+1000614,<gamer>’s controller has been disconnected. Please reconnect it in order to continue your game or press any button on the user’s new controller.,
+1000627,The active controller was disconnected. Please reconnect a controller which is not signed in to a profile in order to continue your game.,
+1000628,Controller disconnected,
+1000629,Continue,
+1000630,Controller disconnected,
+1000631,Continue,
+1000178,Actions,
+1000219,&Views,
+1000180,&Actions,
+1000181,&Edit,
+1000182,&Cut,
+1000183,&Copy,
+1000184,&Paste,
+1000185,&Duplicate,
+1000186,&Reload,
+1000220,Refresh,
+1000221,Undo,
+1000222,Redo,
+1000223,&Navigate,
+1000224,Edit in &New Window,
+1000225,&Home,
+1000226,&Back,
+1000227,&Forward,
+1000228,Exit Application,
+1000229,Misc,
+1000230,Home,
+1000231,Previous,
+1000232,Next,
+1000233,Copy,
+1000234,Cut,
+1000235,Paste,
+1000236,Duplicate,
+1000137,New Element,
+1000138,New XTemplate,
+1000139,Preview XTemplate,
+1000615,Delete,
+1000245,Redo,
+1000616,OK,
+1000246,Cancel,
+1000617,OK,
+1000247,Cancel,
+1000140,Hide/show all properties with default values,
+189736641365,View Object,
+566561671803,Open Entity Editor,
+934619628713,Toggle Spots,
+855829278936,Convert to Template,
+102672884722,Convert to Object,
+173123111544,Remove Duplicated,
+180179795778,Invert Selection,
+381730822640,Delete,
+1000248,Remove Unselected,
+623390947398,Save,
+400353986243,Open Folder,
+186760604064,Test,
+342669996355,Upload,
+487939677892,Help,
+833734167742,Delete Item,
+1000249,Redo,
+125522858940,New Item,
+1000142,New <u(item_name)>,
+888280433864,File,
+1000143,New Mod,
+885629433849,Load,
+327465361219,Edit,
+408637015506,Delete Mod,
+791482327441,Help,
+234124121113,Fetch from selection,
+1000716,Reapply All,
+377547327617,New Prg,
+301269983303,Save,
+102133798674,Move Out,
+978910231685,Move In,
+505747953509,Delete,
+1000250,Redo,
+1000251,Prg,
+298035641454,Object,
+167400996647,Move,
+382567554252,Slot,
+283142739680,Game,
+699872370171,Condition,
+294879472859,Rollover Mode,
+464156353043,Inspect Focused Window,
+437848878733,Toggle Focus Logging,
+986049161052,Toggle Rollover Logging,
+741286422920,Toggle Context Logging,
+1000144,<class> <color 128 128 128><Id><PlacementText>,
+1000252,New Update Available,
+1000253,Download & Install,
+1000254,Cancel,
+1000255,Download error,
+1000256,"Download failed, please try again later.",
+1000257,Connected to <host>:<port>,
+1000258,game <game>,
+1000259,<newline>sent <events_sent_ps> received <events_received_ps>,
+1000260,<newline>Advance limit <advance>(<more>),
+1000618,Idle,
+1000261,Damaged savegame,
+1000146,Select Action,
+1000147,Select Action Param,
+1000148,Gamepad Button,
+1000149,Virtual Key,
+1000150,Center Button,
+1000151,Go Back,
+1000152,Back Button,
+1000153,Close Parent,
+1000154,Open Dialog,
+1000156,ActionFXMouseIn,
+1000157,ActionFXBtnPressed,
+1000158,ActionFXBtnPressedDisabled,
+1000262,<arg1> R,
+1000263,<arg1> G,
+1000264,<arg1> B,
+1000265,On,
+1000266,Off,
+1000267,(press any key),
+1000268,None,
 1000269,Backspace,
 1000270,Tab,
 1000271,Enter,
@@ -362,9 +360,9 @@ id <u(id)>, 版本 <version></color>"
 1000369,\,
 1000370,],
 1000371,',
-1000372,<current_page> / <total_pages>,<current_page> / <total_pages>
-1000620,Warning,警告
-1000621,Windows Input Method Editor may cause flickering when in Fullscreen.,Windows Input Method Editor may cause flickering when in Fullscreen.
+1000372,<current_page> / <total_pages>,
+1000620,Warning,
+1000621,Windows Input Method Editor may cause flickering when in Fullscreen.,
 1000373,"droid, 12, aa",
 1000374,"Mikadan Custom, 22, aa",
 1000375,"Mikadan Custom, 26, aa",
@@ -402,48 +400,48 @@ id <u(id)>, 版本 <version></color>"
 1000672,"SchemeBk, 21, bold, aa","Noto Sans CJK SC Regular, 21, bold, aa"
 1000673,"SchemeBk, 19, bold, aa","Noto Sans CJK SC Regular, 19, bold, aa"
 1000674,"SchemeBk, 13, aa","Noto Sans CJK SC Regular, 13, aa"
-1000163,<ButtonB> Skip,<ButtonB> Skip
-1000164,<image UI/Icons/action_esc.tga 2000> Skip,<image UI/Icons/action_esc.tga 2000> Skip
-1000416,OK,OK
-1000417,OK,OK
-1000418,Cancel,取消
-1000419,Connecting to <host>:<port>,Connecting to <host>:<port>
-1000420,Error connecting to server: <err>,Error connecting to server: <err>
-1000421,Joining <game>,Joining <game>
-1000422,Error joining <game>: <error>,Error joining <game>: <error>
-1000423,Changing map to <map>,Changing map to <map>
-1000424,Connection established,Connection established
-1000425,Pause,暫停
-1000426,OK,OK
-1000427,Cancel,取消
-1000428,Enter Text Here:,從這裡輸入文字：
-1000429,OK,OK
-1000430,Cancel,取消
-1000431,OK,OK
-1000432,Cancel,取消
-1000433,OK,OK
-1000434,Server,伺服器
-1000435,Game,Game
-1000436,Map,Map
-1000437,Username,使用者名稱
-1000438,Password,密碼
-1000439,OK,OK
-1000440,Cancel,取消
-1000441,Join Net Game,Join Net Game
-1000442,Controls:,Controls:
-1000443,<center>Controls Palette,<center>Controls Palette
-1000406,English,English
-1000407,French,French
-1000408,German,German
-1000409,Italian,Italian
-1000410,Spanish,Spanish
-1000411,Russian,Russian
-1000412,Czech,Czech
-1000413,Hungarian,Hungarian
-1000414,Polish,Polish
-1000415,Japanese,Japanese
-1000444,<actor>: <text>,<actor>: <text>
-1000165,<class> <Id>,<class> <Id>
+1000163,<ButtonB> Skip,
+1000164,<image UI/Icons/action_esc.tga 2000> Skip,
+1000416,OK,
+1000417,OK,
+1000418,Cancel,
+1000419,Connecting to <host>:<port>,
+1000420,Error connecting to server: <err>,
+1000421,Joining <game>,
+1000422,Error joining <game>: <error>,
+1000423,Changing map to <map>,
+1000424,Connection established,
+1000425,Pause,
+1000426,OK,
+1000427,Cancel,
+1000428,Enter Text Here:,
+1000429,OK,
+1000430,Cancel,
+1000431,OK,
+1000432,Cancel,
+1000433,OK,
+1000434,Server,
+1000435,Game,
+1000436,Map,
+1000437,Username,
+1000438,Password,
+1000439,OK,
+1000440,Cancel,
+1000441,Join Net Game,
+1000442,Controls:,
+1000443,<center>Controls Palette,
+1000406,English,
+1000407,French,
+1000408,German,
+1000409,Italian,
+1000410,Spanish,
+1000411,Russian,
+1000412,Czech,
+1000413,Hungarian,
+1000414,Polish,
+1000415,Japanese,
+1000444,<actor>: <text>,
+1000165,<class> <Id>,
 1000445,Backspace,
 1000446,Tab,
 1000447,Enter,
@@ -551,128 +549,128 @@ id <u(id)>, 版本 <version></color>"
 1000160,Lwin,
 1000161,Rwin,
 1000162,Menu,
-1000549,if <condition> then,if <condition> then
-1000550,else,else
-1000551,else if <condition> then,else if <condition> then
-1000552,while <condition> do,while <condition> do
-1000553,repeat until <condition>,repeat until <condition>
-1000554,break,break
-1000555,break if <condition>,break if <condition>
-1000556,<var> = <condition>,<var> = <condition>
-1000557,<var> = <var> or <condition>,<var> = <var> or <condition>
-1000558,<var> = <var> and <condition>,<var> = <var> and <condition>
-1000559,<form> <color 0 128 0><comment>,<form> <color 0 128 0><comment>
-1000632,<unit> has no visit time,<unit> has no visit time
-1000633,<unit> has visit time,<unit> has visit time
-1000560,call <__call>(<params>) <color 0 128 0><comment>,call <__call>(<params>) <color 0 128 0><comment>
-1000561,Wait <time> ms <color 0 128 0><comment>,Wait <time> ms <color 0 128 0><comment>
-1000562,Play <spot> prg <color 0 128 0><comment>,Play <spot> prg <color 0 128 0><comment>
-1000634,Play <anim>,Play <anim>
-1000635,Play <anim> <loops> loops,Play <anim> <loops> loops
-1000636,Set <anim>,Set <anim>
-1000637,Play <anim> <time> ms,Play <anim> <time> ms
-1000638,<desc> (<flags>),<desc> (<flags>)
-1000639,Set <unit> move anim <move_anim>,Set <unit> move anim <move_anim>
-1000640,Set <unit> wait anim <wait_anim>,Set <unit> wait anim <wait_anim>
-1000641,<spot>,<spot>
-1000642,<loc>,<loc>
-1000643,<loc><newline>   (custom waypoints <waypoints>),<loc><newline>   (custom waypoints <waypoints>)
-1000644,Lead <unit> to <spot_obj> <txt> <color 0 128 0><comment>,Lead <unit> to <spot_obj> <txt> <color 0 128 0><comment>
-1000645,Go to <pos>,Go to <pos>
-1000646,Teleport to <pos>,Teleport to <pos>
-1000647,Move directly to <pos>,Move directly to <pos>
-1000679,Follow waypoints <waypoints_var> <dir> <color 0 128 0>,Follow waypoints <waypoints_var> <dir> <color 0 128 0>
-1000648,<color 0 128 0><comment><color 0 0 0>,<color 0 128 0><comment><color 0 0 0>
-1000650,Clear <obj> <spot> flags <flags_clear>,Clear <obj> <spot> flags <flags_clear>
-1000651,Dtor set <obj> <spot> flags <dtor_flags_add>,Dtor set <obj> <spot> flags <dtor_flags_add>
-1000652,Dtor clear <obj> <spot> flags <dtor_flags_clear>,Dtor clear <obj> <spot> flags <dtor_flags_clear>
-1000649,Set <obj> <spot> flags <flags_add>,Set <obj> <spot> flags <flags_add>
-1000653,not,not
-1000654,"<not_text> <obj> <spot> required <flags_required>, missing <flags_missing>","<not_text> <obj> <spot> required <flags_required>, missing <flags_missing>"
-1000655,<not_text> <obj> <spot> required <flags_required>,<not_text> <obj> <spot> required <flags_required>
-1000656,<not_text> <obj> <spot> missing <flags_missing>,<not_text> <obj> <spot> missing <flags_missing>
-1000657,false,false
-1000658,true,true
-1000659,<var_pos> = Position of <obj> <spot_var>,<var_pos> = Position of <obj> <spot_var>
-1000660,<waypoints_idx>,<waypoints_idx>
-1000661,last,last
-1000662,<var_pos> = Position of <obj> <waypoints_var>[<idx>],<var_pos> = Position of <obj> <waypoints_var>[<idx>]
-1000681,<var_spot> <var_pos> = Nearest spot <spot_type> to <target>,<var_spot> <var_pos> = Nearest spot <spot_type> to <target>
-1000663,<var_spot> <var_pos> = Random spot <spot_type>,<var_spot> <var_pos> = Random spot <spot_type>
-1000680,"<var_waypoints> = Find <waypoints>(start:<first_target>, end:<last_target>)","<var_waypoints> = Find <waypoints>(start:<first_target>, end:<last_target>)"
-1000675,<var_obj> = Nearest <classname> to <target>,<var_obj> = Nearest <classname> to <target>
-1000711,<params>,<params>
-1000712,<action> <obj> <params>,<action> <obj> <params>
-1000713,<obj> action: <action_var> <params>,<obj> action: <action_var> <params>
-1000179,<txt>,<txt>
-1000714,( Dtor <dtor_action> <obj> <params>),( Dtor <dtor_action> <obj> <params>)
-1000682,Set <unit> inside,Set <unit> inside
-1000683,Set <unit> outside,Set <unit> outside
-1000586,Snap <actor> to <obj> <spot><color 0 128 0><comment>,Snap <actor> to <obj> <spot><color 0 128 0><comment>
-1000587,Rotate <obj> on <angle> degree (<time>ms) <color 0 128 0><comment>,Rotate <obj> on <angle> degree (<time>ms) <color 0 128 0><comment>
-1000677,Attach <actor> to <obj>,Attach <actor> to <obj>
-1000678,Detach <actor>,Detach <actor>
-1000588,Orient <actor> <color 0 128 0><comment>,Orient <actor> <color 0 128 0><comment>
-1000565,Place <classname> <color 0 128 0><comment>,Place <classname> <color 0 128 0><comment>
-1000666,(<spot_type>),(<spot_type>)
-1000667,Define slot <groups> <spots><color 0 128 0><comment>,Define slot <groups> <spots><color 0 128 0><comment>
-1000684,<vars> = Select slot <group>,<vars> = Select slot <group>
-1000715,Visit selected <obj> <spot>,Visit selected <obj> <spot>
-1000670,(fallback: <group_fallback>),(fallback: <group_fallback>)
-1000671,Visit slot <group><fallback>,Visit slot <group><fallback>
-1000166,<class> <color 0 128 0><comment>,<class> <color 0 128 0><comment>
-1000187,Group <color 0 128 0><comment>,Group <color 0 128 0><comment>
-1000188,Code <color 0 128 0><comment>,Code <color 0 128 0><comment>
-1000189,func <name> <color 0 128 0><comment>,func <name> <color 0 128 0><comment>
-1000190,<__class> <color 128 128 128><PlacementText> <color 0 128 0><comment>,<__class> <color 128 128 128><PlacementText> <color 0 128 0><comment>
-1000191,T: <__template> <color 128 128 128><Id> <color 0 128 0><comment>,T: <__template> <color 128 128 128><Id> <color 0 128 0><comment>
-1000192,Property <id> <color 0 128 0><comment>,Property <id> <color 0 128 0><comment>
-1000193,<color 128 0 0>Mode <mode> <color 0 128 0><comment>,<color 128 0 0>Mode <mode> <color 0 128 0><comment>
-1000194,Layer <layer> <color 0 128 0><comment>,Layer <layer> <color 0 128 0><comment>
-1000195,Action <color 128 128 128><ActionMode> <ActionId> <color 0 128 0><comment>,Action <color 128 128 128><ActionMode> <ActionId> <color 0 128 0><comment>
-1000196,For each <color 0 128 0><comment>,For each <color 0 128 0><comment>
-1000197,For each action <toolbar><menubar> <color 0 128 0><comment>,For each action <toolbar><menubar> <color 0 128 0><comment>
-396941091004,Go Back,返回
-915113417689,Go Forward,Go Forward
-657831084891,Go to parent's previous child,Go to parent's previous child
-645635277599,Go to parent's next child,Go to parent's next child
-516545424288,Go to parent table,Go to parent table
-832102575376,Store in 'o1',Store in 'o1'
-150879427262,Store in 'o2',Store in 'o2'
-135515637285,Store in 'o3',Store in 'o3'
-866772482434,New Preset,New Preset
-502364928914,Delete Preset,Delete Preset
-606395244135,Save,儲存
-876718755482,Move Up,Move Up
-882087082346,Move Down,Move Down
-885977304658,Undo,回復
-711130941438,Redo,Redo
-606667192825,Cut,剪下
-300588080799,Copy,複製
-733420793888,Paste,貼上
-675205898362,Duplicate,Duplicate
-398847925160,New,New
-1000198,<info>,<info>
-1000199,Two too many,Two too many
-1000200,AQj,AQj
-1000201,Action 1,Action 1
-1000202,Action 2,Action 2
-1000203,Action 3,Action 3
-243550090910,File,檔案
-357531548191,Edit,編輯
-1000204,View,檢視
-1000205,New File,新檔案
-1000206,Open File,開啟檔案
-131428313273,-----,-----
-238591151127,Exit,離開
-1000237,Please select installation type,Please select installation type
-1000238,Not enough free disk space in,Not enough free disk space in
-1000239,Typical,Typical
-1000240,Custom,Custom
-1000241,"Do you want to delete all savegames, configuration data and downloadable content?","Do you want to delete all savegames, configuration data and downloadable content?"
-1000242,<game> was successfully removed from your computer.,<game> was successfully removed from your computer.
-1000243,Please install <game_version>,Please install <game_version>
-1000244,You have already installed <game_version>,You have already installed <game_version>
+1000549,if <condition> then,
+1000550,else,
+1000551,else if <condition> then,
+1000552,while <condition> do,
+1000553,repeat until <condition>,
+1000554,break,
+1000555,break if <condition>,
+1000556,<var> = <condition>,
+1000557,<var> = <var> or <condition>,
+1000558,<var> = <var> and <condition>,
+1000559,<form> <color 0 128 0><comment>,
+1000632,<unit> has no visit time,
+1000633,<unit> has visit time,
+1000560,call <__call>(<params>) <color 0 128 0><comment>,
+1000561,Wait <time> ms <color 0 128 0><comment>,
+1000562,Play <spot> prg <color 0 128 0><comment>,
+1000634,Play <anim>,
+1000635,Play <anim> <loops> loops,
+1000636,Set <anim>,
+1000637,Play <anim> <time> ms,
+1000638,<desc> (<flags>),
+1000639,Set <unit> move anim <move_anim>,
+1000640,Set <unit> wait anim <wait_anim>,
+1000641,<spot>,
+1000642,<loc>,
+1000643,<loc><newline>   (custom waypoints <waypoints>),
+1000644,Lead <unit> to <spot_obj> <txt> <color 0 128 0><comment>,
+1000645,Go to <pos>,
+1000646,Teleport to <pos>,
+1000647,Move directly to <pos>,
+1000679,Follow waypoints <waypoints_var> <dir> <color 0 128 0>,
+1000648,<color 0 128 0><comment><color 0 0 0>,
+1000650,Clear <obj> <spot> flags <flags_clear>,
+1000651,Dtor set <obj> <spot> flags <dtor_flags_add>,
+1000652,Dtor clear <obj> <spot> flags <dtor_flags_clear>,
+1000649,Set <obj> <spot> flags <flags_add>,
+1000653,not,
+1000654,"<not_text> <obj> <spot> required <flags_required>, missing <flags_missing>",
+1000655,<not_text> <obj> <spot> required <flags_required>,
+1000656,<not_text> <obj> <spot> missing <flags_missing>,
+1000657,false,
+1000658,true,
+1000659,<var_pos> = Position of <obj> <spot_var>,
+1000660,<waypoints_idx>,
+1000661,last,
+1000662,<var_pos> = Position of <obj> <waypoints_var>[<idx>],
+1000681,<var_spot> <var_pos> = Nearest spot <spot_type> to <target>,
+1000663,<var_spot> <var_pos> = Random spot <spot_type>,
+1000680,"<var_waypoints> = Find <waypoints>(start:<first_target>, end:<last_target>)",
+1000675,<var_obj> = Nearest <classname> to <target>,
+1000711,<params>,
+1000712,<action> <obj> <params>,
+1000713,<obj> action: <action_var> <params>,
+1000179,<txt>,
+1000714,( Dtor <dtor_action> <obj> <params>),
+1000682,Set <unit> inside,
+1000683,Set <unit> outside,
+1000586,Snap <actor> to <obj> <spot><color 0 128 0><comment>,
+1000587,Rotate <obj> on <angle> degree (<time>ms) <color 0 128 0><comment>,
+1000677,Attach <actor> to <obj>,
+1000678,Detach <actor>,
+1000588,Orient <actor> <color 0 128 0><comment>,
+1000565,Place <classname> <color 0 128 0><comment>,
+1000666,(<spot_type>),
+1000667,Define slot <groups> <spots><color 0 128 0><comment>,
+1000684,<vars> = Select slot <group>,
+1000715,Visit selected <obj> <spot>,
+1000670,(fallback: <group_fallback>),
+1000671,Visit slot <group><fallback>,
+1000166,<class> <color 0 128 0><comment>,
+1000187,Group <color 0 128 0><comment>,
+1000188,Code <color 0 128 0><comment>,
+1000189,func <name> <color 0 128 0><comment>,
+1000190,<__class> <color 128 128 128><PlacementText> <color 0 128 0><comment>,
+1000191,T: <__template> <color 128 128 128><Id> <color 0 128 0><comment>,
+1000192,Property <id> <color 0 128 0><comment>,
+1000193,<color 128 0 0>Mode <mode> <color 0 128 0><comment>,
+1000194,Layer <layer> <color 0 128 0><comment>,
+1000195,Action <color 128 128 128><ActionMode> <ActionId> <color 0 128 0><comment>,
+1000196,For each <color 0 128 0><comment>,
+1000197,For each action <toolbar><menubar> <color 0 128 0><comment>,
+396941091004,Go Back,
+915113417689,Go Forward,
+657831084891,Go to parent's previous child,
+645635277599,Go to parent's next child,
+516545424288,Go to parent table,
+832102575376,Store in 'o1',
+150879427262,Store in 'o2',
+135515637285,Store in 'o3',
+866772482434,New Preset,
+502364928914,Delete Preset,
+606395244135,Save,
+876718755482,Move Up,
+882087082346,Move Down,
+885977304658,Undo,
+711130941438,Redo,
+606667192825,Cut,
+300588080799,Copy,
+733420793888,Paste,
+675205898362,Duplicate,
+398847925160,New,
+1000198,<info>,
+1000199,Two too many,
+1000200,AQj,
+1000201,Action 1,
+1000202,Action 2,
+1000203,Action 3,
+243550090910,File,
+357531548191,Edit,
+1000204,View,
+1000205,New File,
+1000206,Open File,
+131428313273,-----,
+238591151127,Exit,
+1000237,Please select installation type,
+1000238,Not enough free disk space in,
+1000239,Typical,
+1000240,Custom,
+1000241,"Do you want to delete all savegames, configuration data and downloadable content?",
+1000242,<game> was successfully removed from your computer.,
+1000243,Please install <game_version>,
+1000244,You have already installed <game_version>,
 4864,Cubism,立體主義
 4865,Completed Mystery: The Power of Three,已完成謎團「三的次方」
 4866,Complete The Power of Three Mystery,完成「三的次方」謎團
@@ -2098,7 +2096,7 @@ Suggested building: A <em>Large Solar Panel</em> will generate electrical Power 
 5528,<em>The RC Rover</em> serves as a mobile base for your Drones. Manage the vehicle with <RT>. Relocate it by holding <RT> and then pressing <ButtonA>.,
 5530,Vehicle Orders,
 5531,"To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>.","To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>."
-5532,To manage the selected vehicle press <RT>. Orders can be given quickly by holding <RT> and pressing any of the button shortcuts.,管理選擇的車輛按 <RT>. 快速指令由按住 <RT>然後點擊任何案件快捷鍵.
+5532,To manage the selected vehicle press <RT>. Orders can be given quickly by holding <RT> and pressing any of the button shortcuts.
 1683,RC Transport,運輸車
 5534,"The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.
 The Transport can establish a supply route between two points on the map.","The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.
@@ -2784,18 +2782,18 @@ We are already swarmed with applications for relocation on Mars and the wanderlu
 5661,Mystery Log,
 5760,....,
 7129,Warning,
-5761,Are you sure you want to cancel the Rocket’s launch order?,
-4165,Back,
-5762,Exit game,
-4168,Are you sure you want to exit the game?,
-1141,Exit to the main menu?,
-1138,Yes,
-1139,No,
+5761,Are you sure you want to cancel the Rocket’s launch order?,你確定要取消火箭的發射命令嗎？
+4165,Back,返回
+5762,Exit game,離開遊戲
+4168,Are you sure you want to exit the game?,你確定要離開遊戲嗎？
+1141,Exit to the main menu?,退出到主菜畫面？
+1138,Yes,是
+1139,No,否
 7765,There is not enough storage space. Delete old save data or disable Autosave from the Options menu.,
 7766,The save data limit for this game was reached. Delete old save data or disable Autosave from the Options menu.,
-7130,Warning,
+7130,Warning,警告
 7881,Autosave failed.<newline>Error code: <error_code>.,
-7127,OK,
+7127,OK,OK
 7154,Humanity had such high hopes and we failed them. We failed the Founders. But is this really the end?,
 5766,"Failure's just another step in the process. The only thing is to dust ourselves off and try again. And when the future generations return to Mars, our experience, our mistakes and achievements will help them succeed where we could not.
 
@@ -4842,7 +4840,7 @@ But they see this as a means of a new clean beginning and have expressed their d
 The organization responsible has all but vanished after accomplishing more that it could have possibly hoped for. 
 
 We, on the other hand, as a symbol of what humanity can achieve when working together and not by fighting between ourselves, are in an unique position to make a statement which may be of actual merit to the situation.",
-8284,Wildfire: Infection!,
+8284,Wildfire: Infection!,野火感染!
 8285,We have received a disturbing medical report. A number of colonists have contracted an unknown disease.,
 8286,"The medical examination shows they all suffer from a form of hypercoagulation. Anti-coagulation medicines have been issued but the symptoms remain. Primary analysis of the patients’ blood samples hasn't found the cause behind the symptoms, but the level of damage to the erythrocytes leads to the workings of a virus-sized or smaller agent. We’re currently running a thorough check on the patients’ background information and behavior to find the source of the infection.
 
@@ -5214,7 +5212,9 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 5125,Magnetic Filtering,磁性過濾
 6326,"MOXIE Upgrade (<em>Magnetic Filtering</em>) - Oxygen production increased by <param1>%.
 
-<grey>Magnetic filters block ferromagnetic metal contaminants as well as weakly magnetic particles from the Martian atmosphere when inhaled by our MOXIEs, greatly increasing their efficiencies.</grey>",
+<grey>Magnetic filters block ferromagnetic metal contaminants as well as weakly magnetic particles from the Martian atmosphere when inhaled by our MOXIEs, greatly increasing their efficiencies.</grey>","""火星氧蒐集裝置升級 (<em>磁性過濾</em>) - 氧氣生成增加 <param1>%.
+
+<grey>當我們的火星氧蒐集裝置吸入火星大氣時，磁性過濾會阻擋大氣中的磁性金屬汙染和弱磁粒子，大大的增加裝置效率。</grey>"""
 6327,Water Reclamation,水回收
 6328,"New Spire Building: <em>Water Reclamation System</em> (<buildinginfo('WaterReclamationSystem')>) - drastically reduces the Water consumption of the Dome.
 
@@ -5258,7 +5258,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 6345,"New Spire Building: <em>Hanging Gardens</em> (<buildinginfo('HangingGardens')>) - a beautiful park complex that greatly improves the Comfort of all Residences in the Dome.
 
 <grey>One of humanity’s most enduring and fanciful legends from the ancient past is made a reality on Mars.</grey>",
-6346,Holographic Scanning,
+6346,Holographic Scanning,全息掃描
 6347,"<em>Medical Center</em> Upgrade (Holographic Scanner) - Increases birth rate in the Dome.
 
 <grey>Holographic technologies can significantly improve medical diagnostics and monitoring procedures.</grey>",
@@ -5267,7 +5267,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 
 <grey>""What I really need is a drone that understands the binary language of moisture vaporators.""
 <right>Unknown Martian Colonist</grey><left>",
-5103,Rejuvenation Treatment,
+5103,Rejuvenation Treatment,回春治療
 6350,"Infirmary & Medical Center Upgrade (<em>Rejuvenation Treatment</em>) - Improves Service Comfort and provides Relaxation, allowing Colonists to visit and gain Comfort.
 
 <grey>You haven’t truly colonized a planet until you build the first Spa center on it.</grey>",
@@ -5283,20 +5283,20 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 <right>Elon Musk</grey><left>",
 6357,ENGINEERING,工程學
 6358,"The <em>Engineering</em> field deals with <em>Buildings</em>, <em>Domes</em> and improves <em>Rocket</em> technology.",
-6359,Fuel Compression,
+6359,Fuel Compression,燃料壓縮
 6360,"<em>Rocket</em> Cargo Space increased by <param1> kg.
 
 <grey>The fuel section is by far the largest and, when full, the heaviest part of any rocket. This makes developing more compressed fuels especially important when striving to bring more to Mars with fewer rockets.</grey>",
-6361,Decommission Protocol,
+6361,Decommission Protocol,退役協定
 6362,"Allows the clearing of <em>salvaged</em> and <em>destroyed buildings.</em>
 
 <grey>We have reached the point where we must do away with old buildings on Mars to make way for new ones.</grey>",
-6363,Low-G Hydrosynthesis,
+6363,Low-G Hydrosynthesis,低 G 水合成
 6364,"New Building: <em>Polymer Factory</em> (<buildinginfo('PolymerPlant')> - Produces Polymers from Water and Fuel.
 New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces Fuel from Water.
 
 <grey>Resolving the obvious problems with water pressure in Low-G environments will allow for more complex hydro-synthetic procedures to be done on-site on Mars.</grey>",
-6365,Advanced Martian Engines,
+6365,Advanced Martian Engines,進階火星引擎
 6366,"<em>Rockets</em> and <em>Shuttles</em> require less Fuel.
 
 <grey>The scarcity of Martian-made rocket fuel options has made for our first true contribution towards rocket engine efficiency.</grey>",
@@ -5309,11 +5309,11 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6372,"<em>Passenger Rockets</em> carry <param1> more Colonists.
 
 <grey>Better design patterns and lighter, tougher materials have all contributed to a more advanced and compact rocket passenger module.</grey>",
-7999,Storage Compression,
+7999,Storage Compression,儲存壓縮
 8000,"Water, Oxygen and Power <em>storage</em> capacity expanded by <param1>%.
 
 <grey>Life support reserves are essential for the survival of the Colony. Fortunately, a new method of compressing fluids in low-gravity environments can help us increase our reserve capacity greatly.</grey>",
-6373,Low-G Engineering,
+6373,Low-G Engineering,低 G 工程學
 6374,"New Dome: <em>Medium</em> (<buildinginfo('DomeMedium')>) - A medium-sized Dome.
 
 <grey>Gaining experience in actually building constructions on Mars rather than just hypothesizing has vastly advanced our off-Earth architectural capabilities.</grey>",
@@ -5330,7 +5330,7 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 
 <grey>""In the end, I hope there's a little note somewhere that says I designed a good computer.""
 <right>Steve Wozniak</grey><left>",
-3534,Arcology,
+3534,Arcology,生態建築學
 6378,"New Spire Building: <em>Arcology</em> (<buildinginfo('Arcology')>) - provides comfortable living space for many colonists.
 
 <grey>Martian settlements are becoming less just mere shelters and more of fully fledged cities –cities with unique vibes and even architecture.</grey>",
@@ -5641,7 +5641,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6519,"Wonder: <em>Project Morpheus</em> (<buildinginfo('ProjectMorpheus')>) - Stimulates the development of new Perks in adult Colonists throughout the entire Colony.
 
 <grey>""You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.""</grey>",
-6520,BREAKTHROUGH,突破
+6520,BREAKTHROUGH,突破性科技
 6521,Construction Nanites,
 6522,"<em>Buildings</em> construct themselves slowly without Drones. Nanites will seek out resources from nearby resource depots.
 
@@ -5738,89 +5738,127 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 <grey>Radically changing eating habits that have been in place for centuries is made quite easier after changing the planet they were evolved on in the first place.</grey>","所有殖民者的 <em>食物</em> 消耗減少 <param1>% 。
 
 <grey>Radically changing eating habits that have been in place for centuries is made quite easier after changing the planet they were evolved on in the first place.</grey>"
-5088,Eternal Fusion,無限核融合技術
+5088,Eternal Fusion,無限核融合
 6568,"Fusion Reactors Upgrade (<em>Eternal Fusion</em>) - Fusion Reactors no longer require <em>workers</em> and operate at <param1> performance.
 
-<grey>Our understanding of the once holy grail of energetics - Fusion Energy has reached the level where once a fusion reaction has been triggered, it can be left to regulate and sustain itself on its own… within a confined and safe medium of course.</grey>","Fusion Reactors Upgrade (<em>Eternal Fusion</em>) - Fusion Reactors no longer require <em>workers</em> and operate at <param1> performance.
+<grey>Our understanding of the once holy grail of energetics - Fusion Energy has reached the level where once a fusion reaction has been triggered, it can be left to regulate and sustain itself on its own… within a confined and safe medium of course.</grey>","核融合反應爐升級 (<em>無限核融合</em>) ─ 核融合反應爐不再需要 <em>工人</em> 並以 <param1> 效能運作。
 
 <grey>Our understanding of the once holy grail of energetics - Fusion Energy has reached the level where once a fusion reaction has been triggered, it can be left to regulate and sustain itself on its own… within a confined and safe medium of course.</grey>"
-6569,Superconducting Computing,
+6569,Superconducting Computing,超導計算
 6570,"Converts <em>unused Power</em> into Research Points.
 
-<grey>The ultra-cold environment that is Mars, combined with several recent breakthroughs in super conductors, has made the concept of superconductor computing, while still quite costly in terms of power, now manageable, thus opening the doors to the extremely fast superconductor computers.</grey>",
-6571,Nano Refinement,
+<grey>The ultra-cold environment that is Mars, combined with several recent breakthroughs in super conductors, has made the concept of superconductor computing, while still quite costly in terms of power, now manageable, thus opening the doors to the extremely fast superconductor computers.</grey>","將 <em>未使用的電力</em> 轉為研究點數。
+
+<grey>The ultra-cold environment that is Mars, combined with several recent breakthroughs in super conductors, has made the concept of superconductor computing, while still quite costly in terms of power, now manageable, thus opening the doors to the extremely fast superconductor computers.</grey>"
+6571,Nano Refinement,奈米化
 6572,"All Extractors continue to extract small amounts when their <em>deposit is depleted</em>.
 
-<grey>Leaving scattered molecules of the precious resource a mining facility was tasked with extracting has always bothered scientists as being just too cynically wasteful. Luckily, with new Nano Refinement precision tools, this wasteful tendency has been remedied.</grey>",
-6573,Artificial Muscles,
+<grey>Leaving scattered molecules of the precious resource a mining facility was tasked with extracting has always bothered scientists as being just too cynically wasteful. Luckily, with new Nano Refinement precision tools, this wasteful tendency has been remedied.</grey>","All Extractors continue to extract small amounts when their <em>deposit is depleted</em>.
+
+<grey>Leaving scattered molecules of the precious resource a mining facility was tasked with extracting has always bothered scientists as being just too cynically wasteful. Luckily, with new Nano Refinement precision tools, this wasteful tendency has been remedied.</grey>"
+6573,Artificial Muscles,人工苦力
 6574,"Drones carry <em>two resources</em> at once.
 
-<grey>Nature has long provided inspiration for technological advances. Muscles made from carbon fiber are the latest example of cutting-edge biotech and, mixed with Mars’s low gravity, our Drones have basically doubled their carrying capacity.</grey>",
-6575,Inspiring Architecture,
+<grey>Nature has long provided inspiration for technological advances. Muscles made from carbon fiber are the latest example of cutting-edge biotech and, mixed with Mars’s low gravity, our Drones have basically doubled their carrying capacity.</grey>","無人機一次可攜帶 <em>兩個資源</em>
+
+<grey>Nature has long provided inspiration for technological advances. Muscles made from carbon fiber are the latest example of cutting-edge biotech and, mixed with Mars’s low gravity, our Drones have basically doubled their carrying capacity.</grey>"
+6575,Inspiring Architecture,激勵建物
 6576,"Colonists in Domes with a <em>Spire</em> have increased Morale.
 
-<grey>Even on the seemingly most ordinary of days, Colonists on Mars must never forget how extraordinary their lives actually are. Every time they pause from their newfound routines on this alien world and gaze upon the man-made spires that rise proudly towards the Martian sky, they will be reminded of the incredible feat their lives are part of.</grey>",
-6577,Giant Crops,
+<grey>Even on the seemingly most ordinary of days, Colonists on Mars must never forget how extraordinary their lives actually are. Every time they pause from their newfound routines on this alien world and gaze upon the man-made spires that rise proudly towards the Martian sky, they will be reminded of the incredible feat their lives are part of.</grey>","蒼穹頂擁有 <em>尖頂</em> 會增加殖民者的士氣。
+
+<grey>Even on the seemingly most ordinary of days, Colonists on Mars must never forget how extraordinary their lives actually are. Every time they pause from their newfound routines on this alien world and gaze upon the man-made spires that rise proudly towards the Martian sky, they will be reminded of the incredible feat their lives are part of.</grey>"
+6577,Giant Crops,巨型作物
 6578,"Unlocks giant crops which have an <em>increased Food output</em>.
 
-<grey>Gene editing the plant strains brought from Earth to Mars so they can better cope with some of the Martian environment’s peculiarities has allowed us to grow super-sized versions of their Earthling cousins.</grey>",
-6579,Neo-Concrete,
+<grey>Gene editing the plant strains brought from Earth to Mars so they can better cope with some of the Martian environment’s peculiarities has allowed us to grow super-sized versions of their Earthling cousins.</grey>","解鎖巨型作物，增加 <em>糧食產出</em>.
+
+<grey>Gene editing the plant strains brought from Earth to Mars so they can better cope with some of the Martian environment’s peculiarities has allowed us to grow super-sized versions of their Earthling cousins.</grey>"
+6579,Neo-Concrete,新混凝土
 6580,"Dome <em>Concrete costs</em> reduced by <param1>%.
 
-<grey>Mixing recently discovered materials made from Martian polymers with the Martian regolith have unlocked the wonder material that is Neo-Concrete. It is vastly stronger, yet lighter than its predecessor.</grey>",
-6581,Advanced Drone Drive,
+<grey>Mixing recently discovered materials made from Martian polymers with the Martian regolith have unlocked the wonder material that is Neo-Concrete. It is vastly stronger, yet lighter than its predecessor.</grey>","蒼穹頂的 <em>混凝土消耗</em> 減少 <param1>% 。
+
+<grey>Mixing recently discovered materials made from Martian polymers with the Martian regolith have unlocked the wonder material that is Neo-Concrete. It is vastly stronger, yet lighter than its predecessor.</grey>"
+6581,Advanced Drone Drive,進階無人機驅動
 6582,"<em>Drones</em> move <param1>% faster.
 
-<grey>Our engineers have unveiled the first motor design to replace the old engines of our drones that were created in Earth laboratories so long ago. This time we’ve combined all that is now known from having hands-on experience in dissecting a drone that has been doing field work on Mars for quite some time.</grey>",
-6583,Dry Farming,
+<grey>Our engineers have unveiled the first motor design to replace the old engines of our drones that were created in Earth laboratories so long ago. This time we’ve combined all that is now known from having hands-on experience in dissecting a drone that has been doing field work on Mars for quite some time.</grey>","<em>無人機</em> 移動速度快 <param1>% 。
+
+<grey>Our engineers have unveiled the first motor design to replace the old engines of our drones that were created in Earth laboratories so long ago. This time we’ve combined all that is now known from having hands-on experience in dissecting a drone that has been doing field work on Mars for quite some time.</grey>"
+6583,Dry Farming,乾式農場
 6584,"<em>Water</em> requirements of crops is reduced by <param1>%.
 
-<grey>By mixing lab-made chemicals with the Martian regolith we have created what passes for Martian soil, providing improved subsurface water retention and reducing the need for watering.</grey>",
-6585,Martian Steel,
+<grey>By mixing lab-made chemicals with the Martian regolith we have created what passes for Martian soil, providing improved subsurface water retention and reducing the need for watering.</grey>","作物的 <em>水資源</em> 需求減少 <param1>% 。
+
+<grey>By mixing lab-made chemicals with the Martian regolith we have created what passes for Martian soil, providing improved subsurface water retention and reducing the need for watering.</grey>"
+6585,Martian Steel,火星製鋼
 6586,"Lowers <em>Metals</em> costs for building construction by <param1>%.
 
-<grey>The unique composition of Martian ore has finally been thoroughly understood and new smelting techniques have been developed accordingly.</grey>",
-5171,Vector Pump,
+<grey>The unique composition of Martian ore has finally been thoroughly understood and new smelting techniques have been developed accordingly.</grey>","降低建築物的 <em>金屬</em> 消耗 <param1>% 。
+
+<grey>The unique composition of Martian ore has finally been thoroughly understood and new smelting techniques have been developed accordingly.</grey>"
+5171,Vector Pump,向量幫浦
 6587,"Moisture Vaporator Upgrade (<em>Vector Pump</em>) - Water production increased by 100%.
 
-<grey>A new atmosphere pump design that doubles the volume of air processed by our Vaporators in a single Sol.</grey>",
-5081,Superfungus,
+<grey>A new atmosphere pump design that doubles the volume of air processed by our Vaporators in a single Sol.</grey>","濕氣蒐集站升級 (<em>向量幫浦</em>) ─ 水資源產量增加100%。
+
+<grey>A new atmosphere pump design that doubles the volume of air processed by our Vaporators in a single Sol.</grey>"
+5081,Superfungus,超級真菌
 6588,"Fungal Farm Upgrade (<em>Superfungus</em>) - Increases production while increasing Oxygen consumption.
 
-<grey>Historically, lab mistakes involving fungi have rarely been a cause for celebration. A recent mishap in the lab seems to be an exception, as we have created a new and breed of fungi which hold much promise.</grey>",
-6589,Hypersensitive Photovoltaics,
+<grey>Historically, lab mistakes involving fungi have rarely been a cause for celebration. A recent mishap in the lab seems to be an exception, as we have created a new and breed of fungi which hold much promise.</grey>","真菌農場升級 (<em>超級真菌</em>) ─ 增加氧氣消耗時增加產量。
+
+<grey>Historically, lab mistakes involving fungi have rarely been a cause for celebration. A recent mishap in the lab seems to be an exception, as we have created a new and breed of fungi which hold much promise.</grey>"
+6589,Hypersensitive Photovoltaics,極敏光伏技術
 6590,"Solar Panels and Large Solar Panels <em>Power production</em> increased by <param1>%.
 
-<grey>An abundance of field experience has culminated in our engineers creating the perfect solar cells made specifically for the Martian atmosphere dust consistency.</grey>",
-6591,Frictionless Composites,
+<grey>An abundance of field experience has culminated in our engineers creating the perfect solar cells made specifically for the Martian atmosphere dust consistency.</grey>","太陽能板與大型太陽能板 <em>電力生產</em> 增加 <param1>% 。
+
+<grey>An abundance of field experience has culminated in our engineers creating the perfect solar cells made specifically for the Martian atmosphere dust consistency.</grey>"
+6591,Frictionless Composites,無阻力複合材料
 6592,"Wind Turbines <em>Power production</em> increased by <param1>%.
 
-<grey>Through clever application of graphene and carbon based frictionless materials, we have managed to maximize the push of the Martian wind while minimizing the friction which slows down the rotor’s rotation cycle, thus delivering far more bang for every buck of wind.</grey>",
-5232,Zero-Space Computing,
+<grey>Through clever application of graphene and carbon based frictionless materials, we have managed to maximize the push of the Martian wind while minimizing the friction which slows down the rotor’s rotation cycle, thus delivering far more bang for every buck of wind.</grey>","風力發電機 <em>電力生產</em> 增加 <param1>% 。
+
+<grey>Through clever application of graphene and carbon based frictionless materials, we have managed to maximize the push of the Martian wind while minimizing the friction which slows down the rotor’s rotation cycle, thus delivering far more bang for every buck of wind.</grey>"
+5232,Zero-Space Computing,零度空間計算
 6593,"Research Lab & Science Institute Upgrade (<em>Zero-Space Computing</em>) - Research points production increased.
 
-<grey>Thinking outside the box, Martian mathematicians have begun developing a new mathematical apparatus which will open the doors to new scientific models and theories.</grey>",
-6594,Multispiral Architecture,
+<grey>Thinking outside the box, Martian mathematicians have begun developing a new mathematical apparatus which will open the doors to new scientific models and theories.</grey>","研究實驗室 & 科學機構升級 (<em>零度空間計算</em>) ─ 增加研究點數產量。
+
+<grey>Thinking outside the box, Martian mathematicians have begun developing a new mathematical apparatus which will open the doors to new scientific models and theories.</grey>"
+6594,Multispiral Architecture,複數螺旋結構
 6595,"New Dome: <em>Oval Dome</em> (<buildinginfo('DomeOval')>) - An elongated Dome which has space for two Spires.
 
-<grey>A new, domestic approach to construction provides the same structural safety of our Domes while providing additional space for Spires.</grey>",
-5030,Magnetic Extraction,
+<grey>A new, domestic approach to construction provides the same structural safety of our Domes while providing additional space for Spires.</grey>","新蒼穹頂： <em>橢圓蒼穹頂</em> (<buildinginfo('DomeOval')>) ─ 一個可以擁有兩座尖塔的拉長的蒼穹頂。
+
+<grey>A new, domestic approach to construction provides the same structural safety of our Domes while providing additional space for Spires.</grey>"
+5030,Magnetic Extraction,磁性萃取
 6596,"Extractor Upgrade (<em>Magnetic Extraction</em>) - Production increased by <param1>%.
 
-<grey>We have progressed upon fringe mining technologies, developing safe ways to bring Magnetic Extraction to our mines on Mars.</grey>",
+<grey>We have progressed upon fringe mining technologies, developing safe ways to bring Magnetic Extraction to our mines on Mars.</grey>","挖掘站升級 (<em>磁性提取</em>) - Production increased by <param1>%.
+
+<grey>We have progressed upon fringe mining technologies, developing safe ways to bring Magnetic Extraction to our mines on Mars.</grey>"
 6597,Sustained Workload,
 6598,"Doubles the performance bonus when Colonists are working on a <em>heavy workload</em>.
 
-<grey>When every citizen knows that their efficiency more or less impacts the survival chances of the entire Colony, it becomes a matter of pride to work hard.</grey>",
-6599,Forever Young,
+<grey>When every citizen knows that their efficiency more or less impacts the survival chances of the entire Colony, it becomes a matter of pride to work hard.</grey>","當殖民者處在 <em>重度工作負荷</em> 時獲得兩倍的表現加成。
+
+<grey>When every citizen knows that their efficiency more or less impacts the survival chances of the entire Colony, it becomes a matter of pride to work hard.</grey>"
+6599,Forever Young,青春永駐
 6600,"<em>Seniors</em> can work and have children.
 
-<grey>The golden years have officially been postponed indefinitely as a recent breakthrough has finally unlocked the fountain of youth. Every man and woman on Mars has now the ability to remain within their most productive and fertile age forever.</grey>",
-6601,Martianborn Ingenuity,
+<grey>The golden years have officially been postponed indefinitely as a recent breakthrough has finally unlocked the fountain of youth. Every man and woman on Mars has now the ability to remain within their most productive and fertile age forever.</grey>","<em>Seniors</em> can work and have children.
+
+<grey>The golden years have officially been postponed indefinitely as a recent breakthrough has finally unlocked the fountain of youth. Every man and woman on Mars has now the ability to remain within their most productive and fertile age forever.</grey>"
+6601,Martianborn Ingenuity,火星之子創造性
 6602,"<em>Martianborn</em> gain <param1> performance.
 
-<grey>Growing up in a unique environment, combined with some creative gene therapy, makes people better problem solvers. Martianborn are brought up in a society which thrives on the idea that every extra effort counts and the smarter the effort, the better.</grey>",
-6603,Cryo-sleep,
+<grey>Growing up in a unique environment, combined with some creative gene therapy, makes people better problem solvers. Martianborn are brought up in a society which thrives on the idea that every extra effort counts and the smarter the effort, the better.</grey>","<em>火星之子</em> 增加 <param1> 表現。
+
+<grey>Growing up in a unique environment, combined with some creative gene therapy, makes people better problem solvers. Martianborn are brought up in a society which thrives on the idea that every extra effort counts and the smarter the effort, the better.</grey>"
+6603,Cryo-sleep,冷凍睡眠技術
 6604,"<em>Passenger Rockets</em> carry <param1> more Colonists.
 
 <grey>Putting our Colonists in a state of suspended animation for the duration of the flight to Mars greatly reduces the space needed for a single Colonist on the rocket. Cryo-tubes will allow us to transport more Colonists on a single rocket.</grey>",
@@ -5933,8 +5971,8 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 
 <grey>""The human race is a remarkable creature, one with great potential which I hope the Beyond Earth initiative will display for all to believe in.""
 <right>Rede Goddenberry<left></grey>",
-8452,Wildfire Cure,野火治療
-8487,Series of dangerous experiments which could lead to the discovery of a cure for the Wildfire infection.,一系列可以發現如何治療野火感染的危險實驗
+8452,Wildfire Cure,野火治療劑
+8487,Series of dangerous experiments which could lead to the discovery of a cure for the Wildfire infection.,一系列可以發現野火感染的治療藥劑的危險實驗
 6626,Lazy,懶惰
 6627,Individual performance decreased by 20 at all jobs.,全部的工作表現將 下降 20
 8453,Refugee,流亡者
@@ -6074,12 +6112,12 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7323,Low battery - Drones will not be recharged.,
 7324,Low battery,
 7325,Empty battery,
-7601,Battery,
-7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
-40,Recharge,
-41,Select a power cable or another vehicle to recharge the battery.,
-42,Cancel recharge.,
-50,Status and current task of this vehicle.,
+7601,Battery,電池
+7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可以從有源電網向蓄電池充電。 車輛也可以互相充電，平均電池的電量。<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>
+40,Recharge,充電
+41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其他車輛為電池充電。
+42,Cancel recharge.,取消充電
+50,Status and current task of this vehicle.,Status and current task of this vehicle.
 25,Anomaly Scanning,
 52,Progress<right><percent(ScanAnomalyProgress)>,
 53,Malfunction,
@@ -9366,7 +9404,7 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you."
 3607,Sanity/Sec Damage,
 8495,Dust/Sec,
 3609,Any,
-7350,<red>No active research</red>,
+7350,<red>No active research</red>,<red>沒有正在執行的研究</red>
 3918,Unknown Tech (<FieldDisplayName>),
 3919,"<FieldDescription><newline><newline>To unlock, research more technologies in this field or use the Explorer rover to analyze anomalies.",
 3920,<description><newline><newline><em>Researched</em>,
