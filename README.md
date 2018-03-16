@@ -7,9 +7,13 @@
 ## 翻譯進度
 TradChinese/Game.csv == 30%
 
-## 協同翻譯方法
-將`TradChinese` 模組 複製到路徑
+<br />
+## 安裝方式 
+直接於Steam Workshop工作坊訂閱
+http://steamcommunity.com/sharedfiles/filedetails/?id=1331777861
 
+## 安裝方式 (手動安裝與協同開發用)
+將`TradChinese` 模組 複製到路徑
 * Windows: `%appdata%/Surviving Mars/Mods` <br />
 * Mac:  <br />
 * SteamOS:  <br />
