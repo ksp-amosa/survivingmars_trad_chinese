@@ -7,10 +7,9 @@
 ## 翻譯進度
 TradChinese/Game.csv == 30%
 
-<br />
-## 安裝方式 
+## 安裝方式 (可自動更新)
 直接於Steam Workshop工作坊訂閱
-http://steamcommunity.com/sharedfiles/filedetails/?id=1331777861
+`http://steamcommunity.com/sharedfiles/filedetails/?id=1331777861`
 
 ## 安裝方式 (手動安裝與協同開發用)
 將`TradChinese` 模組 複製到路徑
