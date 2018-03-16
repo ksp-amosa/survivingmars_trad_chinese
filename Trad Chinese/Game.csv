@@ -1,28 +1,28 @@
 ID,Text,Translation
-1000590,Game Progress,
-1000001,Enter Mod Title,
-1000002,No name provided,
-1000591,Error,
-1000003,Copying <ModLabel> to <u(path)>,
-1000004,Confirm Copy,
-1000005,Mod '<u(title)>' files will be copied to <u(path)>,
-1000006,Error copying <u(file)>: <u(err)>,
-1000007,Are you sure?,
-1000008,Do you want to delete all <ModLabel> files?,
-1000010,Please confirm the deletion of item '<u(name)>'!,
-1000011,There is an active Steam upload,
-1000592,Error,
-1000009,Confirmation,
-1000012,Mod <ModLabel> will be uploaded to Steam,
-1000013,Mod <ModLabel> was not uploaded to Steam. Code: <err>,
+1000590,Game Progress,遊戲進程
+1000001,Enter Mod Title,輸入模組標題
+1000002,No name provided,未提供名稱
+1000591,Error,錯誤警報
+1000003,Copying <ModLabel> to <u(path)>,拷貝<ModLabel>到<u(path)>
+1000004,Confirm Copy,確認拷貝
+1000005,Mod '<u(title)>' files will be copied to <u(path)>,'<u(title)>'模組將會被拷貝到<u(path)>
+1000006,Error copying <u(file)>: <u(err)>,拷貝<u(file)>發生錯誤：<u(err)>
+1000007,Are you sure?,你確定嗎？
+1000008,Do you want to delete all <ModLabel> files?,你想要刪除所有的<ModLabel>文件嗎？
+1000010,Please confirm the deletion of item '<u(name)>'!,請確定'<u(name)>'的刪除操作
+1000011,There is an active Steam upload,steam上傳進行中
+1000592,Error,錯誤警報
+1000009,Confirmation,確認
+1000012,Mod <ModLabel> will be uploaded to Steam,<ModLabel>模組將會被上傳至steam
+1000013,Mod <ModLabel> was not uploaded to Steam. Code: <err>,<ModLabel>模組未成功上傳至steam 錯誤代碼:<err>
 1000593,Error,
 1000014,Mod <ModLabel> was successfully uploaded to Steam!,
-1000018,Tags,
-1000019,Preview image,
+1000018,Tags,標籤
+1000019,Preview image,預覽
 1000021,Steam ID,
-1000022,Author,
-1000023,Version,
-1000024,Game version,
+1000022,Author,作者
+1000023,Version,版本
+1000024,Game version,遊戲版本
 1000025,Mod '<title>',
 1000026,"<u(title)> (loaded)
 id <u(id)>, version <version>",
@@ -130,7 +130,7 @@ id <u(id)>, version <version></color>",
 1000133,KEY BINDINGS,按鍵設定
 1000134,Change Profile,
 1000135,CHANGE PROFILE,
-1000217,Checking for downloadable content... Please wait.,
+1000217,Checking for downloadable content... Please wait.,檢查下載內容，請稍後
 1000218,A downloadable content file appears to be damaged and cannot be loaded. Please delete it from the Memory section of the Dashboard and download it again.,
 1000610,You are signed in as a guest. You will be unable to save any game content until you sign in to a non-guest profile.,
 1000611,Disconnected from multiplayer,
