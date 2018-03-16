@@ -114,20 +114,20 @@ id <u(id)>, version <version></color>",
 1000707,Chinese (Traditional),
 1000708,Thai,
 1000709,Turkish,
-1000710,Auto,
+1000710,Auto,自動
 1000119,<FormatResolution(pt)>,
-1000121,Default,
-1000122,Display,
-1000123,DISPLAY,
-1000124,Video,
-1000125,VIDEO,
-1000126,Audio,
-1000127,AUDIO,
-1000128,Controls,
-1000129,CONTROLS,
-1000131,GAMEPLAY,
-1000132,Key Bindings,
-1000133,KEY BINDINGS,
+1000121,Default,預設
+1000122,Display,顯示
+1000123,DISPLAY,顯示
+1000124,Video,影像
+1000125,VIDEO,影像
+1000126,Audio,音頻
+1000127,AUDIO,音頻
+1000128,Controls,控制
+1000129,CONTROLS,控制
+1000131,GAMEPLAY,遊戲
+1000132,Key Bindings,按鍵設定
+1000133,KEY BINDINGS,按鍵設定
 1000134,Change Profile,
 1000135,CHANGE PROFILE,
 1000217,Checking for downloadable content... Please wait.,
@@ -1074,11 +1074,11 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5217,Projector Lamps,投影燈
 5218,Make the Martian night a little brighter.,讓火星的夜晚更亮些。
 5219,RC Explorers,探索者
-5220,Remote-controlled exploration vehicle that can analyze Anomalies.,
+5220,Remote-controlled exploration vehicle that can analyze Anomalies.,用於探索分析地表上發現之 觀察點 的遠端遙控車輛
 7682,RC Rover,漫遊者
 5221,RC Rovers,漫遊者
-4477,"Remote-controlled vehicle that transports, commands and repairs Drones.",
-4461,Remote-controlled vehicle that transports resources. Use it to establish permanent supply routes or to gather resources from surface deposits.,
+4477,"Remote-controlled vehicle that transports, commands and repairs Drones.",用於運輸、指揮與維護無人機的遠端遙控車輛
+4461,Remote-controlled vehicle that transports resources. Use it to establish permanent supply routes or to gather resources from surface deposits.,用於運輸、採集地表資源的遠端遙控車輛
 5225,<preciousmetals(Stored_PreciousMetals)>,
 5226,Rare Metals Depot,稀有金屬存放區
 5227,Rare Metals Depots,稀有金屬存放區
@@ -1156,7 +1156,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5286,Plutonium Core,鈽核心
 5287,+<upgrade1_mul_value_1>% additional power production when open.,+<upgrade1_mul_value_1>% 打開時增加額外的電量。
 5288,Stirling Generators,斯特林發電機
-5289,"Generates Power. While closed the generator is protected from dust, but produces less power.",產生電力。雖然收起時防塵，但產生更少電力。
+5289,"Generates Power. While closed the generator is protected from dust, but produces less power.",可以生產電力。關閉圓頂罩的時候可以避免入塵的損害，不過發電效率將會下降許多
 5290,Stone Garden,亂石花園
 5291,Stone Gardens,亂石花園
 5292,"A tastefully arranged stone garden, following strict Zen rules.",一個高雅的石頭花園，遵循嚴格的禪規。
@@ -1168,7 +1168,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5298,"Using advanced extraction technology, allows for production of Concrete directly from the Martian soil without the requirement for a deposit.",採用先進的提取技術，可以直接從火星土壤生產混凝土，而不需要沉積物。
 4818,Triboelectric Scrubber,
 5299,Triboelectric Scrubbers,
-5300,Emits pulses which reduce the Dust accumulated on buildings in its range.,
+5300,Emits pulses which reduce the Dust accumulated on buildings in its range.,發射脈衝減少積聚在其範圍內建築物上的塵埃。
 889,Tunnel,隧道
 5301,Tunnels,隧道
 5302,The tunnel entrance and exit can connect power and life support grids at different locations and different elevations. Rovers can travel along the tunnels to reach places they otherwise couldn't.,隧道入口和出口可連接不同位置和不同高度的電力和生命支持網路。漫遊者可以沿著隧道前往那些他們無法到達的地方。
@@ -1259,8 +1259,8 @@ This technological challenge to take advantage of what little wind there is on M
 6994,Giant Wheat Grass,巨大小麥草
 6993,Low yield but grows very fast,產量低，但成長非常快速
 6995,Potatoes,馬鈴薯
-8069,Curetatos,
-8470,Extract the cure for the Wildfire Infection from these potatoes.,
+8069,Curetatos,藥劑薯
+8470,Extract the cure for the Wildfire Infection from these potatoes.,從這些馬鈴薯萃取野火感染的治療藥劑
 6997,Giant Potatoes,巨大馬鈴薯
 6996,"Good yield but grows slowly and depletes the soil, causing reduced yield of the next crop",產量佳，但成長緩慢，且會耗盡土壤，導致下一個作物的產量減少
 6998,Soybeans,黃豆
@@ -1468,7 +1468,13 @@ Rovers are battery-powered and can recharge their batteries at any point along a
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
-The apex of human transport technology, Rovers have extended battery lives and are incredibly durable, making them resistant to most of the Martian calamities such as cold or dust. They may traverse the Colony site and reach distant spots, limited only by the topography, to tackle whatever they have been tasked with.",
+The apex of human transport technology, Rovers have extended battery lives and are incredibly durable, making them resistant to most of the Martian calamities such as cold or dust. They may traverse the Colony site and reach distant spots, limited only by the topography, to tackle whatever they have been tasked with.","漫遊者號 是一部可以用來載運、指揮與維護<em>無人機</em>的車輛，可以指揮附屬於自身遙控範圍內的<em>無人機</em>。
+
+漫遊者號屬於電力驅動，內建高容量的蓄電池，可以在任何有效電力網上的電線進行充電。
+
+<center><image UI/Common/rollover_line.tga 2000> <left>
+
+The apex of human transport technology, Rovers have extended battery lives and are incredibly durable, making them resistant to most of the Martian calamities such as cold or dust. They may traverse the Colony site and reach distant spots, limited only by the topography, to tackle whatever they have been tasked with."
 5399,"RC Transports are remote controlled vehicles which are tasked with the transportation of cargo, mostly from or to places outside of drone operating ranges. Furthermore, RC Transports may set up permanent transport routes, maintaining the flow of specific or non-specified resources from one place to the other.
 
 Transport rovers can also extract resource from surface deposit (<em>Metals</em> and <em>Polymers</em>) allowing extraction and transportation of far away deposit sites.
@@ -1781,8 +1787,8 @@ Starting Applicants: <ApplicantsPoolStartingSize>
 每太陽日研究成長： <research(SponsorResearch)>
 開局應徵者： <ApplicantsPoolStartingSize>
 
-- 5 個額外的起始科技可選擇
-- 每次研發完成都可以獲得資金，突破性研發則可獲得雙倍的資金"
+- 開局增加 5 個額外的起始科技可選擇
+- 每次研發完成都可以獲得資金， 突破性研發則可獲得雙倍的資金"
 5490,SpaceY,Space Y
 5491,"Difficulty: <em>Normal</em>
 
@@ -1858,158 +1864,196 @@ Starting Applicants: <ApplicantsPoolStartingSize>
 3490,Random,隨機
 5500,Welcome to Mars!,歡迎來到火星
 5501,"Let's <em>designate a landing site</em> for the rocket! A promising area has already been scanned for resources.
-Select the Rocket from the highlighted icon at the bottom of your screen.","讓我們 <em>選定一個降落點</em> 給火箭! 一個有希望的區域已經被掃瞄出資源.
-從底下高亮的圖像選擇你的火箭."
+Select the Rocket from the highlighted icon at the bottom of your screen.","跟行前任務報告上說的一樣，已經有處區域已經掃描完畢了，並且發現了有用的資源。現在就讓我們在這個區塊<em>選定一個火箭降落點</em>。
+
+選擇畫面下方正閃爍的火箭圖示"
 5502,"Let's <em>designate a landing site</em> for the rocket! A promising area has already been scanned for resources.
 The Rocket can be selected by opening the quick bar with <RB> and pressing <ButtonA>.",
 1685,Rocket,火箭
 5508,"Pick a landing site. Ideally this location would be in a large flat area near discovered resource deposits.
 
-<left_click> - land the Rocket",
+<left_click> - land the Rocket","決定火箭降落點。火箭必須在平坦的區域並且靠近資源區附近降落。
+
+<left_click> - 降落火箭"
 5509,"Pick a landing site. Ideally this location would be in a large flat area near discovered resource deposits.
 
 <ButtonA> - land the Rocket",
-5497,Camera Controls,
+5497,Camera Controls,視角控制
 5498,"Pan - <em><ShortcutName('actionPanUp')>, <ShortcutName('actionPanDown')>, <ShortcutName('actionPanLeft')>, <ShortcutName('actionPanRight')></em>
 Tilt or rotate - hold <middle_click> or <em>Alt</em> and move the mouse
 Zoom - <middle_click> or <em>PgUp/PgDown</em>
-Overview mode - Maximum zoom out or <em>M</em>",
+Overview mode - Maximum zoom out or <em>M</em>","移動畫面 - <em><ShortcutName('actionPanUp')>, <ShortcutName('actionPanDown')>, <ShortcutName('actionPanLeft')>, <ShortcutName('actionPanRight')></em>
+旋轉與調整角度 - 按住 <middle_click> 或 <em>Alt</em> 然後移動滑鼠
+縮放畫面- <middle_click> 或 <em>PgUp/PgDown</em>
+地圖切換 - 鏡頭拉至最遠 或<em>M</em>"
 5499,"Pan - <LS>
 Rotate - <RS>
 Tilt or zoom - <RT>+<RS>/<RS>",
-5510,Building Construction,
+5510,Building Construction,建造設施
 5511,"Permanent buildings are constructed by Drones. Open the Build Menu with <right_click> or <em>B</em>, select a building, and place it on the desired location with <left_click>.
 
-Suggested Building: A <em>Large Solar Panel</em> will generate electrical Power required for other buildings",
+Suggested Building: A <em>Large Solar Panel</em> will generate electrical Power required for other buildings","指揮無人機到預定地建造設施。
+打開建築選單 <right_click> 或<em>B</em>， 選擇建築物，並放置在預計建造的地面上後，點擊 <left_click>
+
+建議建築：一座 <em>大型太陽能板</em> 可以生產電力並供給給其它建築使用"
 5512,"Permanent buildings are constructed by Drones. Open the Build Menu with <ButtonY>, select a building construction and place it on the desired location with <ButtonA>.
 
 Suggested building: A <em>Large Solar Panel</em> will generate electrical Power required for other buildings",
-5505,Game Speed,
+5505,Game Speed,遊戲速度
 5506,"Use the controls on the HUD or the following shortcuts to control the game speed:
 <em>Space</em> - pause/unpause
 <em>+  key</em> - increase game speed
-<em>- key</em> - decrease game speed",
+<em>- key</em> - decrease game speed","您可以透過畫面下方的按鈕調整遊戲速度，或者使用按鍵：
+<em>Space</em> - 暫停/恢復
+<em>+  key</em> - 加速
+<em>- key</em> - 減速"
 5507,"Use the following to control the game speed:
 <DPadDown>/<DPadUp> - pause/unpause
 <DPadRight> - increase game speed
 <DPadLeft> -  decrease game speed
 ",
-5513,Probes,
-5514,"<em>Probes</em> will instantly scan a Sector of the map, revealing resource deposits and Anomalies in the area. Deploy a Probe with <left_click> or <em>X</em>.",
+5513,Probes,軌道探測衛星
+5514,"<em>Probes</em> will instantly scan a Sector of the map, revealing resource deposits and Anomalies in the area. Deploy a Probe with <left_click> or <em>X</em>.",<em>軌道探測衛星</em>  可以立即掃描地圖區塊，並快速的可以探索到可用的資源與觀察點。使用 <left_click> 或 <em>X</em>.以部屬衛星
 5515,<em>Probes</em> will instantly scan a sector of the map revealing resource deposits and anomalies in the area. Deploy a Probe with <ButtonX>.,
-5516,Surface Deposit,
-5517,Surface deposits can be exploited by <em>Drones</em>. They will automatically gather the resources and transport them where they are needed. Resources can be stockpiled in <em>Depots</em> or moved in bulk by <em>RC Transports</em>.,
-5519,"Concrete Extractors automatically produce <em>Concrete</em>, but they still need Power and <em>Drones</em> to service them. Place a <em>Concrete Extractor</em> near a Concrete deposit indicated by yellow terrain in a scanned Sector.",
-5520,Underground Deposit (Water),
-5521,Underground Water deposits can be exploited by <em>Water Extractors</em>. Water Extractors need Power and <em>Drones</em> to service them. Place a Water Extractor near a Water deposit.,
-5522,Underground Deposit (Metals),
-5523,"We are not yet ready to exploit underground Metal deposits. When Colonists arrive on Mars, they will be able to operate <em>Metals Extractors</em>.",
-5524,Underground Deposit (Rare Metals),
-5525,"We are not yet ready to exploit underground Rare Metal deposits. When Colonists arrive on Mars, they will be able to operate <em>Rare Metals Extractors</em>.",
-9,Anomaly,
-5526,We are detecting anomalous readings at this location. An <em>RC Explorer</em> vehicle can analyze the Anomaly.,
-4828,Rover,
-5527,<em>The RC Rover</em> serves as a mobile base for your Drones. It can be relocated by the <em>Move/Interact</em> button in its Infopanel or using <UnitMoveControl()>.,
+5516,Surface Deposit,地表資源
+5517,Surface deposits can be exploited by <em>Drones</em>. They will automatically gather the resources and transport them where they are needed. Resources can be stockpiled in <em>Depots</em> or moved in bulk by <em>RC Transports</em>.,地表資源可以由<em>無人機</em>或 <em>運輸車<em> 進行開採， 當它們範圍內有需求對應資源的時候，無人機將會自動前往採集這些資源。 資源可以集中堆放在 <em>儲存處</em> 也可利用<em>運輸車</em>來搬運較多的資源量
+5519,"Concrete Extractors automatically produce <em>Concrete</em>, but they still need Power and <em>Drones</em> to service them. Place a <em>Concrete Extractor</em> near a Concrete deposit indicated by yellow terrain in a scanned Sector.",<em>混凝土挖掘站</em>必須放置在看似黃白色紋路的資源地表上，建設時挖掘區域必須覆蓋與其上面才能進行挖掘。 混凝土挖掘站同時也需要電力以及無人機器的服務與維護。
+5520,Underground Deposit (Water),地底資源(水源)
+5521,Underground Water deposits can be exploited by <em>Water Extractors</em>. Water Extractors need Power and <em>Drones</em> to service them. Place a Water Extractor near a Water deposit.,"地下水資源處可以利用 <em>水資源挖掘站</em>進行採集。 挖掘站需要電力供應以及 <em>無人機</em>的服務與維護。 
+
+在水資源處附近 放置一台 水資源挖掘站"
+5522,Underground Deposit (Metals),地底資源(金屬)
+5523,"We are not yet ready to exploit underground Metal deposits. When Colonists arrive on Mars, they will be able to operate <em>Metals Extractors</em>.","我們現在還沒辦法挖掘這些地底的 金屬資源。
+這必須要有人員在 <em>金屬挖掘站</em>操作才能進行，所以我們必須等待首批殖民者踏上火星才能開採"
+5524,Underground Deposit (Rare Metals),地底資源(稀有金屬)
+5525,"We are not yet ready to exploit underground Rare Metal deposits. When Colonists arrive on Mars, they will be able to operate <em>Rare Metals Extractors</em>.","我們現在還沒辦法挖掘這些地底的 稀有金屬資源。
+這必須要有人員在 <em>稀有金屬挖掘站</em>操作才能進行，所以我們必須等待首批殖民者踏上火星才能開採"
+9,Anomaly,觀察點
+5526,We are detecting anomalous readings at this location. An <em>RC Explorer</em> vehicle can analyze the Anomaly.,"我們在這個地圖區塊發現了一個可疑的觀察點。
+指派一台 <em>探索者號</em> 前往調查分析這個觀察點"
+4828,Rover,探測車
+5527,<em>The RC Rover</em> serves as a mobile base for your Drones. It can be relocated by the <em>Move/Interact</em> button in its Infopanel or using <UnitMoveControl()>.,<em>漫遊者號</em> 是一台移動式的指揮所，用來傳達命令給範圍內且附屬於自身的無人機。 在控制面板點擊<em>移動/互動</em> 或者使用<UnitMoveControl()>. 指揮車輛
 5528,<em>The RC Rover</em> serves as a mobile base for your Drones. Manage the vehicle with <RT>. Relocate it by holding <RT> and then pressing <ButtonA>.,
-5530,Vehicle Orders,
-5531,"To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>.",
+5530,Vehicle Orders,命令車輛
+5531,"To command the selected vehicle, use the buttons in its Infopanel or use <UnitMoveControl()>.",可以利用車輛面板上的按鈕進行操作，或者使用 <UnitMoveControl()>.
 5532,To manage the selected vehicle press <RT>. Orders can be given quickly by holding <RT> and pressing any of the button shortcuts.,
 1683,RC Transport,運輸車
 5534,"The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.
-The Transport can establish a supply route between two points on the map.",
+The Transport can establish a supply route between two points on the map.","<em>運輸車</em> 通常是用來進行長途運輸資源，或者採集地表資源的工作。 可以利用車輛面板上的按鈕進行操作，或者使用 <UnitMoveControl()>.
+
+運輸車可以建立一條在地圖上 兩點間的補給路線"
 5535,"The <em>RC Transport</em> is used to carry resources at long range or gather resources from surface deposits. Manage the vehicle with <RT> or hold <RT> and press any of the button shortcuts to give orders quickly.
 The Transport can establish a supply route between two points on the map.",
 1684,RC Explorer,探索者
-7024,The <em>RC Explorer</em> can analyze Anomalies found on the surface of Mars. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.,
+7024,The <em>RC Explorer</em> can analyze Anomalies found on the surface of Mars. Orders are given with the buttons in the Infopanel or using <UnitMoveControl()>.,<em>探索者號</em> 可以用來調查火星地表上的各個觀察點。可以透過資訊面板中的按鈕進行指揮 或者使用 <UnitMoveControl()>.
 7025,The <em>RC Explorer</em> can analyze anomalies found on the surface of Mars. Manage the vehicle with <RT> or hold <RT> and press any of the button shortcuts to give orders quickly.,
 517,Drones,無人機
-7026,"Drones are automated workers that gather resources, construct structures and perform maintenance. They are controlled by a Drone Hub, Rocket or RC Rover and will automatically perform tasks in the <em>service area</em> of their controller.",
-79,Power,
+7026,"Drones are automated workers that gather resources, construct structures and perform maintenance. They are controlled by a Drone Hub, Rocket or RC Rover and will automatically perform tasks in the <em>service area</em> of their controller.",無人機是一部全自動化的工務型機器人，可用來採集資源、建築設施與執行維護工作。無人機可以由火箭、漫遊者號以及無人機中心在所允許的服務範圍內進行遙控。
+79,Power,電力
 5537,"One of your buildings needs electrical Power produced by <em>Solar Panels</em>, <em>Wind Turbines</em>, or another Power generator. Power consumers must be connected individually to producers with <em>Power Cables</em>.
-Note that Solar Panels work only during <em>daylight hours</em>, so you may want to store the excess energy in a <em>Power Accumulator</em>.",
-5303,Universal Depot,
+Note that Solar Panels work only during <em>daylight hours</em>, so you may want to store the excess energy in a <em>Power Accumulator</em>.","您的建築物中有些需要電力才能運作。您可以建造 <em>太陽能板</em>、<em>風力發電機</em> 及各式的發電機設備 來供應電力。 需要電力霄漢的建築物可以透過 <em>電線</em>來連接這些電力供應設施後才可以正常運作。
+
+提示：太陽能板僅有<em>白天</em>才可以供應電力， 所以您可能還需要額外建造<em>蓄電池</em>並連結太陽能板，盡可能將其電量充足後，在沒有日光的時候才能維持電力供應。"
+5303,Universal Depot,通用存放區
 5538,"Drones will stockpile all kinds of resources into a <em>Universal Depot</em>. Consider placing a Depot near each of your outposts.
 
-You can also construct specialized Depots for resources of a specific type.",
-5539,Malfunctions,
-5540,One of your buildings has malfunctioned. Malfunctions can be caused by lack of maintenance resources or environmental hazards. They can be repaired by Drones if the required maintenance resource is present in the area.,
-5541,Drone Batteries,
+You can also construct specialized Depots for resources of a specific type.","無人機將會把各種資源都儲存在 <em>通用存放區</em>上，所以您可以考慮設置一些存放區在您的各個據點中
+
+當然您也可以建築各別資源的存放區，獨立存放特定資源"
+5539,Malfunctions,故障與維護
+5540,One of your buildings has malfunctioned. Malfunctions can be caused by lack of maintenance resources or environmental hazards. They can be repaired by Drones if the required maintenance resource is present in the area.,"您的其中一座設施故障了。
+故障的原因可能是因為缺乏維護 或者是自然災害引起。 這些故障可以由服務範圍內的無人機自動前往修復， 當然前提必須是需要有足夠的修復資源"
+5541,Drone Batteries,無人機電力
 5542,"The batteries of this Drone are depleted. It can be recharged by other Drones or rescued by an <em>RC Rover</em>.
 
-Consider constructing <em>Recharge Stations</em> where such problems occur to prevent this in the future.",
-5543,Suggested Building: Sensor Tower,
+Consider constructing <em>Recharge Stations</em> where such problems occur to prevent this in the future.","一但無人機電力消耗殆盡後，它將無法移動，並在原地等待其它無人機前往支援，或者由<em>漫遊者號</em>前往進行救援。
+
+可以考慮建造一些 <em>充電站</em>以減少這一類的問題持續發生"
+5543,Suggested Building: Sensor Tower,建議建築：掃描塔
 5544,"Sensor Towers significantly boost your scanning speed for nearby Sectors. They also give advance warning for disasters.
 
-Note that <em>Sensor Towers</em> require electrical Power that must be provided by a Power generating building such as a <em>Large Solar Panel</em>.",
-5545,Scanning Sectors,
+Note that <em>Sensor Towers</em> require electrical Power that must be provided by a Power generating building such as a <em>Large Solar Panel</em>.","掃描塔可以加速 附近地圖區塊的掃瞄。 同時也提供天然災害的警告。
+
+提是：<em>掃描塔</em> 需要電力才能運作，所以記得使用電線連接至電力供應設備，如 <em>大型太陽能板</em>."
+5545,Scanning Sectors,掃描地圖區塊
 5546,"Your first Sensor Tower is now completed. It will significantly boost the speed for scanning Sectors nearby.
-To add a Sector to the scanning queue, go to the <em>Overview Mode</em> and <left_click> on the desired sector.",
+To add a Sector to the scanning queue, go to the <em>Overview Mode</em> and <left_click> on the desired sector.","您的首座 掃描塔已經搭建完成。
+現在它將大幅的加速您附近的地圖區塊掃描進度。
+
+您可以安排掃描區塊的先後順序，打開 <em>Overview Mode</em>  接著 <left_click> 依序點擊想要掃描的區塊"
 5547,"Your first Sensor Tower is now completed. It will significantly boost the speed for scanning sectors nearby.
 To add a sector to the scanning queue, go to the <em>Overview mode</em> and press <ButtonY> on the desired sector. ",
-5548,Suggested Building: Drone Hub,
-5549,The Drone Hub is a stationary command center that can control more Drones than the <em>RC Rover</em>. Consider constructing a Drone Hub in each of your major outposts.,
+5548,Suggested Building: Drone Hub,建議建築：無人機中心
+5549,The Drone Hub is a stationary command center that can control more Drones than the <em>RC Rover</em>. Consider constructing a Drone Hub in each of your major outposts.,無人機中心是一座廣域的指揮控制中心，可以遙控服務範圍內的附屬無人機群。 也因它的服務範圍遠大於 <em>漫遊者號</em>，所以可以考慮建造一座在您的主要據點上
 5550,"A Dust Storm has started. It will contaminate all your buildings and Drones with dust, potentially causing malfunctions. <em>MOXIEs</em> and <em>Moisture Vaporators</em> will not work during Dust Storms, while <em>Wind Turbines</em> will generate more Power.",
 5551,"A Cold Wave has started. Power consumption of buildings and Drones will be increased. If a power shortage occurs, buildings may freeze. Frozen buildings can be repaired after the disaster ends. <em>Water Towers</em> will not work during a Cold Wave.",
-4518,Waste Rock,廢棄物
-5552,Your Extractors produce Waste Rock as a by-product. Waste Rock can be stored in Dumping Sites or disposed around the Extractors. Extractors will temporarily stop working when there are not enough Drones to carry out the Waste Rock.,
+4518,Waste Rock,廢棄碎石
+5552,Your Extractors produce Waste Rock as a by-product. Waste Rock can be stored in Dumping Sites or disposed around the Extractors. Extractors will temporarily stop working when there are not enough Drones to carry out the Waste Rock.,"每座挖掘站都會因挖掘而產生許多無用的碎石，這些碎石可以被集中存放在<em>棄置場</em>，或者任由無人機隨意擺放在挖掘站附近。
+
+挖掘站如果沒有足夠的空間放置碎石的話，將會暫停運作，直到無人機前往清理"
 3997,Resupply,重新補給
-5553,"A Cargo Rocket can deliver additional supplies for the Colony, for example advanced resources such as <em>Polymers, Machine Parts and Electronics</em>. Open the Resupply UI to order a Cargo Rocket from Earth.",
+5553,"A Cargo Rocket can deliver additional supplies for the Colony, for example advanced resources such as <em>Polymers, Machine Parts and Electronics</em>. Open the Resupply UI to order a Cargo Rocket from Earth.","貨運火箭可以從地球載運更多補給品給殖民地運用。像是補給一些進階資源如<em>聚合物、機械零件及電子零件</em>。
+打開補給介面，像地球訂購一艘補給火箭"
 7564,"A Cargo Rocket can deliver additional supplies for the colony, for example advanced resources such as <em>Polymers, Machine Parts and Electronics</em>. Press <LT> and open the Resupply UI to order a Cargo Rocket from Earth.",
-5554,Resupply UI,
-5555,"Select a Cargo Rocket and load the desired payload up to the Rocket’s capacity and your available funding. Plan carefully, you have a limited number of Rockets and travel times are significant.",
-5503,Refueling the Rocket,
-5504,Rockets require fuel to return to Earth. Fuel is produced in a <em>Fuel Refinery</em> building that can be constructed from a prefab or researched. Fuel production requires Power and Water.,
-172,Priority,
+5554,Resupply UI,補給介面
+5555,"Select a Cargo Rocket and load the desired payload up to the Rocket’s capacity and your available funding. Plan carefully, you have a limited number of Rockets and travel times are significant.","選擇補給火箭並且裝載要送往殖民定的資源或預製零件。
+火箭的酬載量是有限的，而您的資金也是有限的，火箭往返也需要時間，所以請謹慎拿捏每一次的補給內容。"
+5503,Refueling the Rocket,火箭加油！
+5504,Rockets require fuel to return to Earth. Fuel is produced in a <em>Fuel Refinery</em> building that can be constructed from a prefab or researched. Fuel production requires Power and Water.,"火箭需要補給燃料才能返回地球。
+燃料可以經由<em>燃料精煉廠</em>生產。您可以透過地球訂購的預製零件建造，或者研發對應的科技。
+生產燃料還需要水與電力的供應。"
+172,Priority,優先權
 5556,Priority is set from the Infopanel of individual buildings and constructions. Drones will try to complete higher priority tasks before lower priority ones. Buildings with higher priority will receive resources and Power in case of shortages.,
-4806,Water Production,
+4806,Water Production,生產水資源
 5557,"Water can be produced by <em>Water Extractors</em> or <em>Moisture Vaporators</em>. Water Extractors require Water deposits, while Vaporator prefabs must be brought from Earth with resupply ships. Also consider setting up a <em>Water Tower</em> as an emergency storage. <em>Pipes</em> are used to connect all life support buildings.",
-5558,Air Production,
+5558,Air Production,生產氧氣
 5559,"Oxygen can be extracted from the atmosphere by a <em>MOXIE</em>. Since it is crucial for the survival of your future Colonists, an <em>Oxygen Tank</em> for storage is highly recommended. <em>Pipes</em> are used to connect all life support buildings.",
-5560,Too Early to Place a Dome,
+5560,Too Early to Place a Dome,太早建蓋蒼穹頂了
 5561,It might be a good idea to secure some Oxygen and Water supply before building your first Dome. You may cancel construction orders at any time before the building is ready.,
-83,Domes,
+83,Domes,蒼穹頂
 5562,<em>Domes</em> are habitable mega-structures in which the future Colonists on Mars will live. Their construction will take significant time and resources. Plan carefully when placing your first Dome – it has to be connected to a Water and Oxygen supply and Colonists from it will be able to work in the immediate area around it.,
-81,Life Support,
+81,Life Support,維生系統
 5563,"<em>Domes</em> have to be connected to working supply of Oxygen and Water with Pipes. <em>Colonists</em> will not be able to survive within the Dome if life support is not secured, so storage for Water and Oxygen is also recommended.",
-5564,Suggested Building: Living Quarters,
+5564,Suggested Building: Living Quarters,建議建築：宿舍
 5565,<em>Colonists</em> live in residential buildings within the <em>Domes</em>. The basic residential building is called <em>Living Quarters</em>.,
-5566,Passenger Rockets,
+5566,Passenger Rockets,客運火箭
 5567,"When you are ready you can invite the first Colonists to Mars. Launch a <em>Passenger Rocket</em> from Earth and land it near one of your Domes. The Rocket will carry some Food supplies, but you will have to secure Power, Oxygen, Water and living space in advance.",
-5568,Stats,
+5568,Stats,狀態
 5569,"<em>Colonists</em> have several basic stats. You can monitor the condition of each Colonist in their Infopanel. To maintain your Colonist’s good health, you need to provide them with Water, Oxygen, Food and access to operational Service Buildings.",
-5570,Suggested Building: Research Lab,
+5570,Suggested Building: Research Lab,建議建築：研究實驗室
 5571,A <em>Research Lab</em> will speed up the discovery of new technologies that will advance and improve the Colony.,
-5572,Research Available,
+5572,Research Available,有可研發的科技
 5573,"To start working on a technology, open the <em>Research</em> screen.",
 7565,"To start working on a technology, press <LT> and open the <em>Research</em> screen.",
-7434,Researching Technologies,
+7434,Researching Technologies,研發科技
 7435,Research will unlock various benefits for the Colony. Researching any technology will make a new technology in its field available for research. Changing your active research will preserve the progress of the previously researched technology.,
-1116,Passenger Rocket,
+1116,Passenger Rocket,客運火箭
 7436,The passenger rocket will deliver Colonists and a minimal food supply to Mars. Use <em>Review</em> to inspect the traits of the arrivals.,
-5574,Suggested Building: Hydroponic Farm,
+5574,Suggested Building: Hydroponic Farm,建議建築：水培農場
 5575,"Local Food production will be crucial to the survival of your Colonists. Consider constructing a <em>Hydroponic Farm</em>.
 Keep in mind that the initial Food production may not be sufficient for the Colony, so you may have to rely on <em>Ressuply Rockets carrying Food</em> from Earth.",
-5576,Comfort Stat and Services,
+5576,Comfort Stat and Services,舒適度 與 服務設施
 5577,"Colonists will visit buildings to increase their Comfort stat, according to their interests. They may become Earthsick and will want to leave the Colony if their Comfort becomes too low. Service Buildings are essential for the Colonists' Comfort.
 
 Suggested Building: <em>Diner</em>",
-87,Decorations,
+87,Decorations,裝飾您的殖民地
 5578,"Gardens, parks and other decorations can be visited by Colonists and require no workforce.
 
 Suggested Building: <em>Garden</em>",
-5579,Healthcare,
+5579,Healthcare,健康照護
 5580,"Healthcare Buildings will increase the Health and Sanity of the Colonists as long as they are not Starving, Thirsty, Freezing or Suffocating.
 
 Suggested Building: <em>Infirmary</em>",
-7027,Vehicle Batteries,
+7027,Vehicle Batteries,車輛電池
 7028,RC Transports are powered by batteries with limited capacity. To recharge them you have connect the vehicle to a Power grid or transfer Power from another vehicle with a charged battery.,
-7029,Earthsick Colonists,
-7030,"Colonists with very low Comfort will get <em>Earthsick</em>. They will stop working and travel back to Earth at first opportunity. To prevent this, make sure they have access to a variety of operational service Buildings that satisfy their different interests.",
-7031,Renegades,
-7032,"If the Morale in a Dome is too low, <em>Renegades</em> will appear. Renegades have reduced work Performance and will cause trouble. <em>Security Stations</em> can suppress them for a while, but to solve the problem you have to take steps to increase Morale.",
-5582,Buildings without Power: <count>,
-5583,Renegades Stole Resources,
-5584,<resource> stolen from <dome_name>!,
+7029,Earthsick Colonists,殖民者的鄉愁
+7030,"Colonists with very low Comfort will get <em>Earthsick</em>. They will stop working and travel back to Earth at first opportunity. To prevent this, make sure they have access to a variety of operational service Buildings that satisfy their different interests.","當殖民者長期處於不舒服的狀態時，可能會患有<em>思鄉病</em>。一但思鄉病發生後，患者只要一有機會返回地球，馬上就會丟下手邊的工作並狂奔像火箭。
+為了避免這個問題，確認殖民地內保有穩地的舒適度與服務設施，讓居民可以感到生活舒適且安全"
+7031,Renegades,叛徒
+7032,"If the Morale in a Dome is too low, <em>Renegades</em> will appear. Renegades have reduced work Performance and will cause trouble. <em>Security Stations</em> can suppress them for a while, but to solve the problem you have to take steps to increase Morale.",一但蒼穹頂內的士氣過預低落時，很可能就會產生<em>叛徒</em>。 叛逃者不但會降低工作效率，而且四處惹是生非！ 可以透過 <em>保安站</em>稍微控制狀況，但要徹底解決這個問題還是得提升整體的士氣。
+5582,Buildings without Power: <count>,缺電的設施 <count>
+5583,Renegades Stole Resources,遭叛徒偷取的資源
+5584,<resource> stolen from <dome_name>!,<dome_name> 有 <resource> 被偷了！
 8047,Crime Act Prevented,
 8048,Your Officers in <dome_name> stopped the Renegades!,
 5585,Renegades Sabotage Building,
@@ -2132,7 +2176,7 @@ Suggested Building: <em>Infirmary</em>",
 8120,Infection Level,
 8474,Cure Exported to Earth!,
 8121,War On Earth,
-8122,War Tension:,
+8122,War Tension:,厭戰：
 5662,History of Events,
 5422,Exploration,
 5663,Select a Sector to scan,
@@ -2450,10 +2494,12 @@ We are all here today not only because <ColonistName(colonist)> laid down the fo
 
 <hint>The Founder <ColonistName(colonist)> has the <em>Coward</em> Trait.",
 7097,Courage is finite.,
-5518,Suggested Building: Concrete Extractor,
+5518,Suggested Building: Concrete Extractor,建議建築：混凝土挖掘站
 7937,"Many of the colony buildings require Concrete for their construction. Due to the heavy weight of the material continuous imports from Earth are not practical in the long run and we have to secure its production in the colony.
 
-Concrete extractors must be placed over sulfur-rich regolith deposits - the yellow patches found often on the Martian surface. Like many other colony buildings, concrete extractors will require Power and regular maintenance from Drones.",
+Concrete extractors must be placed over sulfur-rich regolith deposits - the yellow patches found often on the Martian surface. Like many other colony buildings, concrete extractors will require Power and regular maintenance from Drones.","殖民地許多建設都需要使用到混凝土，但基於重量的考量，如果從地球上載運過來使用不但不划算，而且有不會是個長久之計。所以我們必須可以在火星上製造混凝土。
+
+混凝土挖掘站必須放置在看似黃白色紋路的資源地表上，建設時挖掘區域必須覆蓋與其上面才能進行挖掘。 混凝土挖掘站同時也需要電力以及無人機器的服務與維護。"
 7098,When Life Gives You Lemons...,
 7100,"Building a new home on an alien world? That takes guts, to say the least.",
 7099,"After all, purpose is the strongest long-term driver. Since arriving on Mars, <ColonistName(colonist)>'s enthusiasm has proven to be above average, even by Founder norms, and the prodigious productivity displayed can be boiled down to one simple explanation – <ColonistName(colonist)> really loves doing what <ColonistName(colonist)>‘s doing.
@@ -2603,7 +2649,7 @@ We are already swarmed with applications for relocation on Mars and the wanderlu
 1141,Exit to the main menu?,退出到主菜畫面？
 1138,Yes,是
 1139,No,否
-7765,There is not enough storage space. Delete old save data or disable Autosave from the Options menu.,
+7765,There is not enough storage space. Delete old save data or disable Autosave from the Options menu.,儲存空間不足。請刪除舊的存檔資料或是從選單中的選項中取消自動存檔功能。
 7766,The save data limit for this game was reached. Delete old save data or disable Autosave from the Options menu.,
 7130,Warning,警告
 7881,Autosave failed.<newline>Error code: <error_code>.,
@@ -2851,14 +2897,18 @@ As wise men throughout history said more than once: the more we know, the more w
 
 <effect> 一個地球上的天才申請者可供選擇。"
 5836,Nothing like a good puzzle!,
-7180,"Though initially fruitless, we recalibrated the operating spectrum for our scans and voila!",
+7180,"Though initially fruitless, we recalibrated the operating spectrum for our scans and voila!",雖然最初沒有結果，但在我們重新校正了掃瞄範圍之後，看！
 5837,"The unusual chemical composition of the regolith near the Anomaly site effectively shielded it from our data gathering. As we re-purposed and improved our scanning technology based on these new findings, we were rewarded with an unexpected surprise.
 
-<effect>Large Water deposit discovered.",
-7181,"There were no secrets to find near the Anomaly site, just a scene of breathtaking beauty.",
+<effect>Large Water deposit discovered.","觀測點附近土壤的化學成分非常有效地阻止我們蒐集數據，當我們根據這些新發現重新定位和改進掃描技術時，我們獲得了意外的驚喜。
+
+<effect>發現大型水資源點。"
+7181,"There were no secrets to find near the Anomaly site, just a scene of breathtaking beauty.",觀測點附近沒找到什麼秘密，只有一幅令人窒息的美景。
 5838,"Such photo-ops have proven to be useful for the mission, inspiring people on Earth to believe that humanity should create its new home on the Red Planet.
 
-<effect> A Celebrity Applicant is available on Earth.",
+<effect> A Celebrity Applicant is available on Earth.","這些攝影作品被證明對這項任務有用處，它激勵地球上的人們相信人類應該在紅色星球上建立新的家園。
+
+<effect> 一個地球上的明星申請者可供選擇。"
 7182,We discovered unusual crystals in the remains of a meteorite. The magnified images of their crystalline matrix were broadcast by every major news channel on Earth.,
 5839,"One tabloid even claims that the crystal is in fact artificially created - some kind of artwork of a microscopic alien race.
 
@@ -4134,7 +4184,7 @@ As the war has ravaged most of Earth's resource infrastructure, <reg_param1> is 
 
 We must send the requested supplies to Earth as soon as possible! If we do not act with all haste, there may be no living soul left to receive them very soon.",
 8218,Time is of the essence.,
-8219,War Tension: <reg_param1>%,
+8219,War Tension: <reg_param1>%,厭戰： <reg_param1>%
 8220,The Last War: Doomsday Clock,
 8221,Tensions are rising at a rate faster than even the most pessimistic predictions.,
 8222,"The UN has adopted the Doomsday Clock that the Bulletin of Atomic Scientists has used since the end of World War Two - to highlight how close humanity is to self-extinction. It is now set at Two Minutes to Midnight, a level at which it hasn’t been at since the early 21st century.",
@@ -4663,11 +4713,11 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6376,"<em>In-Dome buildings</em> require maintenance less often.
 
 <grey>Shifting focus away from ""fixing it"" to ""avoiding it"" is the natural step forward for any Martian habitat.</grey>",
-3533,Smart Home,
+3533,Smart Home,智慧住宅
 6377,"New Buildings: <em>Smart Homes</em> (<buildinginfo('SmartHome_Small')>)  & <em>Smart Complex</em> (<buildinginfo('SmartHome')>) - Provides a very comfortable living space for Colonists. Residents will recover Sanity when resting.
 
 <grey>Perfecting the Martian household - for a better life beyond Earth.</grey>",
-8637,Micro Manufacturing,
+8637,Micro Manufacturing,微電路製造
 8638,"New Building: <em>Electronics Factory</em> (<buildinginfo('ElectronicsFactory')>) - Produces Electronics from Rare Metals.
 
 <grey>""In the end, I hope there's a little note somewhere that says I designed a good computer.""
@@ -4688,19 +4738,19 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6384,"<em>Passenger Rockets</em> carry <param1> more Colonists.
 
 <grey>Cutting edge methods in space optimization and Comfort-centric designs make for a more practical Passenger Module.</grey>",
-6385,Gravity Engineering,
+6385,Gravity Engineering,重力工程學
 6386,"New Dome: <em>Mega</em> (<buildinginfo('DomeMega')>) - The most advanced and spacious Dome design.
 
 <grey>We have reached a proficiency in engineering that surpasses the most ambitious architectural achievements on Earth.</grey>",
-6389,Plasma Cutters,
+6389,Plasma Cutters,等離子切割機
 6390,"<em>Rare Metals Extractor</em> production increased by <param1>%.
 
 <grey>Introducing state of the art plasma torches to our Rare Metals Extractors show a great promise for boosts in production.</grey>",
-6393,Waste Rock Liquefaction,
+6393,Waste Rock Liquefaction,廢石液化
 7671,"Drones can extract concrete from <em>Waste Rock</em> stored in Dumping Sites.
 
 <grey>The utilization of lots of waste rock by reprocessing it into becoming concrete-grade regolith as part of our ""Nothing Is Wasted"" efficiency policy.</grey>",
-6395,Orbital Engineering,
+6395,Orbital Engineering,軌道工程
 6396,"Wonder: <em>Space Elevator</em> (<buildinginfo('SpaceElevator')>) - Exports Rare Metals to Earth and offers resupply materials and prefabs at preferential prices.
 
 <grey>""The space elevator will be built about 50 years after everyone stops laughing.""
@@ -4711,7 +4761,7 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6400,"The <em>RC Transport</em> harvests resources faster and its maximum storage is increased by <param1>.
 
 <grey>The remote location of some resource deposits calls for Transport Rover optimizations.</grey>",
-6401,Low-G Drive,
+6401,Low-G Drive,低重力駕駛技術
 6402,"<em>Drones</em> and <em>Rovers</em> move <param1>% faster.
 
 <grey>An engine design optimized for low-gravity environments.</grey>",
@@ -4728,37 +4778,54 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 3518,Drone Hub,無人機中心
 6407,"New Building: <em>Drone Hub</em> (<buildinginfo('DroneHub')>) - Controls Drones and allocates them to different jobs.
 
-<grey>We can now rely upon ourselves to build the complex Hubs that control our de facto heavy labor force.</grey>",
+<grey>We can now rely upon ourselves to build the complex Hubs that control our de facto heavy labor force.</grey>","新建築： <em> 無人機中心 </em> (<buildinginfo('DroneHub')>) - 控制並分配不同工作給無人機。
+
+<grey>We can now rely upon ourselves to build the complex Hubs that control our de facto heavy labor force.</grey>"
 6405,Battery Optimization,電池最佳化
 6406,"<em>Drone</em> battery capacity increased by <param1>%.
 
-<grey>Advances in power accumulator technology allow Drones to function longer before needing to recharge.</grey>",
+<grey>Advances in power accumulator technology allow Drones to function longer before needing to recharge.</grey>","<em> 無人機 </em> 電力容量增加 <param1>%.
+
+<grey>Advances in power accumulator technology allow Drones to function longer before needing to recharge.</grey>"
 8001,Rover Command AI,漫遊者控制 AI
 8002,"The <em>RC Rover</em> no longer needs recharging, starts with <param1> additional Drones and command limit increased by <param2>. 
 
-<grey>Developing a specialized AI with greater autonomy and advanced multitasking capabilities will allow our rovers to control more drones simultaneously.</grey>",
-6410,Drone Printing,
+<grey>Developing a specialized AI with greater autonomy and advanced multitasking capabilities will allow our rovers to control more drones simultaneously.</grey>","<em>漫遊者號</em> 將不再需要電力了，且出產時自攜帶無人機數量也額外增加 <param1> 台，可遙控單位數量上限擴充 <param2> 台
+
+<grey>Developing a specialized AI with greater autonomy and advanced multitasking capabilities will allow our rovers to control more drones simultaneously.</grey>"
+6410,Drone Printing,無人機列印技術
 6411,"New Building: <em>Drone Assembler</em> (<buildinginfo('DroneFactory')>) - Constructs Drone Prefabs from Electronics which can then be used in Drone Hubs to construct new drones.
 
-<grey>We may now print and assemble entire Drones on Mars with Martian-mined materials.</grey>",
-8639,3D Machining,
+<grey>We may now print and assemble entire Drones on Mars with Martian-mined materials.</grey>","新建築： <em> 無人機裝配廠 </em> (<buildinginfo('DroneFactory')>) - 使用電子零件 製造無人機預製零件，預製零件可在無人機中心 裝配新的無人機。
+
+<grey>We may now print and assemble entire Drones on Mars with Martian-mined materials.</grey>"
+8639,3D Machining,機械 3D 加工技術
 8640,"New Building: <em>Machine Parts Factory</em> (<buildinginfo('MachinePartsFactory')>) - Produces Machine Parts from Metals.
 
-<grey>Mastering the peculiarities of Martian ores has allowed us to make 3D Metal Printers, which will serve as the foundation for all future Martian industry.</grey>",
-6414,CO2 Jet Propulsion,
+<grey>Mastering the peculiarities of Martian ores has allowed us to make 3D Metal Printers, which will serve as the foundation for all future Martian industry.</grey>","新建築： <em> 機械零件廠 </em> (<buildinginfo('MachinePartsFactory')>) - 使用金屬生產 機械零件
+
+<grey>Mastering the peculiarities of Martian ores has allowed us to make 3D Metal Printers, which will serve as the foundation for all future Martian industry.</grey>"
+6414,CO2 Jet Propulsion,CO2噴射推進系統
 6415,"New Building: <em>Shuttle Hub</em> (<buildinginfo('ShuttleHub')>) - Houses and refuels Shuttles that facilitate <em>long-range transportation</em> of resources between Depots and resettling of Colonists between Domes.
 
-<grey>Adapting an air-breathing jet engine to work in the 95% carbon dioxide atmosphere of Mars is a challenge.</grey>",
-6408,Fueled Extractors,
+<grey>Adapting an air-breathing jet engine to work in the 95% carbon dioxide atmosphere of Mars is a challenge.</grey>","新建築： <em> 客貨機服務站 </em> (<buildinginfo('ShuttleHub')>) - Houses and refuels Shuttles that facilitate <em>long-range transportation</em> of resources between Depots and resettling of Colonists between Domes.
+
+<grey>Adapting an air-breathing jet engine to work in the 95% carbon dioxide atmosphere of Mars is a challenge.</grey>"
+6408,Fueled Extractors,燃料式挖掘站
 6409,"Extractor Upgrade (<em>Fueled Extractor</em>) - Production increased by <param1>% as long as the building is supplied with Fuel.
 
 <grey>""We should not just consume hydrocarbon fuel but use it to develop nuclear energy, hydro power and renewable energy sources.""
-<right>Vladimir Putin<left></grey>",
-5054,Factory AI,
+<right>Vladimir Putin<left></grey>","挖掘站升級（<em> 燃料式挖掘站 </em>）- 當有燃料供應此建築時，產出增加 <param1>%
+
+<grey>""We should not just consume hydrocarbon fuel but use it to develop nuclear energy, hydro power and renewable energy sources.""
+<right>Vladimir Putin<left></grey>"
+5054,Factory AI,工廠管理 AI
 6418,"Factory Upgrade (<em>Factory AI</em>) - performance increased by <param1>%.
 
-<grey>After extensive trials and the allocation of many resources to the program, a work-safe AI has been developed to optimize various Factory operations.</grey>",
-6421,Martian Aerodynamics,
+<grey>After extensive trials and the allocation of many resources to the program, a work-safe AI has been developed to optimize various Factory operations.</grey>","工廠升級（<em> 工廠管理 AI </em>）- 效率提升 <param1>%.
+
+<grey>After extensive trials and the allocation of many resources to the program, a work-safe AI has been developed to optimize various Factory operations.</grey>"
+6421,Martian Aerodynamics,火星空氣動力學
 6422,"<em>Shuttle</em> speed increased by <param1>%.
 
 <grey>Designing shuttles for flight in a low density/low pressure atmosphere is more efficient when designing them in a low density/low pressure atmosphere.</grey>",
@@ -4810,10 +4877,12 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 
 <grey>""The Universe is under no obligation to make sense to you."" 
 <right>Neil deGrasse Tyson</grey><left>",
-3521,Stirling Generator,
+3521,Stirling Generator,斯特林發電機
 6450,"New Building: <em>Stirling Generator</em> (<buildinginfo('StirlingGenerator')>) - Generates Power. While closed the Generator is protected from dust, but produces less Power.
 
-<grey>The Stirling Radioisotope Generator is a generator based on a Stirling engine powered by a large radioisotope heater unit.</grey>",
+<grey>The Stirling Radioisotope Generator is a generator based on a Stirling engine powered by a large radioisotope heater unit.</grey>","新建築：<em>斯特林發電機</em> (<buildinginfo('StirlingGenerator')>) - 可以生產電力。關閉圓頂罩的時候可以避免入塵的損害，不過發電效率將會下降許多
+
+<grey>The Stirling Radioisotope Generator is a generator based on a Stirling engine powered by a large radioisotope heater unit.</grey>"
 5013,Atomic Accumulator,
 6451,"New Building: <em>Atomic Accumulator</em> (<buildinginfo('AtomicBattery')>) - Stores electrical Power. Has huge capacity but charges slowly.
 
@@ -5254,7 +5323,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7929,"Stirling Generator Upgrade (<em>Plutonium Core</em>) - Increased Power production while opened.
 
 <grey>""Nor are we the culmination of evolution, except in the sense that there has never been another species so bizarrely ingenious that it could create both iambic pentameter and plutonium.""
-<right>David Quammen</grey><left>","斯特林發電機升級 （<em>鈽核</em>） ─ 啟動時增加電力生產。
+<right>David Quammen</grey><left>","斯特林發電機升級 （<em>鈽核</em>） ─ 當完全展開圓頂罩的時候，將會有更好的發電效率。
 
 <grey>""Nor are we the culmination of evolution, except in the sense that there has never been another species so bizarrely ingenious that it could create both iambic pentameter and plutonium.""
 <right>David Quammen</grey><left>"
@@ -5468,7 +5537,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7324,Low battery,
 7325,Empty battery,
 7601,Battery,電池
-7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
+7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline> 能源 <right><percent(BatteryPerc)><newline><left><battery_ui_str>
 40,Recharge,充電
 41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其它車輛為電池充電。
 42,Cancel recharge.,取消充電
@@ -5519,7 +5588,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 89,No consumption,
 90,Visit,
 92,Restore Upgrade Defaults,
-101,Upgrade Time Cost,
+101,Upgrade Time Cost,需要時間
 102,Modifier Target 1,
 103,Modifier Label 1,
 104,Modified Property 1,
@@ -5551,12 +5620,12 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 389,Maintenance already requested,
 390,No deterioration,
 129,<n> h,
-95,Concrete Cost,
-96,Metals Cost,
-97,Polymers Cost,
-98,Electronics Cost,
-99,Machine Parts Cost,
-100,Rare Metals Cost,
+95,Concrete Cost,混凝土花費
+96,Metals Cost,金屬花費
+97,Polymers Cost,聚合物花費
+98,Electronics Cost,電子零件花費
+99,Machine Parts Cost,機械零件花費
+100,Rare Metals Cost,稀有金屬花費
 131,Black Cubes Cost,
 132,Construction Entity,
 133,Build Points,
@@ -6058,7 +6127,7 @@ Services: <em><list></em>",
 7702,No operational Domes in walking distance.,
 7703,Far from operational Domes,
 852,This sector is not yet scanned. The construction will possibly make resource deposits or Anomalies unreachable.,
-853,Unexplored sector,
+853,Unexplored sector,未掃描的地圖區塊
 854,Must be constructed over a power cable.,
 855,Must be built on a cable,
 856,Must be constructed over a pipe.,
@@ -6163,7 +6232,7 @@ Services: <em><list></em>",
 588,Empty,
 948,Full,
 949,idle,
-976,Unexplored,
+976,Unexplored,未掃描
 977,Scanned,
 978,Deep Scanned,
 979,"<em>Scanned, scan again for deep deposits and Anomalies</em>",
@@ -8686,35 +8755,35 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 3559,ms,
 3560,Move Units,
 3561,Both,
-3562,Fullscreen Mode,
-1601,Resolution,
-3563,Refresh Rate,
-3564,Vsync,
-3565,UI Scale,
-3566,Brightness,
-3568,Shadows,
-3569,Textures,
-3570,Anisotropy,
+3562,Fullscreen Mode,全螢幕模式
+1601,Resolution,解析度
+3563,Refresh Rate,更新率
+3564,Vsync,Vsync
+3565,UI Scale,UI比例
+3566,Brightness,亮度
+3568,Shadows,陰影
+3569,Textures,紋理
+3570,Anisotropy,非等項性
 3571,Effects,
 3572,Lights,
 3573,Postprocessing,
 3574,Bloom,
 8034,Eye Adaptation,
 3455,Vignette,
-3575,Antialiasing,
+3575,Antialiasing,反鋸齒
 3576,View Distance,
 7772,Object Detail,
 3577,Resolution Percent,
 3578,Framerate Counter,
-3579,Master Volume,
-3580,Music,
-3581,Sounds,
-7811,Voice,
-3582,Mute when Minimized,
+3579,Master Volume,主音量
+3580,Music,音樂
+3581,Sounds,音效
+7811,Voice,語音
+3582,Mute when Minimized,最小化時靜音
 3583,Radio Station,
-3584,Invert Mouse Wheel,
-3585,Invert Look,
-3586,Invert Rotation,
+3584,Invert Mouse Wheel,反轉滾輪
+3585,Invert Look,Invert Look
+3586,Invert Rotation,反轉旋轉
 3587,Scroll Outside Window,
 3588,Right-click Action,
 3589,Controller,
@@ -9287,13 +9356,13 @@ Some features may not work.",
 6892,Longitude,
 6893,-180 to 180,
 1153,Display Name,
-6894,Quickstart,
+6894,Quickstart,快速開始
 4154,Relatively Flat,相對平坦
 4155,Rough,崎嶇不平
 4156,Steep,山勢險峻
 4157,Mountainious,群山環繞
-4134,Terrain,Terrain
-4135,Altitude,Altitude
+4134,Terrain,地形
+4135,Altitude,海拔
 4136,Metals and Rare metals. Metals are important for field buildings while Rare Metals are exported to Earth and used in the production of Electronics.,
 4137,"Concrete is used in the construction of many Colony buildings, especially in the interior of the Domes",
 4138,Most vital resource for sustaining humans on Mars. Water can be extracted from deposits using prefab Moisture Vaporators transported from Earth,
@@ -9341,8 +9410,8 @@ Some features may not work.",
 3825,Rollover 4 Hint 1,
 3826,Rollover 4 Hint 2,
 6896,"Mission Control, Log #<number><newline><newline>",
-4167,Return to Earth?,
-4263,Press any button,
+4167,Return to Earth?,回到地球？
+4263,Press any button,按下任何鍵
 1000623,You are not signed into a profile. You will be unable to save any game content until you sign in.,
 4178,Rover Actions,
 4179,Load <res>,
@@ -9508,11 +9577,11 @@ Some features may not work.",
 666,Freeze Time,
 667,Freeze Heat,
 4389,Freeze Chance Die,
-4390,"An automated unit controlled by a Drone Hub, Rocket or RC Rover. Gathers resources, constructs buildings and performs maintenance.",
-4391,"<description><newline><newline>Current status: <em><ui_command></em><newline>Battery<right><power(battery,battery_max)>",
-4434,Perform repairs on target building. Repairs may require maintenance resources.,
-4428,"Assign to target Hub, Rover or Rocket.",
-8535,No resource loaded.,
+4390,"An automated unit controlled by a Drone Hub, Rocket or RC Rover. Gathers resources, constructs buildings and performs maintenance.",一台自動化的工作單位，由火箭、漫遊者或無人機中心進行遙控。可以指揮其進行資源採集、建造設施與設備維護
+4391,"<description><newline><newline>Current status: <em><ui_command></em><newline>Battery<right><power(battery,battery_max)>","<description><newline><newline>目前狀態：<em><ui_command></em><newline>電池<right><power(battery,battery_max)>"
+4434,Perform repairs on target building. Repairs may require maintenance resources.,在目標設施上進行維護。維護工作可能會需要花費額外的資源
+4428,"Assign to target Hub, Rover or Rocket.",轉移指揮權給 火箭、漫遊者及無人機中心
+8535,No resource loaded.,沒有攜帶資源
 4395,<em>Ctrl + <left_click></em>: Recharge self,
 4397,<em>Ctrl + <left_click></em>: Get resources,
 4398,<em>Ctrl + <left_click></em>: Work on this construction,
@@ -9531,25 +9600,25 @@ Some features may not work.",
 4392,This Drone is disabled,
 720,Nothing,
 7395,"<resource(amount,resource)>",
-7396,Location,
+7396,Location,地點
 4439,Going to<right><h SelectTarget InfopanelSelect><Target></h>,
 7397,No particular destination,
 63,Travelling,
 65,Malfunctioned,
 4406,Out of Power,
-4407,Recharging,
-6939,Idle,
-4408,Repairing Drone,
-8503,Recharging Drone,
-76,Performing maintenance,
+4407,Recharging,充電中
+6939,Idle,閒置
+4408,Repairing Drone,維修無人機中
+8503,Recharging Drone,無人機充電中
+76,Performing maintenance,執行維護中
 4409,Working in mine,
 57,Constructing,
-4410,Waiting for tasks,
+4410,Waiting for tasks,等待指派任務
 7398,Delivering <Resource>,
 4411,Going to pick up <SRequestResource>,
 7813,<red>This unit is frozen and will suffer a critical malfunction unless repaired quickly.</red>,
 4413,<red>This unit has been destroyed. It can be salvaged for materials.</red>,
-4414,Deploying,
+4414,Deploying,部屬中
 8105,Returning to controller,
 4415,Leaving the RC Rover,
 4416,Returning to RC Rover,
@@ -9560,30 +9629,30 @@ Some features may not work.",
 8504,Going to recharge batteries,
 4420,Waiting for recharge station to become available,
 4421,Searching for a recharge station,
-77,Unknown,
+77,Unknown,未知
 7399,The Drone will be salvaged in <em><countdown></em> sec.,
-1000037,Name,
-4454,Move Speed,
+1000037,Name,名字
+4454,Move Speed,移動速度
 4463,Give command to move or harvest resources.,
 4483,Give command to move or repair Drones.,
 4424,Give command to move or interact with an object.,
 7401,<left_click> Select target mode<newline><UnitMoveControl()> on target to move or interact,
-4455,A remote-controlled exploration vehicle that can analyze Anomalies.,
+4455,A remote-controlled exploration vehicle that can analyze Anomalies.,用於探索分析地表上發現之 觀察點 的遠端遙控車輛
 643,Range,
-7678,RC Rover,
-4485,Recall Drones,
-4487,Recall all Drones commanded by this Rover.,
-8023,<left_click> Recall <newline><em>Ctrl + <left_click></em> Recall for all Rovers,
+7678,RC Rover,漫遊者號
+4485,Recall Drones,召回無人機
+4487,Recall all Drones commanded by this Rover.,召回由這台漫遊者號所遙控的無人機群
+8023,<left_click> Recall <newline><em>Ctrl + <left_click></em> Recall for all Rovers,<left_click> 召回 <newline><em>Ctrl + <left_click></em> 全漫遊者號執行召回命令
 8024,<ButtonA> Recall <newline><ButtonX> Recall for all Rovers,
-4484,Deploy Drones,
-4486,Deploy Drones and remain on standby at this location.,
-8025,<left_click> Deploy <newline><em>Ctrl + <left_click></em> Deploy for all Rovers,
+4484,Deploy Drones,部屬無人機
+4486,Deploy Drones and remain on standby at this location.,部屬無人機，他們會在原地待命
+8025,<left_click> Deploy <newline><em>Ctrl + <left_click></em> Deploy for all Rovers,<left_click> 部屬 <newline><em>Ctrl + <left_click></em> 全漫遊者號執行部屬命令
 8026,<ButtonA> Deploy <newline><ButtonX> Deploy for all Rovers,
-4480,RC Rover has malfunctioned and is awaiting repairs.,
-4481,RC Rover is out of battery and cannot give new orders to controlled Drones.,
-4482,RC Rover is moving and won’t give new orders to controlled Drones.,
-765,Pin Rollover,
-4460,Max RC Transport resource capacity,
+4480,RC Rover has malfunctioned and is awaiting repairs.,漫遊者號完全故障了，正在等待維護
+4481,RC Rover is out of battery and cannot give new orders to controlled Drones.,漫遊者號電力已耗盡，無法再給予任何遙控指令
+4482,RC Rover is moving and won’t give new orders to controlled Drones.,當漫遊者號移動的時候，無法給予出新的遙控指令
+765,Pin Rollover,釘選 漫遊者號
+4460,Max RC Transport resource capacity,運輸車最大資源載運量
 4462,<Description><newline><newline><left>Concrete<right><concrete(Stored_Concrete)><newline><left>Metals<right><metals(Stored_Metals)><newline><left>Polymers<right><polymers(Stored_Polymers)><newline><left>Food<right><food(Stored_Food)><newline><left>Electronics<right><electronics(Stored_Electronics)><newline><left>Machine Parts<right><machineparts(Stored_MachineParts)><newline><left>Rare Metals<right><preciousmetals(Stored_PreciousMetals)><newline><left>Fuel<right><fuel(Stored_Fuel)>,
 7554,Load resources,裝載資源
 4499,Give command to load or harvest resources.,命令裝載 或 採集資源
@@ -9722,7 +9791,7 @@ Some features may not work.",
 3485,<ButtonA> Choose Logo,<ButtonA> 選擇商標
 3486,Mystery,謎團
 3487,MYSTERY,謎團
-3488,Select an active storyline for this playthrough.,選擇此次由完的故事內容
+3488,Select an active storyline for this playthrough.,選擇此局的故事內容
 3489,<ButtonA> Choose Mystery,<ButtonA> 選擇謎團
 3546,Starting Rockets: <rockets>,起始火箭: <rockets>
 4065,<color 203 120 30><font PGLandingPosName><name></font></color><newline>,
@@ -9785,7 +9854,7 @@ Some features may not work.",
 796804896133,Radio,收音機
 970807214544,Resupply Screen,補給面板
 771055429123,Research Screen,研究面板
-7849,Colony Overview,殖民總攬
+7849,Colony Overview,殖民總覽
 973748367669,Milestones,里程碑
 697482021580,Achievements,成就
 7695,Next Dome,下一座蒼穹頂
@@ -9862,7 +9931,7 @@ Some features may not work.",
 5460,FILTER,過濾
 526116656618,<display_name>,
 1142,Controller Layout,控制器設定
-7874,Wireless Controller Layout,無限控制器設定
+7874,Wireless Controller Layout,無線控制器設定
 5470,AUTO DETECT,自動偵測
 5468,RESTORE DEFAULTS,重設預設值
 5469,RESET TO DEFAULTS,重設預設值
@@ -9978,7 +10047,7 @@ Some features may not work.",
 6779,Warning,警告
 1132,QUIT,退出遊戲
 4252,Autosaving...,自動存檔中...
-492,Amount of stored Black Cubes.,
+492,Amount of stored Black Cubes.,已儲存黑立方數量
 493,"<resource('BlackCube' )><right><blackcube(Stored_BlackCube, MaxAmount_BlackCube)>",
 535,Progress creating the next clone.,正在建立下個複製人的進度
 534,Cloning progress,複製進度
@@ -10059,9 +10128,9 @@ Some features may not work.",
 398,In flight<right><FlyingShuttles>,飛行中<right><FlyingShuttles>
 717110331584,Idle<right><IdleShuttles>,閒置<right><IdleShuttles>
 7818,Forbid Exports,禁止出口
-7819,Forbid the export of Rare Metals.,禁止出口貴重金屬
+7819,Forbid the export of Rare Metals.,禁止出口稀有金屬
 7820,Allow Exports,允許出口
-7821,Allow the export of Rare Metals.,允許出口貴重金屬
+7821,Allow the export of Rare Metals.,允許出口稀有金屬
 7694,Current status of the Space Elevator.,太空電梯目前狀態
 418,<Status>,
 7410,Payload of this Rocket,火箭的酬載內容
@@ -10082,7 +10151,7 @@ Some features may not work.",
 428,Increasing the area of effect will greatly increase the Water consumption of the building.<newline><newline>Service range<right><SelectionRadiusScale> hexes,
 625375195830,Initiates launch sequence for the return trip to Earth. Note that the rocket has to be refueled and any remaining resources on board will be lost.<newline><newline>Status: <em><UILaunchStatus></em>,
 526598507877,Launch,發射
-7815,Automated Mode not possible while Rare Metal exports are forbidden.,當貴重金屬設定為禁止出口的話，自動往返模式將不會啟用。
+7815,Automated Mode not possible while Rare Metal exports are forbidden.,當稀有金屬設定為禁止出口的話，自動往返模式將不會啟用。
 7816,"If Automated mode is activated the Rocket will repeatedly travel to Earth and back. It will land on the same spot and won't carry any imports or passengers from Earth. The Rocket will launch to Earth when the cargo hold is full and the rocket is refueled.
 
 Current status: <em>Automated Mode</em>","如果啟用自動往返模式的話，火箭將會在油料補充完畢 且出口貨物滿載的時候，自動啟程飛回地球。並且不會攜帶任何乘客或貨物的直接回到原地降落。
@@ -10130,7 +10199,7 @@ Current status: Exports are <em>forbidden</em>.",
 427664763631,Scan Progress,
 944541850261,The structural integrity of this vehicle will decrease on each missile hit. The vehicle will be disabled at 0 integrity.,
 678706263894,"Structural Integrity <percent(current_health, max_health)>",
-7606,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
+7606,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>
 7607,Battery,
 7658,<left><left_click> Increase priority<right><right_click> Decrease priority<newline><center><em>Ctrl + <left_click></em> Change priority of all <display_name_pl>,
 7659,<ButtonA> Change priority<newline><ButtonX> Change priority of all <display_name_pl>,
@@ -10213,8 +10282,8 @@ Current status: Exports are <em>forbidden</em>.",
 584248706535,Carrying<right><ResourceAmount>,
 682763161598,<DestName>,
 643657264628,<left>Commanded by<right><h SelectCommandCenter InfopanelSelect><CommandCenterName></h>,
-4445,Drones will seek a recharge station on low battery. Powered down Drones can be recharged by maintenance Drones or RC Rovers.,
-7608,"Battery  <percent(battery,battery_max)>",
+4445,Drones will seek a recharge station on low battery. Powered down Drones can be recharged by maintenance Drones or RC Rovers.,當無人機低電力的時候，會自動尋找附近可使用的充電站。電力耗盡的無人機可以由漫遊者號 或者 其它無人機前往進行充電與維護
+7608,"Battery  <percent(battery,battery_max)>","電池  <percent(battery,battery_max)>"
 544163488314,Using <red><percent(ColdPenalty)></red> more Power due to freezing weather,
 222599397553,Slowed down <red><percent(DustDevilPenalty)></red> by a Dust Devil,
 4449,Dust Accumulated<right><percent(dust)>,
@@ -10245,7 +10314,7 @@ Current status: Exports are <em>forbidden</em>.",
 436167298715,<FundingRollover>,
 3617,Available funding<right><white><funding(Funding)></white>,
 491631842119,<ResearchRollover>,
-357380421238,Research,
+357380421238,Research,研究
 7873,Research per Sol<right><white><ResearchPoints(EstimatedRP)></white>,
 293266371918,<GridRollover>,
 3618,Grid Resources,
@@ -10264,12 +10333,12 @@ Current status: Exports are <em>forbidden</em>.",
 3672,Fuel<right><fuel(AvailableFuel)>,燃料 <right><fuel(AvailableFuel)>
 10,<Description>,
 370449987367,Priority affects how often this building is serviced by Drones as well as its share of Power and life support. Notifications are not shown for buildings with low priority.<newline><newline>Current priority: <em><UIPriority></em>,
-369,Change Priority,
+369,Change Priority,改變優先度
 577516035564,<left><left_click> Increase priority<right><right_click> Decrease priority,
 870954837374,<left><ButtonA> Increase priority<right><ButtonX> Decrease priority,
-6764,Cancel,
+6764,Cancel,取消
 699,Cancel demolition.,
-697,Destroy,
+697,Destroy,摧毀
 698,Destroy this pile of cubes.,
 3674,"<resource(resource)><right><resource(StoredAmount,resource)>",
 677988939612,Vehicle inactive.,
@@ -10291,11 +10360,11 @@ Current status: Exports are <em>forbidden</em>.",
 4489,Proximity to a high number of Black Cubes may cause malfunctions,
 407,<em><percent(black_cube_interaction_perc_for_ui)></em> chance to malfunction,
 4490,All Drones were recalled and will remain in the Rover until deployed,
-4492,Total number of Drones in the RC Rover.,
-4491,Drones<right><count(drones)>/<MaxDrones>,
+4492,Total number of Drones in the RC Rover.,漫遊者號所遙控的無人機數
+4491,Drones<right><count(drones)>/<MaxDrones>,無人機 <right><count(drones)>/<MaxDrones>
 4447,Slowed down <red><percent(DustDevilPenalty)></red> by a Dust Devil,
 917384214249,Basic and Advanced resources available from this vehicle,
-704943662903,Resources carried,
+704943662903,Resources carried,攜帶中的資源
 343032565187,Concrete<right><concrete(Stored_Concrete)>,混凝土 <right><concrete(Stored_Concrete)>
 455677282700,Metals<right><metals(Stored_Metals)>,金屬 <right><metals(Stored_Metals)>
 788345915802,Food<right><food(Stored_Food)>,食物 <right><food(Stored_Food)>
@@ -10305,9 +10374,9 @@ Current status: Exports are <em>forbidden</em>.",
 407728864620,Machine Parts<right><machineparts(Stored_MachineParts)>,機械零件<right><machineparts(Stored_MachineParts)>
 317815331128,Fuel<right><fuel(Stored_Fuel)>,燃料 <right><fuel(Stored_Fuel)>
 725519231960,Available storage space. This vehicle will stop gathering resources once full.,
-109035890389,Capacity,
-452762661451,Capacity<right><resource(StoredAmount)>/<resource(max_shared_storage)>,
-39,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline><left><battery_ui_str>",
+109035890389,Capacity,載運量
+452762661451,Capacity<right><resource(StoredAmount)>/<resource(max_shared_storage)>,載運量<right><resource(StoredAmount)>/<resource(max_shared_storage)>
+39,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline><left><battery_ui_str>
 38,Battery  <percent(BatteryPerc)>,
 660271041264,<CarriedResourceStr>,
 7419,<Description>,
@@ -10491,19 +10560,19 @@ Current status: Exports are <em>forbidden</em>.",
 736926488042,<left_click> Toggle Overtime  <newline><em>Ctrl + <left_click></em> Toggle Overtime for all <display_name_pl>,
 762021223496,<ButtonA> Toggle Overtime <newline><newline><ButtonX> Toggle Overtime for all <display_name_pl>,
 143236127522,Building performance<right><em><performance></em><nbsp><nbsp>,
-7909,Basic construction material often used to construct and maintain Domes and Dome buildings.,
-7910,Basic construction materials often used to construct and maintain outside buildings. Required for the creation of Machine Parts.,
-7911,"Advanced materials often used to construct and maintain Power accumulators, advanced Power generators, Domes and Spires.",
-7912,Advanced materials often used to construct and maintain scientific and infrastructure buildings.,
+7909,Basic construction material often used to construct and maintain Domes and Dome buildings.,基礎的建築材料，通常用來建造與維護 蒼穹頂本身與其相關的設施
+7910,Basic construction materials often used to construct and maintain outside buildings. Required for the creation of Machine Parts.,基礎的建築材料，通常用來建造與維護 戶外建築物。同時也是 生產機械零件的原料
+7911,"Advanced materials often used to construct and maintain Power accumulators, advanced Power generators, Domes and Spires.",進階原料，通常用來建造與維護蓄電設施、進階發電機、蒼穹頂 及 尖端科技設備
+7912,Advanced materials often used to construct and maintain scientific and infrastructure buildings.,進階原料，通常用來建造與維護科學設施以及電子類相關基礎設施
 3516,Machine Parts,機械零件
-7913,Advanced materials often used to construct and maintain Extractors and Factories.,
-7985,Can be exported to Earth for Funding or processed into Electronics.,
+7913,Advanced materials often used to construct and maintain Extractors and Factories.,進階原料，通常用來建造與維護 各式挖掘站 與 各類工廠
+7985,Can be exported to Earth for Funding or processed into Electronics.,可以用來當成出口貨物送回地球販售，或者將其轉換成 電子零件
 4764,Black Cubes,
-7914,"Colonists arrive with nominal Food supply, but will soon need additional provisions to survive.",
-7986,Advanced resource produced in Fuel Refineries from Water. Required for the refuelling of Rockets. Highly explosive.,
-3613,Funding,
-8064,Mystery Resource,
-8065,Mystery Resource Description,
+7914,"Colonists arrive with nominal Food supply, but will soon need additional provisions to survive.",殖民者再前往火星時會攜帶一些食物補給， 但那很快就會消耗完畢， 所以可能需要追加更多的食物補給， 讓當地的殖民者有機會生存下去
+7986,Advanced resource produced in Fuel Refineries from Water. Required for the refuelling of Rockets. Highly explosive.,進階原料，由燃料精煉廠透過水資源精煉而成。是火箭返航的重要資源。易爆炸
+3613,Funding,資金
+8064,Mystery Resource,神秘的資源
+8065,Mystery Resource Description,神秘的資源敘述
 7697,<em>Effect:</em>,
 4774,<em>Hint:</em>,
 4773,<em>Goal:</em>,
@@ -10568,7 +10637,7 @@ Current status: Exports are <em>forbidden</em>.",
 4825,Upgrade 3,
 4826,Pin,
 4827,Interaction,
-1000130,Gameplay,
+1000130,Gameplay,遊戲
 4829,Cost,
 4290,Colonist,
 3715,Stat,
@@ -10676,7 +10745,7 @@ Current status: Exports are <em>forbidden</em>.",
 4573,Penalty to Colonist Comfort for Birth from Medical Buildings,
 4574,Renegade creation point,
 4575,"Chance of suicide when Sanity reaches zero, in %",
-4576,Chance of Suicide,
+4576,Chance of Suicide,自殺機率
 4577,"Chance of getting a negative trait when Sanity reaches zero, in %",
 4578,Chance for getting a flaw when experiencing a Sanity breakdown,
 438538796803,Sanity damage from Dust Storms (per hour),
@@ -10925,11 +10994,11 @@ Current status: Exports are <em>forbidden</em>.",
 7535,This Sony<nbsp>Entertainment<nbsp>Network account is already connected to another Paradox Account.,
 7534,This Paradox Account is already connected to another Sony<nbsp>Entertainment<nbsp>Network account.,
 8018,Sign in to PlayStation™Network to use network features.,
-7890,There is no network connectivity. Please check your connection and try again.,
-7844,Failed to save your settings,
+7890,There is no network connectivity. Please check your connection and try again.,網路未連結。請檢查網路連結後再次嘗試。
+7844,Failed to save your settings,儲存你的設定失敗。
 7845,"There is not enough storage space. To save your settings, delete old save data.",
-1000599,Warning,
-7846,Failed to load your settings.,
+1000599,Warning,警告
+7846,Failed to load your settings.,讀取你的設定失敗。
 7847,Failed to load game settings. The saved data is corrupted. This saved data will be deleted and new saved data will be created.,
 7773,Wireless controller disconnected,
 7774,Controller for <user> has been disconnected. Reconnect the controller in order to continue.,
@@ -10942,30 +11011,40 @@ Current status: Exports are <em>forbidden</em>.",
 <effect>Too many colonists have died recently from unnatural causes. The War Tension has increased.",
 8250,A sad day for humanity.,
 8251,"Send Rare Metals to Earth to decrease War Tension, instead of receiving Funding. Rockets for the shipments will arrive regularly.",
-8252,Rare Metals Rocket,
+8252,Rare Metals Rocket,稀有金屬火箭
 8253,Submit to UN inspection. (-<ChoiceA_MoralePenalty> Morale to all colonists),
 8254,Deny allegations. (+<ChoiceB_TensionIncrease>% War Tension),
-8255,The Last War: Closer to Home,
+8255,The Last War: Closer to Home,終戰：家不遠矣
 8256,A blatant lie is gaining traction on Earth.,
 8257,"A faction in the wars on Earth, an alliance of several smaller states, has come out and outright accused <reg_param1> of using the Mars project as a backdrop for developing and testing forbidden weapons, which are then used on their people.   
 
 The UN has requested that we allow a probe to be made so this nonsense is cleared, although we fear that instilling such doubts in our colonists may have an impact on morale as a whole.
 
-What do we do?",
+What do we do?","在地球上有一個與我們處於戰爭中，並由許多較小的國家所組成的派系，跳出來指控<reg_param1>利用火星計畫掩護研發測試被禁止的武器，且還用於對抗他們的行為。   
+
+聯合國已要求我們配合進行調查，以澄清這個無稽之談，儘管我們擔心讓殖民者們灌輸這類想法會對整體士氣造成影響。
+
+我們該怎麼做？"
 8258,<red>UN inspection -10</red>,
-8259,I thought we lived in more enlightened times. (+<Tension>% War Tension),
-8260,"You do know this comet was predicted to come this close to Earth 50 years ago, right? (+<Tension>% War Tension)",
-8261,"Earth has changed a lot since we departed for Mars, and not for the better. (+<Tension>% War Tension)",
-8262,Of course it's an omen. How could it possibly be anything but? (+<Tension>% War Tension),
-8263,The Last War: Comet Sighted!,
-8264,"A comet suddenly lit up night skies above Earth, visible from all over the globe. ",
+8259,I thought we lived in more enlightened times. (+<Tension>% War Tension),我以為我們生活在更進步的時代。（ +<Tension>% 厭戰）
+8260,"You do know this comet was predicted to come this close to Earth 50 years ago, right? (+<Tension>% War Tension)",你早就知道這顆彗星50年前就被預測到會如此靠近地球了，是嗎？ (+<Tension>% War Tension)
+8261,"Earth has changed a lot since we departed for Mars, and not for the better. (+<Tension>% War Tension)",自從我們前往火星後，地球已改變了許多，而且並非變得更好。 (+<Tension>% War Tension)
+8262,Of course it's an omen. How could it possibly be anything but? (+<Tension>% War Tension),這當然是種徵兆。不然這還可能是什麼？ (+<Tension>% War Tension)
+8263,The Last War: Comet Sighted!,終戰：發現彗星！
+8264,"A comet suddenly lit up night skies above Earth, visible from all over the globe. ",一顆點亮了整個夜空的彗星突然劃過地球上方，在世界上的任何角落都看的到它。
 8265,"Although the comet is well known and talked about by most space agencies, in the current atmosphere on Earth people have little time for space news and have chosen to see an omen in it. 
 
 Most interpretations have been that victory is imminent for the interpreter, but more alarmingly many believe this is a sign of the end times. 
 
 Some have chosen to embrace it… risking this becoming a self-fulfilling prophecy.
 
-We have to talk some sense into the Earthlings.",
+We have to talk some sense into the Earthlings.","儘管彗星已廣被大部分的太空機構所知及討論，但目前地球上的人們沒有太多的時間瀏覽太空新聞，反而去解讀其中的徵兆。 
+
+大多數的解讀都認為勝利將近，但更令人擔憂的是不少人認為這是末日將近的徵兆。 
+
+也有些人冒著風險選擇擁抱它…認為這是實現自我的預言。
+
+我們必須好好開導世人。"
 8245,<reg_param1> safely landed in the colony.,
 8246,<reg_param1> have suffocated in orbit.,
 8266,Export Rare Metals to Earth and reduce War Tension.,
@@ -10978,7 +11057,7 @@ We have to talk some sense into the Earthlings.",
 8273,Machine Parts Rocket,機械零件火箭
 8274,Export Food to Earth and reduce War Tension.,
 8275,Food Rocket,食物火箭
-8276,The Last War: Cold War 2.0,
+8276,The Last War: Cold War 2.0,終戰：冷戰 2.0
 8277,Ceasefires are taking effect and armies are pulling back behind borders.,
 8278,"Mistrust and disbelief is rampant and while the guns are finally silent, the road to healing the wounds of war will be longer than anything Earth has ever experienced before. 
 
@@ -10987,7 +11066,7 @@ Millions have perished and those who survived will suffer a divide so huge, it s
 In what almost seems as an apathetic effort to move on, <reg_param1> has informed us that we are to continue the project and its business as usual – with the exception that now everything costs more after the devastation on Earth.
 
 <effect>Resupply prices increased by 50% for the next 50 Sols.",
-8279,"Earth survived, but at what cost?",
+8279,"Earth survived, but at what cost?",地球倖存下來了，但付出了什麼代價？
 8548,"A ceasefire was signed, but Earth is caught in the grip of a new Cold War. All resupply prices have been increased.",
 8280,The Last War: Peace-keepers Prevail!,
 8281,Hatred has lost! Sound minds and human compassion emerge victorious.,
