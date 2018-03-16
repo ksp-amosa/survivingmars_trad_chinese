@@ -121,15 +121,15 @@ id <u(id)>, version <version></color>",
 1000123,DISPLAY,顯示
 1000124,Video,影像
 1000125,VIDEO,影像
-1000126,Audio,音頻
-1000127,AUDIO,音頻
+1000126,Audio,聲音
+1000127,AUDIO,聲音
 1000128,Controls,控制
 1000129,CONTROLS,控制
-1000131,GAMEPLAY,遊戲
-1000132,Key Bindings,按鍵設定
-1000133,KEY BINDINGS,按鍵設定
-1000134,Change Profile,
-1000135,CHANGE PROFILE,
+1000131,GAMEPLAY,
+1000132,Key Bindings,綁定按鍵
+1000133,KEY BINDINGS,綁定按鍵
+1000134,Change Profile,改變個人檔案
+1000135,CHANGE PROFILE,改變個人檔案
 1000217,Checking for downloadable content... Please wait.,
 1000218,A downloadable content file appears to be damaged and cannot be loaded. Please delete it from the Memory section of the Dashboard and download it again.,
 1000610,You are signed in as a guest. You will be unable to save any game content until you sign in to a non-guest profile.,
@@ -678,8 +678,8 @@ id <u(id)>, version <version></color>",
 1000243,Please install <game_version>,
 1000244,You have already installed <game_version>,
 4864,Cubism,立體主義
-4865,Completed Mystery: The Power of Three,已完成謎團「三的次方」
-4866,Complete The Power of Three Mystery,完成「三的次方」謎團
+4865,Completed Mystery: The Power of Three,已完成謎團「三的立方」
+4866,Complete The Power of Three Mystery,完成「三的立方」謎團
 4867,Space Invaders,宇宙入侵者
 4868,Completed Mystery: The Dredgers,已完成謎團「疏濬者」
 4869,Complete the Dredgers mystery,完成「疏濬者」謎團
@@ -696,14 +696,14 @@ id <u(id)>, version <version></color>",
 4880,Completed Mystery: Marsgate,已完成謎團「火星之門」
 4881,Complete the Marsgate mystery,完成「火星之門」謎團
 4882,The Beanstalk,傑克與魔豆
-4883,Built the Space Elevator,已建造「軌道電梯」
-4884,Build the Space Elevator,建造「軌道電梯」
+4883,Built the Space Elevator,已建造「太空電梯」
+4884,Build the Space Elevator,建造「太空電梯」
 4885,Snow Globe,雪景球
-4886,Built the Geoscape Dome,已建造「地景蒼穹頂」
-4887,Build the Geoscape Dome,建造「地景蒼穹頂」
+4886,Built the Geoscape Dome,已建造「天頂蒼穹」
+4887,Build the Geoscape Dome,建造「天頂蒼穹」
 4888,It's Always Sunny on Mars,火星永浴太陽下
-4889,Built the Artificial Sun,已建造「人工太陽」
-4890,Build the Artificial Sun,建造「人工太陽」
+4889,Built the Artificial Sun,已建造「人造太陽」
+4890,Build the Artificial Sun,建造「人造太陽」
 4891,Alpha Scientist,首席科學家
 4892,Built the Omega Telescope,已建造「奧美加望遠鏡」
 4893,Build the Omega Telescope,建造「奧美加望遠鏡」
@@ -711,8 +711,8 @@ id <u(id)>, version <version></color>",
 4895,Built the Mohole Mine,已建造「莫霍礦井」
 4896,Build the Mohole Mine,建造「莫霍礦井」
 4897,Cast in Concrete,成型混凝土
-4898,Built the Excavator,已建造「挖土機」
-4899,Build the Excavator,建造「挖土機」
+4898,Built the Excavator,已建造「霸王鑽」
+4899,Build the Excavator,建造「霸王鑽」
 4900,What is Real?,什麼是真實？
 4901,Built Project Morpheus,已建造「莫菲斯計畫」
 4902,Build Project Morpheus,建造「莫菲斯計畫」
@@ -731,8 +731,8 @@ id <u(id)>, version <version></color>",
 4913,Marvin the Martian,火星人馬文
 4914,First child on Mars,首名火星之子
 4915,"Good News, Everyone!",各位，好消息！
-4916,Passed the Colony Approval stage,Passed the Colony Approval stage
-4917,Pass the Colony Approval stage,Pass the Colony Approval stage
+4916,Passed the Colony Approval stage,通過了殖民地認同階段
+4917,Pass the Colony Approval stage,通過殖民地認同階段
 4918,Space Communism,太空共產主義
 4919,Reached 250 Colonists,已擁有250名殖民者
 4920,Reach 250 Colonists,擁有250名殖民者
@@ -761,8 +761,8 @@ id <u(id)>, version <version></color>",
 4943,Built a Dome Spire,已建造一座蒼穹頂尖塔
 4944,Build a Dome Spire,建造一座蒼穹頂尖塔
 4945,Open the Pod Bay Doors,打開艙門！
-7429,Built a Shuttle Hub,已建造一座穿梭機管理中心
-4946,Build a Shuttle Hub,建造一座穿梭機管理中心
+7429,Built a Shuttle Hub,已建造一座客貨機管理中心
+4946,Build a Shuttle Hub,建造一座客貨機管理中心
 4947,A Shooting Star,流星！
 4948,Shot down a meteorite,已擊落一顆隕石
 4949,Shoot down a meteorite,擊落一顆隕石
@@ -773,8 +773,8 @@ id <u(id)>, version <version></color>",
 7430,Reached 100 Colonists living in a single Dome,已擁有一座住了100位殖民者的蒼穹頂
 4954,Reach 100 Colonists living in a single Dome,擁有一座住了100位殖民者的蒼穹頂
 4955,Assisted Self-Improvement,Assisted Self-Improvement
-4956,Treated 50 Colonists in a Sanatorium,已在療養院治療50位殖民者
-4957,Treat 50 Colonists in a Sanatorium,在療養院治療50位殖民者
+4956,Treated 50 Colonists in a Sanatorium,已在尖端療養院治療50位殖民者
+4957,Treat 50 Colonists in a Sanatorium,在尖端療養院治療50位殖民者
 4958,For the Benefit of All,為了全體利益
 4959,Played as USA and researched all technologies in the Engineering tech-tree before Sol 100,成功扮演美國並於第100太陽日前研究所有工程類科技
 4960,Play as USA and research all technologies in the Engineering tech-tree before Sol 100,扮演美國並於第100太陽日前研究所有工程類科技
@@ -809,8 +809,8 @@ id <u(id)>, version <version></color>",
 4986,Had a Colonist with 2 Rare traits,已擁有一名有兩項稀有特徵的殖民者
 4987,Have a Colonist with 2 Rare traits,擁有一名有兩項稀有特徵的殖民者
 4988,The Watney Challenge,絕地救援
-4989,Passed the Colony Approval stage with a single Founder,Passed the Colony Approval stage with a single Founder
-4990,Pass the Colony Approval stage with a single Founder,Pass the Colony Approval stage with a single Founder
+4989,Passed the Colony Approval stage with a single Founder,以單一創始人通過了殖民地認同階段
+4990,Pass the Colony Approval stage with a single Founder,以單一創始人通過殖民地認同階段
 4991,S.P.E.C.I.A.L.,S.P.E.C.I.A.L.
 4992,Had a Colonist with 5 Perks,已擁有一位有五項技能的殖民者
 4993,Have a Colonist with 5 Perks,擁有一位有五項技能的殖民者
@@ -850,9 +850,9 @@ id <u(id)>, version <version></color>",
 5035,<concrete(Stored_Concrete)>,
 5036,Concrete Depot,混凝土存放區
 5037,Concrete Depots,混凝土存放區
-5038,Stores <concrete(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <concrete(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-7666,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",
-5031,+<upgrade3_mul_value_1>% Production.,
+5038,Stores <concrete(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <concrete(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
+7666,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",只要供應建築物燃料就會 +<upgrade1_mul_value_1>% 產量。如果未提供燃料，建築物仍會繼續運作，但將失去加成。
+5031,+<upgrade3_mul_value_1>% Production.,+<upgrade3_mul_value_1>% 產量。
 5032,Concrete Extractor,混凝土挖掘站
 5033,Concrete Extractors,混凝土挖掘站
 5034,Extracts sulfurous rich regolith from Concrete deposits and produces Concrete. All extractors contaminate nearby buildings with dust.,
@@ -879,8 +879,8 @@ id <u(id)>, version <version></color>",
 5061,<electronics(Stored_Electronics)>,<electronics(Stored_電子零件)>
 5062,Electronics Depot,電子零件存放區
 5063,Electronics Depots,電子零件存放區
-5064,Stores <electronics(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <electronics(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-7667,+<upgrade1_mul_value_1>% Production.,
+5064,Stores <electronics(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <electronics(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
+7667,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產量。
 3523,Electronics Factory,電子零件工廠
 5059,Electronics Factories,電子零件工廠
 5060,Creates Electronics from Rare Metals.,用稀有金屬製造電子零件。
@@ -892,18 +892,18 @@ id <u(id)>, version <version></color>",
 5070,<food(Stored_Food)>,
 5071,Food Depot,食物存放區
 5072,Food Depots,食物存放區
-5073,Stores <food(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <food(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
+5073,Stores <food(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <food(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
 5114,Fountain,噴泉
 5115,Fountains,噴泉
 5077,<fuel(Stored_Fuel)>,
 5078,Fuel Depot,燃料存放區
 5079,Fuel Depots,燃料存放區
-5080,Stores <fuel(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <fuel(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-5029,+<upgrade1_mul_value_1>% Production; +<power(upgrade1_add_value_2)> Consumption.,
+5080,Stores <fuel(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <fuel(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
+5029,+<upgrade1_mul_value_1>% Production; +<power(upgrade1_add_value_2)> Consumption.,+<upgrade1_mul_value_1>% 產量； +<power(upgrade1_add_value_2)> 耗量。
 5074,Fuel Refinery,燃料精煉廠
 5075,Fuel Refineries,燃料精煉廠
 5076,Produces Fuel from Water.,從水中精煉燃料。
-5082,+<upgrade1_mul_value_1>% Production; +<upgrade1_mul_value_2>% Oxygen Consumption.,
+5082,+<upgrade1_mul_value_1>% Production; +<upgrade1_mul_value_2>% Oxygen Consumption.,+<upgrade1_mul_value_1>% 產量； +<upgrade1_mul_value_2>% 氧氣耗量。
 5083,Fungal Farm,真菌農場
 5084,Fungal Farms,真菌農場
 5085,Produces Food.,生產糧食。
@@ -915,8 +915,8 @@ id <u(id)>, version <version></color>",
 5092,Generates significant amounts of Power but requires Workers from a nearby Dome.,生產大量的能源，但是需要來自附近蒼穹頂的工人。
 5149,Garden,花園
 5150,Gardens,花園
-5093,Geoscape Dome,地景蒼穹頂
-5094,Geoscape Domes,地景蒼穹頂
+5093,Geoscape Dome,天頂蒼穹
+5094,Geoscape Domes,天頂蒼穹
 5095,"A slice of Earth on Mars, this Dome increases the Comfort of all Residences within. It also increases the Sanity of its inhabitants every Sol.",火星上的地球一隅，此蒼穹頂增加所有內部居民的舒適度，也每日增加居民的理智。
 5021,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.,此建築物不再需要人員操作，且維持工作效率為 <upgrade1_add_value_2>
 5096,Grocer,雜貨商
@@ -928,8 +928,8 @@ id <u(id)>, version <version></color>",
 5102,Hydroponic Farms,水培農場
 5069,Produces Food. Consumes Water depending on crop type.,出產糧食，消耗的水量視作物種類而定。
 8045,Improves Service Comfort. Colonists can visit for Relaxation.,改善服務舒適度，殖民者會為了放鬆而造訪。
-5105,Infirmary,醫務室
-5106,Infirmaries,醫務室
+5105,Infirmary,診所
+5106,Infirmaries,診所
 5107,"Visitors will recover Health and Sanity as long as they are not starving, dehydrated, freezing or suffocating. A Dome with a Medical Building has lower minimum Comfort requirement for births.",來訪者在未處於飢餓、脫水、凍傷或窒息的情況下，會回復健康與理智。擁有醫療建築的蒼穹頂會降低生產時所需要的舒適度需求。
 5111,Lake,湖泊
 5112,Lakes,湖泊
@@ -963,9 +963,9 @@ These instruments require nothing but power and regular maintenance and, of cour
 5133,<machineparts(Stored_MachineParts)>,
 5134,Machine Parts Depot,機械零件存放區
 5135,Machine Parts Depots,機械零件存放區
-5136,Stores <machineparts(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存 <machineparts(max_storage_per_resource)>。超過的資源會被自動送到無人機範圍內的其它存放區。
-7668,+<upgrade1_mul_value_1>% Production.,
-5058,+<upgrade3_mul_value_1>% Production; +<power(upgrade3_add_value_2)> Consumption.,
+5136,Stores <machineparts(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存 <machineparts(max_storage_per_resource)> 超過的資源會被自動送到無人機範圍內的其它存放區。
+7668,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產量。
+5058,+<upgrade3_mul_value_1>% Production; +<power(upgrade3_add_value_2)> Consumption.,+<upgrade3_mul_value_1>% 產量； +<power(upgrade3_add_value_2)> 耗量。
 3522,Machine Parts Factory,機械零件工廠
 5131,Machine Parts Factories,機械零件工廠
 5132,Produces Machine Parts from Metals.,用金屬製造機械零件。
@@ -977,7 +977,7 @@ These instruments require nothing but power and regular maintenance and, of cour
 5104,Improves Service Comfort. Colonists can visit for Relaxation,改善服務舒適度，殖民者會為了放鬆而造訪。
 3539,Medical Center,醫療中心
 5142,Medical Centers,醫療中心
-5143,"Visitors will recover Health and Sanity as long as they are not starving, dehydrated, freezing or suffocating. Larger capacity and more effective than the Infirmary. A Dome with a Medical Building has lower minimum Comfort requirement for births.",來訪者在未處於飢餓、脫水、凍傷或窒息的情況下，會回復健康與理智。比醫務室容量更大、效率更好。擁有醫療建築的蒼穹頂會降低生產時所需要的舒適度需求。
+5143,"Visitors will recover Health and Sanity as long as they are not starving, dehydrated, freezing or suffocating. Larger capacity and more effective than the Infirmary. A Dome with a Medical Building has lower minimum Comfort requirement for births.",來訪者在未處於飢餓、脫水、凍傷或窒息的情況下，會回復健康與理智。比診所容量更大、效率更好。擁有醫療建築的蒼穹頂會降低生產時所需要的舒適度需求。
 5146,Medium Dome,中型蒼穹頂
 5147,Medium Domes,中型蒼穹頂
 5148,A medium-sized Dome design.,一座中等尺寸的蒼穹頂設計。
@@ -990,9 +990,9 @@ These instruments require nothing but power and regular maintenance and, of cour
 5161,<metals(Stored_Metals)>,
 5162,Metals Depot,金屬存放區
 5163,Metals Depots,金屬存放區
-5164,Stores <metals(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存 <metals(max_storage_per_resource)>。超過的資源會被自動送到無人機範圍內的其它存放區。
-7669,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",+<upgrade1_mul_value_1>% 只要建築物供應燃料，就可以生產。 如果未提供燃料，建築物將繼續運行，但將失去獎勵。
-5158,+<upgrade3_mul_value_1>% Production.,
+5164,Stores <metals(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存 <metals(max_storage_per_resource)> 超過的資源會被自動送到無人機範圍內的其它存放區。
+7669,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",只要供應建築物燃料就會 +<upgrade1_mul_value_1>% 產量。如果未提供燃料，建築物仍會繼續運作，但將失去加成。
+5158,+<upgrade3_mul_value_1>% Production.,+<upgrade3_mul_value_1>% 產量。
 3527,Metals Extractor,金屬挖掘站
 5159,Metals Extractors,金屬挖掘站
 5160,Extracts Metals from underground deposits. All extractors contaminate nearby buildings with dust.,從地下資源點萃取金屬。所有萃取機均會對週圍建築造成塵土汙染
@@ -1022,8 +1022,8 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 8112,Mystery Depot,謎團存放場
 8113,It's very mysterious.,這真的很神祕。
 5176,"+<upgrade1_mul_value_2>% Performance, +<power(upgrade1_add_value_1)> Consumption.",+<upgrade1_mul_value_2>% 效能，+<power(upgrade1_add_value_1)> 電力消耗。
-3538,Network Node,網路節點
-5177,Network Nodes,網路節點
+3538,Network Node,高速網路通訊中心
+5177,Network Nodes,高速網路通訊中心
 5178,Increases the overall Research output of the Dome.,增加蒼穹頂的整體研究產出。
 5179,Nursery,幼稚園
 5180,Nurseries,幼稚園
@@ -1047,17 +1047,17 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5196,Playground,遊樂場
 5197,Playgrounds,遊樂場
 5198,Cultivates Perks in Children through special nurturing programs.,經由特殊的培育計劃來培養兒童的技能。
-5055,+<upgrade1_mul_value_1>% Production.,
+5055,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產量。
 5056,Automation,自動化
 5057,Decreases Workplaces by <abs(upgrade2_add_value_1)>.,
-8046,+<upgrade3_mul_value_1>% Production; +<power(upgrade3_add_value_2)> Consumption.,
+8046,+<upgrade3_mul_value_1>% Production; +<power(upgrade3_add_value_2)> Consumption.,+<upgrade3_mul_value_1>% 產量； +<power(upgrade3_add_value_2)> 耗量。
 3524,Polymer Factory,聚合物工廠
 5199,Polymer Factories,聚合物工廠
 5200,Produces Polymers from Water and Fuel.,用水與燃料製造聚合物。
 5201,<polymers(Stored_Polymers)>,
 5202,Polymers Depot,聚合物存放區
 5203,Polymers Depots,聚合物存放區
-5204,Stores <polymers(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <polymers(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
+5204,Stores <polymers(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <polymers(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
 5205,Power Accumulator,蓄電池
 5206,Power Accumulators,蓄電池
 5207,Stores Power. Amount of Power supplied is limited by the battery’s max output.,儲存電力，供電量受電池最大輸出值限制。
@@ -1082,36 +1082,36 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5225,<preciousmetals(Stored_PreciousMetals)>,
 5226,Rare Metals Depot,稀有金屬存放區
 5227,Rare Metals Depots,稀有金屬存放區
-5228,Stores <preciousmetals(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <preciousmetals(max_storage_per_resource)>。無人機會自動將滿出來的資源送到範圍內的其他存放區。
-7670,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",
+5228,Stores <preciousmetals(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <preciousmetals(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
+7670,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",只要供應建築物燃料就會 +<upgrade1_mul_value_1>% 產量。如果未提供燃料，建築物仍會繼續運作，但將失去加成。
 3530,Rare Metals Extractor,稀有金屬挖掘站
 5223,Rare Metals Extractors,稀有金屬挖掘站
 5224,Extracts Rare Metals from underground deposits. All extractors contaminate nearby buildings with dust.,從地下資源點開採稀有金屬，挖掘站會對附近的建築物造成塵土汙染。
 5229,Recharge Station,充電站
 5230,Recharge Stations,充電站
 5231,Recharges Drone batteries.,為無人機充電。
-5234,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.,
+5234,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.,+<upgrade2_mul_value_2>% 產量； +<power(upgrade2_add_value_1)> 耗量。
 5235,Research Lab,研究實驗室
 5236,Research Labs,研究實驗室
 5237,Generates Research.,產生研究點數。
-705,<left_click> Land Rocket,
-706,<ButtonA> Land Rocket,
+705,<left_click> Land Rocket,<left_click> 降落火箭
+706,<ButtonA> Land Rocket,<ButtonA> 降落火箭
 5238,Rockets,火箭
 5239,Delivers cargo or Colonists to Mars. Commands nearby Drones. Contaminates nearby buildings with dust when landing and taking off. Requires <em>Fuel</em> for the return trip to Earth.,運算貨物或移民到火星。控制附近的無人機。起飛和降落時會有塵土汙染附近建築物。到地球的回程需要 <em>燃料</em>。
 5240,Rocket Landing Site,火箭著陸區
 5241,Rocket Landing Sites,火箭著陸區
 5242,The landing site of a Rocket.,火箭降落的區域。
 5244,Replaces flaws with Perks for visitors.,用技能為訪客取代缺陷。
-3540,Sanatorium,療養院
-5245,Sanatoriums,療養院
+3540,Sanatorium,尖端療養院
+5245,Sanatoriums,尖端療養院
 5246,Treats Colonists for flaws through advanced and (mostly humane) medical practices.,用先進的（大多是人道的）醫療手段來治療殖民者的缺陷。
 5247,School,學校
 5248,Schools,學校
 5249,Cultivates desired Perks in children using modern remote learning techniques.,使用新式遠距學習科技培育兒童所期望的技能。
-5233,+<upgrade1_mul_value_1>% Production.,
-5250,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.,
-5251,Science Institute,科學研究院
-5252,Science Institutes,科學研究院
+5233,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產量。
+5250,+<upgrade2_mul_value_2>% Production; +<power(upgrade2_add_value_1)> Consumption.,+<upgrade2_mul_value_2>% 產量； +<power(upgrade2_add_value_1)> 耗量。
+5251,Science Institute,科學機構
+5252,Science Institutes,科學機構
 5253,Generates Research faster than a Research Lab.,產生研究點數的速度比研究實驗室更快。
 5254,Security Station,保安站
 5255,Security Stations,保安站
@@ -1134,8 +1134,8 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5268,Small Monuments,小型紀念碑
 5269,A decorative monument created from the mysterious Black Cubes. Probably harmless.,從神秘的黑色立方體創建的裝飾性紀念碑。 可能無害。
 5272,+<upgrade1_add_value_1> Service Comfort.,
-7800,Smart Complex,智慧集合式住宅
-7801,Smart Complexes,智慧集合式住宅
+7800,Smart Complex,智慧豪宅
+7801,Smart Complexes,智慧豪宅
 5273,Provide a very comfortable living space for Colonists. Residents will recover additional Sanity when resting.,為殖民者提供一個非常舒適的生活空間。 居民在休息時會恢復額外的理智。
 5006,+<upgrade1_add_value_1> Service Comfort.,
 5270,Smart Homes,智慧住宅
@@ -1145,7 +1145,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5276,Generates Power during daytime. Its effectiveness is decreased by dust accumulation and during sand storms. Protected from dust while turned off.,在白天發電。它的有效性會因積塵和沙塵暴而降低。 關閉時防塵。
 1120,Space Elevator,太空電梯
 5277,Space Elevators,太空電梯
-5278,"A faster way to reach space, the Elevator speeds up cargo shipments to orbit. Exports Rare Metals to Earth and offers resupply materials and prefabs at a discount.",通過更快的方式到達太空，電梯可以將貨物運到軌道。 將稀有金屬出口到地球，並以折扣價提供補給材料和預製件。
+5278,"A faster way to reach space, the Elevator speeds up cargo shipments to orbit. Exports Rare Metals to Earth and offers resupply materials and prefabs at a discount.",一種更快進入軌道的方式，電梯可用更快的速度將貨物送入軌道、出口稀有金屬到地球 並且可以用更優惠的價格購買 各式補給與預製零件
 5279,This building no longer requires Workers and operates at <upgrade1_add_value_2> Performance.,
 5280,Spacebar,星際酒吧
 5281,Spacebars,星際酒吧
@@ -1154,18 +1154,18 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5284,Statues,雕像
 5285,"""In honor of the Founders of Mars.""",“為了紀念火星的創始人。”
 5286,Plutonium Core,鈽核心
-5287,+<upgrade1_mul_value_1>% additional power production when open.,+<upgrade1_mul_value_1>% 打開時增加額外的電量。
+5287,+<upgrade1_mul_value_1>% additional power production when open.,開啟時 +<upgrade1_mul_value_1>% 額外電力產量。
 5288,Stirling Generators,斯特林發電機
 5289,"Generates Power. While closed the generator is protected from dust, but produces less power.",可以生產電力。關閉圓頂罩的時候可以避免入塵的損害，不過發電效率將會下降許多
 5290,Stone Garden,亂石花園
 5291,Stone Gardens,亂石花園
 5292,"A tastefully arranged stone garden, following strict Zen rules.",一個高雅的石頭花園，遵循嚴格的禪規。
-5293,Subsurface Heater,地下加熱器
-5294,Subsurface Heaters,地下加熱器
+5293,Subsurface Heater,地質加熱器
+5294,Subsurface Heaters,地質加熱器
 5295,Increases the local temperature in cold areas and protects nearby buildings from Cold Waves.,提高寒冷地區的溫度，並保護附近的建築免受寒流侵襲。
-5296,The Excavator,挖掘機
-5297,The Excavators,挖掘機
-5298,"Using advanced extraction technology, allows for production of Concrete directly from the Martian soil without the requirement for a deposit.",採用先進的提取技術，可以直接從火星土壤生產混凝土，而不需要沉積物。
+5296,The Excavator,霸王鑽
+5297,The Excavators,霸王鑽
+5298,"Using advanced extraction technology, allows for production of Concrete directly from the Martian soil without the requirement for a deposit.",相當先進的研究計畫產物，就算附近沒有混凝土資源，也可以從火星地底中挖掘到 混凝土
 4818,Triboelectric Scrubber,
 5299,Triboelectric Scrubbers,
 5300,Emits pulses which reduce the Dust accumulated on buildings in its range.,發射脈衝減少積聚在其範圍內建築物上的塵埃。
@@ -1173,12 +1173,12 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5301,Tunnels,隧道
 5302,The tunnel entrance and exit can connect power and life support grids at different locations and different elevations. Rovers can travel along the tunnels to reach places they otherwise couldn't.,隧道入口和出口可連接不同位置和不同高度的電力和生命支持網路。漫遊者可以沿著隧道前往那些他們無法到達的地方。
 5304,Universal Storages,通用存放區
-5305,Stores <resource(max_storage_per_resource)> units of each transportable resource. Excess resources will be delivered automatically to other depots within Drone range.,存儲每個可移動資源 <resource(max_storage_per_resource)> 單位。 剩餘資源將自動發送到Drone範圍內的其他倉庫。
-5026,Fueled Extractor,燃料式挖掘機
-5027,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",+<upgrade1_mul_value_1>% 只要建築物供應燃料，就可以生產。 如果未提供燃料，大樓將繼續運行，但將失去獎勵。
+5305,Stores <resource(max_storage_per_resource)> units of each transportable resource. Excess resources will be delivered automatically to other depots within Drone range.,儲存每項資源各 <resource(max_storage_per_resource)> 單位。 剩餘資源將自動發送到Drone範圍內的其他存放區。
+5026,Fueled Extractor,燃料動力挖掘站
+5027,"+<upgrade1_mul_value_1>% Production as long as the building is supplied with Fuel. If not supplied with Fuel, the building will continue to operate but will lose the bonus.",當建築物使用燃料當成動力的時候，產能將增加 +<upgrade1_mul_value_1>%， 如果未供應燃料，建築物仍會繼續運作，但將失去加成。
 5028,Amplify,
-8043,+<upgrade2_mul_value_1>% Production; +<power(upgrade2_add_value_2)> Consumption.,
-5222,+<upgrade3_mul_value_1>% Production.,
+8043,+<upgrade2_mul_value_1>% Production; +<power(upgrade2_add_value_2)> Consumption.,+<upgrade2_mul_value_1>% 產量； +<power(upgrade2_add_value_2)> 耗量。
+5222,+<upgrade3_mul_value_1>% Production.,+<upgrade3_mul_value_1>% 產量。
 3529,Water Extractor,水資源挖掘站
 5306,Water Extractors,水資源挖掘站
 5307,Extracts Water from underground deposits. No production during Cold Waves. All extractors contaminate nearby buildings with dust.,從地下礦藏中提取水分。在寒流中無法生產 所有的挖掘站都會污染附近的建築物。
@@ -1189,7 +1189,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5311,Water Towers,水塔
 5312,Stores Water. Doesn't work during Cold Waves.,存儲水資源。在寒流中不起作用。
 5313,Polymer Blades,聚合物葉片
-5314,+<upgrade1_mul_value_1>% Production.,
+5314,+<upgrade1_mul_value_1>% Production.,+<upgrade1_mul_value_1>% 產量。
 5315,Wind Turbine,風力發電機
 5316,Wind Turbines,風力發電機
 5317,Generates Power. Increased production during Dust Storms and at high elevations.,產生電力。在沙塵暴和高海拔地區增加發電量。
@@ -1214,7 +1214,7 @@ This technological challenge to take advantage of what little wind there is on M
 5321,Oligarch,寡頭政治
 5322,"- Fuel production increased by 25%
 - Bonus Tech: <em>Arcology</em> (unlocks a residential spire)","- 燃料生產增加 25%
-- 加成科技： <em>Arcology</em> （解鎖住宅尖塔）"
+- 加成科技： <em>生態之城都市計畫</em> （解鎖阿卡羅之城）"
 5323,Hydro Engineer,水資源工程師
 5324,"- Start with a Water deposit revealed
 - Domes consume 25% less Water
@@ -1224,11 +1224,11 @@ This technological challenge to take advantage of what little wind there is on M
 5325,Doctor,醫生
 5326,"- Minimum Comfort required for birth lowered by 15
 - Bonus Tech: <em>Stem Reconstruction</em> (colonist lifespan is increased)","- 生育舒適度需求降低 15 點
-- 加成科技： <em>Stem Reconstruction</em> （殖民者生活消費增加）"
+- 加成科技： <em>幹細胞重建與治療</em> （增加殖民者的生命週期）"
 5327,Psychologist,心理學家
 5328,"- Colonists recover 5 additional Sanity while resting in their homes
 - Bonus Tech: <em>Behavioral Shaping</em> (unlocks a Sanatorium spire which treats colonists' flaws)","- 殖民者在家休息額外恢復 5 點理智
-- 加成科技： <em>Behavioral Shaping</em> （解鎖療養院尖塔，治療殖民者心理問題）"
+- 加成科技： <em>行為矯正課程</em> （解鎖尖端療養院，治療殖民者心理問題）"
 5329,Politician,政治家
 5330,"- All Funding gains are increased by <percent(20)>
 - Bonus Tech: <em>Martian Patents</em> (repeatable tech that grants Funding)","- 所有資金收益增加 <percent(20)>
@@ -1236,16 +1236,16 @@ This technological challenge to take advantage of what little wind there is on M
 5331,Futurist,未來科學家
 5332,"- Breakthrough techs are researched <percent(30)> faster
 - Bonus Tech: <em>Autonomous Sensors</em> (Sensor Towers no longer require Power or maintenance)","- 突破性科技研發速度增加 <percent(30)>
-- 加成科技： <em>Autonomous Sensors</em> （Sensor Towers 不再需要能源或維護）"
+- 加成科技： <em>掃描塔自主維護科技</em> （掃描塔不再需要能源或維護）"
 5333,Ecologist,生態學家
 5334,"- Service Comfort of decorations increased by 10
 - Bonus Tech: <em>Hanging Gardens</em> (unlocks a spire which improves residences in the Dome)","- 設施的裝潢舒適度增加 10 點
-- 加成科技： <em>空中花園</em> （解鎖蒼穹頂住宅舒適度改善尖塔）"
+- 加成科技： <em>火星上的空中花園</em> （解鎖尖端建築，可以改善蒼穹頂中住宅的舒適度）"
 5335,Astrogeologist,太空地質學家
 5336,"- Start with a Rare Metal deposit revealed
 - Extractor production increased by 10%
 - Bonus Tech: <em>Deep Scanning</em> (allows the scanning of sectors for deep deposits)","- 起始揭露一個稀有金屬資源點
-- 加成科技： <em>Deep Scanning</em> （可以掃描地圖區塊的深層資源點）"
+- 加成科技： <em>深層掃描</em> （可以掃描地圖區塊的深層資源點）"
 5337,Rocket Scientist,火箭科學家
 5338,"- Start with an extra Rocket
 - Bonus Tech: <em>CO2 Jet Propulsion</em> (unlocks Shuttle Hub and long-range transportation)","- 開始時擁有一個額外的火箭
@@ -1491,7 +1491,7 @@ Explorers are battery powered and can recharge their batteries at any point alon
 <center><image UI/Common/rollover_line.tga 2000> <left>
 
 The apex of human transport technology, Rovers have extended battery lives and are incredibly durable, making them resistant to most of the Martian calamities such as cold or dust. They may traverse the Colony site and reach distant spots, limited only by the topography, to tackle whatever they have been tasked with.",
-91,Shuttle,Shuttle
+91,Shuttle,客貨機
 5401,"Shuttles are a safe and rapid transportation method for Colonists between distant <em>Domes</em> and can also deliver resources reliably wherever needed – distance being irrelevant. When not in use, they are stationed at <em>Shuttle Hubs</em>, where they are maintained and refueled.
 
 <center><image UI/Common/rollover_line.tga 2000> <left>
@@ -1613,7 +1613,17 @@ Sectors can be queued for scanning from the <em>Map Overview</em>. Sensor towers
 
 A fast and expensive way to explore the map is to buy <em>Orbital Probes</em> from Earth which instantly scans a chosen sector. 
 
-Building in unexplored Sectors carries the risk of building directly on top of undiscovered <em>resource deposits</em>.",
+Building in unexplored Sectors carries the risk of building directly on top of undiscovered <em>resource deposits</em>.","地圖被區分為<em>地圖區塊</em> 需要被掃描才會顯現該區的物資跟觀
+察點-如果有的話
+
+地圖區塊可以被安排掃描順序<em>Map Overview</em>. 掃描塔會大幅
+提升度附近地圖區塊的掃瞄速度並小部分獎勵給該地圖區塊
+
+有快速而昂貴的探索地圖的做法是從地球購買 <em>Oribital Probes</em> 
+將立刻掃描選定的地圖區塊
+
+在未探查的地圖區塊建設有將建築物直接蓋在未發現的 <em>資源點</em>
+的風險."
 88,Wonders,世界奇觀
 5424,"Wonders are exceptionally advanced and expensive structures that provide major benefits for the entire Colony. They are unlocked at the far ends of the <em>Research Tree</em>.
 
@@ -1627,7 +1637,7 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 5428,Cold-sensitive Buildings,
 5429,Buildings (except Domes),
 5430,Cold Marker,
-745,Shuttles,
+745,Shuttles,客貨機
 547,Colonists,
 5431,Female Colonists,
 5432,Male Colonists,
@@ -1642,7 +1652,7 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 5441,Supply Grid Buildings,
 5442,Suspended Buildings,
 5443,Training Buildings,
-5444,Workplaces,
+5444,Workplaces,工作場所
 420110169199,Xanthe Alpha,
 427759670941,Cimmeria Alpha,
 562776633297,Margaritifer Alpha,
@@ -1666,7 +1676,7 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 180356594159,100 Colonists,100 位殖民者
 539130058924,500 Colonists,500 位殖民者
 174129126515,1000 Colonists,1000 位殖民者
-833327755106,Constructed a Mega Dome,建造一座 巨型篬穹頂
+833327755106,Constructed a Mega Dome,建造一座 巨型蒼穹頂
 781931111320,Constructed a Wonder,建造一座 世界奇觀
 5474,Mars Express,火星快捷
 5475,Voyager,星際旅行
@@ -1772,7 +1782,7 @@ Starting Applicants: <ApplicantsPoolStartingSize>
 開局應徵者： <ApplicantsPoolStartingSize>
 
 - 全部建築物花費減少 20%
-- 科技加成：<em>低重力工程學</em> (解鎖中型蒼穹頂)"
+- 科技加成：<em>弱G科技：蒼穹頂工程</em> (解鎖中型蒼穹頂)"
 5488,Europe,歐洲
 5489,"Difficulty: <em>Normal</em>
 
@@ -1839,8 +1849,8 @@ Starting Applicants: <ApplicantsPoolStartingSize>
 每太陽日研究成長： <research(SponsorResearch)>
 開局應徵者： <ApplicantsPoolStartingSize>
 
-- 科技加成：<em>燃料式挖掘站</em> (挖掘站將可以透過 燃料升級 加速產能)
-- 燃料式挖掘站 將可免費升級
+- 科技加成：<em>燃料動力挖掘站</em> (挖掘站將可以透過 燃料升級 加速產能)
+- 燃料動力挖掘站 將可免費升級
 - 預製 燃料精煉廠 花費降低<percent(50)>
 - 火箭往返需要更長的時間 <em>(負向特色)</em>"
 5495,Paradox Interactive,Paradox Interactive
@@ -1877,7 +1887,9 @@ The Rocket can be selected by opening the quick bar with <RB> and pressing <Butt
 <left_click> - 降落火箭"
 5509,"Pick a landing site. Ideally this location would be in a large flat area near discovered resource deposits.
 
-<ButtonA> - land the Rocket",
+<ButtonA> - land the Rocket","決定火箭降落點。火箭必須在平坦的區域並且靠近資源區附近降落。
+
+<ButtonA> - 降落火箭"
 5497,Camera Controls,視角控制
 5498,"Pan - <em><ShortcutName('actionPanUp')>, <ShortcutName('actionPanDown')>, <ShortcutName('actionPanLeft')>, <ShortcutName('actionPanRight')></em>
 Tilt or rotate - hold <middle_click> or <em>Alt</em> and move the mouse
@@ -1888,7 +1900,9 @@ Overview mode - Maximum zoom out or <em>M</em>","移動畫面 - <em><ShortcutNam
 地圖切換 - 鏡頭拉至最遠 或<em>M</em>"
 5499,"Pan - <LS>
 Rotate - <RS>
-Tilt or zoom - <RT>+<RS>/<RS>",
+Tilt or zoom - <RT>+<RS>/<RS>","平移 - <LS>
+旋轉 - <RS>
+傾斜或縮放 - <RT>+<RS>/<RS>"
 5510,Building Construction,建造設施
 5511,"Permanent buildings are constructed by Drones. Open the Build Menu with <right_click> or <em>B</em>, select a building, and place it on the desired location with <left_click>.
 
@@ -1898,7 +1912,10 @@ Suggested Building: A <em>Large Solar Panel</em> will generate electrical Power 
 建議建築：一座 <em>大型太陽能板</em> 可以生產電力並供給給其它建築使用"
 5512,"Permanent buildings are constructed by Drones. Open the Build Menu with <ButtonY>, select a building construction and place it on the desired location with <ButtonA>.
 
-Suggested building: A <em>Large Solar Panel</em> will generate electrical Power required for other buildings",
+Suggested building: A <em>Large Solar Panel</em> will generate electrical Power required for other buildings","固定式建築可以被無人機建造. 按<ButtonY>打開建築面板, 選擇一個建築
+並在理想的地點按 <ButtonA>.
+
+建議建築: A <em>Large Solar Panel</em> 會產生大量電力給其他建築"
 5505,Game Speed,遊戲速度
 5506,"Use the controls on the HUD or the following shortcuts to control the game speed:
 <em>Space</em> - pause/unpause
@@ -1914,10 +1931,10 @@ Suggested building: A <em>Large Solar Panel</em> will generate electrical Power 
 ",
 5513,Probes,軌道探測衛星
 5514,"<em>Probes</em> will instantly scan a Sector of the map, revealing resource deposits and Anomalies in the area. Deploy a Probe with <left_click> or <em>X</em>.",<em>軌道探測衛星</em>  可以立即掃描地圖區塊，並快速的可以探索到可用的資源與觀察點。使用 <left_click> 或 <em>X</em>.以部屬衛星
-5515,<em>Probes</em> will instantly scan a sector of the map revealing resource deposits and anomalies in the area. Deploy a Probe with <ButtonX>.,
+5515,<em>Probes</em> will instantly scan a sector of the map revealing resource deposits and anomalies in the area. Deploy a Probe with <ButtonX>.,<em>軌道探測衛星</em>  可以立即掃描地圖區塊，並快速的可以探索到可用的資源與觀察點。使用<ButtonX>以部屬衛星
 5516,Surface Deposit,地表資源
 5517,Surface deposits can be exploited by <em>Drones</em>. They will automatically gather the resources and transport them where they are needed. Resources can be stockpiled in <em>Depots</em> or moved in bulk by <em>RC Transports</em>.,地表資源可以由<em>無人機</em>或 <em>運輸車<em> 進行開採， 當它們範圍內有需求對應資源的時候，無人機將會自動前往採集這些資源。 資源可以集中堆放在 <em>儲存處</em> 也可利用<em>運輸車</em>來搬運較多的資源量
-5519,"Concrete Extractors automatically produce <em>Concrete</em>, but they still need Power and <em>Drones</em> to service them. Place a <em>Concrete Extractor</em> near a Concrete deposit indicated by yellow terrain in a scanned Sector.",<em>混凝土挖掘站</em>必須放置在看似黃白色紋路的資源地表上，建設時挖掘區域必須覆蓋與其上面才能進行挖掘。 混凝土挖掘站同時也需要電力以及無人機器的服務與維護。
+5519,"Concrete Extractors automatically produce <em>Concrete</em>, but they still need Power and <em>Drones</em> to service them. Place a <em>Concrete Extractor</em> near a Concrete deposit indicated by yellow terrain in a scanned Sector.","水泥挖角戰會自動生產 <em>Concrete</em>, 但它們仍需要電力和 <em>Drones</em>幫助.放置<em>Concrete Extractor</em> near a Concrete deposit indicated by yellow terrain in a scanned Sector."
 5520,Underground Deposit (Water),地底資源(水源)
 5521,Underground Water deposits can be exploited by <em>Water Extractors</em>. Water Extractors need Power and <em>Drones</em> to service them. Place a Water Extractor near a Water deposit.,"地下水資源處可以利用 <em>水資源挖掘站</em>進行採集。 挖掘站需要電力供應以及 <em>無人機</em>的服務與維護。 
 
@@ -1931,7 +1948,7 @@ Suggested building: A <em>Large Solar Panel</em> will generate electrical Power 
 9,Anomaly,觀察點
 5526,We are detecting anomalous readings at this location. An <em>RC Explorer</em> vehicle can analyze the Anomaly.,"我們在這個地圖區塊發現了一個可疑的觀察點。
 指派一台 <em>探索者號</em> 前往調查分析這個觀察點"
-4828,Rover,探測車
+4828,Rover,漫遊者號
 5527,<em>The RC Rover</em> serves as a mobile base for your Drones. It can be relocated by the <em>Move/Interact</em> button in its Infopanel or using <UnitMoveControl()>.,<em>漫遊者號</em> 是一台移動式的指揮所，用來傳達命令給範圍內且附屬於自身的無人機。 在控制面板點擊<em>移動/互動</em> 或者使用<UnitMoveControl()>. 指揮車輛
 5528,<em>The RC Rover</em> serves as a mobile base for your Drones. Manage the vehicle with <RT>. Relocate it by holding <RT> and then pressing <ButtonA>.,
 5530,Vehicle Orders,命令車輛
@@ -1980,9 +1997,11 @@ Note that <em>Sensor Towers</em> require electrical Power that must be provided 
 To add a Sector to the scanning queue, go to the <em>Overview Mode</em> and <left_click> on the desired sector.","您的首座 掃描塔已經搭建完成。
 現在它將大幅的加速您附近的地圖區塊掃描進度。
 
-您可以安排掃描區塊的先後順序，打開 <em>Overview Mode</em>  接著 <left_click> 依序點擊想要掃描的區塊"
+您可以安排掃描區塊的先後順序，打開 <em>地圖視角</em>  接著 <left_click> 依序點擊想要掃描的區塊"
 5547,"Your first Sensor Tower is now completed. It will significantly boost the speed for scanning sectors nearby.
-To add a sector to the scanning queue, go to the <em>Overview mode</em> and press <ButtonY> on the desired sector. ",
+To add a sector to the scanning queue, go to the <em>Overview mode</em> and press <ButtonY> on the desired sector. ","您的首座 掃描塔已經搭建完成。
+現在它將大幅的加速您附近的地圖區塊掃描進度。.
+您可以安排掃描區塊的先後順序，打開  <em>地圖視角</em> 然後對理想的地圖區塊按 <ButtonY> . "
 5548,Suggested Building: Drone Hub,建議建築：無人機中心
 5549,The Drone Hub is a stationary command center that can control more Drones than the <em>RC Rover</em>. Consider constructing a Drone Hub in each of your major outposts.,無人機中心是一座廣域的指揮控制中心，可以遙控服務範圍內的附屬無人機群。 也因它的服務範圍遠大於 <em>漫遊者號</em>，所以可以考慮建造一座在您的主要據點上
 5550,"A Dust Storm has started. It will contaminate all your buildings and Drones with dust, potentially causing malfunctions. <em>MOXIEs</em> and <em>Moisture Vaporators</em> will not work during Dust Storms, while <em>Wind Turbines</em> will generate more Power.",
@@ -2028,24 +2047,33 @@ To add a sector to the scanning queue, go to the <em>Overview mode</em> and pres
 7434,Researching Technologies,研發科技
 7435,Research will unlock various benefits for the Colony. Researching any technology will make a new technology in its field available for research. Changing your active research will preserve the progress of the previously researched technology.,
 1116,Passenger Rocket,客運火箭
-7436,The passenger rocket will deliver Colonists and a minimal food supply to Mars. Use <em>Review</em> to inspect the traits of the arrivals.,
+7436,The passenger rocket will deliver Colonists and a minimal food supply to Mars. Use <em>Review</em> to inspect the traits of the arrivals.,載客火箭會攜帶殖民者跟少量的食物補給到火星. 用 <em>審核應徵者</em> 來審核應徵者的特徵
 5574,Suggested Building: Hydroponic Farm,建議建築：水培農場
 5575,"Local Food production will be crucial to the survival of your Colonists. Consider constructing a <em>Hydroponic Farm</em>.
-Keep in mind that the initial Food production may not be sufficient for the Colony, so you may have to rely on <em>Ressuply Rockets carrying Food</em> from Earth.",
+Keep in mind that the initial Food production may not be sufficient for the Colony, so you may have to rely on <em>Ressuply Rockets carrying Food</em> from Earth.","在地食物產量對殖民者的生存影響重大. 建議建設一個<em>Hydroponic Farm</em>.
+須留意剛開始的食物產量可能不足以供應整個殖民地, 所以需要仰賴從地球的 <em>攜帶食物的補給火箭</em> ."
 5576,Comfort Stat and Services,舒適度 與 服務設施
 5577,"Colonists will visit buildings to increase their Comfort stat, according to their interests. They may become Earthsick and will want to leave the Colony if their Comfort becomes too low. Service Buildings are essential for the Colonists' Comfort.
 
-Suggested Building: <em>Diner</em>",
+Suggested Building: <em>Diner</em>","殖民者會根據興趣拜訪相對的建築物增加他們的舒適度. 他們可能會有思鄉病並想離開殖民地 如果舒適度太低. 服務性建築是跟殖民者舒適度息息相關的.
+
+建議建築: <em>餐廳</em>"
 87,Decorations,裝飾您的殖民地
 5578,"Gardens, parks and other decorations can be visited by Colonists and require no workforce.
 
-Suggested Building: <em>Garden</em>",
+Suggested Building: <em>Garden</em>","花園,公園 和 其他裝飾建築可以被殖民者拜訪並無須勞動力.
+
+建議建築: <em>花園</em>"
 5579,Healthcare,健康照護
 5580,"Healthcare Buildings will increase the Health and Sanity of the Colonists as long as they are not Starving, Thirsty, Freezing or Suffocating.
 
-Suggested Building: <em>Infirmary</em>",
+Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的健康度跟精神, 只要他們不是在飢餓 缺水 受寒 或 窒息的狀態
+
+
+
+建議建築: <em>診所</em>"
 7027,Vehicle Batteries,車輛電池
-7028,RC Transports are powered by batteries with limited capacity. To recharge them you have connect the vehicle to a Power grid or transfer Power from another vehicle with a charged battery.,
+7028,RC Transports are powered by batteries with limited capacity. To recharge them you have connect the vehicle to a Power grid or transfer Power from another vehicle with a charged battery.,運輸車由有限的電池電量供電. 要對它們充電你必須將車輛靠近電力區或著從其他有電的車輛轉移電力.
 7029,Earthsick Colonists,殖民者的鄉愁
 7030,"Colonists with very low Comfort will get <em>Earthsick</em>. They will stop working and travel back to Earth at first opportunity. To prevent this, make sure they have access to a variety of operational service Buildings that satisfy their different interests.","當殖民者長期處於不舒服的狀態時，可能會患有<em>思鄉病</em>。一但思鄉病發生後，患者只要一有機會返回地球，馬上就會丟下手邊的工作並狂奔像火箭。
 為了避免這個問題，確認殖民地內保有穩地的舒適度與服務設施，讓居民可以感到生活舒適且安全"
@@ -2176,7 +2204,7 @@ Suggested Building: <em>Infirmary</em>",
 8120,Infection Level,
 8474,Cure Exported to Earth!,
 8121,War On Earth,
-8122,War Tension:,厭戰：
+8122,War Tension:,緊張情勢：
 5662,History of Events,
 5422,Exploration,
 5663,Select a Sector to scan,
@@ -2237,7 +2265,7 @@ This troublesome rumor deters many valuable candidates from coming to the new fr
 It is a well understood fact that it’s a matter of “when” not “if” for a major extinction event to happen. Having a self-sustaining population on a world other than Earth when the time comes should drastically increase humankind’s odds of survival.
 
 <goal><objective>",
-8126,"We have to admit that we failed to accomplish one of the main goals set before our mission. Sadly, we underestimated the difficulties of sustaining a large population on the Red Planet.",
+8126,"We have to admit that we failed to accomplish one of the main goals set before our mission. Sadly, we underestimated the difficulties of sustaining a large population on the Red Planet.",我們必須承認在火星任務執行之前設定的主要目標之一失敗了。非常不幸，我們低估了在這紅色星球上維持龐大人口的難度。
 7738,"But this failure shouldn't throw us into despair. We still have to strive to create a stable, self-sustaining foothold from which humanity would reach the stars and conquer them.
 
 <effect>Mission Evaluation objective failed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.",
@@ -2654,17 +2682,19 @@ We are already swarmed with applications for relocation on Mars and the wanderlu
 7130,Warning,警告
 7881,Autosave failed.<newline>Error code: <error_code>.,
 7127,OK,OK
-7154,Humanity had such high hopes and we failed them. We failed the Founders. But is this really the end?,
+7154,Humanity had such high hopes and we failed them. We failed the Founders. But is this really the end?,人類給予我們高度期待，然而我們卻失敗了。我們無法成為創始者，但一切真的結束了嗎？
 5766,"Failure's just another step in the process. The only thing is to dust ourselves off and try again. And when the future generations return to Mars, our experience, our mistakes and achievements will help them succeed where we could not.
 
-<effect> All Founders have either died or left Mars. The Colony couldn't live up to the dream of human colonization. Game over. But don't give up!",
+<effect> All Founders have either died or left Mars. The Colony couldn't live up to the dream of human colonization. Game over. But don't give up!","失敗只是過程中的一小步。唯一的辦法便是拋去過往並再次嘗試。當後世回到火星之時，我們的經驗、錯誤與成就將幫助他們在我們未能抵達之處獲得成功。
+
+<effect>所有創始者皆已死去或離開火星，殖民地無法達成人類殖民火星的夢想。遊戲結束，但別放棄！"
 5765,Game Over,遊戲結束
 8157,"The Colony has failed. The lives and the dreams of our Colonists are lost, washed away by despair and grief.",殖民計劃失敗了，殖民者們的夢想與生命被悲傷與絕望的情緒洗去。
 8156,"Now, our goal as a species is to not despair. To not look away from the stars. The path has proven to be hard and rocky, but hardship had only made humans more determined – and that’s what defines us as a species! We are sure that one day people will walk the red sands and call Mars their home.
 
 <effect> All Colonists have either died or left Mars. Game over. But don't give up!","身為人，現在我們絕不能絕望。不要讓目光移開這星海，這條路雖然遍布荊棘，但苦難只會使我們更加堅定，這也是我們做為人的原因！總有一天，人們會走在紅色沙土上，並稱火星為家。
 
-<effect> 所有的殖民者皆已死去或離開火星，遊戲結束。但別放棄！"
+<effect>所有的殖民者皆已死去或離開火星，遊戲結束。但別放棄！"
 5767,"Welcome to Mars, Commander!",指揮官，歡迎來到火星！
 7155,Welcome to Mars!,歡迎來到火星！
 5768,"Everyone at Mission Control is impatient to see the rocket touching down and unloading its precious cargo - our remotely controlled eyes and hands on the Red Planet - the drones and rovers. Our goal is to secure a foothold for humanity by building the first Martian Dome. This daunting endeavor will allow the brave pioneers - the Founders - to settle on Mars and prove that the colony is sustainable. But until then we have to make sure the colony has enough construction resources, Water, Oxygen and Power.
@@ -2690,7 +2720,7 @@ Before you get started, please take a moment to read our Terms of Use and Privac
 1079,Surviving Mars,火星生存
 5769,No Radio,無
 5770,Quantum Sonics,量子音速
-5771,The Free Earth Channel,自由火星頻道
+5771,The Free Earth Channel,自由地球頻道
 5772,Red Frontier,紅色疆界
 5773,The Official Mars Channel,火星官方頻道
 7156,"You’d think the Explorer had found buried treasure, the way our scientists were reacting. It was a sulfur-rich regolith!",你肯定認為探索者號找到寶了，咱們科學家也是這麼想的，這是塊富含硫磺的大地！
@@ -2720,7 +2750,7 @@ Our plans at Mission Control included the introduction of a long-term nuclear en
 
 任務中心的計劃中預計為日益擴張的殖民地引入長期核能解決方案，我們從這些礦物中製造出的鈹將為這項艱鉅的任務提供莫大的幫助。我們將把鈹製燃料棒裝進我們的核反應爐，並充分利用其驚人的機械、化學和核物理特性。
 
-<effect>物理科技樹的科技獲得 10% 加速。"
+<effect> 物理科技樹的科技獲得 10% 加速。"
 5791,Awesome!,好極了！
 7161,The rover manipulators held the silver-white mineral up to the camera just as the chemical analysis came through. We’ve found Tellurium.,經過化學分析後，探測車將它夾有銀白色礦物的機械臂舉在鏡頭前，我們發現了碲！
 5792,"In a moment, the Chief Engineer at Mission Control was at the communications station, urging instructions to the RC Explorer on how to handle and analyze the discovery. It was amusing to watch the almost childlike excitement in the eyes of the expert.
@@ -2831,7 +2861,7 @@ We faced a difficult decision, but at the end, it was a matter of simple pragmat
 <effect> Gain <funding(200000000)> Funding.","紅色警報在我們與探索者號失去聯繫後立刻響起。長達五個小時的恐懼和絕望在數據送返的時候結束，聚集在控制中心的科學家們終於鬆了一口氣。電荷起因於探測觀測點地殼的鑽探機擾動了一處富含磁鐵礦的岩層。漫遊者號仍然可以正常運作，但在完全恢復機能前需要一點時間。操作者化危機為轉機，利用意外的空檔研究火星地殼的磁性。
 
 <effect> 漫遊者號發生故障。 它必須由無人機修理。
-<effect> 以下科技研發加速 50% ：Low-G Drive（無人機和漫遊者速度更快）、Sensor Tower（傳感塔不需要電力與維修）
+<effect> 以下科技研發加速 50%： 弱G科技：越野火星（無人機和漫遊者速度更快）、掃描塔（不再需要電力與維護）
 <effect> 增加 <funding(200000000)> 資金"
 7173,We’ve just found the wreckage of Phobos-2! The old probe even had some new data for us to analyze.,我們找到了火衛2號的殘骸！即便是老舊的探測器也會有些新資料可以分析。
 5817,"On July 7th, 1988 the Soviet Union launched two Proton-K rockets carrying the Phobos-1 and Phobos-2 probes on a course to Mars. Of the two craft only Phobos-2 reached its final destination, but contact with it was lost just before it could deliver its precious payload.
@@ -2839,11 +2869,11 @@ We faced a difficult decision, but at the end, it was a matter of simple pragmat
 Humankind will be forever grateful for the information we salvaged from its computers.
 
 <effect>Locations of several Anomalies discovered.
-<hint> Check the map for the new locations.","1988年7月7日，蘇聯向火星發射了兩枚質子K型火箭，運載了火衛一號和火衛二號探測器。其中只有火衛二號火箭到達目的地，但就在它可以提供其寶貴的有效載荷之前即失去音訊。
+<hint> Check the map for the new locations.","1988年7月7日，蘇聯向火星發射了兩枚質子Ｋ型火箭，運載了火衛一號和火衛二號探測器。其中只有火衛二號火箭到達目的地，但就在它可以提供其寶貴的有效載荷之前即失去音訊。
 
 人類將永遠感激這些我們從電腦中獲取的資訊。
 
-<effect>發現數個觀測點。
+<effect> 發現數個觀測點。
 <hint> 在地圖上查看這些新地點。"
 7174,Our Explorer just got into a pretty serious accident. The good news is it’s still in one piece.,我們的探索者號遇到了些嚴重事故，好消息是它還完好無缺。
 5818,"The vehicle stumbled upon a crust fault which could have lasted for a couple hundreds of years under the slow erosion of the planet. Disturbed by the mechanical motion of the scanning probes, the surface opened like a wound and swallowed the rover, luckily, only for a dozen of meters. The sturdy machine got out of the hole, but nevertheless it sustained heavy damage.
@@ -2885,7 +2915,7 @@ The scientific community praised the findings, raising the status of our mission
 科學界讚揚了這些發現，提高了我們的任務在人類眼中的地位。我們的贊助商向任務單位提供了額外的資金。"
 5829,Get <funding(choice_param1)> Funding.,獲得 <funding(choice_param1)> 資金。
 5831,Get 2 Drone Hub Prefabs.,獲得兩座無人機中心預製建築。
-5833,Get 4 Moisture Vaporator Prefabs.,獲得四座溼氣蒐集站預製建築。
+5833,Get 4 Moisture Vaporator Prefabs.,獲得四座水氣蒐集站預製建築。
 7179,The odd composition of the debris collected from the anomaly site has proven to be an uncrackable riddle for our science team.,這個從廢墟蒐集來的奇怪化合物被證明是我們的科學團隊無法解開的謎團。
 5835,"The experts all agree that the materials discovered at the Anomaly site could not originate on Mars, but they are also in agreement that they are not the remains of a meteorite or a contaminant introduced from our Rockets. For now it looks like the origin of the debris will remain a mystery.
 
@@ -2909,55 +2939,73 @@ As wise men throughout history said more than once: the more we know, the more w
 <effect> A Celebrity Applicant is available on Earth.","這些攝影作品被證明對這項任務有用處，它激勵地球上的人們相信人類應該在紅色星球上建立新的家園。
 
 <effect> 一個地球上的明星申請者可供選擇。"
-7182,We discovered unusual crystals in the remains of a meteorite. The magnified images of their crystalline matrix were broadcast by every major news channel on Earth.,
+7182,We discovered unusual crystals in the remains of a meteorite. The magnified images of their crystalline matrix were broadcast by every major news channel on Earth.,我們在隕石之中發現了異常的結晶體，它結晶狀母岩的放大圖在地球上各大新聞頻道播出。
 5839,"One tabloid even claims that the crystal is in fact artificially created - some kind of artwork of a microscopic alien race.
 
 ""The work resembles million tiny cylinders surrounded by flames. If you squint your eyes, the very static of the composition resembles a star map. The image is bordered by double rainbows while the work has an abstract feeling and a very dynamic structure.""
 
 While all this unscientific sensationalism had outraged our experts, the publicity provided us with some unexpected benefits.
 
-<effect>You gain <funding(reg_param1)>.",
-5840,I want to believe!,
-7183,The Explorer made a thorough scan of the Anomaly site but couldn't find anything unusual.,
-5841,"Regrettably, it appears that the unusual readings were just a sensor glitch.",
-5842,Or were they?,
-5858,Expedition Disaster: Marooned In Space,
+<effect>You gain <funding(reg_param1)>.","一個八卦小報甚至聲稱：結晶體實際上是人造的 ─ 來自於某種顯微鏡可見的外星種族。
+
+「這玩意兒像是數百萬個由火焰包圍的迷你圓柱體。當你瞇起眼睛，靜態的構圖就像一張星圖，整幅圖像被兩道彩虹包圍，它有著抽象且動感的構成。」
+
+雖然這些既煽情又不科學的言論激怒了我們的專家，但也為我們帶來了一些意想不到的宣傳效果。
+
+<effect>你增加 <funding(reg_param1)> 資金。"
+5840,I want to believe!,我想相信！
+7183,The Explorer made a thorough scan of the Anomaly site but couldn't find anything unusual.,探索者號掃描了觀測點周遭卻沒找到什麼異常。
+5841,"Regrettably, it appears that the unusual readings were just a sensor glitch.",很遺憾，看來異常讀數是掃描器故障造成的。
+5842,Or were they?,但真的是這樣嗎？
+5858,Expedition Disaster: Marooned In Space,考察災難：流放到太空
 5859,"The RC Explorer is a robust, yet complex machine. Those unacquainted would be astonished when they see the mission reports where dozens of minor breakdowns happened during an expedition and were ignored by the operators. Expedition veterans know that a dead light bulb won't break down the vehicle and they ignore it with a wry smile.
 
 But when something as serious as the motor system breaks down, it takes bravery not to panic. There is no time for desperation then, our drones have to repair the malfunction before it causes more harm.
 
-<effect>The RC Explorer suffered a malfunction. It has to be repaired by Drones",
-7184,"As with everything made by the hands of man, the Explorer isn’t without its breakdowns and failures.",
-7185,We should research the Dark Spectrometry technology to learn more about the Black Cubes,
-5862,A peculiar black cube matrix has appeared near the Colony. We should send an Explorer to investigate.,
-5863,"An unknown black, previously undetected cube-shaped object",
-5864,Mystery Cube,
-5865,"Reportedly, a black cube has appeared within the extractor.",
-5866,Cube Disaster,
-5867,Power of Three: Disappearing Act,
-7186,A Concrete Extractor went abruptly silent. Maintenance requests were met with nothing but static.,
+<effect>The RC Explorer suffered a malfunction. It has to be repaired by Drones","探索者號是台勇健但複雜的機器。那些外行人如果看到任務報告肯定會大吃一驚，因為在考察期間它發生了幾十次故障，但被操作者忽略。探險隊老鳥們知道，一個燈泡壞了不會對車輛造成影響，所以他們選擇苦笑以對。
+
+但若是像機電系統故障那樣嚴重事故發生時，勇敢點，別驚慌。我們沒時間絕望，我們必須在無人機受到更多傷害之前修好它。
+
+<effect>探索者號發生故障。它必須由無人機修理。"
+7184,"As with everything made by the hands of man, the Explorer isn’t without its breakdowns and failures.",就如所有出於人類之手的東西，探索者號是會故障和失效。
+7185,We should research the Dark Spectrometry technology to learn more about the Black Cubes,我們應該研究黑暗光譜技術，好更深入了解黑立方。
+5862,A peculiar black cube matrix has appeared near the Colony. We should send an Explorer to investigate.,殖民地附近出現了一個奇特的黑色立方矩陣體。我們應該派一個探索者來調查。
+5863,"An unknown black, previously undetected cube-shaped object",這是個以前未被發現到的黑色立方體形物體。
+5864,Mystery Cube,神秘立方
+5865,"Reportedly, a black cube has appeared within the extractor.",據報導，黑立方出現在挖掘器周遭。
+5866,Cube Disaster,立方災難
+5867,Power of Three: Disappearing Act,三的立方：消除行動
+7186,A Concrete Extractor went abruptly silent. Maintenance requests were met with nothing but static.,一個混凝土挖掘站突然失去聯繫，提出修復請求也沒有回應。
 5868,"This event was unlike any malfunction predicted in the security protocols. Orbital scans on the site revealed no evidence of the existence of the huge structure – only a black cube matrix centered on the spot where the extractor was supposed to be.
 
-<effect>A Concrete Extractor has been destroyed by a Black Cube. An Anomaly has appeared on the site.",
-5869,We must investigate,
-5870,A Black Cube has led to the destruction of a Concrete Extractor. We should investigate the site with an Expedition.,
-5871,Power of Three: A Black Cube Appears,
-7187,A routine scan of the perimeter has detected an unidentified object within immediate proximity of the Colony. Data logs confirm it – it isn’t a glitch.,
+<effect>A Concrete Extractor has been destroyed by a Black Cube. An Anomaly has appeared on the site.","這個事件與安全紀錄中預測的可能故障都不相同，衛星掃描顯示本應該存在的大型建築結構已然消失，只有一個黑色的立方體矩陣立在原本該是挖掘站的地方。
+
+<effect>一座混凝土挖掘站被黑立方摧毀，該地區出現一個觀測點。"
+5869,We must investigate,得調查清楚
+5870,A Black Cube has led to the destruction of a Concrete Extractor. We should investigate the site with an Expedition.,一個黑立方摧毀了我們的混凝土挖掘站，我們必須派遣考察隊去調查那個地區。
+5871,Power of Three: A Black Cube Appears,立方之力：黑立方現蹤
+7187,A routine scan of the perimeter has detected an unidentified object within immediate proximity of the Colony. Data logs confirm it – it isn’t a glitch.,例行性掃描檢測到殖民地附近有個不明物體。數據紀錄證實 ─ 這不是個小故障。
 5872,"The mysterious object appears to consist of pitch-black cubes arranged in a matrix. The cubes seemingly levitate above the ground without the aid of any support structure.
 
 Preliminary image analysis remains inconclusive. An on-site investigation is required to assess the Anomaly. We advise caution.
 
-<effect>A Black Cube has appeared seemingly out of nowhere. We have to investigate this Anomaly.",
-5873,A black cube? Most peculiar…,
-5874,"Power of Three: ...For, They Came in Numbers",
-7188,The mysterious cubes continue to appear across the colony. Mission Control advises all personnel to remain calm and stick to protocol.,
+<effect>A Black Cube has appeared seemingly out of nowhere. We have to investigate this Anomaly.","神秘物體似乎是由排列成矩陣的漆黑色立方體組成。立方體看似懸浮在地面之上，毋須任何支撐。
+
+初步圖像分析仍然充滿不確定性，需要現場調查以評估異常情況，我們建議謹慎些。
+
+<effect>黑立方似乎無處不在，我們必須調查這個觀測點。"
+5873,A black cube? Most peculiar…,一個黑立方？這不科學…
+5874,"Power of Three: ...For, They Came in Numbers",立方之力：…來了一大堆！
+7188,The mysterious cubes continue to appear across the colony. Mission Control advises all personnel to remain calm and stick to protocol.,整個殖民地持續出現神秘立方體，任務中心建議所有人員保持冷靜並堅守工作流程。
 5875,"The cube structures tend to emerge without warning, as unscientific as it may sound, out of thin air. Apart from their evident presence, so far the structures pose no threat to the Colony.
 
-Until further investigation, the scientific board of Mission Control has decided to impose an information blackout on the matter to prevent the spread of panic and fear among the Colonists.",
-5876,"There is a certain sense of urgency to this, it seems.",
-5877,More than a hundred cubes have appeared. Their purpose and origin are still unknown.,
-5878,Power of Three: Making Sense of the Unknown,
-7189,"We can’t hide the truth from the public, not when the Colony’s being swarmed by black cubes.",
+Until further investigation, the scientific board of Mission Control has decided to impose an information blackout on the matter to prevent the spread of panic and fear among the Colonists.","立方體結構多半無預警的現身，聽起來不科學，但它是憑空出現的。除了它的存在很顯眼之外，到目前為止對殖民地並沒有構成威脅。
+
+在進一步調查之前，控制中心的科學委員會已決定對此消息進行封鎖，以防止驚慌和恐懼在殖民者間蔓延。"
+5876,"There is a certain sense of urgency to this, it seems.",這看起來，的確有緊迫感。
+5877,More than a hundred cubes have appeared. Their purpose and origin are still unknown.,超過一百個立方體出現了，目前無法得知他們的來源與目的。
+5878,Power of Three: Making Sense of the Unknown,立方之力：理解未知
+7189,"We can’t hide the truth from the public, not when the Colony’s being swarmed by black cubes.",當殖民地被黑立方給包圍之時，我們就再也無法對公眾隱瞞真相。
 5879,"Without any credible explanation, the Colony was soon flooded with various rumors and interpretations of the mystery. What if they're bombs? Billions of tiny bombs? Or transport capsules maybe, with a mini robot inside. Or deadly hard drives. Or alien eggs? Or messages needing decoding. Or they're all parts of a bigger whole. Jigsaw puzzles that need to be put together.
 
 The team at Mission Control is against trying to spread further misinformation and propaganda – partially because it would just add to the total confusion, but mainly because it would endanger the philosophical principles of our mission. We could only trust in our Colonists and hope for the best.",
@@ -3664,7 +3712,9 @@ Moreover, the creator of the Dreamer hypothesis which led us here has filed an a
 6155,Inner Light: Abrupt Wake Up,
 6156,"Hypnotic suggestions and therapy can gradually cure the patient to an almost completely functional state. Some of the Chief Staff at Mission Control suggested that we should allow the spread of Dreamers to continue in order to explore the strange events related to the Mirages.
 
-<effect>Colonists with the Dreamer trait can be cured in the Sanatorium",
+<effect>Colonists with the Dreamer trait can be cured in the Sanatorium","Hypnotic suggestions and therapy can gradually cure the patient to an almost completely functional state. Some of the Chief Staff at Mission Control suggested that we should allow the spread of Dreamers to continue in order to explore the strange events related to the Mirages.
+
+<effect>尖端療養院可以治療有夢遊症狀的殖民者"
 7231,Our behavioral analysis of the Dreamers tells us that we can mitigate the factors that led to their mirage-induced trance.,
 6158,"We have discovered a way to treat the symptoms of Dreamers in the Sanatorium, permanently severing their link to the Mirages.",
 6159,Inner Light: Learning to Dream,
@@ -3697,9 +3747,17 @@ Help us cast away the darkness of the unknown with this, Commander, and we‘ll 
 NetSky LLC, CRS Division CEO<left>
 
 <effect>Tech researched – Network Node
-<hint>Build a Network Node to initiate Project Number Six.",
+<hint>Build a Network Node to initiate Project Number Six.","Commander, I'm writing to inform you about the conclusion on the deal between <reg_param1> and our company, NetSky LLC. For over a decade we've been providing high-tech solutions for the market, and now we're working towards the future with our Project ""Number Six"". It's a brand new, completely heuristic, self-improving program designed to simulate extremely complex predictions – market, research, or sociological, it’s your call. I know you’ll like its UI personality, too!
+
+Help us cast away the darkness of the unknown with this, Commander, and we‘ll pioneer the next big step in human evolution!
+
+<right>Ned Smith,
+NetSky LLC, CRS Division CEO<left>
+
+<effect>解鎖科技 – 火星人高速網路計畫
+<hint>Build a Network Node to initiate Project Number Six."
 6168,Sweet opportunity!,
-6169,We've been contacted by NetSky LLC. They’ve requested a Network Node to harbor their AI Project Number Six.,
+6169,We've been contacted by NetSky LLC. They’ve requested a Network Node to harbor their AI Project Number Six.,We've been contacted by NetSky LLC. They’ve requested a 高速網路通訊中心 to harbor their AI Project Number Six.
 6170,AI: Hello,
 7235,Another late night in the control room poring over maintenance and monitoring reports when a message pops up on your private terminal. This better be good.,
 6171,">>> Greetings. Additional address/communication protocols missing. Expressing simulated emotion of happiness.
@@ -3725,7 +3783,7 @@ Now for the good news – we applied the first stock market predictions from Num
 
 <effect>Gained <funding(reg_param1)> Funding.",
 6176,Apology accepted.,
-8513,You have been prompted by NetSky to construct new facilities - Network Nodes - to expand the hardware of Number Six.,
+8513,You have been prompted by NetSky to construct new facilities - Network Nodes - to expand the hardware of Number Six.,You have been prompted by NetSky to construct new facilities - 高速網路通訊中心 - to expand the hardware of Number Six.
 6177,AI: Let's Chat,
 7237,We can still remember when Ned Smith asked us to help develop Project Number Six by giving it a human partner. Made it sound exciting. Nobody sugar coats like a CEO.,
 6178,"Commander, at the CRS Division we put a lot of trust into the Number Six Project – you could easily call it our baby. Good parents always look after their child and spoil it a little bit when necessary – Number Six requested a direct connection to your control room.
@@ -3740,7 +3798,7 @@ We will install a console there – it's your choice whether you'll use it. Numb
 
 <effect>Gain a random Technology.",
 6182,Amazing results!,
-8514,Smith from NetSky insists on the construction of additional Network Nodes for the advancement of Project Number Six.,
+8514,Smith from NetSky insists on the construction of additional Network Nodes for the advancement of Project Number Six.,Smith from NetSky insists on the construction of additional 高速網路通訊中心 for the advancement of Project Number Six.
 6183,AI: To Exist is to...?,
 7239,You open your comm log to find a message from Number Six. You read on.,
 6184,"Improved personality simulations. Commander, Number Six has a report on the progress of answering the question you asked. Research keypoints:
@@ -4184,7 +4242,7 @@ As the war has ravaged most of Earth's resource infrastructure, <reg_param1> is 
 
 We must send the requested supplies to Earth as soon as possible! If we do not act with all haste, there may be no living soul left to receive them very soon.",
 8218,Time is of the essence.,
-8219,War Tension: <reg_param1>%,厭戰： <reg_param1>%
+8219,War Tension: <reg_param1>%,緊張情勢： <reg_param1>%
 8220,The Last War: Doomsday Clock,
 8221,Tensions are rising at a rate faster than even the most pessimistic predictions.,
 8222,"The UN has adopted the Doomsday Clock that the Bulletin of Atomic Scientists has used since the end of World War Two - to highlight how close humanity is to self-extinction. It is now set at Two Minutes to Midnight, a level at which it hasn’t been at since the early 21st century.",
@@ -4580,12 +4638,14 @@ As with all change, there will be resistance. There are those who prosper from w
 To them I have to say: the world is moving on. Try as you might, you have only slowed down an irreversible process.”",
 8563,A setback. We will overcome it!,
 6318,BIOTECH,生物科技
-6319,"The <em>Biotech</em> field deals with <em>Food</em> production, <em>life support</em> and <em>medicine</em>.",<em>生物科技</em> 欄位處理 <em>食物</em> 生產，<em>生命支援</em> 和 <em>醫藥</em>。
-6320,Hygroscopic Vaporators,主動式溼氣蒐集器
+6319,"The <em>Biotech</em> field deals with <em>Food</em> production, <em>life support</em> and <em>medicine</em>.",<em>生物科技</em>主要發展 <em>食物</em> 生產、<em>維生系統</em> 和 <em>醫療系統</em>相關的研究
+6320,Hygroscopic Vaporators,吸入式 水氣蒐集模組
 6321,"Moisture Vaporator Upgrade (<em>Hygroscopic Coating</em>) - Water production increased by <param1>%.
 
-<grey>With its mechanical simplicity and applicability to any point on Mars's surface, the Water-Vapor Adsorption Reactor technology can extract water directly from the Martian atmosphere.</grey>",
-6322,Soil Adaptation,土壤適應
+<grey>With its mechanical simplicity and applicability to any point on Mars's surface, the Water-Vapor Adsorption Reactor technology can extract water directly from the Martian atmosphere.</grey>","水氣蒐集站 升級 (<em>吸入式 水氣蒐集模組</em>) - 水資源產量提升 <param1>%.
+
+<grey>With its mechanical simplicity and applicability to any point on Mars's surface, the Water-Vapor Adsorption Reactor technology can extract water directly from the Martian atmosphere.</grey>"
+6322,Soil Adaptation,土壤改良技術
 6323,"New Building: <em>Farm</em> (<buildinginfo('Farm')>) - Produces Food. Large in-Dome building which is more work-efficient and requires no Power.
 
 <grey>""They say once you grow crops somewhere you’ve officially colonized it.""
@@ -4593,204 +4653,289 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 
 <grey>""俗話說，種植作物就代表正式殖民。""
 <right>Andy Weir – 火星人</grey><left>"
-6343,Low-G Fungi,低 G 菌類
+6343,Low-G Fungi,弱G科技：遇見真菌
 6344,"New Building: <em>Fungal Farm</em> (<buildinginfo('FungalFarm')>) -  An out-Dome building that produces Food.
 
 <grey>""All fungi are edible. Some fungi are only edible once."" 
-<right>Terry Pratchett</grey><left>","""新建築: <em>菌類農場</em> (<buildinginfo('FungalFarm')>) -  蒼穹頂外的生產食物建築。
+<right>Terry Pratchett</grey><left>","新建築: <em>真菌農場</em> (<buildinginfo('FungalFarm')>) -  蒼穹頂外的生產食物建築。
 
-<grey>""""所有的菌類都可以吃。有些菌類只能吃一次。"""" 
-<right>Terry Pratchett</grey><left>"""
+<grey>""所有的菌類都可以吃。有些菌類只能吃一次。
+<right>Terry Pratchett</grey><left>"
 5125,Magnetic Filtering,磁性過濾
 6326,"MOXIE Upgrade (<em>Magnetic Filtering</em>) - Oxygen production increased by <param1>%.
 
-<grey>Magnetic filters block ferromagnetic metal contaminants as well as weakly magnetic particles from the Martian atmosphere when inhaled by our MOXIEs, greatly increasing their efficiencies.</grey>","""火星氧蒐集裝置升級 (<em>磁性過濾</em>) - 氧氣生成增加 <param1>%.
+<grey>Magnetic filters block ferromagnetic metal contaminants as well as weakly magnetic particles from the Martian atmosphere when inhaled by our MOXIEs, greatly increasing their efficiencies.</grey>","火星氧蒐集裝置升級 (<em>磁性過濾</em>) - 氧氣生成增加 <param1>%.
 
-<grey>當我們的火星氧蒐集裝置吸入火星大氣時，磁性過濾會阻擋大氣中的磁性金屬汙染和弱磁粒子，大大的增加裝置效率。</grey>"""
-6327,Water Reclamation,水回收
+<grey>當我們的火星氧蒐集裝置吸入火星大氣時，磁性過濾會阻擋大氣中的磁性金屬汙染和弱磁粒子，大大的增加裝置效率。</grey>"
+6327,Water Reclamation,水資源回收系統
 6328,"New Spire Building: <em>Water Reclamation System</em> (<buildinginfo('WaterReclamationSystem')>) - drastically reduces the Water consumption of the Dome.
 
-<grey>Water on Mars is abundant, yet it is mostly underground and in a frozen state – making it, while within reach, still difficult and expensive to mine. This makes recycling necessary to ensure a steady water supply.</grey>",
-6329,Utility Crops,實用的作物
+<grey>Water on Mars is abundant, yet it is mostly underground and in a frozen state – making it, while within reach, still difficult and expensive to mine. This makes recycling necessary to ensure a steady water supply.</grey>","新尖端建築：<em>水資源回收系統</em> (<buildinginfo('WaterReclamationSystem')>) - 有效的減少蒼穹頂中的水資源消耗
+
+<grey>Water on Mars is abundant, yet it is mostly underground and in a frozen state – making it, while within reach, still difficult and expensive to mine. This makes recycling necessary to ensure a steady water supply.</grey>"
+6329,Utility Crops,更多的農作物
 6330,"Unlock <em>new crops</em> in Farms and Hydroponic Farms that provide Oxygen and improve soil quality.
 
-<grey>From the salad you eat to the air you breathe, plants have a fundamental role to play for humanity well beyond Earth.</grey>",
-6331,Martianborn Adaptability,火星之子適應力
+<grey>From the salad you eat to the air you breathe, plants have a fundamental role to play for humanity well beyond Earth.</grey>","解鎖農場 跟 水陪農場的 <em>新作物</em>，可以提供不錯的氧氣生成 以及 土壤營養品質
+
+<grey>From the salad you eat to the air you breathe, plants have a fundamental role to play for humanity well beyond Earth.</grey>"
+6331,Martianborn Adaptability,這就是在地人
 6332,"<em>Martianborn</em> Colonists graduate faster in Universities and Sanatoriums and have higher chance to gain Perks from Schools.
 
-<grey>Certain restrictions that still persist on Earth derived from religion and general conservatism are absent here on Mars. As a result, we have the freedom to genetically enhance our newborns and hone their already-sharp minds to a sharp point.</grey>",
-6324,Biome Engineering,綠化工程
+<grey>Certain restrictions that still persist on Earth derived from religion and general conservatism are absent here on Mars. As a result, we have the freedom to genetically enhance our newborns and hone their already-sharp minds to a sharp point.</grey>","<em>火星之子</em> 將可以更快的從 教育系統 與 尖端療養院中 完成課程。 且更容易在教育中學習得專長
+
+<grey>Certain restrictions that still persist on Earth derived from religion and general conservatism are absent here on Mars. As a result, we have the freedom to genetically enhance our newborns and hone their already-sharp minds to a sharp point.</grey>"
+6324,Biome Engineering,園藝景觀綠化工程
 6325,"<em>Farms</em> increase the Comfort of all residences in the Dome.
 
-<grey>Seeing something green against the endless reddish barrens of Mars can be quite therapeutic.</grey>",
-6335,Dome Bioscaping,蒼穹頂綠化裝飾
+<grey>Seeing something green against the endless reddish barrens of Mars can be quite therapeutic.</grey>","<em>農場</em> 現在將不只提供食物，還同時可以提升蒼穹頂中住宅的舒適度
+
+<grey>Seeing something green against the endless reddish barrens of Mars can be quite therapeutic.</grey>"
+6335,Dome Bioscaping,蒼穹頂綠化工程
 6336,"Residences in <em>Basic Domes</em> have improved Comfort.
 
 <grey>“One touch of nature makes the whole world kin.”
-<right>William Shakespeare</grey><left>",
-6337,Microgravity Medicine,微重力藥物
+<right>William Shakespeare</grey><left>","<em>基本蒼穹頂</em> 中的住宅可以獲得更好的舒適度
+
+<grey>“One touch of nature makes the whole world kin.”
+<right>William Shakespeare</grey><left>"
+6337,Microgravity Medicine,無重力醫療系統
 6338,"New Spire Building: <em>Medical Center</em> (<buildinginfo('MedicalCenter')>) - has larger capacity and is more effective than the Infirmary.
 
 <grey>“The good physician treats the disease; the great physician treats the patient who has the disease.” 
-<right>William Osler</grey><left>",
-6339,Gene Adaptation,基因適應力
+<right>William Osler</grey><left>","新尖端建築：<em>醫療中心</em> (<buildinginfo('MedicalCenter')>) - 擁有更多的容量，且服務效率會比診所要來的好
+
+<grey>“The good physician treats the disease; the great physician treats the patient who has the disease.” 
+<right>William Osler</grey><left>"
+6339,Gene Adaptation,作物基因改造
 6340,"Unlock <em>new crops</em> in Farms and Hydroponic Farms that provide better Food yields.
 
-<grey>The overall reputation of GMO grown foods has increased dramatically when the only other alternative for food is red dirt.</grey>",
-7293,Water Conservation System,節水系統
+<grey>The overall reputation of GMO grown foods has increased dramatically when the only other alternative for food is red dirt.</grey>","解鎖 農場 與 水培農場 中的 <em>新作物</em> ，可以提供更好的收成數量
+
+<grey>The overall reputation of GMO grown foods has increased dramatically when the only other alternative for food is red dirt.</grey>"
+7293,Water Conservation System,節水系統工程
 7294,"Water consumption of <em>Domes</em> reduced by <param1>%.
 
 <grey>""No water, no life. No blue, no green.""
-<right>Sylvia Earle</grey><left>",
+<right>Sylvia Earle</grey><left>","<em>蒼穹頂</em> 的耗水量 將減少<param1>%.
+
+<grey>""No water, no life. No blue, no green.""
+<right>Sylvia Earle</grey><left>"
 6333,Farm Automation,農場自動化
 6334,"<em>Farm, Hydroponic Farm & Fungal Farm</em> Upgrade: <em>Automation</em> - Decreases number of workers.
 
-<grey>Now that we have adapted crops to the Martian environment we can mechanize some procedures.</grey>",
-3535,Hanging Gardens,吊掛式花園
+<grey>Now that we have adapted crops to the Martian environment we can mechanize some procedures.</grey>","<em>農場、水培農場 與 真菌農場</em> 升級：<em>自動化</em> - 減少所需的員工數
+
+<grey>Now that we have adapted crops to the Martian environment we can mechanize some procedures.</grey>"
+3535,Hanging Gardens,火星上的空中花園
 6345,"New Spire Building: <em>Hanging Gardens</em> (<buildinginfo('HangingGardens')>) - a beautiful park complex that greatly improves the Comfort of all Residences in the Dome.
 
-<grey>One of humanity’s most enduring and fanciful legends from the ancient past is made a reality on Mars.</grey>",
-6346,Holographic Scanning,全息掃描
+<grey>One of humanity’s most enduring and fanciful legends from the ancient past is made a reality on Mars.</grey>","新尖端建築：<em>空中花園</em> (<buildinginfo('HangingGardens')>) - 一座非常夢幻漂亮的空中公園，可以有效的改善蒼穹頂中居民的舒適度
+
+<grey>One of humanity’s most enduring and fanciful legends from the ancient past is made a reality on Mars.</grey>"
+6346,Holographic Scanning,四維超音波掃描
 6347,"<em>Medical Center</em> Upgrade (Holographic Scanner) - Increases birth rate in the Dome.
 
-<grey>Holographic technologies can significantly improve medical diagnostics and monitoring procedures.</grey>",
-6348,Moisture Farming,水分農場
+<grey>Holographic technologies can significantly improve medical diagnostics and monitoring procedures.</grey>","<em>醫療中心</em> 升級 (四維超音波掃描) - 增加蒼穹頂居民的生育率
+
+<grey>Holographic technologies can significantly improve medical diagnostics and monitoring procedures.</grey>"
+6348,Moisture Farming,水氣蒐集站
 6349,"New Building: <em>Moisture Vaporator</em> (<buildinginfo('MoistureVaporator')>) - Produces Water from the atmosphere. Doesn't produce during Dust Storms.
 
 <grey>""What I really need is a drone that understands the binary language of moisture vaporators.""
-<right>Unknown Martian Colonist</grey><left>",
-5103,Rejuvenation Treatment,回春治療
+<right>Unknown Martian Colonist</grey><left>","新建築：<em>水氣蒐集站</em> (<buildinginfo('MoistureVaporator')>) - 可以從大氣中蒐集到水資源。 無法在沙塵暴期間運作
+
+<grey>""我需要一台可以跟這玩意而溝通的無人機！.""
+<right>不具名的火星殖民者</grey><left>"
+5103,Rejuvenation Treatment,妙手回春
 6350,"Infirmary & Medical Center Upgrade (<em>Rejuvenation Treatment</em>) - Improves Service Comfort and provides Relaxation, allowing Colonists to visit and gain Comfort.
 
-<grey>You haven’t truly colonized a planet until you build the first Spa center on it.</grey>",
-6353,Stem Reconstruction,人體軀幹重建
+<grey>You haven’t truly colonized a planet until you build the first Spa center on it.</grey>","診所 與 醫療中心 升級 (<em>妙手回春</em>) - 提升整體的服務舒適度，並且提供參訪者更好的 放鬆與舒適空間
+
+<grey>You haven’t truly colonized a planet until you build the first Spa center on it.</grey>"
+6353,Stem Reconstruction,幹細胞重建與治療
 6354,"<em>Retirement age</em> and <em>death</em> from old age happen later in the Colonists' lifespan.
 
 <grey>""Live long and prosper""
-<right>Vulcan Salute</grey><left>",
-6355,Localized Terraforming,奇蹟蒼穹頂
+<right>Vulcan Salute</grey><left>","因年老而造成的 <em>退休年齡</em> 跟 <em>死亡</em> 的狀況將會延緩，增加殖民者的生命週期
+
+<grey>""Live long and prosper""
+<right>Vulcan Salute</grey><left>"
+6355,Localized Terraforming,親愛的，我把地球搬過來了
 6356,"New Wonder: <em>Geoscape Dome</em> (<buildinginfo('GeoscapeDome')>)  - A slice of Earth on Mars, this Dome has high Comfort and increases the Sanity of its inhabitants on every Sol.
 
 <grey>""It's a fixer-upper of a planet but we could make it work."" 
-<right>Elon Musk</grey><left>",
+<right>Elon Musk</grey><left>","新世界奇觀：<em>天頂蒼穹</em> (<buildinginfo('GeoscapeDome')>)  - 非常巨大的蒼穹頂，簡直看起來就是地球的一個角落。 可以提供居民非常好的舒適度 而且逐日恢復理智
+
+<grey>""It's a fixer-upper of a planet but we could make it work."" 
+<right>Elon Musk</grey><left>"
 6357,ENGINEERING,工程學
-6358,"The <em>Engineering</em> field deals with <em>Buildings</em>, <em>Domes</em> and improves <em>Rocket</em> technology.",
-6359,Fuel Compression,燃料壓縮
+6358,"The <em>Engineering</em> field deals with <em>Buildings</em>, <em>Domes</em> and improves <em>Rocket</em> technology.",<em>工程學</em>主要發展 <em>設施建築</em> 、<em>蒼穹頂</em> 和 加強<em>火箭</em>的研究
+6359,Fuel Compression,高密度燃料科技
 6360,"<em>Rocket</em> Cargo Space increased by <param1> kg.
 
-<grey>The fuel section is by far the largest and, when full, the heaviest part of any rocket. This makes developing more compressed fuels especially important when striving to bring more to Mars with fewer rockets.</grey>",
-6361,Decommission Protocol,退役協定
+<grey>The fuel section is by far the largest and, when full, the heaviest part of any rocket. This makes developing more compressed fuels especially important when striving to bring more to Mars with fewer rockets.</grey>","<em>貨運火箭</em> 的酬載量將增加 <param1> kg.
+
+<grey>The fuel section is by far the largest and, when full, the heaviest part of any rocket. This makes developing more compressed fuels especially important when striving to bring more to Mars with fewer rockets.</grey>"
+6361,Decommission Protocol,爆破許可證
 6362,"Allows the clearing of <em>salvaged</em> and <em>destroyed buildings.</em>
 
-<grey>We have reached the point where we must do away with old buildings on Mars to make way for new ones.</grey>",
-6363,Low-G Hydrosynthesis,低 G 水合成
+<grey>We have reached the point where we must do away with old buildings on Mars to make way for new ones.</grey>","可以完整的清除掉 <em>已拆除</em> 以及 <em>被摧毀的建築</em>
+還給您完整可再利用的建地面積
+
+<grey>We have reached the point where we must do away with old buildings on Mars to make way for new ones.</grey>"
+6363,Low-G Hydrosynthesis,弱G科技：液壓合成技術
 6364,"New Building: <em>Polymer Factory</em> (<buildinginfo('PolymerPlant')> - Produces Polymers from Water and Fuel.
 New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces Fuel from Water.
 
-<grey>Resolving the obvious problems with water pressure in Low-G environments will allow for more complex hydro-synthetic procedures to be done on-site on Mars.</grey>",
-6365,Advanced Martian Engines,進階火星引擎
+<grey>Resolving the obvious problems with water pressure in Low-G environments will allow for more complex hydro-synthetic procedures to be done on-site on Mars.</grey>","新建築：<em>聚合物工廠</em> (<buildinginfo('PolymerPlant')> - 可以使用水與燃料，生產出聚合物
+新建築：<em>燃料精煉廠</em> (<buildinginfo('FuelFactory')>)  - 可以從水資源中，提煉出可用的燃料
+
+<grey>Resolving the obvious problems with water pressure in Low-G environments will allow for more complex hydro-synthetic procedures to be done on-site on Mars.</grey>"
+6365,Advanced Martian Engines,高效能火星引擎
 6366,"<em>Rockets</em> and <em>Shuttles</em> require less Fuel.
 
-<grey>The scarcity of Martian-made rocket fuel options has made for our first true contribution towards rocket engine efficiency.</grey>",
-6367,Low-G High-rise,低重力高建築學
+<grey>The scarcity of Martian-made rocket fuel options has made for our first true contribution towards rocket engine efficiency.</grey>","<em>火箭</em> 及 <em>客貨機</em> 將減少燃料的需求
+
+<grey>The scarcity of Martian-made rocket fuel options has made for our first true contribution towards rocket engine efficiency.</grey>"
+6367,Low-G High-rise,弱G科技：萬丈高樓平地起
 6368,"New Building: <em>Apartments</em> (<buildinginfo('Apartments')>) - A Residential Building that houses many Colonists.
 
 <grey>""I suggest that going to Mars means permanence on the planet - a mission by which we are building up a confidence level to become a two-planet species.""
-<right>Buzz Aldrin</grey><left>",
-6371,Compact Passenger Module,
+<right>Buzz Aldrin</grey><left>","新建築：<em>公寓</em> (<buildinginfo('Apartments')>) - 可以容納較多居民的建築物
+
+<grey>""I suggest that going to Mars means permanence on the planet - a mission by which we are building up a confidence level to become a two-planet species.""
+<right>Buzz Aldrin</grey><left>"
+6371,Compact Passenger Module,經濟艙模組
 6372,"<em>Passenger Rockets</em> carry <param1> more Colonists.
 
-<grey>Better design patterns and lighter, tougher materials have all contributed to a more advanced and compact rocket passenger module.</grey>",
-7999,Storage Compression,儲存壓縮
+<grey>Better design patterns and lighter, tougher materials have all contributed to a more advanced and compact rocket passenger module.</grey>","<em>客運火箭</em> 可以額外乘載 <param1> 乘客
+
+<grey>Better design patterns and lighter, tougher materials have all contributed to a more advanced and compact rocket passenger module.</grey>"
+7999,Storage Compression,壓縮技術升級
 8000,"Water, Oxygen and Power <em>storage</em> capacity expanded by <param1>%.
 
-<grey>Life support reserves are essential for the survival of the Colony. Fortunately, a new method of compressing fluids in low-gravity environments can help us increase our reserve capacity greatly.</grey>",
-6373,Low-G Engineering,低 G 工程學
+<grey>Life support reserves are essential for the survival of the Colony. Fortunately, a new method of compressing fluids in low-gravity environments can help us increase our reserve capacity greatly.</grey>","水資源、氧氣 以及 電力 <em>儲存</em> 容量 將增加 <param1>%.
+
+<grey>Life support reserves are essential for the survival of the Colony. Fortunately, a new method of compressing fluids in low-gravity environments can help us increase our reserve capacity greatly.</grey>"
+6373,Low-G Engineering,弱G科技：蒼穹頂工程
 6374,"New Dome: <em>Medium</em> (<buildinginfo('DomeMedium')>) - A medium-sized Dome.
 
-<grey>Gaining experience in actually building constructions on Mars rather than just hypothesizing has vastly advanced our off-Earth architectural capabilities.</grey>",
-6375,Sustainable Architecture,
+<grey>Gaining experience in actually building constructions on Mars rather than just hypothesizing has vastly advanced our off-Earth architectural capabilities.</grey>","新蒼穹頂： <em>中型蒼穹頂</em> (<buildinginfo('DomeMedium')>) - 中型尺寸的蒼穹頂
+
+<grey>Gaining experience in actually building constructions on Mars rather than just hypothesizing has vastly advanced our off-Earth architectural capabilities.</grey>"
+6375,Sustainable Architecture,建築耐久改善工程
 6376,"<em>In-Dome buildings</em> require maintenance less often.
 
-<grey>Shifting focus away from ""fixing it"" to ""avoiding it"" is the natural step forward for any Martian habitat.</grey>",
+<grey>Shifting focus away from ""fixing it"" to ""avoiding it"" is the natural step forward for any Martian habitat.</grey>","<em>蒼穹頂內的建築</em> 將不太需要維護了
+
+<grey>Shifting focus away from ""fixing it"" to ""avoiding it"" is the natural step forward for any Martian habitat.</grey>"
 3533,Smart Home,智慧住宅
 6377,"New Buildings: <em>Smart Homes</em> (<buildinginfo('SmartHome_Small')>)  & <em>Smart Complex</em> (<buildinginfo('SmartHome')>) - Provides a very comfortable living space for Colonists. Residents will recover Sanity when resting.
 
-<grey>Perfecting the Martian household - for a better life beyond Earth.</grey>",
-8637,Micro Manufacturing,微電路製造
+<grey>Perfecting the Martian household - for a better life beyond Earth.</grey>","新建築：<em>智慧住宅</em> (<buildinginfo('SmartHome_Small')>)  & <em>智慧豪宅</em> (<buildinginfo('SmartHome')>) - 提供居民很舒適的居住空間，居民可以從休息中恢復失去的理智
+
+<grey>Perfecting the Martian household - for a better life beyond Earth.</grey>"
+8637,Micro Manufacturing,積體電路工程技術
 8638,"New Building: <em>Electronics Factory</em> (<buildinginfo('ElectronicsFactory')>) - Produces Electronics from Rare Metals.
 
 <grey>""In the end, I hope there's a little note somewhere that says I designed a good computer.""
-<right>Steve Wozniak</grey><left>",
-3534,Arcology,生態建築學
+<right>Steve Wozniak</grey><left>","新建築：<em>電子零件工廠</em> (<buildinginfo('ElectronicsFactory')>) - 利用稀有金屬來生產 電子零件
+
+<grey>""In the end, I hope there's a little note somewhere that says I designed a good computer.""
+<right>Steve Wozniak</grey><left>"
+3534,Arcology,生態之城都市計畫
 6378,"New Spire Building: <em>Arcology</em> (<buildinginfo('Arcology')>) - provides comfortable living space for many colonists.
 
-<grey>Martian settlements are becoming less just mere shelters and more of fully fledged cities –cities with unique vibes and even architecture.</grey>",
-6379,Mars Nouveau,
+<grey>Martian settlements are becoming less just mere shelters and more of fully fledged cities –cities with unique vibes and even architecture.</grey>","新尖端建築：<em>阿卡羅之城</em> (<buildinginfo('Arcology')>) - 提供非常舒適的居住空間，可以容納很多殖民者
+
+<grey>Martian settlements are becoming less just mere shelters and more of fully fledged cities –cities with unique vibes and even architecture.</grey>"
+6379,Mars Nouveau,新火星風格運動
 6380,"Building construction costs in <em>Metals & Concrete</em> reduced by <param1>% (excluding Domes).
 
-<grey>A mix of off-world pride, a unique and ambitious style, and inspired creativity has resulted in more efficient structural design.</grey>",
-6381,Resilient Architecture,
+<grey>A mix of off-world pride, a unique and ambitious style, and inspired creativity has resulted in more efficient structural design.</grey>","建築材料使用為 <em>金屬 & 混凝土</em> 的話，可以減少花費 <param1>% (除了蒼穹頂之外)
+
+<grey>A mix of off-world pride, a unique and ambitious style, and inspired creativity has resulted in more efficient structural design.</grey>"
+6381,Resilient Architecture,彈性結構技術
 6382,"<em>Out-Dome buildings</em> require maintenance less often.
 
-<grey>There is a difference between knowing that conditions on Mars will take a heavy toll on man-made buildings and actually experiencing and fixing the damage done. The latter paints a better picture for improvement.</grey>",
-6383,Advanced Passenger Module,
+<grey>There is a difference between knowing that conditions on Mars will take a heavy toll on man-made buildings and actually experiencing and fixing the damage done. The latter paints a better picture for improvement.</grey>","<em>蒼穹頂 外的建築</em> 將不再那麼常需要維護
+
+<grey>There is a difference between knowing that conditions on Mars will take a heavy toll on man-made buildings and actually experiencing and fixing the damage done. The latter paints a better picture for improvement.</grey>"
+6383,Advanced Passenger Module,進階客艙模組
 6384,"<em>Passenger Rockets</em> carry <param1> more Colonists.
 
-<grey>Cutting edge methods in space optimization and Comfort-centric designs make for a more practical Passenger Module.</grey>",
+<grey>Cutting edge methods in space optimization and Comfort-centric designs make for a more practical Passenger Module.</grey>","<em>客運火箭</em>  可以額外乘載 <param1> 的乘客
+
+<grey>Cutting edge methods in space optimization and Comfort-centric designs make for a more practical Passenger Module.</grey>"
 6385,Gravity Engineering,重力工程學
 6386,"New Dome: <em>Mega</em> (<buildinginfo('DomeMega')>) - The most advanced and spacious Dome design.
 
-<grey>We have reached a proficiency in engineering that surpasses the most ambitious architectural achievements on Earth.</grey>",
+<grey>We have reached a proficiency in engineering that surpasses the most ambitious architectural achievements on Earth.</grey>","新蒼穹頂：<em>巨型蒼穹頂</em> (<buildinginfo('DomeMega')>) - 先進的巨大蒼穹頂，可以提供相當多的設計空間
+
+<grey>We have reached a proficiency in engineering that surpasses the most ambitious architectural achievements on Earth.</grey>"
 6389,Plasma Cutters,等離子切割機
 6390,"<em>Rare Metals Extractor</em> production increased by <param1>%.
 
-<grey>Introducing state of the art plasma torches to our Rare Metals Extractors show a great promise for boosts in production.</grey>",
-6393,Waste Rock Liquefaction,廢石液化
+<grey>Introducing state of the art plasma torches to our Rare Metals Extractors show a great promise for boosts in production.</grey>","<em>稀有金屬挖掘站</em> 產能將增加 <param1>%.
+
+<grey>Introducing state of the art plasma torches to our Rare Metals Extractors show a great promise for boosts in production.</grey>"
+6393,Waste Rock Liquefaction,碎石液化回收
 7671,"Drones can extract concrete from <em>Waste Rock</em> stored in Dumping Sites.
 
-<grey>The utilization of lots of waste rock by reprocessing it into becoming concrete-grade regolith as part of our ""Nothing Is Wasted"" efficiency policy.</grey>",
-6395,Orbital Engineering,軌道工程
+<grey>The utilization of lots of waste rock by reprocessing it into becoming concrete-grade regolith as part of our ""Nothing Is Wasted"" efficiency policy.</grey>","無人機 將可從棄置區中的 <em>廢棄碎石</em> 萃取出混凝土
+
+<grey>The utilization of lots of waste rock by reprocessing it into becoming concrete-grade regolith as part of our ""Nothing Is Wasted"" efficiency policy.</grey>"
+6395,Orbital Engineering,軌道工程學
 6396,"Wonder: <em>Space Elevator</em> (<buildinginfo('SpaceElevator')>) - Exports Rare Metals to Earth and offers resupply materials and prefabs at preferential prices.
 
 <grey>""The space elevator will be built about 50 years after everyone stops laughing.""
-<right>Arthur C. Clarke</grey><left>",
+<right>Arthur C. Clarke</grey><left>","世界奇觀： <em>太空電梯</em> (<buildinginfo('SpaceElevator')>) - 一種更快進入軌道的方式，電梯可用更快的速度將貨物送入軌道、出口稀有金屬到地球 並且可以用更優惠的價格購買 各式補給與預製零件
+
+<grey>""The space elevator will be built about 50 years after everyone stops laughing.""
+<right>Arthur C. Clarke</grey><left>"
 6397,ROBOTICS,機器人科技
-6398,"The <em>Robotics</em> field deals with <em>Drones, Rovers and Shuttles</em>, as well as building <em>automation</em>.",
-6399,Transport Optimization,運輸最佳化
+6398,"The <em>Robotics</em> field deals with <em>Drones, Rovers and Shuttles</em>, as well as building <em>automation</em>.",<em>機器人科技</em> 專研在各式 <em>無人機、車輛及客貨機</em>的發展，也包含了部分設施的自動化研究
+6399,Transport Optimization,運輸車改造計畫
 6400,"The <em>RC Transport</em> harvests resources faster and its maximum storage is increased by <param1>.
 
-<grey>The remote location of some resource deposits calls for Transport Rover optimizations.</grey>",
-6401,Low-G Drive,低重力駕駛技術
+<grey>The remote location of some resource deposits calls for Transport Rover optimizations.</grey>","<em>運輸車</em> 採集資源的速度將會更快，並且單次載運量也增加 <param1> 個單位
+
+<grey>The remote location of some resource deposits calls for Transport Rover optimizations.</grey>"
+6401,Low-G Drive,弱G科技：越野火星
 6402,"<em>Drones</em> and <em>Rovers</em> move <param1>% faster.
 
-<grey>An engine design optimized for low-gravity environments.</grey>",
-6403,Drone Swarm,無人機群
+<grey>An engine design optimized for low-gravity environments.</grey>","<em>無人機</em> 與<em>車輛</em>  的移動將會加快 <param1>%
+
+<grey>完全針對低重力環境下，最佳化的四驅引擎設計</grey>"
+6403,Drone Swarm,機多好辦事
 6404,"<em>Drone Hubs</em> are constructed with additional <param1> Drones and the maximum number of Drones is increased by <param2>.
 
-<grey>Drones being the backbone for most of the heavy and dangerous labor on Mars, it is essential our Hubs have greater operating capacity in order to employ more Drones at any given time.</grey>",
-6425,Explorer AI,探索 AI
+<grey>Drones being the backbone for most of the heavy and dangerous labor on Mars, it is essential our Hubs have greater operating capacity in order to employ more Drones at any given time.</grey>","<em>無人機中心</em> 自帶無人機數量將增加 <param1> ，並最大可遙控的無人機數量增加 <param2>.
+
+<grey>Drones being the backbone for most of the heavy and dangerous labor on Mars, it is essential our Hubs have greater operating capacity in order to employ more Drones at any given time.</grey>"
+6425,Explorer AI,探索者人工智慧模組
 6426,"Generate <research(param1)> per Sol for each <em>RC Explorer</em> vehicle. Multiple vehicles result in collaboration losses.
 
-<grey>AI specifically tailored for our Explorers will think for itself, gathering only the data they have deemed could be of interest. The above will greatly contribute to our research initiatives.</grey>","每台 <em>RC Explorer</em> 車輛每個太陽日產出 <research(param1)> 。多輛車加乘會遞減。
+<grey>AI specifically tailored for our Explorers will think for itself, gathering only the data they have deemed could be of interest. The above will greatly contribute to our research initiatives.</grey>","<em>探索者號</em> 可以額外增加研究點數 <research(param1)>  當有多輛探索者號時，這個加成效果將會遞減。
 
-<grey> 特別為我們探索者打造的 AI，會自己思考，只收集它們感興趣的資料。這對我們的研究會大有助益。 </grey>"
+<grey> 特別為我們探索者打造人工智慧模組。現在他們將會開始自我思考，只收集它們感興趣的資料。這對我們的研究會大有助益。 </grey>"
 3518,Drone Hub,無人機中心
 6407,"New Building: <em>Drone Hub</em> (<buildinginfo('DroneHub')>) - Controls Drones and allocates them to different jobs.
 
 <grey>We can now rely upon ourselves to build the complex Hubs that control our de facto heavy labor force.</grey>","新建築： <em> 無人機中心 </em> (<buildinginfo('DroneHub')>) - 控制並分配不同工作給無人機。
 
 <grey>We can now rely upon ourselves to build the complex Hubs that control our de facto heavy labor force.</grey>"
-6405,Battery Optimization,電池最佳化
+6405,Battery Optimization,渾身是勁
 6406,"<em>Drone</em> battery capacity increased by <param1>%.
 
 <grey>Advances in power accumulator technology allow Drones to function longer before needing to recharge.</grey>","<em> 無人機 </em> 電力容量增加 <param1>%.
 
-<grey>Advances in power accumulator technology allow Drones to function longer before needing to recharge.</grey>"
-8001,Rover Command AI,漫遊者控制 AI
+<grey>進階的電力儲存科技，可以讓您的無人機更加持久，更帶勁兒！</grey>"
+8001,Rover Command AI,漫遊者人工智慧模組
 8002,"The <em>RC Rover</em> no longer needs recharging, starts with <param1> additional Drones and command limit increased by <param2>. 
 
-<grey>Developing a specialized AI with greater autonomy and advanced multitasking capabilities will allow our rovers to control more drones simultaneously.</grey>","<em>漫遊者號</em> 將不再需要電力了，且出產時自攜帶無人機數量也額外增加 <param1> 台，可遙控單位數量上限擴充 <param2> 台
+<grey>Developing a specialized AI with greater autonomy and advanced multitasking capabilities will allow our rovers to control more drones simultaneously.</grey>","<em>漫遊者號</em> 將不再需要電力了，且出廠自帶無人機數量也額外增加 <param1> 台，可遙控單位數量上限擴充 <param2> 台。
 
 <grey>Developing a specialized AI with greater autonomy and advanced multitasking capabilities will allow our rovers to control more drones simultaneously.</grey>"
 6410,Drone Printing,無人機列印技術
@@ -4798,148 +4943,203 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 
 <grey>We may now print and assemble entire Drones on Mars with Martian-mined materials.</grey>","新建築： <em> 無人機裝配廠 </em> (<buildinginfo('DroneFactory')>) - 使用電子零件 製造無人機預製零件，預製零件可在無人機中心 裝配新的無人機。
 
-<grey>We may now print and assemble entire Drones on Mars with Martian-mined materials.</grey>"
-8639,3D Machining,機械 3D 加工技術
+<grey>看起來我們可以在火星組裝出首台 可以印上火星製造的無人機了</grey>"
+8639,3D Machining,金屬材料 3D列印機
 8640,"New Building: <em>Machine Parts Factory</em> (<buildinginfo('MachinePartsFactory')>) - Produces Machine Parts from Metals.
 
 <grey>Mastering the peculiarities of Martian ores has allowed us to make 3D Metal Printers, which will serve as the foundation for all future Martian industry.</grey>","新建築： <em> 機械零件廠 </em> (<buildinginfo('MachinePartsFactory')>) - 使用金屬生產 機械零件
 
-<grey>Mastering the peculiarities of Martian ores has allowed us to make 3D Metal Printers, which will serve as the foundation for all future Martian industry.</grey>"
+<grey>在充分掌握火星礦石的特性後，我們研發出可以切割金屬的3D列印機，我相信這肯定火星殖民史上的首次工業革命！</grey>"
 6414,CO2 Jet Propulsion,CO2噴射推進系統
 6415,"New Building: <em>Shuttle Hub</em> (<buildinginfo('ShuttleHub')>) - Houses and refuels Shuttles that facilitate <em>long-range transportation</em> of resources between Depots and resettling of Colonists between Domes.
 
-<grey>Adapting an air-breathing jet engine to work in the 95% carbon dioxide atmosphere of Mars is a challenge.</grey>","新建築： <em> 客貨機服務站 </em> (<buildinginfo('ShuttleHub')>) - Houses and refuels Shuttles that facilitate <em>long-range transportation</em> of resources between Depots and resettling of Colonists between Domes.
+<grey>Adapting an air-breathing jet engine to work in the 95% carbon dioxide atmosphere of Mars is a challenge.</grey>","新建築： <em> 客貨機服務站 </em> (<buildinginfo('ShuttleHub')>) - 提供客貨機停靠與加油的服務站 客貨機可用來 <em>長途運輸</em> 載運資源或者是 兩地之間的乘客
 
-<grey>Adapting an air-breathing jet engine to work in the 95% carbon dioxide atmosphere of Mars is a challenge.</grey>"
-6408,Fueled Extractors,燃料式挖掘站
+<grey>要讓噴射系統在高達95%二氧化碳大氣濃度的火星上飛起來，絕對是一大挑戰.</grey>"
+6408,Fueled Extractors,燃料動力挖掘站
 6409,"Extractor Upgrade (<em>Fueled Extractor</em>) - Production increased by <param1>% as long as the building is supplied with Fuel.
 
 <grey>""We should not just consume hydrocarbon fuel but use it to develop nuclear energy, hydro power and renewable energy sources.""
-<right>Vladimir Putin<left></grey>","挖掘站升級（<em> 燃料式挖掘站 </em>）- 當有燃料供應此建築時，產出增加 <param1>%
+<right>Vladimir Putin<left></grey>","挖掘站升級（<em> 燃料動力挖掘站 </em>）- 當建築物使用燃料當成動力的時候，產能將增加 <param1>%
 
 <grey>""We should not just consume hydrocarbon fuel but use it to develop nuclear energy, hydro power and renewable energy sources.""
 <right>Vladimir Putin<left></grey>"
-5054,Factory AI,工廠管理 AI
+5054,Factory AI,工廠自動化產線升級
 6418,"Factory Upgrade (<em>Factory AI</em>) - performance increased by <param1>%.
 
-<grey>After extensive trials and the allocation of many resources to the program, a work-safe AI has been developed to optimize various Factory operations.</grey>","工廠升級（<em> 工廠管理 AI </em>）- 效率提升 <param1>%.
+<grey>After extensive trials and the allocation of many resources to the program, a work-safe AI has been developed to optimize various Factory operations.</grey>","工廠升級（<em>工廠管理 AI</em>）- 效率提升 <param1>%.
 
-<grey>After extensive trials and the allocation of many resources to the program, a work-safe AI has been developed to optimize various Factory operations.</grey>"
+<grey>經過大量試驗而且投入了相當大的資源後，我們開發了一種可以安全工作的人工智慧系統，可以用來優化工廠內的運營</grey>"
 6421,Martian Aerodynamics,火星空氣動力學
 6422,"<em>Shuttle</em> speed increased by <param1>%.
 
-<grey>Designing shuttles for flight in a low density/low pressure atmosphere is more efficient when designing them in a low density/low pressure atmosphere.</grey>",
-6423,Rover Printing,
+<grey>Designing shuttles for flight in a low density/low pressure atmosphere is more efficient when designing them in a low density/low pressure atmosphere.</grey>","<em>客運機</em> 飛行速度將增加 <param1>%.
+
+<grey>Designing shuttles for flight in a low density/low pressure atmosphere is more efficient when designing them in a low density/low pressure atmosphere.</grey>"
+6423,Rover Printing,車輛生產技術
 6424,"Can construct <em>RC Rover</em> (<buildinginfo('RCRoverBuilding')>), <em>RC Transport</em> (<buildinginfo('RCTransportBuilding')>) and <em>RC Explorer</em> (<buildinginfo('RCExplorerBuilding')>).
 
-<grey>Machine-part printing devices have reached a fidelity high enough to print the intricate parts necessary to assemble state of the art Rovers. </grey>",
-6427,Compact Hangars,
+<grey>Machine-part printing devices have reached a fidelity high enough to print the intricate parts necessary to assemble state of the art Rovers. </grey>","可以建造 <em>漫遊者號</em> (<buildinginfo('RCRoverBuilding')>)、<em>運輸車</em> (<buildinginfo('RCTransportBuilding')>) 以及 <em>探索者號</em> (<buildinginfo('RCExplorerBuilding')>).
+
+<grey>Machine-part printing devices have reached a fidelity high enough to print the intricate parts necessary to assemble state of the art Rovers. </grey>"
+6427,Compact Hangars,立體停機棚升級
 6428,"The maximum number of Shuttles that the <em>Shuttle Hub</em> can house is increased by <param1>.
 
-<grey>Reaching heights unheard of in parking space sciences.</grey>",
-6429,High-powered Jets,
+<grey>Reaching heights unheard of in parking space sciences.</grey>","可停放的 <em>客貨機</em> 數量增加 <param1> 台。
+
+<grey>Reaching heights unheard of in parking space sciences.</grey>"
+6429,High-powered Jets,高供能噴射
 6430,"<em>Shuttle</em> cargo capacity increased by <param1>.
 
-<grey>Advanced shuttle drives deliver more thrust and allow for greater cargo capacity.</grey>",
-6432,The Martian Network,
+<grey>Advanced shuttle drives deliver more thrust and allow for greater cargo capacity.</grey>","<em> 客貨機 </em> 酬載能力增加 <param1> 。
+
+<grey>Advanced shuttle drives deliver more thrust and allow for greater cargo capacity.</grey>"
+6432,The Martian Network,火星人高速網路計畫
 6433,"New Spire Building: <em>Network Node</em> (<buildinginfo('NetworkNode')>) - increases the research output of all Research Labs and Science Institutes in the Dome.
 
-<grey>Rapid transfer of information and an easier access to it could speed up research several times-fold.</grey>",
-6434,Project Mohole,
+<grey>Rapid transfer of information and an easier access to it could speed up research several times-fold.</grey>","新的尖端建築： <em> 高速網路通訊中心 </em> (<buildinginfo('NetworkNode')>) - 增加蒼窮頂內 研究中心 與 科學機構的科研輸出。
+
+<grey>Rapid transfer of information and an easier access to it could speed up research several times-fold.</grey>"
+6434,Project Mohole,莫霍超級計劃
 1076,"Wonder: <em>Mohole Mine</em> (<buildinginfo('MoholeMine')>) - Extracts Metals, Rare Metals and Waste Rock without the need of a deposit, while heating the surrounding area.
 
-<grey>Moholes are shafts that dig exceptionally deep in the Martian crust, releasing heat as part of a potential terraforming effort and, as a bonus, mining ore.</grey>",
-6436,Large-scale Excavation,
+<grey>Moholes are shafts that dig exceptionally deep in the Martian crust, releasing heat as part of a potential terraforming effort and, as a bonus, mining ore.</grey>","世界奇觀：<em>莫霍礦井</em> (<buildinginfo('MoholeMine')>) - 就算附近沒有資源點，仍然可以挖掘 稀有金屬、金屬 以及 廢棄碎石， 同時加熱附近的區域
+
+<grey>Moholes are shafts that dig exceptionally deep in the Martian crust, releasing heat as part of a potential terraforming effort and, as a bonus, mining ore.</grey>"
+6436,Large-scale Excavation,火星 霸王鑽計畫
 6437,"Wonder: <em>The Excavator</em> (<buildinginfo('TheExcavator')>) - Produces Concrete directly from the Martian soil without requiring a deposit.
 
-<grey>Martian concrete, made from equal parts regolith and sulfur, has some vast improvements over its Earth counterpart. Red concrete is stronger, more durable and can be recycled and reused simply by reheating it.</grey>",
+<grey>Martian concrete, made from equal parts regolith and sulfur, has some vast improvements over its Earth counterpart. Red concrete is stronger, more durable and can be recycled and reused simply by reheating it.</grey>","世界奇觀： <em>霸王鑽</em> (<buildinginfo('TheExcavator')>) - 就算附近沒有混凝土資源，也可以從火星地底中挖掘到 混凝土
+
+<grey>Martian concrete, made from equal parts regolith and sulfur, has some vast improvements over its Earth counterpart. Red concrete is stronger, more durable and can be recycled and reused simply by reheating it.</grey>"
 6438,PHYSICS,物理學
-6439,"The <em>Physics</em> field deals with <em>Power</em> production, <em>exploration</em> and <em>disaster</em> safety.",
-6440,Extractor Amplification,
+6439,"The <em>Physics</em> field deals with <em>Power</em> production, <em>exploration</em> and <em>disaster</em> safety.","<em>物理學</em> 主要針對<em>電力</em> 產能, <em>探索</em> 與 預防<em>天然災害</em> 的相關研究"
+6440,Extractor Amplification,擴大挖掘升級
 6441,"Extractor Upgrade (<em>Amplify</em>) - Increases production by <param1>% but also increases Power consumption by <power(param2)>.
 
 <grey>""From the first day to this, sheer greed was the driving spirit of civilization.""
-<right>Friedrich Engels</grey><left>",
-6442,Autonomous Sensors,
+<right>Friedrich Engels</grey><left>","挖掘站升級 (<em>擴大挖掘</em>) - 增加產能 <param1>% ，不過同時也增加電力消耗 <power(param2)>.
+
+<grey>""From the first day to this, sheer greed was the driving spirit of civilization.""
+<right>Friedrich Engels</grey><left>"
+6442,Autonomous Sensors,掃描塔 自主維護科技
 6443,"<em>Sensor Towers</em> no longer require Power or maintenance.
 
-<grey>Reliable sensor data is instrumental for the exploration of Mars.</grey>",
-6452,Subsurface Heating,
+<grey>Reliable sensor data is instrumental for the exploration of Mars.</grey>","<em>掃描塔</em> 將不再需要電力與維護
+
+<grey>Reliable sensor data is instrumental for the exploration of Mars.</grey>"
+6452,Subsurface Heating,地質加熱裝置
 6453,"New Building: <em>Subsurface Heater</em> (<buildinginfo('SubsurfaceHeater')>) - Increases the local temperature in cold areas and protects nearby buildings from Cold Waves. Consumes Water.
 
-<grey>Mars has an average surface temperature of −55 degrees Celsius, with inclinations to fall well beneath −130.</grey>",
-6446,Low-G Turbines,
+<grey>Mars has an average surface temperature of −55 degrees Celsius, with inclinations to fall well beneath −130.</grey>","新建築：<em>地質加熱器</em> (<buildinginfo('SubsurfaceHeater')>) - 增加地表的基礎溫度，可以保護附近的建築物不受 冷氣團的影響。 需要消耗水資源
+
+<grey>Mars has an average surface temperature of −55 degrees Celsius, with inclinations to fall well beneath −130.</grey>"
+6446,Low-G Turbines,弱G科技： 渦輪機材料升級技術
 6447,"Wind Turbine Upgrade (<em>Polymer Blades</em>): Power production increased by <param1>%.
 
-<grey>Hands-on observations and problem solving in the low gravity environment of Mars have helped our engineers come up with solutions for increased Wind Turbine efficiency.</grey>",
-6448,Adapted Probes,
+<grey>Hands-on observations and problem solving in the low gravity environment of Mars have helped our engineers come up with solutions for increased Wind Turbine efficiency.</grey>","風力發電機 升級 (<em>聚合物葉片</em>): 發電效率增加 <param1>%.
+
+<grey>Hands-on observations and problem solving in the low gravity environment of Mars have helped our engineers come up with solutions for increased Wind Turbine efficiency.</grey>"
+6448,Adapted Probes,衛星探測器改造計畫
 6449,"<em>Probes</em> are cheaper and can deep scan.
 
 <grey>""The Universe is under no obligation to make sense to you."" 
-<right>Neil deGrasse Tyson</grey><left>",
+<right>Neil deGrasse Tyson</grey><left>","<em>衛星探測器</em> 現在更便宜而且可以執行深層掃描
+
+<grey>""The Universe is under no obligation to make sense to you."" 
+<right>Neil deGrasse Tyson</grey><left>"
 3521,Stirling Generator,斯特林發電機
 6450,"New Building: <em>Stirling Generator</em> (<buildinginfo('StirlingGenerator')>) - Generates Power. While closed the Generator is protected from dust, but produces less Power.
 
 <grey>The Stirling Radioisotope Generator is a generator based on a Stirling engine powered by a large radioisotope heater unit.</grey>","新建築：<em>斯特林發電機</em> (<buildinginfo('StirlingGenerator')>) - 可以生產電力。關閉圓頂罩的時候可以避免入塵的損害，不過發電效率將會下降許多
 
 <grey>The Stirling Radioisotope Generator is a generator based on a Stirling engine powered by a large radioisotope heater unit.</grey>"
-5013,Atomic Accumulator,
+5013,Atomic Accumulator,原子蓄電站
 6451,"New Building: <em>Atomic Accumulator</em> (<buildinginfo('AtomicBattery')>) - Stores electrical Power. Has huge capacity but charges slowly.
 
 <grey>""History will remember the twentieth century for two technological developments: atomic energy and space flight.""
-<right>Neil Armstrong</grey><left>",
-6444,Dust Repulsion,
+<right>Neil Armstrong</grey><left>","新建築： <em>原子蓄電站</em> (<buildinginfo('AtomicBattery')>) - 可以儲存更多的電力，但充電速度較慢
+
+<grey>""History will remember the twentieth century for two technological developments: atomic energy and space flight.""
+<right>Neil Armstrong</grey><left>"
+6444,Dust Repulsion,砂塵砂塵不要來
 6445,"<em>Solar Panels</em> are gradually cleaned from dust when closed, resulting in less frequent maintenance.
 
-<grey>Solar Panels are inherently vulnerable to dust, more so than any other equipment used on Mars. Thus automatic dust repulsion systems are put in place to spread out maintenance periods.</grey>",
-6454,Factory Amplification,
+<grey>Solar Panels are inherently vulnerable to dust, more so than any other equipment used on Mars. Thus automatic dust repulsion systems are put in place to spread out maintenance periods.</grey>","<em>太陽能板</em> 將自動清除鏡面上的砂塵，這意味著可以大幅減少維護的頻率
+
+<grey>Solar Panels are inherently vulnerable to dust, more so than any other equipment used on Mars. Thus automatic dust repulsion systems are put in place to spread out maintenance periods.</grey>"
+6454,Factory Amplification,工廠擴大升級
 6455,"Factory Upgrade (<em>Amplify</em>) - Increases production by <param1>% but also increases Power consumption by <power(param2)>.
 
-<grey>Scaling power production to meet the needs of manufacturing is a challenge on Mars.</grey>",
-6456,Deep Scanning,
+<grey>Scaling power production to meet the needs of manufacturing is a challenge on Mars.</grey>","工廠升級 (<em>工廠擴大升級</em>) - 增加產能 <param1>% ，同時也會增加電力消耗 <power(param2)>.
+
+<grey>Scaling power production to meet the needs of manufacturing is a challenge on Mars.</grey>"
+6456,Deep Scanning,深層掃描
 6457,"Sectors can now be scanned again for <em>deep deposits</em>. Exploiting these deposits requires additional technologies.
 
-<grey>We've barely scratched the surface of what we can learn about the Martian environment.</grey>",
-6458,Deep Water Extraction,
+<grey>We've barely scratched the surface of what we can learn about the Martian environment.</grey>","地圖區塊現在將可以再進行一次深層掃描，將可以發現<em>深層的資源點</em>。 要開採這些資源同時也需要對應的科技升級
+
+<grey>We've barely scratched the surface of what we can learn about the Martian environment.</grey>"
+6458,Deep Water Extraction,深層水資源挖掘
 6459,"Can exploit <em>deep Water deposits</em>.
 
-<grey>Water reserves the size of Lake Superior are predicted to be present deep beneath the surface of Mars.</grey>",
-6460,Deep Metal Extraction,
+<grey>Water reserves the size of Lake Superior are predicted to be present deep beneath the surface of Mars.</grey>","可以挖掘 <em>深層水資源點</em>.
+
+<grey>Water reserves the size of Lake Superior are predicted to be present deep beneath the surface of Mars.</grey>"
+6460,Deep Metal Extraction,深層金屬挖掘
 6461,"Can exploit deep <em>Metal</em> and <em>Rare Metal</em> deposits.
 
-<grey>Digging deep can be dangerous but it is necessary for sustained metal production.</grey>",
-6466,Nuclear Fusion,
+<grey>Digging deep can be dangerous but it is necessary for sustained metal production.</grey>","可以挖掘 <em>深層金屬</em> 以及 <em>深層稀有金屬</em> 資源點
+
+<grey>Digging deep can be dangerous but it is necessary for sustained metal production.</grey>"
+6466,Nuclear Fusion,核融合反應科學
 6467,"New Building: <em>Fusion Reactor</em> (<buildinginfo('FusionReactor')>) - Generates Power. Out-Dome building which requires Workers to operate.
 
 <grey>""I would like nuclear fusion to become a practical power source. It would provide an inexhaustible supply of energy, without pollution or global warming.""
-<right>Stephen Hawking</grey><left>",
-6462,Meteor Defense System,
+<right>Stephen Hawking</grey><left>","新建築：<em>核融合反應爐</em> (<buildinginfo('FusionReactor')>) - 可以生產電力供應，必須在建設再蒼穹頂外，並且由人員進行操作
+
+<grey>""I would like nuclear fusion to become a practical power source. It would provide an inexhaustible supply of energy, without pollution or global warming.""
+<right>Stephen Hawking</grey><left>"
+6462,Meteor Defense System,隕石防禦系統計畫
 6463,"New Building: <em>MDS Laser</em> (<buildinginfo('MDSLaser')>) - Destroys falling meteors in its range.
 
-<grey>The low density of the Martian atmosphere makes meteors especially dangerous; this is why installing a reliable defense system against meteors is critical for our Colony’s long term survival.</grey>",
-6468,Triboelectric Scrubbing,
+<grey>The low density of the Martian atmosphere makes meteors especially dangerous; this is why installing a reliable defense system against meteors is critical for our Colony’s long term survival.</grey>","新建築：<em>MDS 雷射砲台</em> (<buildinginfo('MDSLaser')>) - 將會催髓範圍內墜落的隕石
+
+<grey>The low density of the Martian atmosphere makes meteors especially dangerous; this is why installing a reliable defense system against meteors is critical for our Colony’s long term survival.</grey>"
+6468,Triboelectric Scrubbing,抗靜電除塵裝置
 6469,"New Building: <em>Triboelectric Scrubber</em> (<buildinginfo('TriboelectricScrubber')>) - Emits pulses which reduce the Dust accumulated on buildings in its range.
 
-<grey>While the triboelectric effect is not very predictable or precise, it can be entrusted with removing dust from our structures.</grey>",
-6470,Research Amplification,
+<grey>While the triboelectric effect is not very predictable or precise, it can be entrusted with removing dust from our structures.</grey>","新建築： <em>抗靜電除塵裝置</em> (<buildinginfo('TriboelectricScrubber')>) - 藉著脈衝能量清理 範圍內被沙塵覆蓋的建築
+
+<grey>While the triboelectric effect is not very predictable or precise, it can be entrusted with removing dust from our structures.</grey>"
+6470,Research Amplification,擴大研究升級
 6471,"Research Labs, Science Institutes and the Network Node Upgrade (<em>Amplify</em>) - Increases production by <param1>% but also increases Power consumption.
 
-<grey>The speed of the calculations and research efficiency grows with the amount of power invested.</grey>",
-6472,Fusion Autoregulation,
+<grey>The speed of the calculations and research efficiency grows with the amount of power invested.</grey>","研究實驗室、科學機構 以及 高速網路通訊中心 將可升級 (<em>Amplify</em>)  - 增加產能 <param1>% ，不過同時也會增加電力消耗
+
+<grey>The speed of the calculations and research efficiency grows with the amount of power invested.</grey> "
+6472,Fusion Autoregulation,核融合自動化管理系統
 6473,"Fusion Reactor Upgrade(<em>Auto-regulator</em>) - reduces the amount of workers.
 
 <grey>""Our present nuclear fusion reactors are classified by the methods used to support the nuclear fusion reaction, which takes place at a temperature much hotter than the surface of the Sun.""
-<right>Wilson Greatbatch</grey><left>",
-6476,Micro Fusion,
+<right>Wilson Greatbatch</grey><left>","核融合反應爐升級 (<em>自我管理系統</em>) - 減少所需要的員工
+
+<grey>""Our present nuclear fusion reactors are classified by the methods used to support the nuclear fusion reaction, which takes place at a temperature much hotter than the surface of the Sun.""
+<right>Wilson Greatbatch</grey><left>"
+6476,Micro Fusion,微型核融合技術
 6477,"Wonder: <em>Artificial Sun</em> (<buildinginfo('ArtificialSun')>) - Produces colossal amounts of Power. It provides light for nearby Solar Panels during the dark hours and heats the surrounding area. Consumes vast amounts of Water on startup.
 
-<grey>Unlocking the secrets of the stars is now within the grasp of humanity.</grey>",
-6478,Interplanetary Astronomy,
+<grey>Unlocking the secrets of the stars is now within the grasp of humanity.</grey>","世界奇觀：<em>人造太陽</em> (<buildinginfo('ArtificialSun')>) - 可以產生巨大的能量，可以提供光源使附近的太陽能板在夜晚也能運作。 同時也會加熱附近的區域。 再啟動的時候將會消耗大量的水資源
+
+<grey>Unlocking the secrets of the stars is now within the grasp of humanity.</grey>"
+6478,Interplanetary Astronomy,星際天文學協會
 6479,"Wonder: <em>Omega Telescope</em> (<buildinginfo('OmegaTelescope')>) - Gives access to new Breakthrough Technologies and boosts overall research.
 
-<grey>A milestone in human history has been achieved – feeling comfortable enough living on an alien world, so much so that some people are already turning their curiosity towards the endless expanse of space once more.</grey>",
+<grey>A milestone in human history has been achieved – feeling comfortable enough living on an alien world, so much so that some people are already turning their curiosity towards the endless expanse of space once more.</grey>","世界奇觀：<em>奧美加望遠鏡</em> (<buildinginfo('OmegaTelescope')>) - 將可發現新的突破性科技 以及 加速科技的成長
+
+<grey>A milestone in human history has been achieved – feeling comfortable enough living on an alien world, so much so that some people are already turning their curiosity towards the endless expanse of space once more.</grey>"
 6480,SOCIAL,社交
-6481,"The <em>Social</em> field deals with <em>Colonists</em>, <em>traits</em>, Martian <em>society</em> and <em>Funding</em>.",<em>社交</em>科技的將是著重於<em>殖民者</em>、<em>特性</em>、火星人的<em>社會</em> 以及<em>資金</em> 的發展
+6481,"The <em>Social</em> field deals with <em>Colonists</em>, <em>traits</em>, Martian <em>society</em> and <em>Funding</em>.",<em>社交</em>科技是著重於<em>殖民者</em>、<em>特性</em>、火星人的<em>社會</em> 以及<em>資金</em> 的發展
 6482,"""Live From Mars""","""火星生活！"""
 6483,"More <em>applicants</em> will start to appear on Earth.
 
@@ -4950,7 +5150,7 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6487,"<em>Engineers and Geologists</em> have +<param1> performance when working in their specialty.
 
 <grey>""Geologists have a saying - rocks remember.""
-<right>Neil Armstrong</grey><left>","<em>工程師 與 地質學家</em> 在正確的崗位工作時，將獲得額外 +<param1> 工作效率成長
+<right>Neil Armstrong</grey><left>","<em>工程師 與 地質學家</em> 在他們的專業上工作時，將獲得 +<param1> 工作效率成長
 
 <grey>""Geologists have a saying - rocks remember.""
 <right>Neil Armstrong</grey><left>"
@@ -4966,7 +5166,7 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6489,"<em>Scientists and Botanists</em> have +<param1> performance when working in their specialty.
 
 <grey>""Hell yeah I'm a botanist! Fear my botany powers!""
-<right>Andy Weir - The Martian</grey><left>","<em>科學家 與 植物學家</em> 在正確的崗位工作時，將獲得額外 +<param1> 工作效率成長
+<right>Andy Weir - The Martian</grey><left>","<em>科學家 與 植物學家</em> 在他們的專業上工作時，將獲得 +<param1> 工作效率成長
 
 <grey>""Hell yeah I'm a botanist! Fear my botany powers!""
 <right>Andy Weir - The Martian</grey><left>"
@@ -5005,10 +5205,10 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6500,Emergency Training,醫療急救訓練
 6501,"<em>Security Officers and Medics</em> have +<param1> performance when working in their specialty.
 
-<grey>One can never be too prepared for the vast array of emergencies that could arise at any given moment on Mars.</grey>","<em>保全人員 與 醫療人員</em> 在正確的崗位工作時，將獲得額外 +<param1> 工作效率成長
+<grey>One can never be too prepared for the vast array of emergencies that could arise at any given moment on Mars.</grey>","<em>保全人員 與 醫療人員</em> 在他們的專業上工作時，將獲得 +<param1> 工作效率成長
 
 <grey>One can never be too prepared for the vast array of emergencies that could arise at any given moment on Mars.</grey>"
-7297,General Training,常規訓練
+7297,General Training,通才訓練
 7298,Colonists without the proper <em>specialization</em> suffer a lower work penalty.,減少沒有適當<em>專長</em>的殖民者 工作效率損失
 6502,Martian Institute of Science,火星科學研究機構
 6503,"New Building: <em>Science Institute</em> (<buildinginfo('ScienceInstitute')>) - Generates Research faster than a Research Lab.
@@ -5016,115 +5216,172 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 <grey>With Martianborn science we will truly shift from being an experiment to being an equal to Earth, contributing to the scientific advancement of all of humanity.</grey>","新建築: <em>科學機構</em> (<buildinginfo('ScienceInstitute')>) - 研發科技的速度比研究實驗室 快
 
 <grey>With Martianborn science we will truly shift from being an experiment to being an equal to Earth, contributing to the scientific advancement of all of humanity.</grey>"
-6511,Behavioral Shaping,
+6511,Behavioral Shaping,深層心理治療服務
 6512,"New Spire Building: <em>Sanatorium</em> (<buildinginfo('Sanatorium')>) - treats colonists to remove flaws.
 
 <grey>""There are no constraints on the human mind, no walls around the human spirit, no barriers to our progress except those we ourselves erect.""
-<right>Ronald Reagan</grey><left>",
-6504,Martian Festivals,
+<right>Ronald Reagan</grey><left>","新尖端建築：<em>尖端療養院</em> (<buildinginfo('Sanatorium')>) - 可以治療殖民者的心理疾病
+
+<grey>""There are no constraints on the human mind, no walls around the human spirit, no barriers to our progress except those we ourselves erect.""
+<right>Ronald Reagan</grey><left>"
+6504,Martian Festivals,火星人萬歲
 6505,"<em>Decorations</em> have increased Service Comfort.
 
-<grey>Reinforcing the notion of a separate and unique Martian culture makes our Colonists more positive and helps them find comfort in the uncertain world which is life on Mars.</grey>",
-6506,Martianborn Strength,
+<grey>Reinforcing the notion of a separate and unique Martian culture makes our Colonists more positive and helps them find comfort in the uncertain world which is life on Mars.</grey>","一些 <em>裝飾物</em>像是公園、水池類的，將可以增加居民舒適度
+
+<grey>Reinforcing the notion of a separate and unique Martian culture makes our Colonists more positive and helps them find comfort in the uncertain world which is life on Mars.</grey>"
+6506,Martianborn Strength,司空見慣
 6507,"<em>Martianrborn</em> don't take Sanity damage from disasters.
 
-<grey>Martianborn grow up in the reality of the everyday dangers of the Red Planet. It bestows upon them an inner strength that is truly a unique Martian quality.</grey>",
-6508,Martianborn Resilience,
+<grey>Martianborn grow up in the reality of the everyday dangers of the Red Planet. It bestows upon them an inner strength that is truly a unique Martian quality.</grey>","<em>火星之子</em> 不會因為天然災害而受到 理智上的影響
+
+<grey>Martianborn grow up in the reality of the everyday dangers of the Red Planet. It bestows upon them an inner strength that is truly a unique Martian quality.</grey>"
+6508,Martianborn Resilience,出門上班
 6509,"<em>Martianborn</em> don't take Sanity damage when working in out-Dome buildings.
 
-<grey>We are born on the Red Planet. We do not fear stepping outside the safety of the Dome. We embrace it.</grey>",
-5005,Home Collective,
+<grey>We are born on the Red Planet. We do not fear stepping outside the safety of the Dome. We embrace it.</grey>","<em>火星之子</em> 就算再 蒼穹頂外工作，也不會受到理智的影響
+
+<grey>We are born on the Red Planet. We do not fear stepping outside the safety of the Dome. We embrace it.</grey>"
+5005,Home Collective,全能住宅改造王
 6510,"Residential Building Upgrade (<em>Home Collective</em>) - Increases the Service Comfort of the building by <param1>.
 
-<grey>A friendly and supportive community is the key to making life easier in the harsh reality of the Red Planet.</grey>",
-6515,Martian Copyrights,
+<grey>A friendly and supportive community is the key to making life easier in the harsh reality of the Red Planet.</grey>","住宅升級  (<em>Home Collective</em>) - 增加住宅舒適度 <param1>.
+
+<grey>A friendly and supportive community is the key to making life easier in the harsh reality of the Red Planet.</grey>"
+6515,Martian Copyrights,火星人專利
 6516,"License Martian copyrights for use back on Earth. Earn <em><funding(param1)></em> funding.
 
 This tech is <em>repeatable</em> and can be researched multiple times.
 
 <grey>""The conditions of extreme labor shortage combined with a technological culture will tend to drive Martian ingenuity to produce wave after wave of invention.""
-<right>Robert Zubrin</grey><left>",
-5243,Behavioral Melding,
+<right>Robert Zubrin</grey><left>","將火星專利 出售回地球，以賺取 <em><funding(param1)></em> 資金
+
+這項科技是 <em>可重複執行</em>，可以被重複研究數次
+
+<grey>""The conditions of extreme labor shortage combined with a technological culture will tend to drive Martian ingenuity to produce wave after wave of invention.""
+<right>Robert Zubrin</grey><left>"
+5243,Behavioral Melding,行為矯正服務
 6517,"Sanatorium Upgrade (<em>Behavioral Melding</em>) - replaces removed flaws with random Perks.
 
-<grey>A more benevolent and productive iteration of 18th century methods.</grey>",
-6518,Dream Reality,
+<grey>A more benevolent and productive iteration of 18th century methods.</grey>","尖端療養院升級 (<em>行為矯正服務</em>) - 移除性格缺陷，並且隨機增加一個好習慣
+
+<grey>A more benevolent and productive iteration of 18th century methods.</grey>"
+6518,Dream Reality,美夢成真
 6519,"Wonder: <em>Project Morpheus</em> (<buildinginfo('ProjectMorpheus')>) - Stimulates the development of new Perks in adult Colonists throughout the entire Colony.
 
-<grey>""You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.""</grey>",
+<grey>""You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.""</grey>","世界奇觀：<em>莫非斯計畫</em> (<buildinginfo('ProjectMorpheus')>) - 刺激整個殖民地成人的專長發展
+
+<grey>""You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.""</grey>"
 6520,BREAKTHROUGH,突破性科技
-6521,Construction Nanites,
+6521,Construction Nanites,建築意志
 6522,"<em>Buildings</em> construct themselves slowly without Drones. Nanites will seek out resources from nearby resource depots.
 
-<grey>With a payload of several molecules and an electronic instrument used for both navigating and knowing its purpose, Construction Nanites form slightly saturated winds which to the casual observer would seem to erect buildings as if by magic.</grey>",
-6523,Hull Polarization,
+<grey>With a payload of several molecules and an electronic instrument used for both navigating and knowing its purpose, Construction Nanites form slightly saturated winds which to the casual observer would seem to erect buildings as if by magic.</grey>","<em>建築物</em> 可以不用無人機服務，就可以緩慢的自我建築。 建築將會自行尋找附近可用的資源使用
+
+<grey>With a payload of several molecules and an electronic instrument used for both navigating and knowing its purpose, Construction Nanites form slightly saturated winds which to the casual observer would seem to erect buildings as if by magic.</grey>"
+6523,Hull Polarization,建築工法極致化
 6524,"Buildings require <em>maintenance</em> less often.
 
 <grey>""Don't confound static electricity with ecstatic eccentricity. One will leave your hair up, the other will live up in the air!""
-<right>Ana Claudia Antunes</grey><left>",
-6525,Project Phoenix,
+<right>Ana Claudia Antunes</grey><left>","建築物將不太需要 <em>維護</em>
+
+<grey>""Don't confound static electricity with ecstatic eccentricity. One will leave your hair up, the other will live up in the air!""
+<right>Ana Claudia Antunes</grey><left>"
+6525,Project Phoenix,鳳凰計畫
 6526,"When a colonist dies there's a <param1>% chance he or she is <em>reconstructed</em> as youth with the same traits.
 
-<grey>Like the legend of the Phoenix, all ends with beginnings. Consciousness being an electrical charge within a specific neuron pattern, replicating it eventually comes down to data fidelity.</grey>",
-6527,Soylent Green,
+<grey>Like the legend of the Phoenix, all ends with beginnings. Consciousness being an electrical charge within a specific neuron pattern, replicating it eventually comes down to data fidelity.</grey>","當殖民者死亡後，將有 <param1>% 機率<em>細胞體重構</em> 成一個擁有相同特性的年輕人
+
+<grey>Like the legend of the Phoenix, all ends with beginnings. Consciousness being an electrical charge within a specific neuron pattern, replicating it eventually comes down to data fidelity.</grey>"
+6527,Soylent Green,我們不浪費食物
 6528,"Bodies of <em>dead Colonists</em> are converted to Food.
 
-<grey>""Soylent Green is made out of people. They are making food out of people and we know that. We are actually OK with that.""</grey>",
-6529,Neural Empathy,
+<grey>""Soylent Green is made out of people. They are making food out of people and we know that. We are actually OK with that.""</grey>","<em>死去的殖民者</em>遺體，將可以被利用轉換成食物，回饋給其它殖民者
+
+<grey>""Soylent Green is made out of people. They are making food out of people and we know that. We are actually OK with that.""</grey>"
+6529,Neural Empathy, 噓寒問暖
 6530,"Unlocks <em>Rare Trait - Empath</em>. Empaths raise the Morale of all Colonists in the Dome. The effect stacks with other Empaths.
 
 <grey>""`The human brain has 100 billion neurons, each neuron connected to 10 thousand other neurons. Sitting on your shoulders is the most complicated object in the known universe.""
-<right>Michio Kaku</grey><left>",
-6531,Rapid Sleep,
+<right>Michio Kaku</grey><left>","解鎖 <em>稀有特性 - 體貼</em>. 體貼的人可以提高同個蒼穹頂下殖民者的士氣。 這個效果可以疊加
+
+<grey>""`The human brain has 100 billion neurons, each neuron connected to 10 thousand other neurons. Sitting on your shoulders is the most complicated object in the known universe.""
+<right>Michio Kaku</grey><left>"
+6531,Rapid Sleep,倒頭就睡
 6532,"Colonists need to <em>sleep</em> for only 1 hour and regain extra Sanity when sleeping.
 
 <grey>""Sleep, those little slices of death — how I loathe them."" 
-<right>Edgar Allan Poe</grey><left>",
+<right>Edgar Allan Poe</grey><left>","殖民者現在只需<em>睡眠</em> 1 小時，而且可以額外恢復理智.
+
+<grey>""Sleep, those little slices of death — how I loathe them."" 
+<right>Edgar Allan Poe</grey><left>"
 6533,The Positronic Brain,
 6534,"Allows the construction of <em>Biorobots</em> in the Drone Assembler. Biorobots eat and can gain traits but can't reproduce and never die from old age.
 
-<grey>The human body is basically a complex bio machine that could be easily replicated with the exception of one major component – the brain. Now that we have finally unlocked that secret we can manufacture human-like Biorobots the same way we manufacture cars.</grey><left>",
-4338,Safe Mode,安全模式
+<grey>The human body is basically a complex bio machine that could be easily replicated with the exception of one major component – the brain. Now that we have finally unlocked that secret we can manufacture human-like Biorobots the same way we manufacture cars.</grey><left>","將可以在無人機組裝廠中 製造<em>仿生人</em>，仿生人跟一般人沒兩樣，但長生不老 且 無法生育
+
+<grey>The human body is basically a complex bio machine that could be easily replicated with the exception of one major component – the brain. Now that we have finally unlocked that secret we can manufacture human-like Biorobots the same way we manufacture cars.</grey><left>"
+4338,Safe Mode,有問題？重開機就好了
 6535,"When a colonist suffers a Sanity breakdown, they fall asleep and wake up after <param1> hours with <param2> Sanity. Colonists can't commit suicide or gain flaws due to sanity breakdown.
 
-<grey>Failsafe systems have been in place and used to prevent catastrophes in various fields for centuries. Until now we had no viable way of remotely detecting when the brain was headed towards a meltdown. A means to remotely render people unconscious, however, was already available.</grey>",
-6536,Hive Mind,
+<grey>Failsafe systems have been in place and used to prevent catastrophes in various fields for centuries. Until now we had no viable way of remotely detecting when the brain was headed towards a meltdown. A means to remotely render people unconscious, however, was already available.</grey>","當有殖民者理智段線的時候，他們將會馬上進入睡眠狀態，接著會在 <param1> 小時後醒來，並且理智會維持在 <param2>。 殖民者將永遠不會在理智段線時選擇自殺
+
+<grey>Failsafe systems have been in place and used to prevent catastrophes in various fields for centuries. Until now we had no viable way of remotely detecting when the brain was headed towards a meltdown. A means to remotely render people unconscious, however, was already available.</grey>"
+6536,Hive Mind,群聚效應
 6537,"Residents in the <em>Arcology</em> get a bonus to work performance based on the number of unique perks and specializations of colonists living in the Arcology.
 
 <grey>""The tools that a society uses to create and maintain itself are as central to human life as a hive is to bee life. Though the hive is not part of any individual bee, it is part of the colony, both shaped by and shaping the lives of its inhabitants.""
-<right>Clay Shirky</grey><left>",
-6538,Space Rehabilitation,
+<right>Clay Shirky</grey><left>","居住於 <em>阿卡羅之城</em>中的居民， 將可以獲得額外的工作效率加成， 加成效果將依照生活在城內的殖民者專長 而有不同。
+
+<grey>""The tools that a society uses to create and maintain itself are as central to human life as a hive is to bee life. Though the hive is not part of any individual bee, it is part of the colony, both shaped by and shaping the lives of its inhabitants.""
+<right>Clay Shirky</grey><left>"
+6538,Space Rehabilitation,太空旅行的省思
 6539,"Colonists have a <param1>% chance to lose a <em>flaw</em> on their journey to Mars.
 
-<grey>It is never too late to improve on oneself, and the months spent traversing the void between Mars and Earth gives ample opportunity to do so.</grey>",
-6540,Wireless Power,
+<grey>It is never too late to improve on oneself, and the months spent traversing the void between Mars and Earth gives ample opportunity to do so.</grey>","殖民者將有 <param1>% 的機率，在前往火星的旅途中，移除一項<em>人格缺點</em>
+<grey>It is never too late to improve on oneself, and the months spent traversing the void between Mars and Earth gives ample opportunity to do so.</grey>"
+6540,Wireless Power,無線充電
 6541,"<em>Recharge Stations</em> service Drones in a <param1> hex-range instantly.
 
-<grey>Tesla once predicted that wireless power would be obtainable anywhere on Earth, illuminating and powering vehicles in the most remote of places. Ultimately his prediction came true – he only got the planet wrong.</grey>",
-6544,Printed Electronics,
+<grey>Tesla once predicted that wireless power would be obtainable anywhere on Earth, illuminating and powering vehicles in the most remote of places. Ultimately his prediction came true – he only got the planet wrong.</grey>","<em>充電站</em> 將可以在範圍 <param1> 六格狀內，提供無線充電的服務 
+
+<grey>Tesla once predicted that wireless power would be obtainable anywhere on Earth, illuminating and powering vehicles in the most remote of places. Ultimately his prediction came true – he only got the planet wrong.</grey>"
+6544,Printed Electronics,電子零件列印機
 6545,"Allows <em>Drones Prefabs</em> to be constructed in the Drone Assembler using Metals instead of Electronics.
 
-<grey>Made entirely out of 2-dimensional nanomaterials, printed electronics combine effective electronic properties with low-cost production.</grey>",
-6546,Core Metals,
+<grey>Made entirely out of 2-dimensional nanomaterials, printed electronics combine effective electronic properties with low-cost production.</grey>","允許 <em>無人機預製零件</em> 的原料中，將電子零件取代成一般金屬
+
+<grey>Made entirely out of 2-dimensional nanomaterials, printed electronics combine effective electronic properties with low-cost production.</grey>"
+6546,Core Metals,金屬核心
 6547,"Uncovers extremely rich underground <em>Metal</em> deposits.
 
-<grey>Increased detail in reading traces of tectonic activities from eons ago has enabled us to accurately predict where to find high-grade metals deep in the crust, only relatively recently pushed up from the Martian mantle.</grey>",
-6548,Core Water,
+<grey>Increased detail in reading traces of tectonic activities from eons ago has enabled us to accurately predict where to find high-grade metals deep in the crust, only relatively recently pushed up from the Martian mantle.</grey>","發現一個藏量非常豐富的地底 <em>金屬</em> 資源點
+
+<grey>Increased detail in reading traces of tectonic activities from eons ago has enabled us to accurately predict where to find high-grade metals deep in the crust, only relatively recently pushed up from the Martian mantle.</grey>"
+6548,Core Water,水資源核心
 6549,"Uncovers extremely rich underground <em>Water</em> deposits.
 
-<grey>Primordial underground lakes in the nethermost regions of Mars’s crust have been accurately hypothesized and successfully pinpointed due to advances in our understanding of the Martian geological past.</grey>",
-6550,Core Rare Metals,
+<grey>Primordial underground lakes in the nethermost regions of Mars’s crust have been accurately hypothesized and successfully pinpointed due to advances in our understanding of the Martian geological past.</grey>","發現一個藏量非常豐富的地底 <em>水資源</em> 資源點
+
+<grey>Primordial underground lakes in the nethermost regions of Mars’s crust have been accurately hypothesized and successfully pinpointed due to advances in our understanding of the Martian geological past.</grey>"
+6550,Core Rare Metals,發了！
 6551,"Uncovers extremely rich underground <em>Rare Metal</em> deposits.
 
-<grey>Applying new principles to chemical analysis of ancient crystallized magma has made it possible to locate several exceptionally potent Rare Metal veins deep underground.</grey>",
-6552,Superior Cables,
+<grey>Applying new principles to chemical analysis of ancient crystallized magma has made it possible to locate several exceptionally potent Rare Metal veins deep underground.</grey>","發現一個藏量非常豐富的地底 <em>金屬資源</em> 資源點
+
+<grey>Applying new principles to chemical analysis of ancient crystallized magma has made it possible to locate several exceptionally potent Rare Metal veins deep underground.</grey>"
+6552,Superior Cables,超級電纜
 6553,"Instant and free <em>power cable</em> construction. Power cables do not suffer from power faults.
 
-<grey>A hydrogel of high conductivity and electrical self-healing properties, without any external stimuli and of great strength and flexibility, has been developed based on Nanostructured Conductive Polymers.</grey>",
-6554,Superior Pipes,
+<grey>A hydrogel of high conductivity and electrical self-healing properties, without any external stimuli and of great strength and flexibility, has been developed based on Nanostructured Conductive Polymers.</grey>","建造 <em>電線</em>將不用任何花費，也不用在維護了。 再也不用受到斷電之苦
+
+<grey>A hydrogel of high conductivity and electrical self-healing properties, without any external stimuli and of great strength and flexibility, has been developed based on Nanostructured Conductive Polymers.</grey>"
+6554,Superior Pipes,超級管線
 6555,"Instant and free <em>pipe</em> construction. Pipes don't suffer from leaks.
 
-<grey>A pressure-induced, self-healing coating with remarkable insulation properties has been developed and field-tested to be used en masse on our pipe system.</grey>",
+<grey>A pressure-induced, self-healing coating with remarkable insulation properties has been developed and field-tested to be used en masse on our pipe system.</grey>","建造 <em>管線</em>將不用任何花費，也不用在維護了。 再也不用為了管線破洞而苦惱了
+
+<grey>A pressure-induced, self-healing coating with remarkable insulation properties has been developed and field-tested to be used en masse on our pipe system.</grey>"
 6556,Alien Imprints,外星印記
 6557,"Uncovers new Anomalies – <em>Alien Artifacts</em> – which provide a boost to all research when scanned.
 
@@ -5134,7 +5391,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6562,Nocturnal Adaptation,夜間適應
 6563,"All colonists gain +<param2>  performance during <em>night shifts</em>
 
-<grey>The greater distance from the Sun makes it so that all colonists have to cope with the psychological strain of receiving reduced sunlight. This fact, combined with newly discovered techniques allow us to considerably boost the productivity of those who work outright nightshifts.</grey>","所有殖民者在 <em>night shifts</em> 增加 +<param2> 表現
+<grey>The greater distance from the Sun makes it so that all colonists have to cope with the psychological strain of receiving reduced sunlight. This fact, combined with newly discovered techniques allow us to considerably boost the productivity of those who work outright nightshifts.</grey>","所有殖民者在 <em>夜班</em> 獲得 +<param2> 工作效率
 
 <grey>The greater distance from the Sun makes it so that all colonists have to cope with the psychological strain of receiving reduced sunlight. This fact, combined with newly discovered techniques allow us to considerably boost the productivity of those who work outright nightshifts.</grey>"
 6564,Gene Selection,基因抉擇
@@ -5212,7 +5469,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 5171,Vector Pump,向量幫浦
 6587,"Moisture Vaporator Upgrade (<em>Vector Pump</em>) - Water production increased by 100%.
 
-<grey>A new atmosphere pump design that doubles the volume of air processed by our Vaporators in a single Sol.</grey>","濕氣蒐集站升級 (<em>向量幫浦</em>) ─ 水資源產量增加100%。
+<grey>A new atmosphere pump design that doubles the volume of air processed by our Vaporators in a single Sol.</grey>","水氣蒐集站升級 (<em>向量幫浦</em>) ─ 水資源產量增加100%。
 
 <grey>A new atmosphere pump design that doubles the volume of air processed by our Vaporators in a single Sol.</grey>"
 5081,Superfungus,超級真菌
@@ -5279,7 +5536,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7916,"New Spire Building: <em>Cloning Vats</em> (<buildinginfo('CloningVats')>) - creates Clones over time. Cloned colonists grow and age twice as fast.
 
 <grey>""Clones can think creatively. You will find that they are immensely superior to drones.""
-<right>Unnamed Martian Scientist</grey><left>","新尖塔建築： <em>複製槽</em> (<buildinginfo('CloningVats')>) ─ 隨時間製造複製人，複製出的殖民者生長與衰老的速度是一般的兩倍。
+<right>Unnamed Martian Scientist</grey><left>","新尖端建築： <em>複製槽</em> (<buildinginfo('CloningVats')>) ─ 隨時間製造複製人，複製出的殖民者生長與衰老的速度是一般的兩倍。
 
 <grey>""Clones can think creatively. You will find that they are immensely superior to drones.""
 <right>Unnamed Martian Scientist</grey><left>"
@@ -5386,7 +5643,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7299,Push to decipher the Dreamers’ brain patterns while in trance.,
 6625,Number Six Tracing,
 7300,Track down Number Six's physical location.,
-7301,Defence Turret,
+7301,Defence Turret,防禦砲塔
 7302,A stationary turret that protects the nearby area from hostile vehicles and incoming meteors.,
 8450,Beyond Earth Initiative,
 8451,"Focus your research to help the development of the Beyond Earth Initiative projects. Each time the research is completed you can refocus your research towards a new project.
@@ -5426,9 +5683,9 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6648,Randomly spreads other traits of this colonist to persons in the same Dome with less than 3 traits.,隨機將這位殖民者的特徵隨機傳播給同一蒼穹頂中不到3個特徵的人
 6649,Religious,信仰者
 6650,Higher individual base Morale. Low Sanity never leads to suicide.,較高的士氣表現，當理智低弱的時候，不會選擇自殺
-6651,Believing in a higher purpose +<amount> (Religious),崇高的信仰 +<amount> (Religious)
+6651,Believing in a higher purpose +<amount> (Religious),相信崇高宗旨 +<amount> (信仰)
 6652,Idiot,笨蛋
-6653,Can cause a malfunction at workplace (10% chance). Malfunctioning buildings stop working and require maintenance.,可能會導致工作地點損壞，無法工作且需要暫停維護( 10% 機率 )。
+6653,Can cause a malfunction at workplace (10% chance). Malfunctioning buildings stop working and require maintenance.,可能會導致工作場所損壞，無法工作且需要暫停維護( 10% 機率 )。
 6654,Alcoholic,酒鬼
 6655,Work performance lowered by 10. Can be caused by Sanity breakdowns. +Drinking,飲酒過多導致工作效率降低 10，將會引起理智斷線 +Drinking
 6656,Gambler,賭徒
@@ -5557,7 +5814,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7610,Waiting for repairs,
 8028,Undergoing repairs,
 66,Out of power,
-67,Loading resources,
+67,Loading resources,讀取資源中
 68,<green>Charging battery from Power grid</green>,
 69,"Trying to recharge battery, insufficient Power",
 70,Repairing Drones,
@@ -5588,7 +5845,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 89,No consumption,
 90,Visit,
 92,Restore Upgrade Defaults,
-101,Upgrade Time Cost,需要時間
+101,Upgrade Time Cost,
 102,Modifier Target 1,
 103,Modifier Label 1,
 104,Modified Property 1,
@@ -5620,12 +5877,12 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 389,Maintenance already requested,
 390,No deterioration,
 129,<n> h,
-95,Concrete Cost,混凝土花費
-96,Metals Cost,金屬花費
-97,Polymers Cost,聚合物花費
-98,Electronics Cost,電子零件花費
-99,Machine Parts Cost,機械零件花費
-100,Rare Metals Cost,稀有金屬花費
+95,Concrete Cost,
+96,Metals Cost,
+97,Polymers Cost,
+98,Electronics Cost,
+99,Machine Parts Cost,
+100,Rare Metals Cost,
 131,Black Cubes Cost,
 132,Construction Entity,
 133,Build Points,
@@ -5715,10 +5972,10 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7524,Building disabled by lightning strike. Will resume work in several hours.,
 187,No deposits,
 188,There are no exploitable deposits in range,
-189,Storage space is full,
+189,Storage space is full,儲存空間已滿
 191,Inactive work shift,
 192,Not enough Workers,勞工不足
-194,Not enough Oxygen,
+194,Not enough Oxygen,氧氣不足
 195,Not enough Water,
 196,Must be connected to a Power consumer,
 197,Must be connected to a Power producer,
@@ -5850,7 +6107,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 658,Soil Demand Modifier,
 659,Oxygen Production Efficiency,
 660,Persisted crops,
-661,<green>Soil Quality +<amount></green>,
+661,<green>Soil Quality +<amount></green>,<green>土壤品質 +<amount></green>
 8654,<red>Soil Quality <amount></red>,
 662,<newline>Effects on current crop:,
 663,<amount> from <crop_name>,
@@ -5887,7 +6144,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 468,"Lifetime production<right><resource(LifetimeProduction,exploitation_resource)>",
 470,"<resource(exploitation_resource)><right><resource(GetAmountStored,max_storage,exploitation_resource)>",
 679,Performance boost,
-7625,<green>Network node <amount>%</color>,
+7625,<green>Network node <amount>%</color>,<green>高速網路通訊中心 <amount>%</color>
 432,<trait_name><right><value>,
 433,Information about the traits developed by Colonists under the effect of Project Morpheus,
 684,Charging<right><percent(charging_progress)>,
@@ -6062,10 +6319,10 @@ Services: <em><list></em>",
 832,Great Dust Storm bonus percent,
 833,Max workers per shift,
 835,Current performance,
-836,Workplace Automation,
+836,Workplace Automation,工作場所自動化
 837,Workplace Auto Performance,
 838,Workers: <workers> of <max_workers>,
-7628,<green>Automation +<auto_performance></green>,
+7628,<green>Automation +<auto_performance></green>,<green>自動化 +<auto_performance></green>
 7629,<green>Workshift workers +<amount></green>,
 7630,<green>Heavy workload +<amount></green>,
 7631,<clr>Upgrade <amount>% (<upgrade>)</color>,
@@ -6208,7 +6465,7 @@ Services: <em><list></em>",
 7839,Scanned Anomalies,
 7840,Techs Researched,
 7841,Longest Playthrough,
-7842,Earliest Colony Approval,
+7842,Earliest Colony Approval,最早的殖民地認同
 7843,Mysteries Completed,
 572,Power grid parameters. Power reserve indicates the duration that the stored energy will last with the current consumption.<newline>,
 319,Max production<right><power(production)>,
@@ -6390,13 +6647,13 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 1081,Collected all remaining Surviving Mars trophies,
 7808,Credits,
 7809,CREDITS,
-8057,Switch To Controller?,
+8057,Switch To Controller?,切換至控制器?
 7810,Do you want to command the game with a controller?,
 7872,There are colonists suffering from status effects.,
 7935,Wireless Controller,
 7936,Wireless controller for <user> has been disconnected. Reconnect the wireless controller in order to continue.,
-7938,I am above the age of 13,
-8650,This savegame cannot be loaded by the current version of the game.,
+7938,I am above the age of 13,我13歲以上了
+8650,This savegame cannot be loaded by the current version of the game.,這個存檔不能被現在的遊戲版本讀取
 1082,South Cap,
 1083,North Cap,
 1084,Arabia Terra,
@@ -6415,7 +6672,7 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 1097,Viking 1 Landing Area,
 1098,Mars Pathfinder Landing Area,
 1099,Opportunity Landing Area,
-1100,Viking 2 Landing Area,
+1100,Viking 2 Landing Area,維京2號登陸區
 1101,Spirit Landing Area,
 1102,Terra Sireum,
 1104,Hecatus Tholus,
@@ -6444,12 +6701,12 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 1000074,Offset Front-Back,
 1000075,Offset Left-Right,
 1000076,Offset Top-Bottom,
-1000077,Rotate,
+1000077,Rotate,翻轉
 1000078,Rotate Roll,
 1000079,Rotate Pitch,
 1000080,Rotate Yaw,
 1000081,Scale,
-1000082,Color,
+1000082,Color,顏色
 1000083,When to Anchor,
 1000084,Anchor X-axis,
 1000085,Anchor Y-axis,
@@ -6472,7 +6729,7 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 1000095,Scroll,捲動
 1162,Artificial Intelligence (Normal),人工智慧 (Normal)
 1163,"""I am putting myself to the fullest possible use, which is all I think that any conscious entity can ever hope to do.""<newline><right>- HAL 9000",「“我正充分發揮自己的用處，這是我認為任何有意識的實體都該要能做到的事情。」<newline><right> ─ 哈爾 9000
-1164,The Power of Three (Easy),三的次方 (Easy)
+1164,The Power of Three (Easy),立方之力 (Easy)
 1165,"""Science is no more than an investigation of a miracle we can never explain, and art is an interpretation of that miracle.""<newline><right>- Ray Bradbury",
 1166,"Black. Cube-shaped. Just standing there, challenging our preconceptions.",
 1167,Black Cube Matrix,黑立方矩陣
@@ -6494,15 +6751,15 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 1186,Strange pile of rocks,
 1187,Mirror Sphere excavation site,
 1188,Action in progress.,
-6780,Cancel.,
-1189,Already completed.,
+6780,Cancel.,取消
+1189,Already completed.,已經完成了
 1190,Too far from any Drone commander.,
 1191,No Sensor Tower in range.,
 1192,No Accumulator with stored Power in range.,
 1193,The necessary technology hasn't been researched.,
 1194,There's no trapped Sphere.,
 1195,Not operational.,
-1201,An odd-looking rock pile.,
+1201,An odd-looking rock pile.,一個奇怪的岩石堆
 1202,Mirror sphere excavation site,
 1210,Attempting to pierce the shell,
 1211,Establishing communication,
@@ -8742,17 +8999,17 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 7969,4x,
 7970,8x,
 8079,16x,
-7381,High,
-644,Low,
-645,Medium,
-7382,High,
-6846,Off,
-6847,On,
-6848,Off,
-6849,On,
-6850,Off,
-3558,FPS,
-3559,ms,
+7381,High,高
+644,Low,低
+645,Medium,中
+7382,High,高
+6846,Off,關
+6847,On,開
+6848,Off,關
+6849,On,開
+6850,Off,關
+3558,FPS,每秒顯示張數
+3559,ms,毫秒
 3560,Move Units,
 3561,Both,
 3562,Fullscreen Mode,全螢幕模式
@@ -8763,27 +9020,27 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 3566,Brightness,亮度
 3568,Shadows,陰影
 3569,Textures,紋理
-3570,Anisotropy,非等項性
+3570,Anisotropy,非等項性 
 3571,Effects,
 3572,Lights,
 3573,Postprocessing,
 3574,Bloom,
 8034,Eye Adaptation,
 3455,Vignette,
-3575,Antialiasing,反鋸齒
+3575,Antialiasing,
 3576,View Distance,
 7772,Object Detail,
 3577,Resolution Percent,
 3578,Framerate Counter,
 3579,Master Volume,主音量
 3580,Music,音樂
-3581,Sounds,音效
+3581,Sounds,聲音
 7811,Voice,語音
 3582,Mute when Minimized,最小化時靜音
-3583,Radio Station,
-3584,Invert Mouse Wheel,反轉滾輪
-3585,Invert Look,Invert Look
-3586,Invert Rotation,反轉旋轉
+3583,Radio Station,廣播電台
+3584,Invert Mouse Wheel,反轉滑鼠滾輪
+3585,Invert Look,
+3586,Invert Rotation,
 3587,Scroll Outside Window,
 3588,Right-click Action,
 3589,Controller,
@@ -8792,8 +9049,8 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 3592,Hint Notifications,
 7544,Display Area Margin,
 8529,Autosave to Cloud,
-1000102,Language,
-7579,Restart the game to display the selected language,
+1000102,Language,語言
+7579,Restart the game to display the selected language,重新開始遊戲以顯示所選語言
 3593,Folder,
 3594,Silence between tracks (sec),
 7905,Play,
@@ -9256,7 +9513,7 @@ Some features may not work.",
 3995,<class><tab 290 right><amount>,
 4049,<em><status></em>,
 4050,Scanning <em><percent(number)></em>,掃描中 <em><percent(number)></em>
-4051,Buildable area<right><em><percent(number)></em>,可建築區域 <right><em><percent(number)></em>
+4051,Buildable area<right><em><percent(number)></em>,可建築面積 <right><em><percent(number)></em>
 4052,Sensor towers boost<right><em><percent(bonus)></em>,掃描塔加乘 <right><em><percent(bonus)></em>
 4053,<newline>High chance that this Sector contains:,<newline>這個地圖區塊將有機率出現：
 4054,<tab 10><name>,
@@ -9607,7 +9864,7 @@ Some features may not work.",
 65,Malfunctioned,
 4406,Out of Power,
 4407,Recharging,充電中
-6939,Idle,閒置
+6939,Idle,發呆
 4408,Repairing Drone,維修無人機中
 8503,Recharging Drone,無人機充電中
 76,Performing maintenance,執行維護中
@@ -9854,7 +10111,7 @@ Some features may not work.",
 796804896133,Radio,收音機
 970807214544,Resupply Screen,補給面板
 771055429123,Research Screen,研究面板
-7849,Colony Overview,殖民總覽
+7849,Colony Overview,殖民總攬
 973748367669,Milestones,里程碑
 697482021580,Achievements,成就
 7695,Next Dome,下一座蒼穹頂
@@ -9931,7 +10188,7 @@ Some features may not work.",
 5460,FILTER,過濾
 526116656618,<display_name>,
 1142,Controller Layout,控制器設定
-7874,Wireless Controller Layout,無線控制器設定
+7874,Wireless Controller Layout,無限控制器設定
 5470,AUTO DETECT,自動偵測
 5468,RESTORE DEFAULTS,重設預設值
 5469,RESET TO DEFAULTS,重設預設值
@@ -9983,7 +10240,7 @@ Some features may not work.",
 889032422791,OUTSOURCE,科研發包
 6882,Warning,警告
 7876,Are you sure you want to outsource research to Earth?,您確定想把科技研究發包回地球嗎？
-7877,Outsource <ResearchPoints(points)> for <funding(price)> in the next <time(sols)>,使用 <funding(price)> 資金換取接下來 <time(sols)>天內額外的研發速度，共可獲得科研點數 ResearchPoints(points)>
+7877,Outsource <ResearchPoints(points)> for <funding(price)> in the next <time(sols)>,使用 <funding(price)> 資金換取接下來 <time(sols)>天內額外的研發速度，共可獲得科研點數 <ResearchPoints(points)>
 6902,Warning,警告
 7562,Insufficient funding! <funding(price)> required for outsourcing!,資金不足！科研發包至少需要資金 <funding(price)> ！
 4530,RESEARCH,研究
@@ -9992,7 +10249,7 @@ Some features may not work.",
 4533,Sponsor<right><ResearchPoints(EstimatedRP_Sponsor)>,贊助機構 <right><ResearchPoints(EstimatedRP_Sponsor)>
 4534,Outsourcing<right><ResearchPoints(EstimatedRP_Outsource)>,科研發包 <right><ResearchPoints(EstimatedRP_Outsource)>
 4535,Research Labs<right><ResearchPoints(EstimatedRP_ResearchLab)>,研究中心 <right><ResearchPoints(EstimatedRP_ResearchLab)>
-4536,Science Institutes<right><ResearchPoints(EstimatedRP_ScienceInstitute)>,科學中心 <right><ResearchPoints(EstimatedRP_ScienceInstitute)>
+4536,Science Institutes<right><ResearchPoints(EstimatedRP_ScienceInstitute)>,科學機構 <right><ResearchPoints(EstimatedRP_ScienceInstitute)>
 4537,Genius Colonists<right><ResearchPoints(EstimatedRP_Genius)>,天才殖民者 <right><ResearchPoints(EstimatedRP_Genius)>
 4538,Explorers<right><ResearchPoints(EstimatedRP_Explorer)>,探索者 <right><ResearchPoints(EstimatedRP_Explorer)>
 4539,Excess Power<right><ResearchPoints(EstimatedRP_SuperconductingComputing)>,
@@ -10128,9 +10385,9 @@ Some features may not work.",
 398,In flight<right><FlyingShuttles>,飛行中<right><FlyingShuttles>
 717110331584,Idle<right><IdleShuttles>,閒置<right><IdleShuttles>
 7818,Forbid Exports,禁止出口
-7819,Forbid the export of Rare Metals.,禁止出口稀有金屬
+7819,Forbid the export of Rare Metals.,禁止出口貴重金屬
 7820,Allow Exports,允許出口
-7821,Allow the export of Rare Metals.,允許出口稀有金屬
+7821,Allow the export of Rare Metals.,允許出口貴重金屬
 7694,Current status of the Space Elevator.,太空電梯目前狀態
 418,<Status>,
 7410,Payload of this Rocket,火箭的酬載內容
@@ -10151,7 +10408,7 @@ Some features may not work.",
 428,Increasing the area of effect will greatly increase the Water consumption of the building.<newline><newline>Service range<right><SelectionRadiusScale> hexes,
 625375195830,Initiates launch sequence for the return trip to Earth. Note that the rocket has to be refueled and any remaining resources on board will be lost.<newline><newline>Status: <em><UILaunchStatus></em>,
 526598507877,Launch,發射
-7815,Automated Mode not possible while Rare Metal exports are forbidden.,當稀有金屬設定為禁止出口的話，自動往返模式將不會啟用。
+7815,Automated Mode not possible while Rare Metal exports are forbidden.,當貴重金屬設定為禁止出口的話，自動往返模式將不會啟用。
 7816,"If Automated mode is activated the Rocket will repeatedly travel to Earth and back. It will land on the same spot and won't carry any imports or passengers from Earth. The Rocket will launch to Earth when the cargo hold is full and the rocket is refueled.
 
 Current status: <em>Automated Mode</em>","如果啟用自動往返模式的話，火箭將會在油料補充完畢 且出口貨物滿載的時候，自動啟程飛回地球。並且不會攜帶任何乘客或貨物的直接回到原地降落。
@@ -10217,11 +10474,11 @@ Current status: Exports are <em>forbidden</em>.",
 593,Rebuild this building.,
 592,Rebuild,
 595,Remove the remains of this building.,
-596,You need the Decommission Protocol (Engineering) Tech to remove these building remains.,
+596,You need the Decommission Protocol (Engineering) Tech to remove these building remains.,您需要解鎖<em>爆破許可證(工程學)</em> 科技才能完全移除這項建築物
 594,Clear,
 238148642034,<left_click> Activate <newline><em>Ctrl + <left_click></em> Activate for all <display_name_pl>,
 919224409562,<ButtonA> Activate <newline><ButtonX> Activate for all <display_name_pl>,
-128378173565,Can't assign workplace.,
+128378173565,Can't assign workplace.,不能指派工作場所
 116030124982,Selects the previous colonist in the group.,
 102770097492,Previous Colonist,
 232261691824,Selects the next colonist in the group.,
@@ -10255,7 +10512,7 @@ Current status: Exports are <em>forbidden</em>.",
 903,Base resource consumption of the building.,
 705011232956,<Consumption>,
 905,Wind Turbines produce more Power at higher elevation.,
-904,Terrain,
+904,Terrain,地形
 906,Elevation Boost<right><ElevationBoost>%,
 910,<middle_click> <em>(press)</em> Rotate,
 911,<middle_click> Zoom in/out,
@@ -10354,7 +10611,7 @@ Current status: Exports are <em>forbidden</em>.",
 7657,<ButtonY> Activate,
 7825,Destroy this Rover.,
 7823,<UIRefundRes> will be refunded upon salvage.,
-49,Status,
+49,Status,狀態
 51,<ui_command>,
 526919900594,<UIResearchProject>,
 4489,Proximity to a high number of Black Cubes may cause malfunctions,
@@ -10611,7 +10868,7 @@ Current status: Exports are <em>forbidden</em>.",
 4799,Construction,
 4800,Second Stage Construction,
 347,Consumption,
-4801,Workplace,
+4801,Workplace,工作場所
 217,Work Shifts,
 4802,Outside building with shifts,
 32,Power Production,
@@ -10637,7 +10894,7 @@ Current status: Exports are <em>forbidden</em>.",
 4825,Upgrade 3,
 4826,Pin,
 4827,Interaction,
-1000130,Gameplay,遊戲
+1000130,Gameplay,
 4829,Cost,
 4290,Colonist,
 3715,Stat,
@@ -10675,10 +10932,10 @@ Current status: Exports are <em>forbidden</em>.",
 6983,M,
 4859,<em>$<integer> <suffix></em>,
 4860,<em>$<integer>.<fractional> <suffix></em>,
-6761,None,
-4862,Low,
-646,Medium,
-4863,High,
+6761,None,關閉
+4862,Low,低
+646,Medium,中
+4863,High,高
 290290906449,Max base traits generated per Colonist,
 455324213448,MaxColonistTraitsToGenerate,
 715051458672,Increases Comfort Threshold for Social Buildings when used by extroverts,
@@ -10957,25 +11214,25 @@ Current status: Exports are <em>forbidden</em>.",
 4762,'Other' sex chance,
 4763,Comfort penalty when failing to satisfy a need via a visit,
 337606533515,Threshold of accumulated stat points to trigger birth of a new Colonist,
-6774,Error,
+6774,Error,錯誤
 950,Some downloadable content requires a game update in order to work.,
 951,Failed to complete operation.,
 952,Could not establish a connection with the Paradox server.,
 7704,The external service responded negatively.,
-7705,Wrong email or password.,
-955,You haven't agreed to the Terms of Service.,
-956,Please enter an email address.,
-957,Please enter a password.,
-958,Passwords do not match.,
-959,Please choose a language.,
-960,Please choose a country.,
-961,Please enter your date of birth.,
-962,Password should be between 6 and 128 characters long.,
-7690,Password should contain both letters and numbers.,
-7706,Password is too common.,
-7691,Password can not contain the username.,
-963,Please supply a valid email address.,
-964,Account already exists.,
+7705,Wrong email or password.,電子郵件或密碼錯誤
+955,You haven't agreed to the Terms of Service.,您尚未同意服務條款
+956,Please enter an email address.,請輸入電子郵件地址
+957,Please enter a password.,請輸入密碼
+958,Passwords do not match.,密碼錯誤
+959,Please choose a language.,請選擇一種語言
+960,Please choose a country.,請選擇一種國家
+961,Please enter your date of birth.,請輸入你的生日
+962,Password should be between 6 and 128 characters long.,密碼長度應在6到128個字符之間
+7690,Password should contain both letters and numbers.,密碼應該包含字母和數字
+7706,Password is too common.,密碼太常見
+7691,Password can not contain the username.,密碼不能包含用戶名
+963,Please supply a valid email address.,請提供有效的電子郵件地址
+964,Account already exists.,用戶名已經被註冊
 965,Could not complete operation.,
 966,This Paradox account is already linked to another Steam account.,
 967,This Steam account is already linked to another Paradox account.,
@@ -10986,14 +11243,14 @@ Current status: Exports are <em>forbidden</em>.",
 971,Supplied country code is not valid - ISO 3166-1 alpha-2 code.,
 972,Supplied language code is not valid - ISO 639-1.,
 973,Supplied script is not valid - ISO 15924.,
-974,Please enter a valid date of birth.,
+974,Please enter a valid date of birth.,請輸入有效的出生日期
 975,You are not eligible to create an account.,
 7531,Paradox Account is already connected to this Microsoft Account.,
 7532,This Paradox Account is already connected to another Microsoft Account.,
 7533,This Microsoft Account is already connected to another Paradox Account.,
 7535,This Sony<nbsp>Entertainment<nbsp>Network account is already connected to another Paradox Account.,
 7534,This Paradox Account is already connected to another Sony<nbsp>Entertainment<nbsp>Network account.,
-8018,Sign in to PlayStation™Network to use network features.,
+8018,Sign in to PlayStation™Network to use network features.,登入PlayStation™網絡以使用網絡功能
 7890,There is no network connectivity. Please check your connection and try again.,網路未連結。請檢查網路連結後再次嘗試。
 7844,Failed to save your settings,儲存你的設定失敗。
 7845,"There is not enough storage space. To save your settings, delete old save data.",
@@ -11010,26 +11267,26 @@ Current status: Exports are <em>forbidden</em>.",
 
 <effect>Too many colonists have died recently from unnatural causes. The War Tension has increased.",
 8250,A sad day for humanity.,
-8251,"Send Rare Metals to Earth to decrease War Tension, instead of receiving Funding. Rockets for the shipments will arrive regularly.",
+8251,"Send Rare Metals to Earth to decrease War Tension, instead of receiving Funding. Rockets for the shipments will arrive regularly.",將從地球收取資金改為送稀有金屬回地球以降低緊張情勢。運輸火箭將會定期抵達。
 8252,Rare Metals Rocket,稀有金屬火箭
 8253,Submit to UN inspection. (-<ChoiceA_MoralePenalty> Morale to all colonists),
 8254,Deny allegations. (+<ChoiceB_TensionIncrease>% War Tension),
-8255,The Last War: Closer to Home,終戰：家不遠矣
+8255,The Last War: Closer to Home,終戰：離家近了
 8256,A blatant lie is gaining traction on Earth.,
 8257,"A faction in the wars on Earth, an alliance of several smaller states, has come out and outright accused <reg_param1> of using the Mars project as a backdrop for developing and testing forbidden weapons, which are then used on their people.   
 
 The UN has requested that we allow a probe to be made so this nonsense is cleared, although we fear that instilling such doubts in our colonists may have an impact on morale as a whole.
 
-What do we do?","在地球上有一個與我們處於戰爭中，並由許多較小的國家所組成的派系，跳出來指控<reg_param1>利用火星計畫掩護研發測試被禁止的武器，且還用於對抗他們的行為。   
+What do we do?","在地球上有一個與我們處於戰爭中，並由許多較小的州所組成的派系，跳出來指控<reg_param1>利用火星計畫掩護研發測試被禁止的武器，且還用於對抗他們的行為。   
 
 聯合國已要求我們配合進行調查，以澄清這個無稽之談，儘管我們擔心讓殖民者們灌輸這類想法會對整體士氣造成影響。
 
 我們該怎麼做？"
 8258,<red>UN inspection -10</red>,
-8259,I thought we lived in more enlightened times. (+<Tension>% War Tension),我以為我們生活在更進步的時代。（ +<Tension>% 厭戰）
-8260,"You do know this comet was predicted to come this close to Earth 50 years ago, right? (+<Tension>% War Tension)",你早就知道這顆彗星50年前就被預測到會如此靠近地球了，是嗎？ (+<Tension>% War Tension)
-8261,"Earth has changed a lot since we departed for Mars, and not for the better. (+<Tension>% War Tension)",自從我們前往火星後，地球已改變了許多，而且並非變得更好。 (+<Tension>% War Tension)
-8262,Of course it's an omen. How could it possibly be anything but? (+<Tension>% War Tension),這當然是種徵兆。不然這還可能是什麼？ (+<Tension>% War Tension)
+8259,I thought we lived in more enlightened times. (+<Tension>% War Tension),我以為我們生活在更進步的時代。（ +<Tension>% 緊張情勢）
+8260,"You do know this comet was predicted to come this close to Earth 50 years ago, right? (+<Tension>% War Tension)",你早就知道這顆彗星50年前就被預測到會如此靠近地球了，是嗎？ (+<Tension>% 緊張情勢)
+8261,"Earth has changed a lot since we departed for Mars, and not for the better. (+<Tension>% War Tension)",自從我們前往火星後，地球已改變了許多，而且並非變得更好。 (+<Tension>% 緊張情勢)
+8262,Of course it's an omen. How could it possibly be anything but? (+<Tension>% War Tension),這當然是種徵兆。不然這還可能是什麼？ (+<Tension>% 緊張情勢)
 8263,The Last War: Comet Sighted!,終戰：發現彗星！
 8264,"A comet suddenly lit up night skies above Earth, visible from all over the globe. ",一顆點亮了整個夜空的彗星突然劃過地球上方，在世界上的任何角落都看的到它。
 8265,"Although the comet is well known and talked about by most space agencies, in the current atmosphere on Earth people have little time for space news and have chosen to see an omen in it. 
@@ -11042,9 +11299,9 @@ We have to talk some sense into the Earthlings.","儘管彗星已廣被大部分
 
 大多數的解讀都認為勝利將近，但更令人擔憂的是不少人認為這是末日將近的徵兆。 
 
-也有些人冒著風險選擇擁抱它…認為這是實現自我的預言。
+Some have chosen to embrace it… risking this becoming a self-fulfilling prophecy.
 
-我們必須好好開導世人。"
+We have to talk some sense into the Earthlings."
 8245,<reg_param1> safely landed in the colony.,
 8246,<reg_param1> have suffocated in orbit.,
 8266,Export Rare Metals to Earth and reduce War Tension.,
