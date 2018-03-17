@@ -9089,11 +9089,11 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 3610,Aggregated information for all resources in the Colony.,殖民地所有资源信息。
 235513581267,Resource Overview,资源介绍
 7853,Colonists Overview,殖民者介绍
-3611,"Last export<right>Sol <day>, Hour <hour><newline><left>Rare Metals exported<right><preciousmetals(amount)>","最后销售<right>Sol <day> 小时 <hour><newline><left>稀有金属销售<right><preciousmetals(amount)>",
-3612,Last export<right>N/A,最后销售<right>N/A
+3611,"Last export<right>Sol <day>, Hour <hour><newline><left>Rare Metals exported<right><preciousmetals(amount)>","最后出口<right>Sol <day> 小时 <hour><newline><left>稀有金属出口<right><preciousmetals(amount)>",
+3612,Last export<right>N/A,最后出口<right>N/A
 3614,Rare Metals price<right><white><funding(price)></white>,稀有金属价格<right><white><funding(price)></white>
-3615,Last Export<right><white><funding(LastExportFunding)></white>,最后销售<right><white><funding(LastExportFunding)></white>
-7812,Total Export<right><funding(number)>,销售总额<right><funding(number)>
+3615,Last Export<right><white><funding(LastExportFunding)></white>,最后出口<right><white><funding(LastExportFunding)></white>
+7812,Total Export<right><funding(number)>,出口总额<right><funding(number)>
 3616,Other Income<right><green><funding(IncomePerSol)></green>,其他收益<right><green><funding(IncomePerSol)></green>
 3619,"Power, Water and Oxygen are distributed via Power and Life Support grids.<newline>","电力，水和氧气电力和生命传送网络统计数据。<newline>"
 3620,Power production<right><power(TotalProducedPower)>,<right><power(TotalProducedPower)>产电量
@@ -9105,11 +9105,11 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 3626,Water production<right><water(TotalProducedWater)>,产水量<right><water(TotalProducedWater)>
 3627,Water demand<right><water(TotalRequiredWater)>,水需求<right><water(TotalRequiredWater)>
 3628,Stored Water<right><water(TotalStoredWater)>,水储存
-3629,Power surplus<right><green><power(number)></green>,电力饱和<right><green><power(number)></green>
+3629,Power surplus<right><green><power(number)></green>,电量超出<right><green><power(number)></green>
 3630,Power shortage<right><red><power(number)></red>,电力短缺<right><red><power(number)></red>
-3631,Oxygen surplus<right><green><air(number)></green>,氧气饱和<right><green><air(number)></green>
+3631,Oxygen surplus<right><green><air(number)></green>,氧气超出<right><green><air(number)></green>
 3632,Oxygen shortage<right><red><air(number)></red>,氧气短缺<right><red><air(number)></red>
-3633,Water surplus<right><green><water(number)></green>,水饱和<right><green><water(number)></green>
+3633,Water surplus<right><green><water(number)></green>,水量超出<right><green><water(number)></green>
 3634,Water shortage<right><red><water(number)></red>,水短缺<right><red><water(number)></red>
 3635,"Basic resource production, consumption and other stats from the <em>last Sol</em>, unless otherwise stated. Resources in consumption buildings are not counted towards the total available amount.","资源生产, 消耗和来自其他 <em>last Sol</em>统计数据, 除非有特别注释,建筑消耗资源不记入总量。"
 3636,Metals production<right><metals(MetalsProducedYesterday)>,金属产量<right><metals(MetalsProducedYesterday)>
