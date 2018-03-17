@@ -1631,28 +1631,28 @@ Building in unexplored Sectors carries the risk of building directly on top of u
 Each wonder is unique and can be constructed only once.","世界奇觀是一座相當先進且昂貴的建築物，可以提供整個殖民地巨大的幫助。 將解鎖於 <em>科技樹</em>末期
 
 每座世界奇觀當是獨一無二的，所以他們只能被建造一次"
-5068,Farms,
-5425,Black Cube Stockpiles,
-5426,Building,
-5427,Cold-sensitive Buildings,
-5428,Cold-sensitive Buildings,
-5429,Buildings (except Domes),
-5430,Cold Marker,
+5068,Farms,农场
+5425,Black Cube Stockpiles,黑魔方库存
+5426,Building,建筑
+5427,Cold-sensitive Buildings,冷敏建筑
+5428,Cold-sensitive Buildings,冷敏建筑
+5429,Buildings (except Domes),建筑物(非穹顶)
+5430,Cold Marker,寒冰标记
 745,Shuttles,客貨機
-547,Colonists,
-5431,Female Colonists,
-5432,Male Colonists,
-5433,Drone Control,
-5434,Frozen Buildings,
-5435,Homeless Colonists,
-5436,Residences,
-5437,Resource Exploiter,
+547,Colonists,殖民者
+5431,Female Colonists,殖民者男
+5432,Male Colonists,殖民者女
+5433,Drone Control,无人机控制中心
+5434,Frozen Buildings,结冰建筑
+5435,Homeless Colonists,流浪者
+5436,Residences,住宅
+5437,Resource Exploiter,资源开阔者
 5438,Rovers,漫遊者
-5439,Service Buildings,
-5440,Shift Buildings,
-5441,Supply Grid Buildings,
-5442,Suspended Buildings,
-5443,Training Buildings,
+5439,Service Buildings,服务中心
+5440,Shift Buildings,值班中心
+5441,Supply Grid Buildings,供电中心
+5442,Suspended Buildings,悬浮建筑
+5443,Training Buildings,教育中心
 5444,Workplaces,工作場所
 420110169199,Xanthe Alpha,
 427759670941,Cimmeria Alpha,
@@ -2669,7 +2669,7 @@ Let this blooming of life serve as a symbol for all humans. Mars is no longer a 
 We are already swarmed with applications for relocation on Mars and the wanderlust and enthusiasm of these people makes me proud to be a human being. The Red Planet continues to be inhospitable and even dangerous but we as a species had always displayed the ability to adapt and improve – the adverse conditions will only make us try harder. So I say bring it on!
 
 <effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
-5759,Looks live we’ve got a serious adventure ahead of us!,看来前方困难丛丛在等着我们!
+5759,Looks live we’ve got a serious adventure ahead of us!,看来前方还有艰难的任务在等着我们!
 5661,Mystery Log,
 5760,....,
 7129,Warning,
