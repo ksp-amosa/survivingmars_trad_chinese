@@ -5831,24 +5831,24 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6725,Attacking,进攻
 6726,Reloading,重载
 78,Infrastructure,基礎設施
-82,Storages,
-84,"Homes, Education & Research",
-85,Dome Services,
-86,Dome Spires,
-1000155,Hidden,
-619,Construction sites that are turned off are not serviced.<newline><newline>Current status: <em><UIWorkingStatus></em>,
-7611,<left_click> Deactivate <newline><em>Ctrl + <left_click></em> Deactivate all <display_name_pl>,
-7612,<ButtonA> Deactivate <newline><ButtonX> Deactivate all <display_name_pl>,
-7613,<left_click> Activate <newline><em>Ctrl + <left_click></em> Activate all <display_name_pl>,
-7614,<ButtonA> Activate <newline><ButtonX> Activate all <display_name_pl>,
-379,Suspended,
-7326,Not Working,
-7327,Turned On,
-7328,Turned Off,
-89,No consumption,
-90,Visit,
-92,Restore Upgrade Defaults,
-101,Upgrade Time Cost,
+82,Storages,存储
+84,"Homes, Education & Research","家庭, 教育和研究 "
+85,Dome Services,穹顶服务
+86,Dome Spires,穹顶尖顶
+1000155,Hidden,隐藏
+619,Construction sites that are turned off are not serviced.<newline><newline>Current status: <em><UIWorkingStatus></em>,关闭建筑不提供服务。<newline><newline>目前状态: <em><UIWorkingStatus></em>
+7611,<left_click> Deactivate <newline><em>Ctrl + <left_click></em> Deactivate all <display_name_pl>,<left_click> 关闭 <newline><em>Ctrl + <left_click></em> 关闭全部 <display_name_pl>
+7612,<ButtonA> Deactivate <newline><ButtonX> Deactivate all <display_name_pl>,<ButtonA> 关闭 <newline><ButtonX> 关闭全部 <display_name_pl>
+7613,<left_click> Activate <newline><em>Ctrl + <left_click></em> Activate all <display_name_pl>,<left_click> 开启 <newline><em>Ctrl + <left_click></em> 开启全部 <display_name_pl>
+7614,<ButtonA> Activate <newline><ButtonX> Activate all <display_name_pl>,<ButtonA> 开启 <newline><ButtonX> 开启全部 <display_name_pl>
+379,Suspended,z暂停
+7326,Not Working,无法工作
+7327,Turned On,打开
+7328,Turned Off,关闭
+89,No consumption,无消耗
+90,Visit,巡视
+92,Restore Upgrade Defaults,恢复升级预设值
+101,Upgrade Time Cost,升级时间成本
 102,Modifier Target 1,
 103,Modifier Label 1,
 104,Modified Property 1,
