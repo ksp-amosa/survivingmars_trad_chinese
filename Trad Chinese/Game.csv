@@ -1,31 +1,32 @@
 ID,Text,Translation
-1000590,Game Progress,
-1000001,Enter Mod Title,
-1000002,No name provided,
-1000591,Error,
-1000003,Copying <ModLabel> to <u(path)>,
-1000004,Confirm Copy,
-1000005,Mod '<u(title)>' files will be copied to <u(path)>,
-1000006,Error copying <u(file)>: <u(err)>,
-1000007,Are you sure?,
-1000008,Do you want to delete all <ModLabel> files?,
-1000010,Please confirm the deletion of item '<u(name)>'!,
-1000011,There is an active Steam upload,
-1000592,Error,
-1000009,Confirmation,
-1000012,Mod <ModLabel> will be uploaded to Steam,
-1000013,Mod <ModLabel> was not uploaded to Steam. Code: <err>,
-1000593,Error,
-1000014,Mod <ModLabel> was successfully uploaded to Steam!,
-1000018,Tags,
-1000019,Preview image,
+1000590,Game Progress,遊戲進展
+1000001,Enter Mod Title,输入MOD标题
+1000002,No name provided,没有标题
+1000591,Error,错误
+1000003,Copying <ModLabel> to <u(path)>,将<ModLabel> 复制到 <u(path)>
+1000004,Confirm Copy,确认复制
+1000005,Mod '<u(title)>' files will be copied to <u(path)>,MOD '<u(title)>' 将被复制到 <u(path)>
+1000006,Error copying <u(file)>: <u(err)>,复制错误 <u(file)>: <u(err)>
+1000007,Are you sure?,你确定吗?
+1000008,Do you want to delete all <ModLabel> files?,你确定要删除所有 <ModLabel> 文件?
+1000010,Please confirm the deletion of item '<u(name)>'!,请确认要删除文件 '<u(name)>'!
+1000011,There is an active Steam upload,上传到STEAM
+1000592,Error,错误
+1000009,Confirmation,确认
+1000012,Mod <ModLabel> will be uploaded to Steam,MOD <ModLabel> 将被上传到到STEAM
+1000013,Mod <ModLabel> was not uploaded to Steam. Code: <err>,MOD未被上传到STEAM 错误代码: <err>
+1000593,Error,错误
+1000014,Mod <ModLabel> was successfully uploaded to Steam!,MOD <ModLabel> 成功上传到STEAM
+1000018,Tags,标签
+1000019,Preview image,预览图片
 1000021,Steam ID,
-1000022,Author,
-1000023,Version,
-1000024,Game version,
-1000025,Mod '<title>',
+1000022,Author,作者
+1000023,Version,版本
+1000024,Game version,游戏版本
+1000025,Mod '<title>',MOD '<title>'
 1000026,"<u(title)> (loaded)
-id <u(id)>, version <version>",
+id <u(id)>, version <version>","<u(title)> (加载)
+id <u(id)>, 版本 <version>"
 1000027,"<color 128 128 128><u(title)>
 id <u(id)>, version <version></color>",
 1000028,"<u(title)> (id <u(id)>, version <version>)",
@@ -1630,28 +1631,28 @@ Building in unexplored Sectors carries the risk of building directly on top of u
 Each wonder is unique and can be constructed only once.","世界奇觀是一座相當先進且昂貴的建築物，可以提供整個殖民地巨大的幫助。 將解鎖於 <em>科技樹</em>末期
 
 每座世界奇觀當是獨一無二的，所以他們只能被建造一次"
-5068,Farms,
-5425,Black Cube Stockpiles,
-5426,Building,
-5427,Cold-sensitive Buildings,
-5428,Cold-sensitive Buildings,
-5429,Buildings (except Domes),
-5430,Cold Marker,
+5068,Farms,农场
+5425,Black Cube Stockpiles,黑魔方库存
+5426,Building,建筑
+5427,Cold-sensitive Buildings,冷敏建筑
+5428,Cold-sensitive Buildings,冷敏建筑
+5429,Buildings (except Domes),建筑物(非穹顶)
+5430,Cold Marker,寒冰标记
 745,Shuttles,客貨機
-547,Colonists,
-5431,Female Colonists,
-5432,Male Colonists,
-5433,Drone Control,
-5434,Frozen Buildings,
-5435,Homeless Colonists,
-5436,Residences,
-5437,Resource Exploiter,
+547,Colonists,殖民者
+5431,Female Colonists,殖民者男
+5432,Male Colonists,殖民者女
+5433,Drone Control,无人机控制中心
+5434,Frozen Buildings,结冰建筑
+5435,Homeless Colonists,流浪者
+5436,Residences,住宅
+5437,Resource Exploiter,资源开阔者
 5438,Rovers,漫遊者
-5439,Service Buildings,
-5440,Shift Buildings,
-5441,Supply Grid Buildings,
-5442,Suspended Buildings,
-5443,Training Buildings,
+5439,Service Buildings,服务中心
+5440,Shift Buildings,值班中心
+5441,Supply Grid Buildings,供电中心
+5442,Suspended Buildings,悬浮建筑
+5443,Training Buildings,教育中心
 5444,Workplaces,工作場所
 420110169199,Xanthe Alpha,
 427759670941,Cimmeria Alpha,
@@ -2082,128 +2083,128 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 5582,Buildings without Power: <count>,缺電的設施 <count>
 5583,Renegades Stole Resources,遭叛徒偷取的資源
 5584,<resource> stolen from <dome_name>!,<dome_name> 有 <resource> 被偷了！
-8047,Crime Act Prevented,
-8048,Your Officers in <dome_name> stopped the Renegades!,
-5585,Renegades Sabotage Building,
-5586,<building> destroyed in <dome_name>!,
+8047,Crime Act Prevented,预防犯罪法
+8048,Your Officers in <dome_name> stopped the Renegades!,你在<dome_name>的官员阻止了
+5585,Renegades Sabotage Building,叛徒破坏了建筑
+5586,<building> destroyed in <dome_name>!,<building> 摧毁于 <dome_name>!
 5587,Founder Has Trait,
 5588,<ColonistName(founder)>: <TraitName(trait)>,
-5589,New Deposits,
-5590,Deposits found: <count>,
-5591,Leaving Mars,
-5592,Departing Colonists: <colonists_count>,
-7034,Colonists are departing,
-5593,Sponsor Funding,
-5594,<sponsor> funding: <funding(number)>,
-5595,New Colonists,
-5596,Arriving Colonists: <count>,
-7035,New Colonists have arrived,
-5597,No available Dome,
-5598,No living space for Colonists,
-7036,Stressed out Colonists,
-5600,Stressed out Colonists: <count>,
-5603,Suicide,
-5604,<name> couldn’t take it anymore,
-5605,Resupply Arrived,
-5606,A resupply Rocket has arrived in orbit,
-7037,We have a Resupply,
-5607,Space Elevator Delivery,
-5608,The Space Elevator delivered goods from orbit,
-7038,We have a delivery on the Space Elevator,
-5609,New Anomalies,
-5610,Anomalies found: <count>,
-7039,Anomaly found,
-7672,Fuel Explosion,
-7673,Resources Lost,
-8471,Orbital Bombardment detected!,
-8472,Imminent impact on our coordinates.,
-8473,Missile Alert,
-5611,Breakthrough discovered,
-7040,Breakthrough discovered,
-5612,Breakthroughs discovered,
-5613,New Breakthrough Techs: <count>,
-7041,Breakthroughs discovered,
-5615,An Anomaly was successfully analyzed,
-5616,Alien Artifact Analyzed,
-5617,Tech Boost: -5% Research cost (all fields),
-7043,Cold Wave approaching,
-4149,Cold Wave,
-7437,Time remaining: unknown,
-7044,Meteor Shower incoming,
-5620,Meteor Storm,
+5589,New Deposits,新资源
+5590,Deposits found: <count>,发现资源: <count>
+5591,Leaving Mars,舍弃火星
+5592,Departing Colonists: <colonists_count>,離开的殖民者: <colonists_count>
+7034,Colonists are departing,殖民者正在离开
+5593,Sponsor Funding,赞助资金
+5594,<sponsor> funding: <funding(number)>,<sponsor> 资金: <funding(number)>
+5595,New Colonists,新殖民者
+5596,Arriving Colonists: <count>,抵达的殖民者: <count>
+7035,New Colonists have arrived,新殖民者到来
+5597,No available Dome,没有可用穹顶
+5598,No living space for Colonists,殖民者没有生存的空间
+7036,Stressed out Colonists,焦虑的殖民者
+5600,Stressed out Colonists: <count>,焦虑的殖民者: <count>
+5603,Suicide,自杀
+5604,<name> couldn’t take it anymore,<name> 再也承受不住
+5605,Resupply Arrived,补给物质到达
+5606,A resupply Rocket has arrived in orbit,补给火箭到达预定轨道
+7037,We have a Resupply,我们有补给
+5607,Space Elevator Delivery,交付太空升降舱
+5608,The Space Elevator delivered goods from orbit,太空升降舱将从通过轨道运送货物
+7038,We have a delivery on the Space Elevator,我们通过太空升降舱送货
+5609,New Anomalies,新的異常
+5610,Anomalies found: <count>,发现異常: <count>
+7039,Anomaly found,新的異常
+7672,Fuel Explosion,燃料爆炸
+7673,Resources Lost,资源流失
+8471,Orbital Bombardment detected!,检测到轨道轰炸!
+8472,Imminent impact on our coordinates.,即将影响我们的坐标
+8473,Missile Alert,导弹警报
+5611,Breakthrough discovered,创新发现
+7040,Breakthrough discovered,创新发现
+5612,Breakthroughs discovered,创新发现
+5613,New Breakthrough Techs: <count>,创新技术: <count>
+7041,Breakthroughs discovered,创新发现
+5615,An Anomaly was successfully analyzed,異常分析成功
+5616,Alien Artifact Analyzed,外星文明分析
+5617,Tech Boost: -5% Research cost (all fields),技术提升:-5%的研究成本(所有领域)
+7043,Cold Wave approaching,寒潮來臨
+4149,Cold Wave,寒潮
+7437,Time remaining: unknown,剩餘時間：未知
+7044,Meteor Shower incoming,流星雨來襲
+5620,Meteor Storm,流星雨
 5621,No Active Research,
-5622,Select a Tech to research,
+5622,Select a Tech to research,選擇技術進行研究
 7045,No active Research,
-5623,Incoming Meteor,
+5623,Incoming Meteor,流星接踵而來
 5624,Cycle through impact positions,
-7046,Meteor incoming,
-5625,Fractures,
-5626,Fractured Domes: <count>,
-7047,Dust Storm approaching,
-7048,Great Dust Storm approaching,
-5618,Disaster starts in <countdown>,
-7049,Electrostatic Dust Storm approaching,
-4250,Dust Storm,
-5627,Great Dust Storm,
-5628,Electrostatic Dust Storm,
-5635,No Oxygen,沒有氧氣
-5636,Domes without Oxygen: <count>,
-7050,We have an Oxygen shortage,
-5637,No Water,
-5638,Domes without Water: <count>,
-7051,We have a Water shortage,
-5581,No Power,
-5639,Domes without Power: <count>,
-7033,We have a Power shortage,
-5640,Resources are low,
+7046,Meteor incoming,流星陨落
+5625,Fractures,破裂
+5626,Fractured Domes: <count>,穹頂破裂: <count>
+7047,Dust Storm approaching,沙塵暴逼近
+7048,Great Dust Storm approaching,巨大沙塵暴逼近
+5618,Disaster starts in <countdown>,災難開始于<countdown>
+7049,Electrostatic Dust Storm approaching,靜電沙塵暴逼近
+4250,Dust Storm,沙塵暴
+5627,Great Dust Storm,巨大沙塵暴
+5628,Electrostatic Dust Storm,靜電沙塵暴
+5635,No Oxygen,沒氧
+5636,Domes without Oxygen: <count>,穹頂缺氧: <count>
+7050,We have an Oxygen shortage,我们需要氧气
+5637,No Water,沒水
+5638,Domes without Water: <count>,穹頂断水: <count>
+7051,We have a Water shortage,我们需要水
+5581,No Power,没电
+5639,Domes without Power: <count>,穹頂断电: <count>
+7033,We have a Power shortage,我们需要电
+5640,Resources are low,資源匮乏
 5641,<low_on_resource_text> <resources>,
-7052,Resources are low,
-5642,Depleted Deposits,
-5643,Depleted deposits: <count>,
-7053,Deposit depleted,
+7052,Resources are low,資源匮乏
+5642,Depleted Deposits,储量耗盡
+5643,Depleted deposits: <count>,储量耗盡：<count>
+7053,Deposit depleted,储量耗盡
 5644,Idle Extractors,
-5645,Buildings with depleted deposits: <count>,
-5646,Deaths in the Colony,
-5647,Dead Colonists: <count>,
-8511,Infected Colonist Deaths,
-8512,Infected Colonists Dead: <count>,
-7054,A Colonist has died,
+5645,Buildings with depleted deposits: <count>,废弃建筑: <count>
+5646,Deaths in the Colony,殖民地面临死亡
+5647,Dead Colonists: <count>,死亡殖民者: <count>
+8511,Infected Colonist Deaths,被感染殖民者死亡
+8512,Infected Colonists Dead: <count>,被感染殖民者死亡: <count>
+7054,A Colonist has died,一名殖民者死亡
 3879,Earthsick,
 7055,<count> Colonists are Earthsick,
 7056,There are Earthsick Colonists,
-5648,Buildings Not Working,
-5649,Buildings not working: <count>,
-5650,Milestone achieved!,
+5648,Buildings Not Working,建筑物无法工作
+5649,Buildings not working: <count>,建筑物无法工作: <count>
+5650,Milestone achieved!,实现里程碑!
 756643722601,<display_name>,
-7057,Milestone achieved,
-5651,New Techs are available for research,
-5652,Gained <research(points)>,
-5653,Research cost of all Techs reduced,
-7042,Anomaly analyzed,
-5654,Research Complete,
+7057,Milestone achieved,实现里程碑
+5651,New Techs are available for research,新技术已经解锁
+5652,Gained <research(points)>,获得<research(points)>
+5653,Research cost of all Techs reduced,所有研究成本降低
+7042,Anomaly analyzed,异常分析
+5654,Research Complete,研究完成
 3846,<name>,
-7058,Research complete,
-5656,Cube countdown: <value> hours,
-7438,Sphere Unknown Event: <percent(value)>,
-5655,Countdown,
-5657,Time to impact: <countdown>,
+7058,Research complete,研究完成
+5656,Cube countdown: <value> hours,方体倒计时: <value> hours
+7438,Sphere Unknown Event: <percent(value)>,未知事件: <percent(value)>
+5655,Countdown,倒计时
+5657,Time to impact: <countdown>,撞击时间: <countdown>
 5658,Dredger Detected,
 5659,Dredger landing expected in Sector <u(value)>,
 7059,Dredgers detected,
 282,Landing,
 5660,Another Dredger has landed on Mars,
-7439,Mysterious Mirages,
-7440,Remaining duration: Unknown,
-7060,Rogue Drones are attacking!,
-7061,Rogue Drones: <count>,
-7566,Hostile attack,
-7567,Buildings destroyed: <count>,
-7568,AI Fights back,
-7569,Number Six has sabotaged the Explorer,
-7062,EsoCorp Reward,
-8120,Infection Level,
-8474,Cure Exported to Earth!,
-8121,War On Earth,
+7439,Mysterious Mirages,神秘的海市蜃楼
+7440,Remaining duration: Unknown,剩余时间：未知
+7060,Rogue Drones are attacking!,猛兽无人机攻击!
+7061,Rogue Drones: <count>,猛兽无人机: <count>
+7566,Hostile attack,敌人侵袭
+7567,Buildings destroyed: <count>,建筑损毁: <count>
+7568,AI Fights back,人工智能反击
+7569,Number Six has sabotaged the Explorer,六号破坏了探索者
+7062,EsoCorp Reward,EsoCorp 奖励
+8120,Infection Level,感染等级
+8474,Cure Exported to Earth!,加工运输回地球!
+8121,War On Earth,星球大战
 8122,War Tension:,緊張情勢：
 5662,History of Events,
 5422,Exploration,
@@ -2533,34 +2534,40 @@ Concrete extractors must be placed over sulfur-rich regolith deposits - the yell
 7099,"After all, purpose is the strongest long-term driver. Since arriving on Mars, <ColonistName(colonist)>'s enthusiasm has proven to be above average, even by Founder norms, and the prodigious productivity displayed can be boiled down to one simple explanation – <ColonistName(colonist)> really loves doing what <ColonistName(colonist)>‘s doing.
 
 <hint>The Founder <ColonistName(colonist)> has the <em>Enthusiast</em> trait.",
-7101,That's the spirit!,
-7102,Gambling Midst The Stars,
-7104,The first Colonists are all gamblers coming to Mars. It's the ultimate roll of the dice.,
+7101,That's the spirit!,真有道理!
+7102,Gambling Midst The Stars,博弈在群星之中
+7104,The first Colonists are all gamblers coming to Mars. It's the ultimate roll of the dice.,第一批来火星的殖民者都是博弈着。
 7103,"They travel through 50 million miles to a rocky, inhospitable world and try to bend it to humanity's will. <ColonistName(colonist)> , on the other hand, seems to also be a gambler in the more traditional sense. 
 
 We must not judge. On the contrary, we must be supportive and help our dear comrade with whom we’ve traversed the void, spearheaded humanity’s expansion on other worlds, only to find that we are no safer from vices so Earthly, it’s as if we never left.
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Gambler</em> trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Gambler</em> trait.","他们穿越5000万里的航程来到这个只有岩石的荒凉世界,并试图征服它。 <ColonistName(colonist)> 这就是所谓的博弈吧,我们必须帮忙和支持他们。以便在更多星球扩张。"
 7446,OK,
-7105,Call It What You Will,
-7107,"Living in cramped quarters, tinkering with intricate machinery day-in, day-out. There's plenty of opportunities for slip-ups.",
+7105,Call It What You Will,随你怎么定义
+7107,"Living in cramped quarters, tinkering with intricate machinery day-in, day-out. There's plenty of opportunities for slip-ups.","生活在狭窄的空间里,日复一日摆弄着复杂的机器设备。"
 7106,"Warning signs and instructions are, usually, enough to prevent most of them being done by most people. <ColonistName(colonist)> is not like most people and instructions and warnings seem to be of little to no use. 
 
 We, as a small community, have come to accept the obvious: 
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Idiot</em> trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Idiot</em> trait.","警告标志和指示语, 通常可以阻止大多数人。<ColonistName(colonist)>与大多数人不一样, 说明和警告似乎起不到作用。作为一个小团体, 我们已经接受了显而易见的事实: 这个创始者 <ColonistName(colonist)> 具备 <em>白痴</em> 特性。"
 7447,OK,
-5725,End of an Age,
-7108,Mars has ways of crushing the hope out of our very best.,
+5725,End of an Age,时代的终结
+7108,Mars has ways of crushing the hope out of our very best.,火星计划有办法把希望从我们最好的状态中释放出来。
 5730,"The Founders had always been more than explorers and pioneers. They shared a vision of the future of the civilization on the Red Planet and worked ceaselessly towards their common goal.
 
 But, as it often happens during the course of history the, societal standpoint changes. <ColonistName(colonist)> could not adapt to the changing times and decided to leave Mars. I know <ColonistName(colonist)> personally and I'm sure that this isn't caused by disappointment but instead is a rational decision. I remember one time when we talked about the future of the Colony and <ColonistName(colonist)>'s words: “We are the progenitors of the Colony but parents have to eventually step down and give way to their children.”
 
 As I watch the rocket fly towards Earth I cannot force myself to think that <ColonistName(colonist)> is abandoning us. Something tells me that we will be in contact and will continue to receive wise council from our last Founder.
 
-<hint>The last Founder <ColonistName(colonist)> has left Mars.",
-7987,View.,
-5731,"Farewell, friend.",
+<hint>The last Founder <ColonistName(colonist)> has left Mars.","创始人一直都是时代的探索和开拓者。他们都展望了这个红色星球上的文明的未来并朝着共同的目标不断前进。
+
+但是，就像在历史进程中经常发生的那样，社会立场随着时间发生动荡。<ColonistName(colonist)>无法适应时代的变化，就会决定离开这个星球。我想 <ColonistName(colonist)> 就我个人而言，我确信这不是由失望引起的，而是一个理性的决定。我记得有一次，我们谈到了殖民地的未来和<ColonistName(colonist)>: 我们虽然是殖民地的祖先，但长江后浪推前浪，未来还是要交给我们的孩子。
+
+当我看着火箭飞向地球时，我无法想象 <ColonistName(colonist)> 正在抛弃我们。理智告诉我，我们还可以联系。我们也将跟随新的创始者。
+
+<hint>上一代创始者 <ColonistName(colonist)> 离开火星。"
+7987,View.,查看
+5731,"Farewell, friend.","再见, 朋友。"
 5732,Spheres: More to Come,
 7109,The Mirror Sphere has Mission Control in total chaos. Though that’s expected given what we saw.,
 5733,"In a moment of pure awesomeness the Sphere split into two identical Spheres. The new objects have grown to the exact same size as the previous one.
@@ -2647,26 +2654,28 @@ When our scientists give up on trying to determine the origin of these Spheres, 
 <effect> Arrival of additional Colonists temporarily suspended until the Colony proves able to sustain human life. Your Founder Colonists must survive for 10 Sols before additional people can arrive.
 
 <hint> The Colony will be evaluated positively before the period ends in the event the first human is born on Mars. If you feel you are up to the challenge, try constructing a Medical Building and raising the Comfort of the Founders as much as possible with Service Buildings.",
-5753,First Dome Constructed!,
-7125,"It's been a stellar day. Not just for the mission, but for humanity itself.",
+5753,First Dome Constructed!,第一个穹顶建造完成!
+7125,"It's been a stellar day. Not just for the mission, but for humanity itself.","今天是辉煌的一天。这不仅仅只是使命,更为全人类"
 5754,"Sol <day> of our mission will be remembered. Our greatest project to date has been completed – the Dome is ready to harbor the first Colonists on Mars. We, the team at Mission Control, are honored to be among the ones chosen to mark the beginning of a new age.
 
-We created a place for humanity to call home, a place which reminds us of Earth. The Dome seems so fragile, like a glittering snow globe resting among the red sands. This makes us wonder – will our future be just as fragile? Would we be able to leave our cradle and thrive on this cold, distant world?",
-5755,Continue playing,
-7126,"For the first time, a human has been born on Mars. It's truly a unique miracle.",
+We created a place for humanity to call home, a place which reminds us of Earth. The Dome seems so fragile, like a glittering snow globe resting among the red sands. This makes us wonder – will our future be just as fragile? Would we be able to leave our cradle and thrive on this cold, distant world?","我们的使命将后人被铭记。我们迄今为止最伟大的工程已经完成。穹顶的完成将迎来第一批火星殖民者。作为先驱者的我们, 我们很荣幸能成为新时代的开创者。
+我们为人类在火星创造了家,一个像地球一样的生存环境。这个穹顶看起来似乎很脆弱,就像闪着亮光的雪花飘落在红色沙漠中。这不经意的让我们想到我们的未来是否同样的脆弱,我们千辛万苦离开故地来到这万里茫茫的严寒之地，我们能否在这里生存下去?"
+5755,Continue playing,继续发挥
+7126,"For the first time, a human has been born on Mars. It's truly a unique miracle.","伟大的奇迹,人类第一次在火星孕育了新的生命。"
 5757,"The Colonists have always felt like a family. But what makes the family stronger and more united is the promise of new life and better future. We have truly been blessed with a rewarding responsibility – to carry the torch of hope.
 
 Let this blooming of life serve as a symbol for all humans. Mars is no longer a dead world.
 
-<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
-5756,The Door towards the Stars,
-7128,This will go down in history.,
+<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.","殖民者像一家人一样，家庭不断强大和团结对未来充满了希望。我们有责任来传递希望的火炬。生命开始绽放成为全人类的象征，火星不在是一个不适合人类生存的环境。
+<effect>殖民地正在不断发展，将会有更多人从地球来到这里。"
+5756,The Door towards the Stars,通向星星的门
+7128,This will go down in history.,这将载入历史。
 5758,"The long-time dream of the human civilization as a whole – to settle another world – has come true. To be among the people who made this happen makes me feel enthusiastic and proud.
 
 We are already swarmed with applications for relocation on Mars and the wanderlust and enthusiasm of these people makes me proud to be a human being. The Red Planet continues to be inhospitable and even dangerous but we as a species had always displayed the ability to adapt and improve – the adverse conditions will only make us try harder. So I say bring it on!
 
 <effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
-5759,Looks live we’ve got a serious adventure ahead of us!,
+5759,Looks live we’ve got a serious adventure ahead of us!,看来前方还有艰难的任务在等着我们!
 5661,Mystery Log,
 5760,....,
 7129,Warning,
@@ -5771,81 +5780,81 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 2,Unlock Tech,解鎖 科技
 3,Grant Research,獲得科技成長
 8,Breakthrough Tech,突破性科技
-4,Tech Action,
+4,Tech Action,科技创新
 11,Our scientists believe that this Anomaly may lead to a <em>Breakthrough</em>.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,我們的科學家相信這個觀察點會有些 <em>突破性</em>的發現.<newline><newline>指派一台<em>探索者號</em> 前往調查觀察點
 12,Scans have detected some interesting readings that might help us discover <em>new Technologies</em>.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
 13,Sensors readings suggest that this Anomaly will help us with our current <em>Research</em> goals.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
 14,We have detected alien artifacts at this location that will <em>speed up</em> our Research efforts.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
-17,"Period, base (s)",
-18,"Period, random (s)",
-19,Spawn Chance (%),
-20,Lifetime (s),
-21,Speed (m/s),
+17,"Period, base (s)",基础期 (s)
+18,"Period, random (s)",随机期 (s)
+19,Spawn Chance (%),重生率 (%)
+20,Lifetime (s),生存率 (%)
+21,Speed (m/s),速度 (m/s)
 22,Our scans have found some interesting readings in this Sector. Further analysis is needed.<newline><newline>Send an RC Explorer to analyze the Anomaly.,
-8570,<green>Hive Mind <FormatSignInt(amount)></color>,
-31,Effect Range,
-34,Work State,
-36,"Battery is being charged by <em><percent(value,battery_max)> per hour</em>",
-35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",
-37,Battery is <em>on standby</em>,
-8456,Depleted Battery!,
-7322,The Rover will be salvaged in <em><countdown></em> sec.,
-7323,Low battery - Drones will not be recharged.,
-7324,Low battery,
-7325,Empty battery,
+8570,<green>Hive Mind <FormatSignInt(amount)></color>,<green>集体意识 <FormatSignInt(amount)></color>
+31,Effect Range,影響範圍
+34,Work State,工作狀態
+36,"Battery is being charged by <em><percent(value,battery_max)> per hour</em>",電池正在充電 <em><percent(value,battery_max)> per hour</em>
+35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",電池正在使用 <em><percent(value,battery_max)> per hour</em>
+37,Battery is <em>on standby</em>,电池 <em>待机状态</em>
+8456,Depleted Battery!,電池耗盡！
+7322,The Rover will be salvaged in <em><countdown></em> sec.,漫游者将在<em><countdown></em> sec 被抢修。
+7323,Low battery - Drones will not be recharged.,電池电量低-无人机将无法充电。
+7324,Low battery,電池电量低
+7325,Empty battery,空電池
 7601,Battery,電池
 7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline> 能源 <right><percent(BatteryPerc)><newline><left><battery_ui_str>
 40,Recharge,充電
 41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其它車輛為電池充電。
 42,Cancel recharge.,取消充電
-50,Status and current task of this vehicle.,
-25,Anomaly Scanning,
-52,Progress<right><percent(ScanAnomalyProgress)>,
-53,Malfunction,
-54,This vehicle has malfunctioned. It has to be repaired by Drones.,
-55,Analyzing an Anomaly,
-56,On a transport route,
-58,<red>This unit has been destroyed. Salvage for materials.<red>,
-59,Disembarking,
-60,Unloading cargo at target coordinates,
-61,Transfering power between vehicles,
-62,Moving to avoid obstruction,
-64,Loading resources at target coordinates,
-7610,Waiting for repairs,
-8028,Undergoing repairs,
-66,Out of power,
+50,Status and current task of this vehicle.,該車輛的現狀和當前任務。
+25,Anomaly Scanning,异常掃描
+52,Progress<right><percent(ScanAnomalyProgress)>,進度<right><percent(ScanAnomalyProgress)>
+53,Malfunction,故障
+54,This vehicle has malfunctioned. It has to be repaired by Drones.,這輛車出故障。请派無人機进行维修。
+55,Analyzing an Anomaly,异常分析
+56,On a transport route,运输途中
+58,<red>This unit has been destroyed. Salvage for materials.<red>,<red>这个单位已摧毁。物质抢救。<red>
+59,Disembarking,登陆
+60,Unloading cargo at target coordinates,在目標座標處卸载貨物
+61,Transfering power between vehicles,车辆间的行驶
+62,Moving to avoid obstruction,移动中避免碰撞
+64,Loading resources at target coordinates,在目標座標處装載資源
+7610,Waiting for repairs,等待修理
+8028,Undergoing repairs,正在修理
+66,Out of power,失去动力
 67,Loading resources,讀取資源中
-68,<green>Charging battery from Power grid</green>,
-69,"Trying to recharge battery, insufficient Power",
-70,Repairing Drones,
-71,Commanding Drones,
-72,Transferring resources,
-73,Unloading resources at target coordinates,
-74,Recalling remote Drones,
-7683,Waiting for resources at construction site,
-8490,Loading complete,
-6724,Roaming,
-6725,Attacking,
-6726,Reloading,
-78,Infrastructure,
-82,Storages,
-84,"Homes, Education & Research",
-85,Dome Services,
-86,Dome Spires,
-1000155,Hidden,
-619,Construction sites that are turned off are not serviced.<newline><newline>Current status: <em><UIWorkingStatus></em>,
-7611,<left_click> Deactivate <newline><em>Ctrl + <left_click></em> Deactivate all <display_name_pl>,
-7612,<ButtonA> Deactivate <newline><ButtonX> Deactivate all <display_name_pl>,
-7613,<left_click> Activate <newline><em>Ctrl + <left_click></em> Activate all <display_name_pl>,
-7614,<ButtonA> Activate <newline><ButtonX> Activate all <display_name_pl>,
-379,Suspended,
-7326,Not Working,
-7327,Turned On,
-7328,Turned Off,
-89,No consumption,
-90,Visit,
-92,Restore Upgrade Defaults,
-101,Upgrade Time Cost,
+68,<green>Charging battery from Power grid</green>,<green>到电网充电<green>
+69,"Trying to recharge battery, insufficient Power","电量不足, 请给电池充电"
+70,Repairing Drones,维修无人机
+71,Commanding Drones,指派无人机
+72,Transferring resources,转移资源
+73,Unloading resources at target coordinates,在目標座標處卸载资源
+74,Recalling remote Drones,召回遠端無人機
+7683,Waiting for resources at construction site,施工地等資源
+8490,Loading complete,裝載完畢
+6724,Roaming,移动
+6725,Attacking,进攻
+6726,Reloading,重载
+78,Infrastructure,基礎設施
+82,Storages,存储
+84,"Homes, Education & Research","家庭, 教育和研究 "
+85,Dome Services,穹顶服务
+86,Dome Spires,穹顶尖顶
+1000155,Hidden,隐藏
+619,Construction sites that are turned off are not serviced.<newline><newline>Current status: <em><UIWorkingStatus></em>,关闭建筑不提供服务。<newline><newline>目前状态: <em><UIWorkingStatus></em>
+7611,<left_click> Deactivate <newline><em>Ctrl + <left_click></em> Deactivate all <display_name_pl>,<left_click> 关闭 <newline><em>Ctrl + <left_click></em> 关闭全部 <display_name_pl>
+7612,<ButtonA> Deactivate <newline><ButtonX> Deactivate all <display_name_pl>,<ButtonA> 关闭 <newline><ButtonX> 关闭全部 <display_name_pl>
+7613,<left_click> Activate <newline><em>Ctrl + <left_click></em> Activate all <display_name_pl>,<left_click> 开启 <newline><em>Ctrl + <left_click></em> 开启全部 <display_name_pl>
+7614,<ButtonA> Activate <newline><ButtonX> Activate all <display_name_pl>,<ButtonA> 开启 <newline><ButtonX> 开启全部 <display_name_pl>
+379,Suspended,z暂停
+7326,Not Working,无法工作
+7327,Turned On,打开
+7328,Turned Off,关闭
+89,No consumption,无消耗
+90,Visit,巡视
+92,Restore Upgrade Defaults,恢复升级预设值
+101,Upgrade Time Cost,升级时间成本
 102,Modifier Target 1,
 103,Modifier Label 1,
 104,Modified Property 1,
@@ -6748,26 +6757,26 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 1183,An unknown alien object.,
 1184,Spheres (Normal),球體 (Normal)
 1185,"""Never fire a laser at a mirror.""<newline><right>- Larry Niven",
-1186,Strange pile of rocks,
-1187,Mirror Sphere excavation site,
-1188,Action in progress.,
+1186,Strange pile of rocks,奇怪的石头
+1187,Mirror Sphere excavation site,奇怪的岩石堆
+1188,Action in progress.,正在行动
 6780,Cancel.,取消
 1189,Already completed.,已經完成了
-1190,Too far from any Drone commander.,
-1191,No Sensor Tower in range.,
-1192,No Accumulator with stored Power in range.,
-1193,The necessary technology hasn't been researched.,
-1194,There's no trapped Sphere.,
-1195,Not operational.,
+1190,Too far from any Drone commander.,与无人指挥官太远。
+1191,No Sensor Tower in range.,非传感器范围。
+1192,No Accumulator with stored Power in range.,非储蓄能量收集器范围。
+1193,The necessary technology hasn't been researched.,所需技术尚未研究。
+1194,There's no trapped Sphere.,球体未被捕获。
+1195,Not operational.,不可操作。
 1201,An odd-looking rock pile.,一個奇怪的岩石堆
-1202,Mirror sphere excavation site,
-1210,Attempting to pierce the shell,
-1211,Establishing communication,
-1212,Feeding Power,
-1213,Needs further analysis,
-1219,Decomposing into Metals,
-1220,Decomposing into Rare Metals,
-1221,Decomposing into Polymers,
+1202,Mirror sphere excavation site,镜球挖掘现场
+1210,Attempting to pierce the shell,试图穿破外甲
+1211,Establishing communication,建立通信
+1212,Feeding Power,加强功率
+1213,Needs further analysis,需要进步分析
+1219,Decomposing into Metals,分解金属
+1220,Decomposing into Rare Metals,分解稀有金属
+1221,Decomposing into Polymers,分解聚合物
 6781,Idle,
 455,Occupied,
 456,Vacant,
@@ -9069,108 +9078,108 @@ There will be challenges to overcome. Are you ready? Mars is waiting for you.",
 8495,Dust/Sec,
 3609,Any,
 7350,<red>No active research</red>,<red>沒有正在執行的研究</red>
-3918,Unknown Tech (<FieldDisplayName>),
-3919,"<FieldDescription><newline><newline>To unlock, research more technologies in this field or use the Explorer rover to analyze anomalies.",
-3920,<description><newline><newline><em>Researched</em>,
-3923,<left><left_click> Queue for research<right><em>Ctrl+<left_click></em> Start research,
-7775,<right_click> Remove from research queue,
-8534,<em>Ctrl+<left_click></em> Start research,
-3925,<left><ButtonA> Queue for research<right><RightTrigger><ButtonA> Start research,
-8659,<RightTrigger><ButtonA> Start research,
-3610,Aggregated information for all resources in the Colony.,
-235513581267,Resource Overview,
-7853,Colonists Overview,
-3611,"Last export<right>Sol <day>, Hour <hour><newline><left>Rare Metals exported<right><preciousmetals(amount)>",
-3612,Last export<right>N/A,
-3614,Rare Metals price<right><white><funding(price)></white>,
-3615,Last Export<right><white><funding(LastExportFunding)></white>,
-7812,Total Export<right><funding(number)>,
-3616,Other Income<right><green><funding(IncomePerSol)></green>,
-3619,"Power, Water and Oxygen are distributed via Power and Life Support grids.<newline>",
-3620,Power production<right><power(TotalProducedPower)>,
-3621,Power demand<right><power(TotalRequiredPower)>,
-3622,Stored Power<right><power(TotalStoredPower)>,
-3623,Oxygen production<right><air(TotalProducedAir)>,
-3624,Oxygen demand<right><air(TotalRequiredAir)>,
-3625,Stored Oxygen<right><air(TotalStoredAir)>,
-3626,Water production<right><water(TotalProducedWater)>,
-3627,Water demand<right><water(TotalRequiredWater)>,
-3628,Stored Water<right><water(TotalStoredWater)>,
-3629,Power surplus<right><green><power(number)></green>,
-3630,Power shortage<right><red><power(number)></red>,
-3631,Oxygen surplus<right><green><air(number)></green>,
-3632,Oxygen shortage<right><red><air(number)></red>,
-3633,Water surplus<right><green><water(number)></green>,
-3634,Water shortage<right><red><water(number)></red>,
-3635,"Basic resource production, consumption and other stats from the <em>last Sol</em>, unless otherwise stated. Resources in consumption buildings are not counted towards the total available amount.",
-3636,Metals production<right><metals(MetalsProducedYesterday)>,
-3637,From surface deposits<right><metals(MetalsGatheredYesterday)>,
-3638,Metals consumption<right><metals(MetalsConsumedByConsumptionYesterday)>,
-3639,Metals maintenance<right><metals(MetalsConsumedByMaintenanceYesterday)>,
-3640,Concrete production<right><concrete(ConcreteProducedYesterday)>,
-3641,Concrete consumption<right><concrete(ConcreteConsumedByConsumptionYesterday)>,
-3642,Concrete maintenance<right><concrete(ConcreteConsumedByMaintenanceYesterday)>,
-3643,Food production<right><food(FoodProducedYesterday)>,
-3644,Food consumption<right><food(FoodConsumedByConsumptionYesterday)>,
-3646,Rare Metals production<right><preciousmetals(PreciousMetalsProducedYesterday)>,
-3647,Rare Metals consumption<right><preciousmetals(PreciousMetalsConsumedByConsumptionYesterday)>,
-3648,Rare Metals maintenance<right><preciousmetals(PreciousMetalsConsumedByMaintenanceYesterday)>,
+3918,Unknown Tech (<FieldDisplayName>),未知技术 (<FieldDisplayName>)
+3919,"<FieldDescription><newline><newline>To unlock, research more technologies in this field or use the Explorer rover to analyze anomalies.","<FieldDescription><newline><newline>解锁, 请在该领域研究更多技术或使用探索者来分析异常现象。"
+3920,<description><newline><newline><em>Researched</em>,<description><newline><newline><em>研究</em>
+3923,<left><left_click> Queue for research<right><em>Ctrl+<left_click></em> Start research,<left><left_click> 研究队列<right><em>Ctrl+<left_click></em> 开始研究
+7775,<right_click> Remove from research queue,<right_click> 从研究队列中删除
+8534,<em>Ctrl+<left_click></em> Start research,<em>Ctrl+<left_click></em> 开始研究
+3925,<left><ButtonA> Queue for research<right><RightTrigger><ButtonA> Start research,<left><ButtonA> 研究队列<right><RightTrigger><ButtonA> 开始研究
+8659,<RightTrigger><ButtonA> Start research,<RightTrigger><ButtonA>开始研究
+3610,Aggregated information for all resources in the Colony.,殖民地所有资源信息。
+235513581267,Resource Overview,资源介绍
+7853,Colonists Overview,殖民者介绍
+3611,"Last export<right>Sol <day>, Hour <hour><newline><left>Rare Metals exported<right><preciousmetals(amount)>","最后出口<right>Sol <day> 小时 <hour><newline><left>稀有金属出口<right><preciousmetals(amount)>",
+3612,Last export<right>N/A,最后出口<right>N/A
+3614,Rare Metals price<right><white><funding(price)></white>,稀有金属价格<right><white><funding(price)></white>
+3615,Last Export<right><white><funding(LastExportFunding)></white>,最后出口<right><white><funding(LastExportFunding)></white>
+7812,Total Export<right><funding(number)>,出口总额<right><funding(number)>
+3616,Other Income<right><green><funding(IncomePerSol)></green>,其他收益<right><green><funding(IncomePerSol)></green>
+3619,"Power, Water and Oxygen are distributed via Power and Life Support grids.<newline>","电力，水和氧气电力和生命传送网络统计数据。<newline>"
+3620,Power production<right><power(TotalProducedPower)>,<right><power(TotalProducedPower)>产电量
+3621,Power demand<right><power(TotalRequiredPower)>,电力需求<right><power(TotalRequiredPower)>
+3622,Stored Power<right><power(TotalStoredPower)>,电力储存<right><power(TotalStoredPower)>
+3623,Oxygen production<right><air(TotalProducedAir)>,产氧量<right><air(TotalProducedAir)>
+3624,Oxygen demand<right><air(TotalRequiredAir)>,氧气需求<right><air(TotalRequiredAir)>
+3625,Stored Oxygen<right><air(TotalStoredAir)>,氧气储存<right><air(TotalStoredAir)>
+3626,Water production<right><water(TotalProducedWater)>,产水量<right><water(TotalProducedWater)>
+3627,Water demand<right><water(TotalRequiredWater)>,水需求<right><water(TotalRequiredWater)>
+3628,Stored Water<right><water(TotalStoredWater)>,水储存
+3629,Power surplus<right><green><power(number)></green>,电量超出<right><green><power(number)></green>
+3630,Power shortage<right><red><power(number)></red>,电力短缺<right><red><power(number)></red>
+3631,Oxygen surplus<right><green><air(number)></green>,氧气超出<right><green><air(number)></green>
+3632,Oxygen shortage<right><red><air(number)></red>,氧气短缺<right><red><air(number)></red>
+3633,Water surplus<right><green><water(number)></green>,水量超出<right><green><water(number)></green>
+3634,Water shortage<right><red><water(number)></red>,水短缺<right><red><water(number)></red>
+3635,"Basic resource production, consumption and other stats from the <em>last Sol</em>, unless otherwise stated. Resources in consumption buildings are not counted towards the total available amount.","资源生产, 消耗和来自其他 <em>last Sol</em>统计数据, 除非有特别注释,建筑消耗资源不记入总量。"
+3636,Metals production<right><metals(MetalsProducedYesterday)>,金属产量<right><metals(MetalsProducedYesterday)>
+3637,From surface deposits<right><metals(MetalsGatheredYesterday)>,表层储存<right><metals(MetalsGatheredYesterday)>
+3638,Metals consumption<right><metals(MetalsConsumedByConsumptionYesterday)>,金属消耗<right><metals(MetalsConsumedByConsumptionYesterday)>
+3639,金属保养<right><metals(MetalsConsumedByMaintenanceYesterday)>,金属维修<right><metals(MetalsConsumedByMaintenanceYesterday)>
+3640,Concrete production<right><concrete(ConcreteProducedYesterday)>,混凝土产量<right><concrete(ConcreteProducedYesterday)>
+3641,Concrete consumption<right><concrete(ConcreteConsumedByConsumptionYesterday)>,混凝土消耗<right><concrete(ConcreteConsumedByConsumptionYesterday)>
+3642,Concrete maintenance<right><concrete(ConcreteConsumedByMaintenanceYesterday)>,混凝土维修<right><concrete(ConcreteConsumedByMaintenanceYesterday)>
+3643,Food production<right><food(FoodProducedYesterday)>,食物产量<right><food(FoodProducedYesterday)>
+3644,Food consumption<right><food(FoodConsumedByConsumptionYesterday)>,食物消耗<right><food(FoodConsumedByConsumptionYesterday)>
+3646,Rare Metals production<right><preciousmetals(PreciousMetalsProducedYesterday)>,稀金属产量<right><preciousmetals(PreciousMetalsProducedYesterday)>
+3647,Rare Metals consumption<right><preciousmetals(PreciousMetalsConsumedByConsumptionYesterday)>,稀金属消耗<right><preciousmetals(PreciousMetalsConsumedByConsumptionYesterday)>
+3648,Rare Metals maintenance<right><preciousmetals(PreciousMetalsConsumedByMaintenanceYesterday)>,稀金属维修<right><preciousmetals(PreciousMetalsConsumedByMaintenanceYesterday)>
 3649,<LastExportStr>,
-3654,"Advanced resource production, consumption and other stats from the <em>last Sol</em>, unless otherwise stated. Resources in consumption buildings are not counted towards the total available amount.",
-3655,Polymers production<right><polymers(PolymersProducedYesterday)>,
-3656,From surface deposits<right><polymers(PolymersGatheredYesterday)>,
-3657,Polymers consumption<right><polymers(PolymersConsumedByConsumptionYesterday)>,
-3658,Polymers maintenance<right><polymers(PolymersConsumedByMaintenanceYesterday)>,
-3659,Electronics production<right><electronics(ElectronicsProducedYesterday)>,
-3660,Electronics consumption<right><electronics(ElectronicsConsumedByConsumptionYesterday)>,
-3661,Electronics maintenance<right><electronics(ElectronicsConsumedByMaintenanceYesterday)>,
-3662,Machine Parts production<right><machineparts(MachinePartsProducedYesterday)>,
-3663,Machine Parts consumption<right><machineparts(MachinePartsConsumedByConsumptionYesterday)>,
-3664,Machine Parts maintenance<right><machineparts(MachinePartsConsumedByMaintenanceYesterday)>,
-3665,Fuel production<right><fuel(FuelProducedYesterday)>,
-3666,Fuel consumption<right><fuel(FuelConsumedByConsumptionYesterday)>,
-3667,Fuel maintenance<right><fuel(FuelConsumedByMaintenanceYesterday)>,
-3668,Refueling of Rockets<right><fuel(RocketRefuelFuelYesterday)>,
-566,Unemployed<right><colonist(number)>,
-567,Vacant work slots<right><colonist(number)>,
-568,Disabled work slots<right><colonist(number)>,
-569,"No unemployment, no vacant workplaces",
-548,Unemployed and looking for work<right><colonist(number)>,
-549,Vacant work slots<right><colonist(number)>,
-550,Disabled work slots<right><colonist(number)>,
-7346,Renegades<right><colonist(number)>,
-552,Vacant residential slots<right><colonist(number)>,
-7624,Vacant nursery slots<right><colonist(number)>,
-551,Homeless<right><colonist(number)>,
-554,Children<right><colonist(number)>,
-555,Youth<right><colonist(number)>,
-556,Adults<right><colonist(number)>,
-557,Middle Aged<right><colonist(number)>,
-558,Senior<right><colonist(number)>,
+3654,"Advanced resource production, consumption and other stats from the <em>last Sol</em>, unless otherwise stated. Resources in consumption buildings are not counted towards the total available amount.","高级资源生产，消耗和其他<em>last Sol</em>统计数据。"
+3655,Polymers production<right><polymers(PolymersProducedYesterday)>,聚合物产量<right><polymers(PolymersProducedYesterday)>
+3656,From surface deposits<right><polymers(PolymersGatheredYesterday)>,表层储存<right><polymers(PolymersGatheredYesterday)>
+3657,Polymers consumption<right><polymers(PolymersConsumedByConsumptionYesterday)>,聚合物消耗<right><polymers(PolymersConsumedByConsumptionYesterday)>
+3658,Polymers maintenance<right><polymers(PolymersConsumedByMaintenanceYesterday)>,聚合物维修<right><polymers(PolymersConsumedByMaintenanceYesterday)>
+3659,Electronics production<right><electronics(ElectronicsProducedYesterday)>,电子元件产量<right><electronics(ElectronicsProducedYesterday)>
+3660,Electronics consumption<right><electronics(ElectronicsConsumedByConsumptionYesterday)>,电子元件消耗<right><electronics(ElectronicsConsumedByConsumptionYesterday)>
+3661,Electronics maintenance<right><electronics(ElectronicsConsumedByMaintenanceYesterday)>,电子元件维修<right><electronics(ElectronicsConsumedByMaintenanceYesterday)>
+3662,Machine Parts production<right><machineparts(MachinePartsProducedYesterday)>,机器零件产量<right><machineparts(MachinePartsProducedYesterday)>
+3663,Machine Parts consumption<right><machineparts(MachinePartsConsumedByConsumptionYesterday)>,机器零件消耗<right><machineparts(MachinePartsConsumedByConsumptionYesterday)>
+3664,Machine Parts maintenance<right><machineparts(MachinePartsConsumedByMaintenanceYesterday)>,机器零件维修<right><machineparts(MachinePartsConsumedByMaintenanceYesterday)>
+3665,Fuel production<right><fuel(FuelProducedYesterday)>,燃料产量<right><fuel(FuelProducedYesterday)>
+3666,Fuel consumption<right><fuel(FuelConsumedByConsumptionYesterday)>,燃料消耗<right><fuel(FuelConsumedByConsumptionYesterday)>
+3667,Fuel maintenance<right><fuel(FuelConsumedByMaintenanceYesterday)>,燃料维修<right><fuel(FuelConsumedByMaintenanceYesterday)>
+3668,Refueling of Rockets<right><fuel(RocketRefuelFuelYesterday)>,火箭燃料<right><fuel(RocketRefuelFuelYesterday)>
+566,Unemployed<right><colonist(number)>,失业<right><colonist(number)>
+567,Vacant work slots<right><colonist(number)>,职位空缺<right><colonist(number)>
+568,Disabled work slots<right><colonist(number)>,残疾人职位空缺<right><colonist(number)>
+569,"No unemployment, no vacant workplaces","无失业人口, 无空缺职位"
+548,Unemployed and looking for work<right><colonist(number)>,失业和就业<right><colonist(number)>
+549,Vacant work slots<right><colonist(number)>,职位空缺<right><colonist(number)>
+550,Disabled work slots<right><colonist(number)>,残疾人职位空缺<right><colonist(number)>
+7346,Renegades<right><colonist(number)>,叛徒<right><colonist(number)>
+552,Vacant residential slots<right><colonist(number)>,闲置住宅<right><colonist(number)>
+7624,Vacant nursery slots<right><colonist(number)>,闲置托儿所<right><colonist(number)>
+551,Homeless<right><colonist(number)>,游民<right><colonist(number)>
+554,Children<right><colonist(number)>,儿童<right><colonist(number)>
+555,Youth<right><colonist(number)>,青年<right><colonist(number)>
+556,Adults<right><colonist(number)>,成年<right><colonist(number)>
+557,Middle Aged<right><colonist(number)>,中年<right><colonist(number)>
+558,Senior<right><colonist(number)>,老年<right><colonist(number)>
 316,<newline>,
-8035,Martianborn<right><colonist(number)>,
-8036,Earthborn<right><colonist(number)>,
+8035,Martianborn<right><colonist(number)>,火星新生儿<right><colonist(number)>
+8036,Earthborn<right><colonist(number)>,地球新生儿<right><colonist(number)>
 7858,<specialization><right><colonist(number)>,
-7861,"Perks are beneficial traits, representing various talents and abilities of your Colonists.",
-7862,"Flaws are Detrimental traits, representing various flaws and disabilities of your Colonists.",
-7863,Rare traits denote exceptional citizens that have significant impact on your Colony.,
+7861,"Perks are beneficial traits, representing various talents and abilities of your Colonists.","活跃是有益特质, 代表殖民者各种天赋和能力。"
+7862,"Flaws are Detrimental traits, representing various flaws and disabilities of your Colonists.","瑕疵是有害特质, 代表殖民者各种缺陷和残疾。"
+7863,Rare traits denote exceptional citizens that have significant impact on your Colony.,稀有的特质将会重大影响殖民者。
 7859,<trait><right><colonist(number)>,
-7864,Homeless colonists: <colonist(number)>,
-7865,Select a homeless colonist.,
-7866,There are no homeless colonists.,
-7867,Unemployed colonists: <colonist(number)>,
-7868,Select an unemployed colonist.,
-7869,There are no unemployed colonists.,
-7870,Problematic colonists: <colonist(number)>,
-7871,Select a colonist suffering from a status effect.,
-7971,There are no colonists suffering from status effects.,
-693,"A pile of processed resources, available for your Drones.",
-694,Waste Rock Pile,
-3673,A pile of Waste Rock,
-3675,Default starting resources,
-3676,Rover Start,
-3677,Materials,
-3678,Probe,
+7864,Homeless colonists: <colonist(number)>,流浪者: <colonist(number)>
+7865,Select a homeless colonist.,选择流浪者。
+7866,There are no homeless colonists.,无流浪者。
+7867,Unemployed colonists: <colonist(number)>,失业者: <colonist(number)>
+7868,Select an unemployed colonist.,选择失业者。
+7869,There are no unemployed colonists.,无失业者。
+7870,Problematic colonists: <colonist(number)>,问题者: <colonist(number)>
+7871,Select a colonist suffering from a status effect.,选择问题者。
+7971,There are no colonists suffering from status effects.,无问题者。
+693,"A pile of processed resources, available for your Drones.","一堆加工资源,可供无人机使用。"
+694,Waste Rock Pile,废石堆
+3673,A pile of Waste Rock,一堆废石
+3675,Default starting resources,默认启动资源
+3676,Rover Start,漫游者启动
+3677,Materials,材质
+3678,Probe,探测
 3525,Orbital Probe,軌道探測衛星
 3679,Reveals underground deposits in the scanned area.,掃描探測所選擇的區域是否有地底資源
 3680,Immediately scans a Sector for deposits and Anomalies.<DeepScanWarning><newline><newline>Available Orbital Probes<right><NumProbes>,立即掃描這個地圖區塊上的資源點與觀察點.<DeepScanWarning><newline><newline>可用的軌道探測衛星<right><NumProbes>
