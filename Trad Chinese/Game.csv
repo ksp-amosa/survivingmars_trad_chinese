@@ -2559,8 +2559,8 @@ But, as it often happens during the course of history the, societal standpoint c
 As I watch the rocket fly towards Earth I cannot force myself to think that <ColonistName(colonist)> is abandoning us. Something tells me that we will be in contact and will continue to receive wise council from our last Founder.
 
 <hint>The last Founder <ColonistName(colonist)> has left Mars.",
-7987,View.,
-5731,"Farewell, friend.",
+7987,View.,查看
+5731,"Farewell, friend.","再见, 朋友。"
 5732,Spheres: More to Come,
 7109,The Mirror Sphere has Mission Control in total chaos. Though that’s expected given what we saw.,
 5733,"In a moment of pure awesomeness the Sphere split into two identical Spheres. The new objects have grown to the exact same size as the previous one.
@@ -2647,26 +2647,28 @@ When our scientists give up on trying to determine the origin of these Spheres, 
 <effect> Arrival of additional Colonists temporarily suspended until the Colony proves able to sustain human life. Your Founder Colonists must survive for 10 Sols before additional people can arrive.
 
 <hint> The Colony will be evaluated positively before the period ends in the event the first human is born on Mars. If you feel you are up to the challenge, try constructing a Medical Building and raising the Comfort of the Founders as much as possible with Service Buildings.",
-5753,First Dome Constructed!,
-7125,"It's been a stellar day. Not just for the mission, but for humanity itself.",
+5753,First Dome Constructed!,第一个穹顶建造完成!
+7125,"It's been a stellar day. Not just for the mission, but for humanity itself.","今天是辉煌的一天。这不仅仅只是使命,更为全人类"
 5754,"Sol <day> of our mission will be remembered. Our greatest project to date has been completed – the Dome is ready to harbor the first Colonists on Mars. We, the team at Mission Control, are honored to be among the ones chosen to mark the beginning of a new age.
 
-We created a place for humanity to call home, a place which reminds us of Earth. The Dome seems so fragile, like a glittering snow globe resting among the red sands. This makes us wonder – will our future be just as fragile? Would we be able to leave our cradle and thrive on this cold, distant world?",
-5755,Continue playing,
-7126,"For the first time, a human has been born on Mars. It's truly a unique miracle.",
+We created a place for humanity to call home, a place which reminds us of Earth. The Dome seems so fragile, like a glittering snow globe resting among the red sands. This makes us wonder – will our future be just as fragile? Would we be able to leave our cradle and thrive on this cold, distant world?","我们的使命将后人被铭记。我们迄今为止最伟大的工程已经完成。穹顶的完成将迎来第一批火星殖民者。作为先驱者的我们, 我们很荣幸能成为新时代的开创者。
+我们为人类在火星创造了家,一个像地球一样的生存环境。这个穹顶看起来似乎很脆弱,就像闪着亮光的雪花飘落在红色沙漠中。这不经意的让我们想到我们的未来是否同样的脆弱,我们千辛万苦离开故地来到这万里茫茫的严寒之地，我们能否在这里生存下去?"
+5755,Continue playing,继续发挥
+7126,"For the first time, a human has been born on Mars. It's truly a unique miracle.","伟大的奇迹,人类第一次在火星孕育了新的生命。"
 5757,"The Colonists have always felt like a family. But what makes the family stronger and more united is the promise of new life and better future. We have truly been blessed with a rewarding responsibility – to carry the torch of hope.
 
 Let this blooming of life serve as a symbol for all humans. Mars is no longer a dead world.
 
-<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
-5756,The Door towards the Stars,
-7128,This will go down in history.,
+<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.","殖民者像一家人一样，家庭不断强大和团结对未来充满了希望。我们有责任来传递希望的火炬。生命开始绽放成为全人类的象征，火星不在是一个不适合人类生存的环境。
+<effect>殖民地正在不断发展，将会有更多人从地球来到这里。"
+5756,The Door towards the Stars,通向星星的门
+7128,This will go down in history.,这将载入历史。
 5758,"The long-time dream of the human civilization as a whole – to settle another world – has come true. To be among the people who made this happen makes me feel enthusiastic and proud.
 
 We are already swarmed with applications for relocation on Mars and the wanderlust and enthusiasm of these people makes me proud to be a human being. The Red Planet continues to be inhospitable and even dangerous but we as a species had always displayed the ability to adapt and improve – the adverse conditions will only make us try harder. So I say bring it on!
 
 <effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
-5759,Looks live we’ve got a serious adventure ahead of us!,
+5759,Looks live we’ve got a serious adventure ahead of us!,看来前方困难丛丛在等着我们!
 5661,Mystery Log,
 5760,....,
 7129,Warning,
