@@ -2082,10 +2082,9 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 5582,Buildings without Power: <count>,缺電的設施 <count>
 5583,Renegades Stole Resources,遭叛徒偷取的資源
 5584,<resource> stolen from <dome_name>!,<dome_name> 有 <resource> 被偷了！
-8047,Crime Act Prevented,
-8048,Your Officers in <dome_name> stopped the Renegades!,
-5585,Renegades Sabotage Building,
-5586,<building> destroyed in <dome_name>!,
+8047，預防犯罪法，
+8048，你在<dome_name>的官員阻止了Renegades !,
+d5586，<建築>在<dome_name>！中銷毀！
 5587,Founder Has Trait,
 5588,<ColonistName(founder)>: <TraitName(trait)>,
 5589,New Deposits,
@@ -2126,84 +2125,84 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 5615,An Anomaly was successfully analyzed,
 5616,Alien Artifact Analyzed,
 5617,Tech Boost: -5% Research cost (all fields),
-7043,Cold Wave approaching,
-4149,Cold Wave,
-7437,Time remaining: unknown,
-7044,Meteor Shower incoming,
-5620,Meteor Storm,
+7043,Cold Wave approaching,寒潮來臨
+4149,Cold Wave,寒潮
+7437,Time remaining: unknown,剩餘時間：未知
+7044,Meteor Shower incoming,流星雨來襲
+5620,Meteor Storm,流星雨
 5621,No Active Research,
-5622,Select a Tech to research,
+5622,Select a Tech to research,選擇技術進行研究
 7045,No active Research,
-5623,Incoming Meteor,
+5623,Incoming Meteor,流星接踵而來
 5624,Cycle through impact positions,
-7046,Meteor incoming,
-5625,Fractures,
-5626,Fractured Domes: <count>,
-7047,Dust Storm approaching,
-7048,Great Dust Storm approaching,
-5618,Disaster starts in <countdown>,
-7049,Electrostatic Dust Storm approaching,
-4250,Dust Storm,
-5627,Great Dust Storm,
-5628,Electrostatic Dust Storm,
-5635,No Oxygen,沒有氧氣
-5636,Domes without Oxygen: <count>,
-7050,We have an Oxygen shortage,
-5637,No Water,
-5638,Domes without Water: <count>,
-7051,We have a Water shortage,
-5581,No Power,
-5639,Domes without Power: <count>,
-7033,We have a Power shortage,
-5640,Resources are low,
+7046,Meteor incoming,流星陨落
+5625,Fractures,破裂
+5626,Fractured Domes: <count>,穹頂破裂: <count>
+7047,Dust Storm approaching,沙塵暴逼近
+7048,Great Dust Storm approaching,巨大沙塵暴逼近
+5618,Disaster starts in <countdown>,災難開始于<countdown>
+7049,Electrostatic Dust Storm approaching,靜電沙塵暴逼近
+4250,Dust Storm,沙塵暴
+5627,Great Dust Storm,巨大沙塵暴
+5628,Electrostatic Dust Storm,靜電沙塵暴
+5635,No Oxygen,沒氧
+5636,Domes without Oxygen: <count>,穹頂缺氧: <count>
+7050,We have an Oxygen shortage,我们需要氧气
+5637,No Water,沒水
+5638,Domes without Water: <count>,穹頂断水: <count>
+7051,We have a Water shortage,我们需要水
+5581,No Power,没电
+5639,Domes without Power: <count>,穹頂断电: <count>
+7033,We have a Power shortage,我们需要电
+5640,Resources are low,資源匮乏
 5641,<low_on_resource_text> <resources>,
-7052,Resources are low,
-5642,Depleted Deposits,
-5643,Depleted deposits: <count>,
-7053,Deposit depleted,
+7052,Resources are low,資源匮乏
+5642,Depleted Deposits,储量耗盡
+5643,Depleted deposits: <count>,储量耗盡：<count>
+7053,Deposit depleted,储量耗盡
 5644,Idle Extractors,
-5645,Buildings with depleted deposits: <count>,
-5646,Deaths in the Colony,
-5647,Dead Colonists: <count>,
-8511,Infected Colonist Deaths,
-8512,Infected Colonists Dead: <count>,
-7054,A Colonist has died,
+5645,Buildings with depleted deposits: <count>,废弃建筑: <count>
+5646,Deaths in the Colony,殖民地面临死亡
+5647,Dead Colonists: <count>,死亡殖民者: <count>
+8511,Infected Colonist Deaths,被感染殖民者死亡
+8512,Infected Colonists Dead: <count>,被感染殖民者死亡: <count>
+7054,A Colonist has died,一名殖民者死亡
 3879,Earthsick,
 7055,<count> Colonists are Earthsick,
 7056,There are Earthsick Colonists,
-5648,Buildings Not Working,
-5649,Buildings not working: <count>,
-5650,Milestone achieved!,
+5648,Buildings Not Working,建筑物无法工作
+5649,Buildings not working: <count>,建筑物无法工作: <count>
+5650,Milestone achieved!,实现里程碑!
 756643722601,<display_name>,
-7057,Milestone achieved,
-5651,New Techs are available for research,
-5652,Gained <research(points)>,
-5653,Research cost of all Techs reduced,
-7042,Anomaly analyzed,
-5654,Research Complete,
+7057,Milestone achieved,实现里程碑
+5651,New Techs are available for research,新技术已经解锁
+5652,Gained <research(points)>,获得<research(points)>
+5653,Research cost of all Techs reduced,所有研究成本降低
+7042,Anomaly analyzed,异常分析
+5654,Research Complete,研究完成
 3846,<name>,
-7058,Research complete,
-5656,Cube countdown: <value> hours,
-7438,Sphere Unknown Event: <percent(value)>,
-5655,Countdown,
-5657,Time to impact: <countdown>,
+7058,Research complete,研究完成
+5656,Cube countdown: <value> hours,方体倒计时: <value> hours
+7438,Sphere Unknown Event: <percent(value)>,未知事件: <percent(value)>
+5655,Countdown,倒计时
+5657,Time to impact: <countdown>,撞击时间: <countdown>
 5658,Dredger Detected,
 5659,Dredger landing expected in Sector <u(value)>,
 7059,Dredgers detected,
 282,Landing,
 5660,Another Dredger has landed on Mars,
-7439,Mysterious Mirages,
-7440,Remaining duration: Unknown,
-7060,Rogue Drones are attacking!,
-7061,Rogue Drones: <count>,
-7566,Hostile attack,
-7567,Buildings destroyed: <count>,
-7568,AI Fights back,
-7569,Number Six has sabotaged the Explorer,
-7062,EsoCorp Reward,
-8120,Infection Level,
-8474,Cure Exported to Earth!,
-8121,War On Earth,
+7439,Mysterious Mirages,神秘的海市蜃楼
+7440,Remaining duration: Unknown,剩余时间：未知
+7060,Rogue Drones are attacking!,猛兽无人机攻击!
+7061,Rogue Drones: <count>,猛兽无人机: <count>
+7566,Hostile attack,敌人侵袭
+7567,Buildings destroyed: <count>,建筑损毁: <count>
+7568,AI Fights back,人工智能反击
+7569,Number Six has sabotaged the Explorer,六号破坏了探索者
+7062,EsoCorp Reward,EsoCorp 奖励
+8120,Infection Level,感染等级
+8474,Cure Exported to Earth!,加工运输回地球!
+8121,War On Earth,星球大战
 8122,War Tension:,緊張情勢：
 5662,History of Events,
 5422,Exploration,
