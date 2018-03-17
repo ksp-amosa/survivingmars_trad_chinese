@@ -2083,49 +2083,50 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 5582,Buildings without Power: <count>,缺電的設施 <count>
 5583,Renegades Stole Resources,遭叛徒偷取的資源
 5584,<resource> stolen from <dome_name>!,<dome_name> 有 <resource> 被偷了！
-8047，預防犯罪法，
-8048，你在<dome_name>的官員阻止了Renegades !,
-d5586，<建築>在<dome_name>！中銷毀！
+8047,Crime Act Prevented,预防犯罪法
+8048,Your Officers in <dome_name> stopped the Renegades!,你在<dome_name>的官员阻止了
+5585,Renegades Sabotage Building,叛徒破坏了建筑
+5586,<building> destroyed in <dome_name>!,<building> 摧毁于 <dome_name>!
 5587,Founder Has Trait,
 5588,<ColonistName(founder)>: <TraitName(trait)>,
-5589,New Deposits,
-5590,Deposits found: <count>,
-5591,Leaving Mars,
-5592,Departing Colonists: <colonists_count>,
-7034,Colonists are departing,
-5593,Sponsor Funding,
-5594,<sponsor> funding: <funding(number)>,
-5595,New Colonists,
-5596,Arriving Colonists: <count>,
-7035,New Colonists have arrived,
-5597,No available Dome,
-5598,No living space for Colonists,
-7036,Stressed out Colonists,
-5600,Stressed out Colonists: <count>,
-5603,Suicide,
-5604,<name> couldn’t take it anymore,
-5605,Resupply Arrived,
-5606,A resupply Rocket has arrived in orbit,
-7037,We have a Resupply,
-5607,Space Elevator Delivery,
-5608,The Space Elevator delivered goods from orbit,
-7038,We have a delivery on the Space Elevator,
-5609,New Anomalies,
-5610,Anomalies found: <count>,
-7039,Anomaly found,
-7672,Fuel Explosion,
-7673,Resources Lost,
-8471,Orbital Bombardment detected!,
-8472,Imminent impact on our coordinates.,
-8473,Missile Alert,
-5611,Breakthrough discovered,
-7040,Breakthrough discovered,
-5612,Breakthroughs discovered,
-5613,New Breakthrough Techs: <count>,
-7041,Breakthroughs discovered,
-5615,An Anomaly was successfully analyzed,
-5616,Alien Artifact Analyzed,
-5617,Tech Boost: -5% Research cost (all fields),
+5589,New Deposits,新资源
+5590,Deposits found: <count>,发现资源: <count>
+5591,Leaving Mars,舍弃火星
+5592,Departing Colonists: <colonists_count>,離开的殖民者: <colonists_count>
+7034,Colonists are departing,殖民者正在离开
+5593,Sponsor Funding,赞助资金
+5594,<sponsor> funding: <funding(number)>,<sponsor> 资金: <funding(number)>
+5595,New Colonists,新殖民者
+5596,Arriving Colonists: <count>,抵达的殖民者: <count>
+7035,New Colonists have arrived,新殖民者到来
+5597,No available Dome,没有可用穹顶
+5598,No living space for Colonists,殖民者没有生存的空间
+7036,Stressed out Colonists,焦虑的殖民者
+5600,Stressed out Colonists: <count>,焦虑的殖民者: <count>
+5603,Suicide,自杀
+5604,<name> couldn’t take it anymore,<name> 再也承受不住
+5605,Resupply Arrived,补给物质到达
+5606,A resupply Rocket has arrived in orbit,补给火箭到达预定轨道
+7037,We have a Resupply,我们有补给
+5607,Space Elevator Delivery,交付太空升降舱
+5608,The Space Elevator delivered goods from orbit,太空升降舱将从通过轨道运送货物
+7038,We have a delivery on the Space Elevator,我们通过太空升降舱送货
+5609,New Anomalies,新的異常
+5610,Anomalies found: <count>,发现異常: <count>
+7039,Anomaly found,新的異常
+7672,Fuel Explosion,燃料爆炸
+7673,Resources Lost,资源流失
+8471,Orbital Bombardment detected!,检测到轨道轰炸!
+8472,Imminent impact on our coordinates.,即将影响我们的坐标
+8473,Missile Alert,导弹警报
+5611,Breakthrough discovered,创新发现
+7040,Breakthrough discovered,创新发现
+5612,Breakthroughs discovered,创新发现
+5613,New Breakthrough Techs: <count>,创新技术: <count>
+7041,Breakthroughs discovered,创新发现
+5615,An Anomaly was successfully analyzed,異常分析成功
+5616,Alien Artifact Analyzed,外星文明分析
+5617,Tech Boost: -5% Research cost (all fields),技术提升:-5%的研究成本(所有领域)
 7043,Cold Wave approaching,寒潮來臨
 4149,Cold Wave,寒潮
 7437,Time remaining: unknown,剩餘時間：未知
