@@ -2534,32 +2534,38 @@ Concrete extractors must be placed over sulfur-rich regolith deposits - the yell
 7099,"After all, purpose is the strongest long-term driver. Since arriving on Mars, <ColonistName(colonist)>'s enthusiasm has proven to be above average, even by Founder norms, and the prodigious productivity displayed can be boiled down to one simple explanation – <ColonistName(colonist)> really loves doing what <ColonistName(colonist)>‘s doing.
 
 <hint>The Founder <ColonistName(colonist)> has the <em>Enthusiast</em> trait.",
-7101,That's the spirit!,
-7102,Gambling Midst The Stars,
-7104,The first Colonists are all gamblers coming to Mars. It's the ultimate roll of the dice.,
+7101,That's the spirit!,真有道理!
+7102,Gambling Midst The Stars,博弈在群星之中
+7104,The first Colonists are all gamblers coming to Mars. It's the ultimate roll of the dice.,第一批来火星的殖民者都是博弈着。
 7103,"They travel through 50 million miles to a rocky, inhospitable world and try to bend it to humanity's will. <ColonistName(colonist)> , on the other hand, seems to also be a gambler in the more traditional sense. 
 
 We must not judge. On the contrary, we must be supportive and help our dear comrade with whom we’ve traversed the void, spearheaded humanity’s expansion on other worlds, only to find that we are no safer from vices so Earthly, it’s as if we never left.
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Gambler</em> trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Gambler</em> trait.","他们穿越5000万里的航程来到这个只有岩石的荒凉世界,并试图征服它。 <ColonistName(colonist)> 这就是所谓的博弈吧,我们必须帮忙和支持他们。以便在更多星球扩张。"
 7446,OK,
-7105,Call It What You Will,
-7107,"Living in cramped quarters, tinkering with intricate machinery day-in, day-out. There's plenty of opportunities for slip-ups.",
+7105,Call It What You Will,随你怎么定义
+7107,"Living in cramped quarters, tinkering with intricate machinery day-in, day-out. There's plenty of opportunities for slip-ups.","生活在狭窄的空间里,日复一日摆弄着复杂的机器设备。"
 7106,"Warning signs and instructions are, usually, enough to prevent most of them being done by most people. <ColonistName(colonist)> is not like most people and instructions and warnings seem to be of little to no use. 
 
 We, as a small community, have come to accept the obvious: 
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Idiot</em> trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Idiot</em> trait.","警告标志和指示语, 通常可以阻止大多数人。<ColonistName(colonist)>与大多数人不一样, 说明和警告似乎起不到作用。作为一个小团体, 我们已经接受了显而易见的事实: 这个创始者 <ColonistName(colonist)> 具备 <em>白痴</em> 特性。"
 7447,OK,
-5725,End of an Age,
-7108,Mars has ways of crushing the hope out of our very best.,
+5725,End of an Age,时代的终结
+7108,Mars has ways of crushing the hope out of our very best.,火星计划有办法把希望从我们最好的状态中释放出来。
 5730,"The Founders had always been more than explorers and pioneers. They shared a vision of the future of the civilization on the Red Planet and worked ceaselessly towards their common goal.
 
 But, as it often happens during the course of history the, societal standpoint changes. <ColonistName(colonist)> could not adapt to the changing times and decided to leave Mars. I know <ColonistName(colonist)> personally and I'm sure that this isn't caused by disappointment but instead is a rational decision. I remember one time when we talked about the future of the Colony and <ColonistName(colonist)>'s words: “We are the progenitors of the Colony but parents have to eventually step down and give way to their children.”
 
 As I watch the rocket fly towards Earth I cannot force myself to think that <ColonistName(colonist)> is abandoning us. Something tells me that we will be in contact and will continue to receive wise council from our last Founder.
 
-<hint>The last Founder <ColonistName(colonist)> has left Mars.",
+<hint>The last Founder <ColonistName(colonist)> has left Mars.","创始人一直都是时代的探索和开拓者。他们都展望了这个红色星球上的文明的未来并朝着共同的目标不断前进。
+
+但是，就像在历史进程中经常发生的那样，社会立场随着时间发生动荡。<ColonistName(colonist)>无法适应时代的变化，就会决定离开这个星球。我想 <ColonistName(colonist)> 就我个人而言，我确信这不是由失望引起的，而是一个理性的决定。我记得有一次，我们谈到了殖民地的未来和<ColonistName(colonist)>: 我们虽然是殖民地的祖先，但长江后浪推前浪，未来还是要交给我们的孩子。
+
+当我看着火箭飞向地球时，我无法想象 <ColonistName(colonist)> 正在抛弃我们。理智告诉我，我们还可以联系。我们也将跟随新的创始者。
+
+<hint>上一代创始者 <ColonistName(colonist)> 离开火星。"
 7987,View.,查看
 5731,"Farewell, friend.","再见, 朋友。"
 5732,Spheres: More to Come,
