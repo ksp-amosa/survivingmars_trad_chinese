@@ -5770,63 +5770,63 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 2,Unlock Tech,解鎖 科技
 3,Grant Research,獲得科技成長
 8,Breakthrough Tech,突破性科技
-4,Tech Action,
+4,Tech Action,科技创新
 11,Our scientists believe that this Anomaly may lead to a <em>Breakthrough</em>.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,我們的科學家相信這個觀察點會有些 <em>突破性</em>的發現.<newline><newline>指派一台<em>探索者號</em> 前往調查觀察點
 12,Scans have detected some interesting readings that might help us discover <em>new Technologies</em>.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
 13,Sensors readings suggest that this Anomaly will help us with our current <em>Research</em> goals.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
 14,We have detected alien artifacts at this location that will <em>speed up</em> our Research efforts.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,
-17,"Period, base (s)",
-18,"Period, random (s)",
-19,Spawn Chance (%),
-20,Lifetime (s),
-21,Speed (m/s),
+17,"Period, base (s)",基础期 (s)
+18,"Period, random (s)",随机期 (s)
+19,Spawn Chance (%),重生率 (%)
+20,Lifetime (s),生存率 (%)
+21,Speed (m/s),速度 (m/s)
 22,Our scans have found some interesting readings in this Sector. Further analysis is needed.<newline><newline>Send an RC Explorer to analyze the Anomaly.,
-8570,<green>Hive Mind <FormatSignInt(amount)></color>,
-31,Effect Range,
-34,Work State,
-36,"Battery is being charged by <em><percent(value,battery_max)> per hour</em>",
-35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",
-37,Battery is <em>on standby</em>,
-8456,Depleted Battery!,
-7322,The Rover will be salvaged in <em><countdown></em> sec.,
-7323,Low battery - Drones will not be recharged.,
-7324,Low battery,
-7325,Empty battery,
+8570,<green>Hive Mind <FormatSignInt(amount)></color>,<green>集体意识 <FormatSignInt(amount)></color>
+31,Effect Range,影響範圍
+34,Work State,工作狀態
+36,"Battery is being charged by <em><percent(value,battery_max)> per hour</em>",電池正在充電 <em><percent(value,battery_max)> per hour</em>
+35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",電池正在使用 <em><percent(value,battery_max)> per hour</em>
+37,Battery is <em>on standby</em>,电池 <em>待机状态</em>
+8456,Depleted Battery!,電池耗盡！
+7322,The Rover will be salvaged in <em><countdown></em> sec.,漫游者将在<em><countdown></em> sec 被抢修。
+7323,Low battery - Drones will not be recharged.,電池电量低-无人机将无法充电。
+7324,Low battery,電池电量低
+7325,Empty battery,空電池
 7601,Battery,電池
 7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline> 能源 <right><percent(BatteryPerc)><newline><left><battery_ui_str>
 40,Recharge,充電
 41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其它車輛為電池充電。
 42,Cancel recharge.,取消充電
-50,Status and current task of this vehicle.,
-25,Anomaly Scanning,
-52,Progress<right><percent(ScanAnomalyProgress)>,
-53,Malfunction,
-54,This vehicle has malfunctioned. It has to be repaired by Drones.,
-55,Analyzing an Anomaly,
-56,On a transport route,
-58,<red>This unit has been destroyed. Salvage for materials.<red>,
-59,Disembarking,
-60,Unloading cargo at target coordinates,
-61,Transfering power between vehicles,
-62,Moving to avoid obstruction,
-64,Loading resources at target coordinates,
-7610,Waiting for repairs,
-8028,Undergoing repairs,
-66,Out of power,
+50,Status and current task of this vehicle.,該車輛的現狀和當前任務。
+25,Anomaly Scanning,异常掃描
+52,Progress<right><percent(ScanAnomalyProgress)>,進度<right><percent(ScanAnomalyProgress)>
+53,Malfunction,故障
+54,This vehicle has malfunctioned. It has to be repaired by Drones.,這輛車出故障。请派無人機进行维修。
+55,Analyzing an Anomaly,异常分析
+56,On a transport route,运输途中
+58,<red>This unit has been destroyed. Salvage for materials.<red>,<red>这个单位已摧毁。物质抢救。<red>
+59,Disembarking,登陆
+60,Unloading cargo at target coordinates,在目標座標處卸载貨物
+61,Transfering power between vehicles,车辆间的行驶
+62,Moving to avoid obstruction,移动中避免碰撞
+64,Loading resources at target coordinates,在目標座標處装載資源
+7610,Waiting for repairs,等待修理
+8028,Undergoing repairs,正在修理
+66,Out of power,失去动力
 67,Loading resources,讀取資源中
-68,<green>Charging battery from Power grid</green>,
-69,"Trying to recharge battery, insufficient Power",
-70,Repairing Drones,
-71,Commanding Drones,
-72,Transferring resources,
-73,Unloading resources at target coordinates,
-74,Recalling remote Drones,
-7683,Waiting for resources at construction site,
-8490,Loading complete,
-6724,Roaming,
-6725,Attacking,
-6726,Reloading,
-78,Infrastructure,
+68,<green>Charging battery from Power grid</green>,<green>到电网充电<green>
+69,"Trying to recharge battery, insufficient Power","电量不足, 请给电池充电"
+70,Repairing Drones,维修无人机
+71,Commanding Drones,指派无人机
+72,Transferring resources,转移资源
+73,Unloading resources at target coordinates,在目標座標處卸载资源
+74,Recalling remote Drones,召回遠端無人機
+7683,Waiting for resources at construction site,施工地等資源
+8490,Loading complete,裝載完畢
+6724,Roaming,移动
+6725,Attacking,进攻
+6726,Reloading,重载
+78,Infrastructure,基礎設施
 82,Storages,
 84,"Homes, Education & Research",
 85,Dome Services,
