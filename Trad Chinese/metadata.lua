@@ -6,7 +6,7 @@ return PlaceObj('ModDef', {
 	'id', "JtYVpy",
 	'steam_id', "1331777861",
 	'author', "twitch.tv/amosa2001",
-	'version', 22,
+	'version', 24,
 	'lua_revision', 227923,
 	'loctables', {
 		{
@@ -14,5 +14,5 @@ return PlaceObj('ModDef', {
 			language = "Any",
 		},
 	},
-	'saved', 1521374032,
+	'saved', 1521435793,
 })

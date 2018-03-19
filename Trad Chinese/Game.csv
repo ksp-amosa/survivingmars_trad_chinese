@@ -1308,7 +1308,7 @@ Buildings can be set to operate in three <em>Work Shifts</em> - first, second an
 
 任何建築物的<em>性能</em>都表現建築物的主要功能如何有效。這取決於許多因素，例如研究科技、升級和當前在建築物中工作的特定殖民者的個人表現。具有高士氣的合格專家和工人將提高建築物的性能，而空崗位、叛徒和士氣低落或其他問題的工人將會對效能有害。
 
-建築物可設置三個<em>工作班次</em>來運作 ─ 第一班，第二班和晚班。關閉一些工作班次將節省電力和勞動力。"
+建築物可設置三個<em>工作班次</em>來運作 ─ 早班、中班、和大夜班。關閉一些工作班次將節省電力和勞動力。"
 3983,Disasters,災難
 5374,DISASTERS,災難
 5375,"Mars is a harsh environment and human life is only made possible due to incredibly durable structures - designed specifically to resist it.
@@ -1614,18 +1614,20 @@ Be careful - if all Colonists die, the Mars colonization mission will be termina
 Homeless Colonists will travel to another accessible Dome with available residential space.
 
 Each <em>Dome</em> can be set up to filter Colonists by age, specialization and other traits. Colonists with ANY of the desired traits and NONE of the undesired ones will remain in the Dome, while others will seek another Dome with available living space and filter that matches their traits.",
-8117,Colonists - Managing Specializations and Traits,殖民者 - 管理專業與特姓
+8117,Colonists - Managing Specializations and Traits,殖民者 - 管理專長與性格
 8118,"Colonists with no specialization may be educated to receive a specialization in the Martian University. The University can provide needed specializations automatically or focus on a single desired specialization.
 
 Some, but not all, undesirable Flaws may be cured in the Sanatorium spire. Up to three different flaws can be treated in a single Sanatorium.
 
 The School building cultivates desired Perks in children living in the Colony. They have a chance to receive any of the three selected Perks when they grow up. Not all Perks can be trained in School. The Playground building cultivates random Perks in children who visited it.
 
-The University, Sanatorium and School buildings are treated as workplaces - colonists being educated or treated there cannot work a job at the same time. The individual performance of the colonists determines how fast they receive a specialization, cure a flaw or their chance to cultivate a Perk from School. The Playground service building grants its effect to any children who visit it at least once during their childhood.","殖民者沒有專業技能時可以到火星大學接受專業教育 。 大學會提供需要的主動專業技能或專注在單一所需專業技能。
+The University, Sanatorium and School buildings are treated as workplaces - colonists being educated or treated there cannot work a job at the same time. The individual performance of the colonists determines how fast they receive a specialization, cure a flaw or their chance to cultivate a Perk from School. The Playground service building grants its effect to any children who visit it at least once during their childhood.","殖民者沒有專業技能時可以到火星大學接受專業教育 。 大學會主動提供需要的專長或專注在單一所需專長。
 
-一些 ， 但不是全部 ， 不良的缺點特性可以在尖端療養院中被治癒 。 在同一家尖端療養院可治療三種不同的缺點特性
+一些 ， 但不是全部 ， 不良的性格缺陷可以在尖端療養院中被治癒 。 在同一家尖端療養院可治療三種不同的性格缺陷
 
-"
+學校建築可提供居住在殖民地的孩童增加額外的性格 ， 他們有機會在長大後獲得三種選定的性格 ， 但並非所有都能在學校中習得 。 造訪過遊樂場的孩童可隨機獲得性格
+
+在大學 、 尖端療養院和學校建築都被視為是工作場所 - 殖民者在接受教育或治療時 ， 無法同時工作 。 殖民者的個人表現決定了他們獲得專長的速度 、 治癒性格缺陷或在學校獲得性格的機會 ， 遊樂場建築的影響效應給予在童年期至少造訪過一次的孩童"
 5420,Rover and Drone Control,漫遊者和無人機控制
 5421,"All Rovers are manually controlled via the commands available in their <em>Infopanels</em>. They can either be given orders to go to a map location or to interact with a contextually specific map object – such as <em>Anomalies</em> or <em>Surface Deposits</em>.
 
@@ -1673,9 +1675,9 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 5437,Resource Exploiter,
 5438,Rovers,漫遊者
 5439,Service Buildings,服務設施
-5440,Shift Buildings,
+5440,Shift Buildings,轉移設施
 5441,Supply Grid Buildings,
-5442,Suspended Buildings,
+5442,Suspended Buildings,暫停設施
 5443,Training Buildings,訓練機構
 5444,Workplaces,工作場所
 420110169199,Xanthe Alpha,詹希 初代
@@ -2107,9 +2109,7 @@ Suggested Building: <em>Garden</em>","花園,公園 和 其他裝飾建築可以
 5579,Healthcare,健康照護
 5580,"Healthcare Buildings will increase the Health and Sanity of the Colonists as long as they are not Starving, Thirsty, Freezing or Suffocating.
 
-Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的健康度跟精神, 只要他們不是在飢餓 缺水 受寒 或 窒息的狀態
-
-
+Suggested Building: <em>Infirmary</em>","健康照護建築物將增加殖民者的健康度跟理智, 只要他們不是在飢餓、缺水、受寒、或窒息的狀態
 
 建議建築: <em>診所</em>"
 7027,Vehicle Batteries,車輛電池
@@ -2118,7 +2118,7 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 7030,"Colonists with very low Comfort will get <em>Earthsick</em>. They will stop working and travel back to Earth at first opportunity. To prevent this, make sure they have access to a variety of operational service Buildings that satisfy their different interests.","當殖民者長期處於不舒服的狀態時，可能會患有<em>思鄉病</em>。一但思鄉病發生後，患者只要一有機會返回地球，馬上就會丟下手邊的工作並狂奔向火箭。
 為了避免這個問題，確認殖民地內保有穩定地的舒適度與服務設施，讓居民可以感到生活舒適且安全"
 7031,Renegades,叛徒
-7032,"If the Morale in a Dome is too low, <em>Renegades</em> will appear. Renegades have reduced work Performance and will cause trouble. <em>Security Stations</em> can suppress them for a while, but to solve the problem you have to take steps to increase Morale.",一但蒼穹頂內的士氣過預低落時，很可能就會產生<em>叛徒</em>。 叛逃者不但會降低工作效率，而且四處惹事生非！ 可以透過 <em>保安站</em>稍微控制狀況，但要徹底解決這個問題還是得提升整體的士氣。
+7032,"If the Morale in a Dome is too low, <em>Renegades</em> will appear. Renegades have reduced work Performance and will cause trouble. <em>Security Stations</em> can suppress them for a while, but to solve the problem you have to take steps to increase Morale.",一但蒼穹頂內的士氣過預低落時，很可能就會出現<em>叛徒</em>。 叛徒不但會降低工作效率，而且四處惹事生非！ 可以透過 <em>保安站</em>稍微控制狀況，但要徹底解決這個問題還是得提升整體的士氣。
 5582,Buildings without Power: <count>,缺電的設施 <count>
 5583,Renegades Stole Resources,遭叛徒偷取的資源
 5584,<resource> stolen from <dome_name>!,<dome_name> 有 <resource> 被偷了！
@@ -2165,7 +2165,7 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 7041,Breakthroughs discovered,發現一個 突破性科技
 5615,An Anomaly was successfully analyzed,已經成功分析一個觀察點
 5616,Alien Artifact Analyzed,外星印記已經分析完成
-5617,Tech Boost: -5% Research cost (all fields),科技加成： 全部科技花費 -5%
+5617,Tech Boost: -5% Research cost (all fields),科技加成： 全部科技花費 -5% 
 7043,Cold Wave approaching,寒流即將來臨
 4149,Cold Wave,寒流
 7437,Time remaining: unknown,剩餘時間： 未知
@@ -2211,8 +2211,8 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 3879,Earthsick,思鄉病
 7055,<count> Colonists are Earthsick,<count> 位殖民者有思鄉病
 7056,There are Earthsick Colonists,有殖民者得了思鄉病
-5648,Buildings Not Working,沒有在運作的建築物
-5649,Buildings not working: <count>,沒有在運作的建築物：<count>
+5648,Buildings Not Working,沒在運作的建築物
+5649,Buildings not working: <count>,沒在運作的建築物：<count>
 5650,Milestone achieved!,達成里程碑
 756643722601,<display_name>,
 7057,Milestone achieved,達成里程碑
@@ -2285,20 +2285,27 @@ Suggested Building: <em>Infirmary</em>","健康照顧建築將增加殖民者的
 7314,B&W 3,
 7315,Black and White 3,
 7316,Bleach Bypass,
-5683,New Techs Available for Research,新的科技可以研究
-7073,There's more to the barren environs of the Red Planet than meets the eye - a veritable treasure trove of undiscovered knowledge and wonder… So long as you know where to look.,
+5683,New Techs Available for Research,可以研究的新科技
+7073,There's more to the barren environs of the Red Planet than meets the eye - a veritable treasure trove of undiscovered knowledge and wonder… So long as you know where to look.,這紅色星球並非只有眼睛看到的貧瘠環境 - 它是一個擁有尚未被發現的知識和奇蹟的寶庫 ... 只要你知道去哪裡找。
 5684,"Even the tiniest, simply-looking rock can contain the answers to mysteries which perplexed the human mind for generations. Sometimes it takes just a simple discovery to assure us of the vastness of the Universe, an encouragement to make us look beyond the boundaries of our existence and into the future.
 
 <effect> The following Techs have been revealed on the Research screen:
-<list_text>",
+<list_text>","就算是最小的， 看起來很簡單的石頭， 也可以解答困擾了人類幾個世代的奧秘。 有時候， 只需要一個簡單的發現， 就可以讓我們信服於宇宙的浩瀚， 鼓勵我們將目光超越自身存在的界限， 放眼未來。
+
+<effect>研究畫面上揭露了以下技術：
+<list_text>"
 5685,Open Research Screen,打開研究畫面
 7788,A Mission In Jeopardy,危險邊緣
-8124,The recent Colonist deaths are a worrisome trend which cannot be ignored!,近期殖民者的死亡是令人擔憂的走向 ， 不容忽視！
+8124,The recent Colonist deaths are a worrisome trend which cannot be ignored!,近期殖民者的死亡趨勢很令人擔憂 ， 不容忽視！
 7789,"While the Applicants who came to Mars were aware of the many risks that would await them, the near-criminal neglect from our side is something different. We cannot keep this information from the public – and opinions are swaying in the direction that our Colony is a “death trap”.
 
 This troublesome rumor deters many valuable candidates from coming to the new frontier – and these are people we desperately need to fulfill the great mission of colonizing Mars and bringing our vision of the future closer.
 
-<hint> Each time a Colonist dies from a non-natural death, <ApplicantsLostOnColonistDeath> Applicants leave the pool.",
+<hint> Each time a Colonist dies from a non-natural death, <ApplicantsLostOnColonistDeath> Applicants leave the pool.","While the Applicants who came to Mars were aware of the many risks that would await them, the near-criminal neglect from our side is something different. We cannot keep this information from the public – and opinions are swaying in the direction that our Colony is a “death trap”.
+
+This troublesome rumor deters many valuable candidates from coming to the new frontier – and these are people we desperately need to fulfill the great mission of colonizing Mars and bringing our vision of the future closer.
+
+<hint> 每次當有殖民者死於非自然因素，<ApplicantsLostOnColonistDeath> 的應徵者將會離開"
 8125,Scientists and visionaries have promoted the idea of “Humanity as a multi-planetary species” as the only way to prevent a possible mass extinction.,
 7736,"The dwindling resources on our planet, overpopulation and environmental crisis, as well as the risk of a global-scale Armageddon create a powerful argument for anyone doubting the importance of our mission.
 
@@ -2308,18 +2315,26 @@ It is a well understood fact that it’s a matter of “when” not “if” for
 8126,"We have to admit that we failed to accomplish one of the main goals set before our mission. Sadly, we underestimated the difficulties of sustaining a large population on the Red Planet.",我們必須承認在火星任務執行之前設定的主要目標之一失敗了。非常不幸，我們低估了在這紅色星球上維持龐大人口的難度。
 7738,"But this failure shouldn't throw us into despair. We still have to strive to create a stable, self-sustaining foothold from which humanity would reach the stars and conquer them.
 
-<effect>Mission Evaluation objective failed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.",
+<effect>Mission Evaluation objective failed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.","But this failure shouldn't throw us into despair. We still have to strive to create a stable, self-sustaining foothold from which humanity would reach the stars and conquer them.
+
+<effect>任務評估目標失敗 -目標殖民者數量為 <target> 而你擁有 <count> 個. 最終分數：<Score>."
 8127,As the Evaluation Day dawns upon us we can clearly say that the mission to Mars was a success.,
 7739,"Even that we didn't surpass the expectations, the stable trends of development of the colony are encouraging.
 
 Our achievement is still a tremendous success – we did something which no one imagined to be possible. The Colony would now be a symbol of hope and new beginning, a proof that humanity would persevere and live on regardless of the challenges we face.
 
-<effect> Mission Evaluation objective completed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.",
+<effect> Mission Evaluation objective completed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.","Even that we didn't surpass the expectations, the stable trends of development of the colony are encouraging.
+
+Our achievement is still a tremendous success – we did something which no one imagined to be possible. The Colony would now be a symbol of hope and new beginning, a proof that humanity would persevere and live on regardless of the challenges we face.
+
+<effect> 任務評估目標達成 - 目標殖民者數量為 <target> 而你擁有 <count> 個 最終分數：<Score>."
 7735,Mission Evaluation: The Exodus,任務評估：出埃及記
-8128,Congratulations! Everyone at Mission Control rejoices as the Colony has been marked as “extremely successful” in the Evaluation Report.,
+8128,Congratulations! Everyone at Mission Control rejoices as the Colony has been marked as “extremely successful” in the Evaluation Report.,恭喜！殖民地評估結果為「極度成功」，整個任務中心都沉浸在喜悅之中。
 7740,"We managed not only to achieve our goals, but also to surpass all expectations as the size of our current Colony is far beyond the initial estimations. This day will be marked in human history by the importance of our accomplishment – we secured the future of humankind as interplanetary species. The Colony would now be a symbol of hope and new beginning, a proof that humanity would persevere and live on regardless of the challenges we face.
 
-<effect> Mission Evaluation objective completed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.",
+<effect> Mission Evaluation objective completed - you have <count> Colonists out of <target> present on the planet. Final Score: <Score>.","我們不只達成了任務，整個殖民地的規模甚至大幅超越了當初的預估。我們今天的成就將被歷史記住 — 我們確保了人類將成為跨星球的物種。現在殖民地已成為希望的象徵與新的開始，證明無論面對什麼挑戰，人類將能存活下來並且延續下去。
+
+<effect> 任務評估目標達成 — 目標殖民者數量為 <target> 而你擁有 <count> 個。最終分數：<Score>"
 8129,"Our civilization, in all its glory, still bears the mark of obsolete cultural and ideological beliefs, from times when people didn't know any better. If we remain ignorant of our own flaws we risk destroying the future for our children.",
 7742,"New horizons open new possibilities. Mars can be viewed as a blank canvas – a hostile, uncultivated place where humanity can start anew. A fresh start needs new people – people born on Mars, raised in a society where people cooperate and fight the odds instead of each other.
 
@@ -2329,18 +2344,28 @@ Our achievement is still a tremendous success – we did something which no one 
 
 The Sponsors are disappointed that their program goal - a new human civilization on Mars - can't be achieved yet. Probably it was too early to expect that humanity can beat the odds of survival on such a hostile world and reach the level of everyday comfort required to start thinking about children and the future. The burden to disprove the evil tongues who would say this is impossible now lies on our shoulders. There's still work to be done
 
-<effect>Mission Evaluation objective failed - you have <count> Martianborn Colonists out of <target> present in the Colony. Final Score: <Score>.",
+<effect>Mission Evaluation objective failed - you have <count> Martianborn Colonists out of <target> present in the Colony. Final Score: <Score>.","Martian birthrate trends are still susceptible to malicious undercurrents and the Colony depends largely on the arrival of Applicants from Earth.
+
+The Sponsors are disappointed that their program goal - a new human civilization on Mars - can't be achieved yet. Probably it was too early to expect that humanity can beat the odds of survival on such a hostile world and reach the level of everyday comfort required to start thinking about children and the future. The burden to disprove the evil tongues who would say this is impossible now lies on our shoulders. There's still work to be done
+
+<effect>任務評估目標失敗 - 目標火星之子數量為 <target> 而你擁有 <count> 個。最終分數：<Score>."
 8131,The Mission Evaluation period is over and the results we have achieved are quite satisfactory.,
 7744,"If we keep up the good work, in several generations the concept of the Martian civilization would exit the state of the hypothetical and become a reality.
 
-<effect> Mission Evaluation objective completed - you have <count> Colonists present on the planet out of the target <target>. Final Score: <Score>.",
+<effect> Mission Evaluation objective completed - you have <count> Colonists present on the planet out of the target <target>. Final Score: <Score>.","If we keep up the good work, in several generations the concept of the Martian civilization would exit the state of the hypothetical and become a reality.
+
+<effect>任務評估目標達成 - 目標火星之子數量為 <target> 而你擁有 <count> 個。最終分數：<Score>."
 7741,Mission Evaluation: A Fresh Start,
 8132,The Mission Evaluation period is over and it’s not wrong to say that we managed to outdo ourselves.,
 7745,"The number of Colonists born on Mars have reached beyond the wildest expectations! This solid base would serve us to promote new values of the new society, to allow the culture of the Red Planet to flourish and develop independent of the bad influence of Earth.
 
 The path ahead of us is rough and uncertain, but who knows, maybe one day the people on Earth would admire the achievements of the Martians in awe, learning from them.
 
-<effect> Mission Evaluation objective completed - you have <count> Martianborn Colonists present on the planet out of the target <target>. Final Score: <Score>.",
+<effect> Mission Evaluation objective completed - you have <count> Martianborn Colonists present on the planet out of the target <target>. Final Score: <Score>.","The number of Colonists born on Mars have reached beyond the wildest expectations! This solid base would serve us to promote new values of the new society, to allow the culture of the Red Planet to flourish and develop independent of the bad influence of Earth.
+
+The path ahead of us is rough and uncertain, but who knows, maybe one day the people on Earth would admire the achievements of the Martians in awe, learning from them.
+
+<effect>任務評估目標達成 - 目標火星之子數量為 <target> 而你擁有 <count> 個。最終分數：<Score>."
 8133,Humankind might be on the verge of a new Golden Age! And we have to be the ones who ride the crest of that wave!,
 7747,"A new era of scientific discovery is ahead of us and we are the ones who are blessed with the opportunity to be on Mars – a completely new territory where new scientific discoveries lie behind the corner. We’re talking about new ideas which would sweep the human minds and the market and give us a tremendous head start in the future.
 
@@ -2497,7 +2522,14 @@ Our researchers have several theories on what this phenomenon is and should we p
 What is it that takes a person through all of this is a question only we can answer. This is a question whose answer is the spirit of <ColonistName(colonist)>, and this is a legacy for us.
 
 <effect><ColonistName(colonist)> has died. Cause: <reason>
-<hint> Each time a Colonist dies from a non-natural death, two Applicants leave the pool",
+<hint> Each time a Colonist dies from a non-natural death, two Applicants leave the pool","As difficult and painful as it is, we must accept that <ColonistName(colonist)> is dead. As friends, as a community, we express our sadness, we acknowledge our loss, acknowledge the great importance of <ColonistName(colonist)>’s life.
+
+<ColonistName(colonist)>’s life has been a journey towards a vision, a journey which brought us all towards the possibility of living on the Red Planet, one small step after at a time. <ColonistName(colonist)> didn’t try to make their mark in human history, for there is no room for attempts in success. <ColonistName(colonist)> knew what the calling of fate was, knew the risks and the opportunities and made the best of it, for the good of us all.
+
+What is it that takes a person through all of this is a question only we can answer. This is a question whose answer is the spirit of <ColonistName(colonist)>, and this is a legacy for us.
+
+<effect><ColonistName(colonist)> 去逝了。 死因： <reason>
+<hint> 每次當有殖民者死於非自然因素，就將會有應徵者會離開"
 5712,"Thank you, fellow Colonists.",
 5713,Mental Breakdown,
 7083,A Colonist just snapped!,
@@ -2505,17 +2537,25 @@ What is it that takes a person through all of this is a question only we can ans
 
 The unparalleled everyday stress levels slowly drain the people of their resolve – thus even the slightest shock or frustration can send someone over the edge. On Earth entertainment and recreation are just for fun, but here they are a tool for basic survival.
 
-<hint> The Colonist <ColonistName(colonist)> has reached critically low Sanity. Provide operational Healthcare buildings in the Domes and avoid Heavy workload or Nighttime work to prevent this situation.",
+<hint> The Colonist <ColonistName(colonist)> has reached critically low Sanity. Provide operational Healthcare buildings in the Domes and avoid Heavy workload or Nighttime work to prevent this situation.","<ColonistName(colonist)>, as every other Colonist, went through psychological conditioning before arriving on Mars to guarantee their most basic ability to cope with the adverse environment. Indeed, the people live on a barren, dead-cold world with a toxic, almost non-existent atmosphere, protected only by a fragile-looking Dome and relying on machines to keep them alive.
+
+The unparalleled everyday stress levels slowly drain the people of their resolve – thus even the slightest shock or frustration can send someone over the edge. On Earth entertainment and recreation are just for fun, but here they are a tool for basic survival.
+
+<hint> 這位殖民者 <ColonistName(colonist)> 理智即將斷線！ 請提供所在的蒼穹頂一些運作中的醫療建築，並且避免高壓工作或者 長時間 在大夜班工作"
 5716,Suffocation!,窒息！
 7084,Our Colonists are suffocating! We only have a few hours to get them more Oxygen before they run out!,
 5717,"Our Domes are large enough to contain tons of breathable air, but when the systems fail to refresh the supply, the amount of carbon dioxide will steadily increase until the atmosphere becomes unbreathable.
 
-<hint> Colonists with the Suffocating status effect have no access to Oxygen and will die within a short time. Connect their Dome to operational MOXIEs and Oxygen Tanks or plant Oxygen-Producing Crops in Farms to supply them with Oxygen.",
+<hint> Colonists with the Suffocating status effect have no access to Oxygen and will die within a short time. Connect their Dome to operational MOXIEs and Oxygen Tanks or plant Oxygen-Producing Crops in Farms to supply them with Oxygen.","Our Domes are large enough to contain tons of breathable air, but when the systems fail to refresh the supply, the amount of carbon dioxide will steadily increase until the atmosphere becomes unbreathable.
+
+<hint> 殖民者感覺到窒息狀態，如果短時間內沒有提供氧氣的話，殖民者會很快的死亡。請確認您有可運作的氧蒐集站以及氧氣儲存槽等氧氣生產設施，並且正確與蒼穹頂的管線接口連結。"
 5718,Dehydration!,脫水！
-7085,The Colonists are on the brink of dehydration! We need to figure out something quick before they die.,
+7085,The Colonists are on the brink of dehydration! We need to figure out something quick before they die.,殖民者們正瀕臨脫水的邊緣。我們必須在他們死亡前趕緊做些什麼。
 5719,"Water is the vital fluid which sustains all life. The human body requires a constant access to fresh, drinkable water and quickly deteriorates when none is present. Thus the extraction of Water is one of our utmost priorities.
 
-<hint> Colonists with the Dehydrated status effect have no access to Water and will die within a short time. Connect their Dome to operational Water Producers or filled Water Towers to supply them with Water.",
+<hint> Colonists with the Dehydrated status effect have no access to Water and will die within a short time. Connect their Dome to operational Water Producers or filled Water Towers to supply them with Water.","水是維持所有生命體最基本的需求。人體需要持續補充新鮮的水，否則健康很快就會惡化。因此取得水是我們最優先要做的事情。
+
+<hint> 殖民者若無法取得水將很快脫水，且很短時間內便會死亡。將生產水的設施或是擁有水的水塔連結至蒼穹頂以供給水。"
 5720,Oh my!,
 5721,Hypothermia!,失溫！
 7086,Our Colonists are suffering from hypothermia!,我們的殖民者正因失溫而受苦著！
@@ -2562,19 +2602,25 @@ We are all here today not only because <ColonistName(colonist)> laid down the fo
 7092,It's a rough life here on Mars. You can't prepare for addiction.,
 7091,"Despite the great lengths we go through to make it seem safe and as close as possible to home, one’s mind is never too far from the dangers that the privilege of being an interplanetary pioneer carries. We all find our own ways to cope with this pressure.  <ColonistName(colonist)> finds it in the bottle.
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Alcoholic</em> Trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Alcoholic</em> Trait.","Despite the great lengths we go through to make it seem safe and as close as possible to home, one’s mind is never too far from the dangers that the privilege of being an interplanetary pioneer carries. We all find our own ways to cope with this pressure.  <ColonistName(colonist)> finds it in the bottle.
+
+<hint>創始者 <ColonistName(colonist)> 染上了 <em>酒鬼</em> 的壞習慣"
 7093,Alcohol is not the answer.,
 7442,"In Space, No One Can Hear you Whine",
 7444,The Founders are supposed to be the pillars of the future Colony – destined to be remembered for generations.,
 7443,"For they are meant to tread and live where no man has ever lived before – in an environment not meant for man to live in to begin with. This is why it came as a shock to us all when <ColonistName(colonist)> turned out to be such a whiner!
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Whiner</em> Trait. ",
+<hint>The Founder <ColonistName(colonist)> has the <em>Whiner</em> Trait. ","For they are meant to tread and live where no man has ever lived before – in an environment not meant for man to live in to begin with. This is why it came as a shock to us all when <ColonistName(colonist)> turned out to be such a whiner!
+
+<hint>創始者 <ColonistName(colonist)>  養成了 <em>愛發牢蒐</em> 的習慣"
 7445,Oh boy...,
 7094,Courage Has Layers,
 7096,It takes more than bravery to be a pioneer of the Martian frontier. Or at least it should.,
 7095,"They face uncertainty which no humans have faced before. <ColonistName(colonist)> on the other hand, albeit a pioneer, doesn’t seem especially brave and makes jumping in fright after seeing one’s own shadow look like a normal thing. 
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Coward</em> Trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Coward</em> Trait.","They face uncertainty which no humans have faced before. <ColonistName(colonist)> on the other hand, albeit a pioneer, doesn’t seem especially brave and makes jumping in fright after seeing one’s own shadow look like a normal thing. 
+
+<hint>創始者  <ColonistName(colonist)> 現在變得更 <em>膽小</em> 了"
 7097,Courage is finite.,
 5518,Suggested Building: Concrete Extractor,建議建築：混凝土挖掘站
 7937,"Many of the colony buildings require Concrete for their construction. Due to the heavy weight of the material continuous imports from Earth are not practical in the long run and we have to secure its production in the colony.
@@ -2586,15 +2632,21 @@ Concrete extractors must be placed over sulfur-rich regolith deposits - the yell
 7100,"Building a new home on an alien world? That takes guts, to say the least.",
 7099,"After all, purpose is the strongest long-term driver. Since arriving on Mars, <ColonistName(colonist)>'s enthusiasm has proven to be above average, even by Founder norms, and the prodigious productivity displayed can be boiled down to one simple explanation – <ColonistName(colonist)> really loves doing what <ColonistName(colonist)>‘s doing.
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Enthusiast</em> trait.",
-7101,That's the spirit!,
+<hint>The Founder <ColonistName(colonist)> has the <em>Enthusiast</em> trait.","After all, purpose is the strongest long-term driver. Since arriving on Mars, <ColonistName(colonist)>'s enthusiasm has proven to be above average, even by Founder norms, and the prodigious productivity displayed can be boiled down to one simple explanation – <ColonistName(colonist)> really loves doing what <ColonistName(colonist)>‘s doing.
+
+<hint>創始者 <ColonistName(colonist)> 變得更加 <em>熱心</em> 了."
+7101,That's the spirit!,就是這種精神！
 7102,Gambling Midst The Stars,
 7104,The first Colonists are all gamblers coming to Mars. It's the ultimate roll of the dice.,
 7103,"They travel through 50 million miles to a rocky, inhospitable world and try to bend it to humanity's will. <ColonistName(colonist)> , on the other hand, seems to also be a gambler in the more traditional sense. 
 
 We must not judge. On the contrary, we must be supportive and help our dear comrade with whom we’ve traversed the void, spearheaded humanity’s expansion on other worlds, only to find that we are no safer from vices so Earthly, it’s as if we never left.
 
-<hint>The Founder <ColonistName(colonist)> has the <em>Gambler</em> trait.",
+<hint>The Founder <ColonistName(colonist)> has the <em>Gambler</em> trait.","They travel through 50 million miles to a rocky, inhospitable world and try to bend it to humanity's will. <ColonistName(colonist)> , on the other hand, seems to also be a gambler in the more traditional sense. 
+
+We must not judge. On the contrary, we must be supportive and help our dear comrade with whom we’ve traversed the void, spearheaded humanity’s expansion on other worlds, only to find that we are no safer from vices so Earthly, it’s as if we never left.
+
+<hint>創始者 <ColonistName(colonist)> 更愛 <em>賭博</em>了"
 7446,OK,
 7105,Call It What You Will,
 7107,"Living in cramped quarters, tinkering with intricate machinery day-in, day-out. There's plenty of opportunities for slip-ups.",
@@ -2606,7 +2658,7 @@ We, as a small community, have come to accept the obvious:
 
 We, as a small community, have come to accept the obvious: 
 
-<hint>The Founder <ColonistName(colonist)> 養成了 <em>天兵</em> 的特性"
+<hint>創始者 <ColonistName(colonist)> 越來越 <em>天兵</em> "
 7447,OK,
 5725,End of an Age,
 7108,Mars has ways of crushing the hope out of our very best.,
@@ -2616,9 +2668,15 @@ But, as it often happens during the course of history the, societal standpoint c
 
 As I watch the rocket fly towards Earth I cannot force myself to think that <ColonistName(colonist)> is abandoning us. Something tells me that we will be in contact and will continue to receive wise council from our last Founder.
 
-<hint>The last Founder <ColonistName(colonist)> has left Mars.",
+<hint>The last Founder <ColonistName(colonist)> has left Mars.","The Founders had always been more than explorers and pioneers. They shared a vision of the future of the civilization on the Red Planet and worked ceaselessly towards their common goal.
+
+But, as it often happens during the course of history the, societal standpoint changes. <ColonistName(colonist)> could not adapt to the changing times and decided to leave Mars. I know <ColonistName(colonist)> personally and I'm sure that this isn't caused by disappointment but instead is a rational decision. I remember one time when we talked about the future of the Colony and <ColonistName(colonist)>'s words: “We are the progenitors of the Colony but parents have to eventually step down and give way to their children.”
+
+As I watch the rocket fly towards Earth I cannot force myself to think that <ColonistName(colonist)> is abandoning us. Something tells me that we will be in contact and will continue to receive wise council from our last Founder.
+
+<hint>最後位創始者 <ColonistName(colonist)> 離開了火星"
 7987,View.,
-5731,"Farewell, friend.",
+5731,"Farewell, friend.",再會，朋友。
 5732,Spheres: More to Come,
 7109,The Mirror Sphere has Mission Control in total chaos. Though that’s expected given what we saw.,
 5733,"In a moment of pure awesomeness the Sphere split into two identical Spheres. The new objects have grown to the exact same size as the previous one.
@@ -2663,7 +2721,12 @@ We should be able to paint a general picture of their purpose after investing so
 If we want to stop the change, we must find a breakthrough based on what we already know and learn how to control or cancel this process.
 
 <effect> A prolonged, extremely strong Cold Wave has begun.
-<effect> <em>Xeno-Terraforming</em> research available.",
+<effect> <em>Xeno-Terraforming</em> research available.","What or who needs to lower the atmospheric temperature of contemporary Mars is beyond any of us – yet it is most evident that the Spheres are effective at what they are doing. 
+
+If we want to stop the change, we must find a breakthrough based on what we already know and learn how to control or cancel this process.
+
+<effect> A prolonged, extremely strong Cold Wave has begun.
+<effect> <em>異星 同位化</em> 現在可以研發了"
 5746,This is now officially a fight for survival.,
 5747,Spheres: To Future Generations,
 7114,"We’ve dismantled the last Sphere, yet our unease with the alien technology still lingers.",
@@ -2704,28 +2767,40 @@ When our scientists give up on trying to determine the origin of these Spheres, 
 
 <effect> Arrival of additional Colonists temporarily suspended until the Colony proves able to sustain human life. Your Founder Colonists must survive for 10 Sols before additional people can arrive.
 
-<hint> The Colony will be evaluated positively before the period ends in the event the first human is born on Mars. If you feel you are up to the challenge, try constructing a Medical Building and raising the Comfort of the Founders as much as possible with Service Buildings.",
-5753,First Dome Constructed!,第一個蒼穹頂建造好了
+<hint> The Colony will be evaluated positively before the period ends in the event the first human is born on Mars. If you feel you are up to the challenge, try constructing a Medical Building and raising the Comfort of the Founders as much as possible with Service Buildings.","The next 10 Sols will be full of difficulties and dangers, but also with great promises and opportunities. It is now to us to prove that Mars can be a doorway to greater riches and the future of the human civilization. Even the most epic adventures begin with a single step.
+
+<effect> 在接下來的10個太陽日內，將無法在請求客運火箭的支援。贊助機構必須確認您的殖民地已經是適合人類穩定生存下去，才會開放下一步的任務
+
+<hint> 如果在這段期間內，誕生了首位火星之子，將獲得贊助機構非常正面的支持。表示您的殖民地已經相當適合生存。所以您或許可以考慮建設一些醫療相關的服務設施"
+5753,First Dome Constructed!,第一個蒼穹頂建造好了！
 7125,"It's been a stellar day. Not just for the mission, but for humanity itself.",
 5754,"Sol <day> of our mission will be remembered. Our greatest project to date has been completed – the Dome is ready to harbor the first Colonists on Mars. We, the team at Mission Control, are honored to be among the ones chosen to mark the beginning of a new age.
 
 We created a place for humanity to call home, a place which reminds us of Earth. The Dome seems so fragile, like a glittering snow globe resting among the red sands. This makes us wonder – will our future be just as fragile? Would we be able to leave our cradle and thrive on this cold, distant world?",
 5755,Continue playing,繼續遊玩
-7126,"For the first time, a human has been born on Mars. It's truly a unique miracle.",
+7126,"For the first time, a human has been born on Mars. It's truly a unique miracle.",有史以來人類第一次出生在火星上。 這真是個獨一無二的奇蹟。
 5757,"The Colonists have always felt like a family. But what makes the family stronger and more united is the promise of new life and better future. We have truly been blessed with a rewarding responsibility – to carry the torch of hope.
 
 Let this blooming of life serve as a symbol for all humans. Mars is no longer a dead world.
 
-<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
+<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.","The Colonists have always felt like a family. But what makes the family stronger and more united is the promise of new life and better future. We have truly been blessed with a rewarding responsibility – to carry the torch of hope.
+
+Let this blooming of life serve as a symbol for all humans. Mars is no longer a dead world.
+
+<effect> 殖民地的合適評估已經通過了，將可以繼續向地球請求客運火箭"
 5756,The Door towards the Stars,邁向星空之門
 7128,This will go down in history.,這將名留青史
 5758,"The long-time dream of the human civilization as a whole – to settle another world – has come true. To be among the people who made this happen makes me feel enthusiastic and proud.
 
 We are already swarmed with applications for relocation on Mars and the wanderlust and enthusiasm of these people makes me proud to be a human being. The Red Planet continues to be inhospitable and even dangerous but we as a species had always displayed the ability to adapt and improve – the adverse conditions will only make us try harder. So I say bring it on!
 
-<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.",
+<effect> The Colony has been evaluated positively. Additional Colonists can be called from Earth.","The long-time dream of the human civilization as a whole – to settle another world – has come true. To be among the people who made this happen makes me feel enthusiastic and proud.
+
+We are already swarmed with applications for relocation on Mars and the wanderlust and enthusiasm of these people makes me proud to be a human being. The Red Planet continues to be inhospitable and even dangerous but we as a species had always displayed the ability to adapt and improve – the adverse conditions will only make us try harder. So I say bring it on!
+
+<effect> T殖民地的合適評估已經通過了，將可以繼續向地球請求客運火箭"
 5759,Looks live we’ve got a serious adventure ahead of us!,
-5661,Mystery Log,
+5661,Mystery Log,謎團紀錄
 5760,....,
 7129,Warning,警告
 5761,Are you sure you want to cancel the Rocket’s launch order?,你確定要取消火箭的發射命令嗎？
@@ -3200,7 +3275,7 @@ Mission Control advises all personnel to brace for the unknown.
 5914,Affected Drones are building something of alien design.,受影響的無人機正在建造某個外星人的圖樣。
 5915,Unknown Construction,謎一般的建築
 5916,Drones influenced by the cubes have started the construction of a Mega Monolith,受影響的無人機開始建造巨型的岩狀構造
-7991,"Once completed, the monument emitted a pulse of all-encompassing energy and we all experienced a single collective dream! Or memory? ",巨石完成之際便發出一道無所不容的能量， 讓我們全部人都接收到了一段， 似乎是集體的記憶？
+7991,"Once completed, the monument emitted a pulse of all-encompassing energy and we all experienced a single collective dream! Or memory? ",巨石完成之際便發出一道無所不容的能量， 讓我們全部人都接收到了一段， 似乎是集體的記憶？ 
 5918,"Eons ago, while Earth was still a molten world, Mars had already been a teeming, living world covered by oceans and forests. This long-forgotten Mars was the home for a sentient race which quickly mastered their primitive urges and reached technological peaks yet to be conquered by humankind.
 
 We witnessed the astonishing evolution of the Ancients and the countless metamorphoses they experienced until they reached a state of existence which allowed them to transcend the boundaries of the material form. Without worrying about resources or lifespan, they traversed the universe, leaving their home behind. But they have not forgotten it.
@@ -3221,34 +3296,46 @@ They recall the fondest epochs of their history, where such strivings were predo
 回想著那段「非奮鬥不可」的偉大時代， 他們滿懷驕傲與懷念的心情， 給了我們一份大禮。
 
 <effect>獲得新科技： <em><reg_param1></em>"
-5922,We communed with the Ancients in our collective dream. They were impressed by our curiosity.,我們在共同意識中與古智慧體親身溝通， 他們對我們的好奇心留下了深刻的印象。
-7993,The Ancients were set back by the hostile reaction we had towards their messengers – the cubes.,
+5922,We communed with the Ancients in our collective dream. They were impressed by our curiosity.,我們在集體意識中與古智慧體親身交流， 他們對我們的好奇心留下了深刻的印象。
+7993,The Ancients were set back by the hostile reaction we had towards their messengers – the cubes.,古智慧體對我們對於其傳訊者 ─ 立方體不友善的行為則感到挫折。
 5923,"Ultimately they expressed understanding, noting that there were times in their own long history, dark times when they had the same hostile response towards the unknown.
 
 They hope that with time and maturity we will come to embrace the idea that while the universe is a dangerous place, not everything is a threat and there are also wonders to be discovered.
 
 <effect>All Black Cubes have disappeared
-<effect>Gained a new Technology, <em><reg_param1></em>",
-5924,We communed with the Ancients in our collective dream. They were somewhat surprised by our hostility against the unknown.,
-7994,The Ancients were intrigued and quite surprised by our choice to indulge in creations of art with their cubes.,
+<effect>Gained a new Technology, <em><reg_param1></em>","但他們對此表示理解之意，表示在他們綿長的歷史中，有時候在面對未知情況時也會出現敵意。
+
+他們希望隨著時間過去，我們能夠接受這樣的觀念：儘管宇宙危機四伏，但並非一切都是威脅，甚至會發現驚奇。
+
+<effect>所有黑立方消失。
+<effect>獲得新科技 <em><reg_param1></em>"
+5924,We communed with the Ancients in our collective dream. They were somewhat surprised by our hostility against the unknown.,我們在集體意識中與古智慧體交流， 對於我們的敵意他們感到有點驚訝。
+7994,The Ancients were intrigued and quite surprised by our choice to indulge in creations of art with their cubes.,古智慧體對於我們沉迷於藉立方體創作的藝術表現十分驚訝且著迷。
 5925,"Oblivious to the concept of higher powers, they seemed to see no other reason for our actions other than a pursuit of aesthetic decoration, one that seems to have eluded them as a possibility.
 
 Not quite sure what to make of this, they express hope we will retain our creativity as a race in the ages ahead.
 
 <effect>The monument collapsed into a pile of Black Cubes
-<effect>Gained a new Technology, <em><reg_param1></em>",
-5921,It has been quite the ride.,
-5926,We communed with the Ancients in a collective dream. They were impressed by our creativity.,
+<effect>Gained a new Technology, <em><reg_param1></em>","拋開對權力的概念，他們找不到其他理由解釋我們對立方體美感的追求， 而那是他們盡可能迴避的事物。
+
+儘管無法理解，他們表示希望我們能繼續保有這樣的創造力。
+
+<effect>紀念碑崩塌成一堆黑立方。
+<effect>獲得新科技 <em><reg_param1></em>"
+5921,It has been quite the ride.,一切都很順利
+5926,We communed with the Ancients in a collective dream. They were impressed by our creativity.,我們在集體意識中與古智慧體交流， 他們對我們創造力印象深刻。
 5917,Power of Three: Out of the Eons,立方之力：無處不在
-7995,"The moment the last cube fit in the structure, we detected a single, intense beam of high-energy particles directed towards the cosmos. What could it mean?",
+7995,"The moment the last cube fit in the structure, we detected a single, intense beam of high-energy particles directed towards the cosmos. What could it mean?",當最後一顆立方體嵌合進結構時，我們探測到了一束高能粒子直射天際， 發生什麼事？
 5927,"Meanwhile, reports from all over the Colony indicate that all cubes have ceased their pulsating and reverted to their previous lifeless state. Many Colonists report to the medical facilities that they feel different states of depression – ranging from melancholy to outright despair. Could these events be attributed to the mysterious structure and the death of the cubes? We would never find out.
 
-<effect>All Colonists suffer penalties to Morale.",
-5928,Perhaps we should've done more,
-5929,We didn't get to the bottom of the mystery of the Black Cubes. Perhaps more decisive action was needed.,
-7197,<red>The mystery of the Cubes remains unresolved</red>,
-5930,Power of Three: For the Generations to Witness,
-7996,The cubes can’t be ignored.,
+<effect>All Colonists suffer penalties to Morale.","同一時間，殖民地周遭的所有立方體都停止運轉，恢復到以往的無機型態。 而許多殖民者也在此時向醫療機構報告他們感受到不同程度的抑鬱 ─ 從輕度憂鬱到徹底絕望。 這些事件是否該歸咎於神秘結構以及立方體集體死亡的現象呢？ 我們也許永遠都無法知道。
+
+<effect>所有殖民者受到士氣懲罰。"
+5928,Perhaps we should've done more,得多做些什麼
+5929,We didn't get to the bottom of the mystery of the Black Cubes. Perhaps more decisive action was needed.,我們還沒解開黑立方之謎，也許應該要更果決地行動。
+7197,<red>The mystery of the Cubes remains unresolved</red>,<red>未解決立方謎團</red>
+5930,Power of Three: For the Generations to Witness,立方之力：世代見證
+7996,The cubes can’t be ignored.,沒辦法忽視那些立方體呀。
 5931,"It would be irresponsible to mismanage the situation and leave public opinion to sway back and forth on the matter.
 
 With the current state of events we lack sufficient data to judge the purpose of the cubes. It could take years if not generations of scientific research to reach a conclusion on that subject. Until then, we will attempt to control the erratic spread of the cubes which hampers our resources and colonization operations by storing them away in a convenient manner.",
@@ -3285,7 +3372,7 @@ The creators of the structure definitely want us to finish their plan. The poten
 The RC Explorer operator requests permission for close inspection on the object.","蒐集自遠方的光譜數據中 ， 我們得知雖然目標有著生物外觀但它覆蓋於堅固的矽酸鹽與金屬外殼之中 。 那觸手般露出像是無生命並且看起來似乎是作為主要結構支撐的部分 。 操作員呈報除了目標不斷的挖掘外 - 它不是無生命就是無視於我們在這個區域
 
 探索者號操作員請求權限來對目標進行詳細檢查"
-5951,Affirmative. Proceed with caution.,同意 ！ 謹慎行事 ！
+5951,Affirmative. Proceed with caution.,同意 ！ 謹慎行事 ！ 
 5952,Negative. The risk is too high.,反對 ！ 風險太高 ！
 7449,The Explorer completed the close inspection of the Object without any major problems.,操作員已完成對目標的嚴密檢查並無任何重大問題
 5954,"The rover ventured within mere meters of the Object and conducted a series of field tests and observations on it. We scanned it with radiological and spectroscopic equipment and extended a remote probe to its carapace, gathering tiny samples of its crust. Via its telescopic arm a camera and sonar were inserted within the Object, revealing a perplexing maze of cavities and corridors inside. A close inspection below the Object shows that it digs a hole beneath itself through a rotation of its frontal hull and extracts metal-rich ores, but its position above the ground level remains the same. The RC Explorer operators report no response from the Object during any of these operations.
@@ -3604,7 +3691,14 @@ What or who needs to lower the atmospheric temperature of contemporary Mars is b
 If we want to stop the change, we must find a breakthrough based on what we already know and learn how to control or cancel this process.
 
 <effect> A prolonged, extremely strong Cold Wave has begun.
-<effect> Xeno-Terraforming research available.",
+<effect> Xeno-Terraforming research available.","It is also confirmed that the Spheres are no longer splitting and are simply using their energies to maintain atmospheric stasis – in other words they have reached the critical mass needed for their purpose. 
+
+What or who needs to lower the atmospheric temperature of contemporary Mars is beyond any of us – yet it is most evident that the Spheres are effective at what they are doing. 
+
+If we want to stop the change, we must find a breakthrough based on what we already know and learn how to control or cancel this process.
+
+<effect> A prolonged, extremely strong Cold Wave has begun.
+<effect> <em>異星 同位化</em> 現在可以研發了"
 7113,The Colony is expecting some sort of artificial cold wave. How’s that even possible?,
 7487,This is now formally a fight for survival.,
 7488,"Our scientists are confident that we have recorded and gathered all data necessary for making sense of this encounter in the coming decades. Also, they are confident that the Spheres themselves had overstayed their welcome. 
@@ -4451,7 +4545,7 @@ The scientists experimented with multiple growth mediums and discovered that the
 <effect> Colonists with the Infected trait will be cured permanently after their first visit in a Medical Building.",
 8296,Start the process immediately. Time is of the essence!,
 8476,"The Cure for Wildfire has been discovered! Conveniently spliced in modified mold cells, the cure can be grown on plant biomass. We have to produce it en masse!",
-5614,Anomaly Analyzed,
+5614,Anomaly Analyzed,觀察點分析完畢
 8297,The faint distress signal led us to the burial site of a small satellite. It had fallen deep under the red sands and could have been there for an eternity.,
 8298,"It’s strange that we couldn't find any information for the flight in the international records. No black box nor signatures can be seen except for a discolored logo, ‘Scoop XI’. Upon opening the hull we found all of the internal systems corroded away by time, with only a small capsule remaining. The biohazard sign on it only served to stir our curiosity, but a closer examination discovered that it has been breached. We assume that the biological material inside has been destroyed. We have ordered the Rover to store the salvage for further analysis.",
 8299,A curious find. Let’s hope the future will bring more answers than questions on that matter.,
@@ -4695,7 +4789,15 @@ This project may have never been completed without our help and guidance.
 
 Rede Goddenberry’s vision has become more real than ever.
 
-<effect>Reduced cost of Physics and Engineering Techs by <reg_param1>%.",
+<effect>Reduced cost of Physics and Engineering Techs by <reg_param1>%.","A shipyard built in deep space, the Station is expected to grow humanity’s space faring capacity a thousandfold.
+
+The unique location of the base is also perfect for fringe research purposes, boosting humanity’s understanding of the universe.
+
+This project may have never been completed without our help and guidance.
+
+Rede Goddenberry’s vision has become more real than ever.
+
+<effect>降低物理學與工程學科技的花費 <reg_param1>%."
 8409,The Solar System just became a smaller place.,
 8410,Rubicon Station has been built. Space vessel construction will never be the same.,
 8411,Beyond Earth: Spring City Complete,
@@ -4706,7 +4808,13 @@ Our role in the realization of this project is far from overlooked and we have b
 
 The Beyond Earth initiative brings humanity closer to a place where hunger and poverty will become nothing more than the woes of yesterday.
 
-<effect>New Ganymede Rice hydroponic crop available.",
+<effect>New Ganymede Rice hydroponic crop available.","Many heated regions on Earth where hunger and strife are rampant will now be saved.
+
+Our role in the realization of this project is far from overlooked and we have been sent new crops which are a extremely tough, healthy and nutritious to use on our own farms.
+
+The Beyond Earth initiative brings humanity closer to a place where hunger and poverty will become nothing more than the woes of yesterday.
+
+<effect>水培農場新作物 蓋尼米德水稻 可以使用了"
 8414,Can't wait to see what this does for the salad quality down here!,
 8415,Spring City - the breadbasket project of humanity - has been completed.,
 8416,Beyond Earth: The Dream Lives On,
@@ -4718,7 +4826,15 @@ And spearheading the whole affair - the vision of an eccentric old billionaire w
 
 May he rest in peace and forever be remembered a visionary of Mankind.
 
-<effect>Gained a new Technology, <em><reg_param1></em>.",
+<effect>Gained a new Technology, <em><reg_param1></em>.","A time of change is befalling the human race – a time of unity and hope for a brighter future that most couldn’t have imagined just a short few years ago. 
+
+A massive push - by thousands of people and the best that two worlds had to offer - has become a reality. Our role will never be forgotten and the everlasting gratitude of a space fearing humanity will always be a factor.
+
+And spearheading the whole affair - the vision of an eccentric old billionaire who did not live to see how this vision uplifted the entire human race to conquer the Solar System with no reasons for strife and competition. 
+
+May he rest in peace and forever be remembered a visionary of Mankind.
+
+<effect>獲得新科技 <em><reg_param1></em>."
 8419,Rede Goddenberry will never be forgotten.,
 8420,"Although Rede Goddenberry did not live to see his vision become a reality, his legacy will forever live on for all of humanity to prosper from.",
 8421,Beyond Earth: In Time to Witness,
@@ -4731,7 +4847,15 @@ And spearheading the whole affair, the vision of an eccentric old billionaire wh
 
 History will remember Rede Goddenbarry a visionary of Mankind.
 
-<effect>Gained a new Technology, <em><reg_param1></em>.",
+<effect>Gained a new Technology, <em><reg_param1></em>.","A time of change is befalling the human race - a time of unity and hope for a brighter future that most couldn’t have imagined just a short few years ago. 
+
+A massive push - by thousands of people and the best that two worlds had to offer - has become a reality. Our role will never be forgotten and the everlasting gratitude of a space fearing humanity will always be a factor.
+
+And spearheading the whole affair, the vision of an eccentric old billionaire who wished to see the bright future of his kind before his passing.
+
+History will remember Rede Goddenbarry a visionary of Mankind.
+
+<effect>獲得新科技 <em><reg_param1></em>."
 8423,A new era for humanity has dawned!,
 8424,Rede Goddenberry's dream becomes reality with him still alive to witness it unfolding.,
 8425,Beyond Earth: Rede is Dying,
@@ -4944,7 +5068,7 @@ New Building: <em>Fuel Refinery</em> (<buildinginfo('FuelFactory')>)  - Produces
 6368,"New Building: <em>Apartments</em> (<buildinginfo('Apartments')>) - A Residential Building that houses many Colonists.
 
 <grey>""I suggest that going to Mars means permanence on the planet - a mission by which we are building up a confidence level to become a two-planet species.""
-<right>Buzz Aldrin</grey><left>","新建築：<em>公寓</em> (<buildinginfo('Apartments')>) - 可以容納較多居民的建築物
+<right>Buzz Aldrin</grey><left>","新建築：<em>公寓</em> (<buildinginfo('Apartments')>) - 可以容納較多居民的住宅
 
 <grey>""I suggest that going to Mars means permanence on the planet - a mission by which we are building up a confidence level to become a two-planet species.""
 <right>Buzz Aldrin</grey><left>"
@@ -5441,7 +5565,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 <grey>""Soylent Green is made out of people. They are making food out of people and we know that. We are actually OK with that.""</grey>","<em>死去的殖民者</em>遺體，將可以被利用轉換成食物，回饋給其它殖民者
 
 <grey>""Soylent Green is made out of people. They are making food out of people and we know that. We are actually OK with that.""</grey>"
-6529,Neural Empathy,噓寒問暖
+6529,Neural Empathy, 噓寒問暖
 6530,"Unlocks <em>Rare Trait - Empath</em>. Empaths raise the Morale of all Colonists in the Dome. The effect stacks with other Empaths.
 
 <grey>""`The human brain has 100 billion neurons, each neuron connected to 10 thousand other neurons. Sitting on your shoulders is the most complicated object in the known universe.""
@@ -5934,10 +6058,10 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 14,We have detected alien artifacts at this location that will <em>speed up</em> our Research efforts.<newline><newline>Send an <em>Explorer</em> to analyze the Anomaly.,我們已檢測到此處的外星人造物這將 <em> 加速 </em> 我們的研究成果 <newline><newline>指派一台<em>探索者號</em> 前往調查觀察點
 17,"Period, base (s)",
 18,"Period, random (s)",
-19,Spawn Chance (%),
+19,Spawn Chance (%),重生機會 (%)
 20,Lifetime (s),
 21,Speed (m/s),速度(m/s)
-22,Our scans have found some interesting readings in this Sector. Further analysis is needed.<newline><newline>Send an RC Explorer to analyze the Anomaly.,
+22,Our scans have found some interesting readings in this Sector. Further analysis is needed.<newline><newline>Send an RC Explorer to analyze the Anomaly.,掃描結束，探測器偵測到一些看起來很有趣的數值<newline><newline>指派一台探索者前往調查觀察點
 8570,<green>Hive Mind <FormatSignInt(amount)></color>,蜂群思維
 31,Effect Range,影響範圍
 34,Work State,工作狀態
@@ -5964,12 +6088,12 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 58,<red>This unit has been destroyed. Salvage for materials.<red>,<red>這個單位將會被摧毀，並回收部分資源<red>
 59,Disembarking,登陸
 60,Unloading cargo at target coordinates,在指定目標卸下資源
-61,Transfering power between vehicles,
-62,Moving to avoid obstruction,
-64,Loading resources at target coordinates,
-7610,Waiting for repairs,
-8028,Undergoing repairs,
-66,Out of power,
+61,Transfering power between vehicles,在兩台車量間傳輸電源
+62,Moving to avoid obstruction,塞住了，移車中
+64,Loading resources at target coordinates,在指定目標裝載資源
+7610,Waiting for repairs,等待修復中
+8028,Undergoing repairs,正在修復中
+66,Out of power,電力耗盡
 67,Loading resources,裝載資源中
 68,<green>Charging battery from Power grid</green>,<green>從電力網路系統中充電</green>
 69,"Trying to recharge battery, insufficient Power",電力不足，嘗試尋找充電處
@@ -5998,8 +6122,8 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 7326,Not Working,未在運作
 7327,Turned On,已開啟
 7328,Turned Off,已關閉
-89,No consumption,
-90,Visit,
+89,No consumption,沒有消耗
+90,Visit,參觀
 92,Restore Upgrade Defaults,
 101,Upgrade Time Cost,升級需要時間
 102,Modifier Target 1,
@@ -6017,17 +6141,17 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 114,Modified Property 3,
 115,Percent Modifier 3,
 116,Amount Modifier 3,
-117,Consumption Resource Type,
-118,Consumption Max Storage,
-119,Consumption Amount,
-120,Consumption Type,
+117,Consumption Resource Type,消耗品資源種類
+118,Consumption Max Storage,消耗品最大庫存
+119,Consumption Amount,消耗品存量
+120,Consumption Type,消耗品種類
 121,Input Pile Spot Name,
 122,No maintenance,無維護
 123,No resource,無資源
-124,Maintenance Resource Type,
-125,Maintenance Resource Amount,
-126,Maintenance Threshold,
-127,Maintenance Build Up Per Hr,
+124,Maintenance Resource Type,維護資源種類
+125,Maintenance Resource Amount,維護資源數量
+126,Maintenance Threshold,維護頻率
+127,Maintenance Build Up Per Hr,每小時維護數
 128,Disable Maintenance,關閉維護
 7329,Maintenance needed,需要維護
 389,Maintenance already requested,已請求維護
@@ -6118,29 +6242,29 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 179,Place <building>,
 180,Drones<right><DronesCount>/<CommandCenterMaxDrones>,
 181,"This building will be demolished in <em><FormatScale(demolishing_countdown,1000)></em> sec.",
-182,This building has malfunctioned. Repair it with Drones.,這座建築需要維護。 請指派無人機前往維護
-60192,"This building has malfunctioned. Drones can repair it with <resource(maintenance_resource_amount, maintenance_resource_type)>.","這座建築需要維護。  請指派無人機攜帶資源 <resource(maintenance_resource_amount, maintenance_resource_type)> 前往維護"
+182,This building has malfunctioned. Repair it with Drones.,這座建築發生故障。 請指派無人機前往維修
+60192,"This building has malfunctioned. Drones can repair it with <resource(maintenance_resource_amount, maintenance_resource_type)>.","這座建築發生故障。  請指派無人機攜帶資源 <resource(maintenance_resource_amount, maintenance_resource_type)> 前往維修"
 183,This building is frozen. It can be repaired by Drones after the Cold Wave has passed.,
 7892,This building is frozen. Use a Subsurface Heater to heat the surrounding cold area.,
 8520,Defrosting. This building will need repair after it is defrosted.,
-184,This building has been turned off.,
-185,Doesn't function during Dust Storms.,
+184,This building has been turned off.,這建築物已被關閉。
+185,Doesn't function during Dust Storms.,在沙塵暴期間不運作。
 7524,Building disabled by lightning strike. Will resume work in several hours.,
-187,No deposits,
+187,No deposits,沒有資源點
 188,There are no exploitable deposits in range,
 189,Storage space is full,儲存空間已滿
 191,Inactive work shift,
 192,Not enough Workers,勞工不足
 194,Not enough Oxygen,氧氣不足
 195,Not enough Water,水資源不足
-196,Must be connected to a Power consumer,
-197,Must be connected to a Power producer,
-198,Must be connected to a Water consumer,
-199,Must be connected to a Water producer,
-200,Must be connected to an Oxygen consumer,
-201,Must be connected to an Oxygen producer,
-202,No research project assigned,
-203,Not producing due to low wind and elevation,
+196,Must be connected to a Power consumer,必須連結至耗電設施
+197,Must be connected to a Power producer,必須連結至供電設施
+198,Must be connected to a Water consumer,必須連結至需水設施
+199,Must be connected to a Water producer,必須連結至供水設施
+200,Must be connected to an Oxygen consumer,必須連結至耗養設施
+201,Must be connected to an Oxygen producer,必須連結至供氧設施
+202,No research project assigned,沒有研究任務指派
+203,Not producing due to low wind and elevation,因為地勢低與低風速的關係，將停止產能
 204,You’ll need more operational Security Stations to deal with Renegade crime in the Dome,
 205,Waste Rock storage is full,廢棄碎石儲存已滿
 206,We can't exploit this deposit with our current technology,
@@ -6220,14 +6344,14 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 553,<newline><center><em>Age Groups</em>,<newline><center><em>年齡範圍</em>
 559,<newline><center><em>Births</em>,<newline><center><em>出生</em>
 7701,"Birth Threshold<right><resource(MinComfortBirth, Comfort)> Comfort",
-560,Males who want children<right><colonist(fertile_male)>,
-561,Females who want children<right><colonist(fertile_female)>,
+560,Males who want children<right><colonist(fertile_male)>,想生小孩的男性<right><colonist(fertile_male)>
+561,Females who want children<right><colonist(fertile_female)>,想生小孩的女性<right><colonist(fertile_female)>
 562,Children born<right><colonist(born_children)>,
-7769,Homeless penalty<right><HomelessBirthRatePenalty>%,
-7347,Clones created<right><colonist(clones_created)>,
-8571,<red>Too many homeless Colonists. No more children will be born</red>,
-563,<red>No children will be born. The average Comfort of all fertile couples is too low.</red>,
-564,<green>Children will be born. The Dome is comfortable enough.</green>,
+7769,Homeless penalty<right><HomelessBirthRatePenalty>%,無家可歸逞罰<right><HomelessBirthRatePenalty>%
+7347,Clones created<right><colonist(clones_created)>,創造的複製人<right><colonist(clones_created)>
+8571,<red>Too many homeless Colonists. No more children will be born</red>,<red>太多無家可歸殖民者。 不會有更多小孩出生</red>
+563,<red>No children will be born. The average Comfort of all fertile couples is too low.</red>,<red>不會有小孩出生。 所有懷孕伴侶的平均舒適度太低。</red>
+564,<green>Children will be born. The Dome is comfortable enough.</green>,<green>會有小孩出生。 蒼穹頂夠舒服了。</green>
 276,This Dome is fractured and is losing oxygen.<newline><left>Number of fractures<right><fractures><newline><left>Cost of repairs<right><polymers(number)>,
 6751,Dome type,
 8050,Road Connection Type,
@@ -6253,53 +6377,53 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 935141416351,Drones load <right><green>Low</green>,無人機服務負載 <right><green>低</green>
 935141416352,Drones load <right><yellow>Medium</yellow>,無人機服務負載 <right><yellow>中</yellow>
 935141416353,Drones load <right><red>Heavy</red>,無人機服務負載 <right><red>高</red>
-647,<red>Not working. Drones won't receive further instructions.</red>,
-648,There is <red>1</red> malfunctioning Drone</red>,
-649,There are <red><number></red> malfunctioning Drones</red>,
+647,<red>Not working. Drones won't receive further instructions.</red>,<red>無法運作。無人機將無法收到遙控指令.</red>
+648,There is <red>1</red> malfunctioning Drone</red>,故障的無人機數 <red>1</red> </red>
+649,There are <red><number></red> malfunctioning Drones</red>,故障的無人機數 <red><number></red> </red>
 8492,Drones ordered: <num>,
-653,Dust per Sol,
-654,Dust Range,
-655,Hydroponic,
+653,Dust per Sol,每太陽日的灰塵
+654,Dust Range,灰塵範圍
+655,Hydroponic,水培盆栽
 658,Soil Demand Modifier,
 659,Oxygen Production Efficiency,
 660,Persisted crops,
 661,<green>Soil Quality +<amount></green>,<green>土壤品質 +<amount></green>
-8654,<red>Soil Quality <amount></red>,
-662,<newline>Effects on current crop:,
-663,<amount> from <crop_name>,
+8654,<red>Soil Quality <amount></red>,<red>土壤品質  <amount></red>
+662,<newline>Effects on current crop:,<newline>影響目前作物：
+663,<amount> from <crop_name>,<amount> 從 <crop_name>
 6762,None,
 3978,<em><description></em><newline>,
-3979,Growth time<right><growth_time> Sols,
+3979,Growth time<right><growth_time> Sols,成長時間 <right><growth_time> 太陽日
 6864,None,
 6865,None,
-6763,Select new crop,
+6763,Select new crop,選擇新作物
 7603,<name>  <percent(p)>,
-248,Water consumption<right><water(number)>,
-249,"Optimal harvest<right><resource(number, res)>",
-250,Oxygen production<right><air(number)>,
-251,Soil quality increase<right><green><number>%</green>,
-252,Soil quality decrease<right><red><number>%</red>,
-253,Growth time<right><HarvestTotal> Sols,
-7349,"Crops have different harvest cycles, Water consumption, and Food yield.",
-254,Time until next harvest<right><number> Sols,
-255,<em>The farm is not working. The crops are decaying</em>,
-256,<em>The farm is not working. New crops won't be planted</em>,
-671,Hit Chance,
+248,Water consumption<right><water(number)>,水消耗<right><water(number)>
+249,"Optimal harvest<right><resource(number, res)>","最佳收穫量<right><resource(number, res)>"
+250,Oxygen production<right><air(number)>,產養量<right><air(number)>
+251,Soil quality increase<right><green><number>%</green>,土壤品質增加<right><green><number>%</green>
+252,Soil quality decrease<right><red><number>%</red>,土壤品質減少<right><red><number>%</red>
+253,Growth time<right><HarvestTotal> Sols,成長時間 <right><HarvestTotal> 太陽日
+7349,"Crops have different harvest cycles, Water consumption, and Food yield.",作物有不同的成長時間、水消耗以及收穫量
+254,Time until next harvest<right><number> Sols,下次收穫時間 <right><number> 太陽日
+255,<em>The farm is not working. The crops are decaying</em>,<em>這座農場無法運作。 作物正在枯萎中</em>
+256,<em>The farm is not working. New crops won't be planted</em>,<em>這座農場無法運作。無法種植作物</em>
+671,Hit Chance,命中機率
 672,Fire Rate,
 674,Shoot Range,
 675,Pitch Range,
 676,Rotate Speed,
 677,Beam Time,
 678,Tilt Tolerance,
-668,Gain specialization,
-670,Automatically graduates to the Specialization that is most needed in your colony,
+668,Gain specialization,獲得專長
+670,Automatically graduates to the Specialization that is most needed in your colony,自動獲得對您的殖民定有幫助的專長
 532,<specialists><right><count>,
-241,Students will be trained to receive the selected specialization or to automatically get specializations desired in your colony.,
+241,Students will be trained to receive the selected specialization or to automatically get specializations desired in your colony.,將會培訓學生所指定的專長，或者自動學習各項專長
 7948,<specialist><right><count>,
 467,"Hourly production<right><resource(PredictedProduction,exploitation_resource)>","每時產能<right><resource(PredictedProduction,exploitation_resource)>"
 468,"Lifetime production<right><resource(LifetimeProduction,exploitation_resource)>","生產至今<right><resource(LifetimeProduction,exploitation_resource)>"
 470,"<resource(exploitation_resource)><right><resource(GetAmountStored,max_storage,exploitation_resource)>",
-679,Performance boost,
+679,Performance boost,效能加成
 7625,<green>Network node <amount>%</color>,<green>高速網路通訊中心 <amount>%</color>
 432,<trait_name><right><value>,
 433,Information about the traits developed by Colonists under the effect of Project Morpheus,
@@ -6315,8 +6439,8 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 696,Max Shared Storage,
 8029,Trade Rocket,
 702,Launch Fuel,
-8030,Carries supplies or passengers  from Earth. Can travel back to Earth when refueled.,
-7351,<left_click> Place Rocket,
+8030,Carries supplies or passengers  from Earth. Can travel back to Earth when refueled.,可以從地球攜帶補給品或乘客。 當燃料補充完畢後可以返回地球。
+7351,<left_click> Place Rocket,<left_click> 放置火箭
 7352,<ButtonA> Place Rocket,
 707,<RocketType><newline>Travelling to Mars.<newline>Flight progress: <em><ArrivalTimePercent></em>%.<newline>Payload:<newline><CargoManifest>,<RocketType><newline>前往火星：<newline>旅行進度：<em><ArrivalTimePercent></em>%.<newline>貨物內容：<newline><CargoManifest>
 710,Ready to land.<newline>Payload:<newline><CargoManifest>,準備降落<newline>貨物內容：<newline><CargoManifest>
@@ -6359,18 +6483,18 @@ This tech is <em>可重複性的</em> and can be researched multiple times.
 724,Cure trait <idx>,
 725,Learn trait <idx>,
 726,Neutralized Renegades,
-727,Renegades in the Dome <right><number>,
+727,Renegades in the Dome <right><number>,蒼穹頂內的叛徒 <right><number>
 728,Health change on visit,
 729,Sanity change on visit,
 730,Service Comfort,服務品質
-731,Comfort increase on visit,
-732,Service interest,
-733,Visitor slots per shift,
-734,Visit duration,
+731,Comfort increase on visit,每次拜訪提升舒適度
+732,Service interest,服務興趣
+733,Visitor slots per shift,美個時段的訪客
+734,Visit duration,拜訪時間
 737,"<description>
 Services: <em><list></em>","<description>
 服務：<em><list></em>"
-738,Single Active shift,
+738,Single Active shift,僅一時段
 739,Persisted closed shift,
 740,Start Shift Enabled 1,
 741,Start Shift Enabled 2,
@@ -6378,15 +6502,15 @@ Services: <em><list></em>","<description>
 743,Max Shuttle resource capacity,最大客運機載運量
 6765,Max Shuttle speed,最大客運機速度
 7675,Shuttle,客運機
-746,Facilitates long-range resource transportation between Depots and colonist resettlement between Domes.,
-747,Payload<right>nothing,
-748,Payload<right><colonist(StoredAmount)>,
-749,"Payload<right><resource(StoredAmount,max_amount,resource)>",
+746,Facilitates long-range resource transportation between Depots and colonist resettlement between Domes.,提供客貨機停靠與加油的服務站 客貨機可用來 <em>長途運輸</em> 載運資源或者是 兩地之間的乘客
+747,Payload<right>nothing,酬載內容<right>無
+748,Payload<right><colonist(StoredAmount)>,酬載內容<right><colonist(StoredAmount)>
+749,"Payload<right><resource(StoredAmount,max_amount,resource)>","酬載內容<right><resource(StoredAmount,max_amount,resource)>"
 750,Water Consumption,水資源消耗
 657,Oxygen Consumption,氧氣消耗
-751,Starting Shuttles,
-752,Max Shuttles,
-754,"<left>Required <resource_display_name><right><resource(received_amount, total_amount, icon)>",
+751,Starting Shuttles,起始客貨機數
+752,Max Shuttles,最大客貨機數
+754,"<left>Required <resource_display_name><right><resource(received_amount, total_amount, icon)>","<left>需求<resource_display_name><right><resource(received_amount, total_amount, icon)>"
 7355,"<resource(res)><right><resource(amount, res)>",
 756,Resupply Price Modifier,
 757,Cargo Capacity (kg),酬載量 (kg)
@@ -6449,7 +6573,7 @@ Services: <em><list></em>","<description>
 811,Metals Deposit,地表金屬資源
 812,Scattered Metals. Harvested by Drones or RC Transports.,暴露在地表的金屬資源，可以由無人機 或 運輸車 前往開採
 813,Regolith Deposit,硫磺地質
-814,Sulfur-rich regolith. Processed into Concrete by a Concrete Extractor,還有豐富的硫磺地質， 可以使用<em>混凝土挖掘站</.em> 進行挖掘處理成可用於建築的混凝土
+814,Sulfur-rich regolith. Processed into Concrete by a Concrete Extractor,還有豐富的硫磺地質， 可以使用<em>混凝土挖掘站</em> 進行挖掘處理成可用於建築的混凝土
 815,Polymers Deposit,地表聚合物資源
 816,Scattered Polymers. Harvested by Drones or RC Transports.,暴露在地表的聚合物資源，可以由無人機 或 運輸車 前往開採
 817,Resource,資源
@@ -6467,7 +6591,7 @@ Services: <em><list></em>","<description>
 736,Children Only,
 824,Points per day,
 825,Points to evaluate,
-826,Charge time,
+826,Charge time,充電時間
 827,Dust to clean,
 828,Sphere Speed,
 829,Bonus Production % per km elevation,
@@ -6480,23 +6604,23 @@ Services: <em><list></em>","<description>
 837,Workplace Auto Performance,
 838,Workers: <workers> of <max_workers>,
 7628,<green>Automation +<auto_performance></green>,<green>自動化 +<auto_performance></green>
-7629,<green>Workshift workers +<amount></green>,
-7630,<green>Heavy workload +<amount></green>,
-7631,<clr>Upgrade <amount>% (<upgrade>)</color>,
-7632,<clr>Upgrade <amount> (<upgrade>)</color>,
-7633,<clr>Mission sponsor <amount>%</color>,
+7629,<green>Workshift workers +<amount></green>,<green>值班人員 +<amount></green>
+7630,<green>Heavy workload +<amount></green>,<green>加班 +<amount></green>
+7631,<clr>Upgrade <amount>% (<upgrade>)</color>,<clr>升級<amount>% (<upgrade>)</color>
+7632,<clr>Upgrade <amount> (<upgrade>)</color>,<clr>升級<amount> (<upgrade>)</color>
+7633,<clr>Mission sponsor <amount>%</color>,<clr>贊助機構<amount>%</color>
 7305,<DisplayName>,
-6768,A colonist working in this building.<newline><newline>Specialization: <em><Specialization></em><newline>Worker Performance: <em><performance></em><newline><PerformanceReasons><TraitsWarnings>,
-7527,<left_click> Select  <right_click> Fire this worker,
-7528,<ButtonA> Select  <ButtonX> Fire this worker,
-4218,Free Work Slot,
-4219,Free work slot. Unemployed Workers automatically seek jobs within their Dome.<newline><newline><red>Free work slots reduce workplace performance.</red>,
-7529,<right_click> Close this work slot,
-4220,<ButtonX> Close this work slot,
-4222,Closed Work Slot,
-4223,This work slot is closed. Workers will never occupy it.<newline><newline><red>Closed work slots reduce workplace performance.</red>,
-7530,<right_click> Open this work slot,
-4224,<ButtonX> Open this work slot,
+6768,A colonist working in this building.<newline><newline>Specialization: <em><Specialization></em><newline>Worker Performance: <em><performance></em><newline><PerformanceReasons><TraitsWarnings>,此建築物服務的殖民者：<newline><newline>專長：<em><Specialization></em><newline>工作效率：<em><performance></em><newline><PerformanceReasons><TraitsWarnings>
+7527,<left_click> Select  <right_click> Fire this worker,<left_click> 選擇  <right_click> 炒他魷魚
+7528,<ButtonA> Select  <ButtonX> Fire this worker,<ButtonA> 選擇  <ButtonX> 炒他魷魚
+4218,Free Work Slot,可用的空缺
+4219,Free work slot. Unemployed Workers automatically seek jobs within their Dome.<newline><newline><red>Free work slots reduce workplace performance.</red>,未受雇的員工將會自動找尋有空缺的工作崗位.<newline><newline><red>開班但是空缺的位子將會減少工作效率</red>
+7529,<right_click> Close this work slot,<right_click>關閉空缺
+4220,<ButtonX> Close this work slot,<ButtonX> 關閉空缺
+4222,Closed Work Slot,已關閉空缺
+4223,This work slot is closed. Workers will never occupy it.<newline><newline><red>Closed work slots reduce workplace performance.</red>,此空缺已經關閉，員工將不會再去尋求這個建築的工作<newline><newline><red>已關閉的空缺可能會影響工作場所的效率</red>
+7530,<right_click> Open this work slot,<right_click> 開啟空缺
+4224,<ButtonX> Open this work slot,<ButtonX> 開啟空缺
 541987944858,First Shift,早班
 159665176435,Second Shift,中班
 994186128274,Night shift,大夜
@@ -6513,7 +6637,7 @@ Services: <em><list></em>","<description>
 6772,<green>ON</green>,<green>開啟</green>
 7364,Status: <status>,狀態：<status>
 7634,Building performance<right><performance>,設施工作效率<right><performance>
-7635,Building performance,設施工作效率
+7635,Building performance,設施工作效率 
 7790,Research Current Tech,研究當前科技
 7791,Research all Techs,研發全部科技
 7792,Unlock all Techs,解鎖全部科技
@@ -6536,7 +6660,7 @@ Services: <em><list></em>","<description>
 8016,Too far from working Drone commander,距離可使用的無人機控制者太遠
 847,Producing <water(number)> less than optimal due to the presence of other Moisture Vaporators in the vicinity.,當附近也有水資源蒐集氣的時候，附近的大氣含量將會因會共同吸取，反而減低水資源生產 <water(number)>
 848,Vaporator nearby,附近有水資源蒐集氣
-849,The building will consume <red><percent(pct)></red> more Power in cold areas.,建築物將會因為地面寒冷而額外消耗電力 <red><percent(pct)></red>
+849,The building will consume <red><percent(pct)></red> more Power in cold areas.,建築物將會因為地面寒冷而額外消耗電力 <red><percent(pct)></red> 
 850,Cold terrain,冰冷的地面
 7702,No operational Domes in walking distance.,沒有步行可以抵達的蒼穹頂
 7703,Far from operational Domes,離運作中的蒼穹頂太遠
@@ -7691,7 +7815,7 @@ Viking 2)"
 1954,Sheldon,謝爾頓
 1955,Simpson,辛普森
 1956,Trenton,特倫頓
-1957,Warren,養兔場
+1957,Warren,瓦爾倫
 1958,Griffin,格里芬
 1959,Samuel Hayden,塞繆爾海登
 1960,Olivia Pierce,奧利維亞皮爾斯
@@ -9202,7 +9326,7 @@ Viking 2)"
 3566,Brightness,亮度
 3568,Shadows,陰影
 3569,Textures,紋理
-3570,Anisotropy,非等項性
+3570,Anisotropy,非等項性 
 3571,Effects,效果
 3572,Lights,
 3573,Postprocessing,
@@ -9221,7 +9345,7 @@ Viking 2)"
 3582,Mute when Minimized,最小化時靜音
 3583,Radio Station,廣播電台
 3584,Invert Mouse Wheel,反轉滑鼠滾輪
-3585,Invert Look
+3585,Invert Look,
 3586,Invert Rotation,反向旋轉
 3587,Scroll Outside Window,
 3588,Right-click Action,
@@ -9314,12 +9438,12 @@ Viking 2)"
 3667,Fuel maintenance<right><fuel(FuelConsumedByMaintenanceYesterday)>,維護用消耗<right><fuel(FuelConsumedByMaintenanceYesterday)>
 3668,Refueling of Rockets<right><fuel(RocketRefuelFuelYesterday)>,火箭燃料<right><fuel(RocketRefuelFuelYesterday)>
 566,Unemployed<right><colonist(number)>,未受雇<right><colonist(number)>
-567,Vacant work slots<right><colonist(number)>,閒置職缺<right><colonist(number)>
-568,Disabled work slots<right><colonist(number)>,已關閉的職缺<right><colonist(number)>
+567,Vacant work slots<right><colonist(number)>,閒置空缺<right><colonist(number)>
+568,Disabled work slots<right><colonist(number)>,已關閉的空缺<right><colonist(number)>
 569,"No unemployment, no vacant workplaces",無失業人口，無可用職缺
 548,Unemployed and looking for work<right><colonist(number)>,有人需要份工作<right><colonist(number)>
-549,Vacant work slots<right><colonist(number)>,閒置職缺<right><colonist(number)>
-550,Disabled work slots<right><colonist(number)>,關閉的職缺<right><colonist(number)>
+549,Vacant work slots<right><colonist(number)>,閒置空缺<right><colonist(number)>
+550,Disabled work slots<right><colonist(number)>,關閉的空缺<right><colonist(number)>
 7346,Renegades<right><colonist(number)>,叛徒<right><colonist(number)>
 552,Vacant residential slots<right><colonist(number)>,閒置的居住空間<right><colonist(number)>
 7624,Vacant nursery slots<right><colonist(number)>,閒置的育幼空間<right><colonist(number)>
@@ -9548,18 +9672,18 @@ Some features may not work.",
 3845,Mouse Wheel Back,
 3847,<red>Unassigned</red>,<red>未指派</red>
 3851,Scientists,科學家
-3852,"A trained scientist, eager to discover the mysteries of the Cosmos.",
+3852,"A trained scientist, eager to discover the mysteries of the Cosmos.",受訓過的科學家，渴望發現宇宙的奧秘。
 3854,Engineers,工程師
-3855,"A trained engineer, building a better future for humanity.",
+3855,"A trained engineer, building a better future for humanity.",受訓過的工程師，替人類建造更好的未來。
 3856,Officer,警官
 3857,Officers,警官
-3858,"A trained security officer, protecting our Utopia.",
+3858,"A trained security officer, protecting our Utopia.",受訓過的安全警官，保護我們的烏托邦。
 3860,Geologists,地質學家
-3861,"A trained geologist, securing vital resources for the Colony.",
+3861,"A trained geologist, securing vital resources for the Colony.",受訓過的地質學家，替殖民地確保重要資源。
 3863,Medics,醫護人員
-3864,"A trained medic, facing new challenges on the red planet.",
+3864,"A trained medic, facing new challenges on the red planet.",受訓過的醫護人員，在紅色星球上面對新的挑戰。
 3866,Botanists,植物學家
-3867,"A trained botanist, dreaming of a green Mars.",
+3867,"A trained botanist, dreaming of a green Mars.",受訓過的植物學家，夢想著綠色火星。
 669,Auto,自動
 3868,Status effect,狀態影響
 3870,Homeless Colonist,無家可歸的殖民者
@@ -9585,16 +9709,16 @@ Some features may not work.",
 3890,Cable Fault,電線異常
 3891,Pipe Leak,管線異常
 3892,This section of the grid has malfunctioned and it's now leaking. It can be repaired by Drones for <metals(number)>.<newline><newline>Larger networks will malfunction more often.,這個區段的線路發生破漏，而且正在損失資源中。 指派無人機 攜帶維護材料 <metals(number)> 前往進行維護。<newline><newline>越大的服務網路，維護工作也會隨之繁重
-3893,No Name,
-3894,No Description,
-3896,Research Costs,
-3897,Discoverable,
+3893,No Name,沒有名稱
+3894,No Description,沒有描述
+3896,Research Costs,研發花費
+3897,Discoverable,可發現
 7545,Show in Other Field,
 3899,Position on hex grid,
 3900,<no name>,
 1000020,ID,
-3895,Required DLC,
-3901,Unlock Position,
+3895,Required DLC,需要 DLC
+3901,Unlock Position,解鎖位置
 3902,Research Repeatable,研究為可重複性的
 3903,Param 1 Comment,
 3904,Param 1,
@@ -9609,20 +9733,20 @@ Some features may not work.",
 3914,Research Cost,
 3915,Tech Field,
 3916,From Mystery,
-3709,This building has been disabled,
-3596,Weight,
-3926,Price,
+3709,This building has been disabled,這個建築物已經被禁用
+3596,Weight,重量
+3926,Price,價格
 3721,Field,
 3732,Count,
 3928,Upgrade ID,
 3699,Property,
 1000100,Amount,
-1000099,Percent,
+1000099,Percent,百分比
 1143,"Colonists with <em>MORE</em> of the desired traits will prefer this Dome.<newline><newline>Colonists with <em>ANY</em> of the undesired traits will leave, provided there is <em>available living space</em> elsewhere.<newline><newline>Colonists can walk to closely positioned Domes but will need Shuttles to reach distant Domes.",
 1144,Applicants with <em>MORE</em> of the desired traits will board the Rocket.<newline><newline>Applicants with <em>ANY</em> of the undesired traits will be rejected.,具有所需特性的申請者將有機會登上火箭。其它未勾選的申請人將會被拒絕
 7642,ALL TRAITS,全部特性
-7776,<newline><ButtonX> to select colonists,
-7777,<left_click><left_click> to select colonists,
+7776,<newline><ButtonX> to select colonists,<newline><ButtonX> 選擇殖民者
+7777,<left_click><left_click> to select colonists,<left_click><left_click> 選擇殖民者 
 3929,Age Group,年齡範圍
 3930,Colonists are divided into five Age Groups. Children and seniors cannot work.,殖民者年紀分成了五個等級。 其中孩童與老年人無法進行工作
 3931,Specialized Colonists perform better at certain workplaces.,有特定專長的殖民者可以勝任其專職工作
@@ -9632,7 +9756,7 @@ Some features may not work.",
 "
 3937,"Detrimental traits, representing various flaws and disabilities of the Colonist.","缺陷 是一種負面的特徵，它可能會是 精神上或者是個人的壞習慣
 "
-1145,<ButtonA> Expand this category<newline><DPadLeft> Change value <DPadRight>,
+1145,<ButtonA> Expand this category<newline><DPadLeft> Change value <DPadRight>,<ButtonA> 打開這個分類<newline><DPadLeft> 改變數值 <DPadRight>
 1146,<left_click> Expand this category,<left_click> 打開這個分類
 3938,Quirks,特殊身分
 3939,Traits that don't fit into any of the other groups.,這些特性不屬於任何分類中
@@ -9647,9 +9771,9 @@ Some features may not work.",
 7581,<DPadLeft> Toggle <DPadRight>,<DPadLeft> 切換<DPadRight>
 6883,Are you sure you want to buy <count> applicants for <funding(price)>?,您確定要花費 <funding(price)> 購買 <count> 應徵者嗎?
 7547,Insufficient funding! You need <funding(price)> to recruit applicants!,資金不足！ 您需要 <funding(price)> 才能招聘更多應徵者
-1000067,Display Name,
-1000097,Category,
-1000017,Description,
+1000067,Display Name,顯示名稱
+1000097,Category,分類
+1000017,Description,描述
 94,Icon,
 3940,Rare,
 3941,Rarity weight,
@@ -9674,7 +9798,7 @@ Some features may not work.",
 3955,<green><tech_name> researched! +<amount> (Nerd)</green>,
 8627,Is School Trait,在學校的特性
 8628,Is Sanatorium Trait,在尖端療養院的特性
-3956,Research <em><tech_name></em> to unlock this building.,解鎖此建築需要研究<em><tech_name></em>
+3956,Research <em><tech_name></em> to unlock this building.,解鎖此建築需要研究<em><tech_name></em> 
 263,Cost:,花費：
 3959,Consumption:,消耗：
 3960,"Maintenance: <resource(maintenance_resource_amount,maintenance_resource_type)>","維護：<resource(maintenance_resource_amount,maintenance_resource_type)>"
@@ -9937,15 +10061,15 @@ Some features may not work.",
 4295,Comfort,舒適度
 4296,"Residences and visited buildings improve Comfort up to their Service Comfort value, but Colonists will try to visit only buildings that correspond to their interests. Colonists are more inclined to have children at higher Comfort. Earthborn Colonists whose Comfort is depleted will quit their job and leave the Colony at first opportunity.",
 4297,Morale,士氣
-4298,"Represents overall happiness, optimism and loyalty. All other stats affect Morale. Influences the Colonist’s job performance. Colonists with low Morale may become Renegades.",
+4298,"Represents overall happiness, optimism and loyalty. All other stats affect Morale. Influences the Colonist’s job performance. Colonists with low Morale may become Renegades.",代表整體的快樂、樂觀、和忠誠。 所有影響士氣的其它狀態， 都會影響殖民者的工作效率。 士氣低的殖民者可能會成為叛徒。
 4299,Min age <display_name>,
 4300,Min age for <name>,
 8039,Trait: Idiot (can cause a malfunction),特性：天兵  (可能造成建築物故障)
 4301,<name> <roman(serial)>,
-6927,<green>Correct workplace specialization +<amount></color>,
+6927,<green>Correct workplace specialization +<amount></color>,<green>在正確崗位上工作的殖民者 +<amount></color>
 6928,<red>Wrong workplace specialization <amount></color>,<red>在錯誤崗位上工作的殖民者 <amount></color>
 4304,<green>Nocturnal Adaptation <amount></color>,
-7587,<green>Martianborn Ingenuity <amount></color>,<green>火星之子創造力 <amount></color>
+7587,<green>Martianborn Ingenuity <amount></color>,<green>天火行空 <amount></color>
 4342,Set Residence,
 4343,"Set a Residence for this Colonist. The Colonist will not change Residence for the next 5 Sols. If the target is in another Dome located far away, a shuttle may be needed to reach it.",
 4346,Set Workplace,
@@ -9962,41 +10086,41 @@ Some features may not work.",
 4373,<green><trait_text></green>,
 4374,<red><trait_text></red>,
 4370,Effects:,
-4375,Interests: <em><list></em><newline>,
+4375,Interests: <em><list></em><newline>,興趣： <em><list></em><newline>
 4380,Sol <sol>: <clr><reason></color>,
 4376,Sol <sol>: <clr>Visited <display_name> <amount></color>,
 4378,Sol <sol>: <clr>Trait <display_name> <amount></color>,
 6937,Sol <sol>: <clr><u(reason)><amount></color>,
-4382,Log of recent changes:,
+4382,Log of recent changes:,最近的變化紀錄：
 4362,Workplace<right><h SelectWorkplace InfopanelSelect><WorkplaceDisplayName></h>,
 4364,Outside the workforce (Child),
 4365,Outside the workforce (Senior),
-6935,Not looking for a job,
+6935,Not looking for a job,遊手好閒
 4366,Workplace<right>Unemployed,
 7550,<em><trait></em>,
 7551,<trait>,
 7552,No traits,
 4383,Traits are the individual characteristics of the Colonists.,
 4384,<newline><em><trait></em>: <descr>,
-4305,Can't interact,
-4306,<red>Building accepts only children</red>,
-4307,Current Residence,
+4305,Can't interact,不能互動
+4306,<red>Building accepts only children</red>,<red>建築只收兒童</red>
+4307,Current Residence,目前住宅
 4309,<em><left_click></em>: Set Residence,
 4310,<red>Seniors and children can't be assigned to work</red>,
 4311,Current Workplace,
 4308,<red>Out of reach</red>,
 4312,<red>Current work shift is closed</red>,
 4313,<em><left_click></em>: Set Workplace,
-7553,Homeless,
-4314,One of the youngest residents of the Colony,
+7553,Homeless,無家可歸
+4314,One of the youngest residents of the Colony,殖民地最年輕的居民之一
 3849,"A brave citizen of Mars, ready to tame the final frontier.",
 4315,The last remains of <em><u(name)></em>. Deceased.,
 4316,<newline><nbsp><nbsp><em>Status:</em> <ui_command>,
 4317,<newline><nbsp><nbsp><em>Issues:</em> <issues>,
 7782,<newline><nbsp><nbsp><em>Traits:</em> <traits_list>,
 4318,Abandoned the expedition,
-4319,Just arrived,
-4320,Deceased,
+4319,Just arrived,剛抵達
+4320,Deceased,已死亡
 4321,On an expedition,
 6929,Idle,閒置
 6930,Dreaming,
@@ -10009,15 +10133,15 @@ Some features may not work.",
 4329,Going to work,
 4330,Working in <h SelectWorkplace InfopanelSelect><WorkplaceDisplayName></h>,
 4331,Free - unemployed,
-4332,This Colonist is too Stressed out to work. Give them some time to recover,
+4332,This Colonist is too Stressed out to work. Give them some time to recover,這位殖民者的工作壓力太大。 給他一點時間復原
 4333,Moving to a new Dome: <h SelectEmigrationDome InfopanelSelect><EmigrationDomeDisplayName></h>,
-4334,Leaving the Colony,
+4334,Leaving the Colony,正在離開殖民地
 4335,Going to <h SelectWorkplace InfopanelSelect><WorkplaceDisplayName></h>,
 4336,Studying in <h SelectWorkplace InfopanelSelect><WorkplaceDisplayName></h>,
 4337,Treated in <h SelectWorkplace InfopanelSelect><WorkplaceDisplayName></h>,
 4340,No available interaction,
 4341,<value>,
-4388,Drone Battery Capacity,
+4388,Drone Battery Capacity,無人機電池容量
 666,Freeze Time,
 667,Freeze Heat,
 4389,Freeze Chance Die,
@@ -10029,18 +10153,18 @@ Some features may not work.",
 4395,<em>Ctrl + <left_click></em>: Recharge self,
 4397,<em>Ctrl + <left_click></em>: Get resources,
 4398,<em>Ctrl + <left_click></em>: Work on this construction,
-4399,<red>Too many Drones are already constructing this building</red>,
+4399,<red>Too many Drones are already constructing this building</red>,<red>太多無人機已經在建造這棟建築物</red>
 4402,<em>Ctrl + <left_click></em>: Harvest,
 4400,<em>Ctrl + <left_click></em>: Assign to this command center,
 4401,<red>Cannot assign anymore Drones to this command center</red>,
 4396,"<em>Ctrl + <left_click></em>: Deliver <resource(amount, resource)>",
 4393,<red>Cannot find any <resource_icon> nearby</red>,
-4394,<em>Ctrl + <left_click></em>: Repair this building,
-4403,<em>Ctrl + <left_click></em>: Repair this Drone,
-7588,<em>Ctrl + <left_click></em>: Repair this vehicle,
-7589,<red>Too many Drones are repairing this vehicle</red>,
+4394,<em>Ctrl + <left_click></em>: Repair this building,<em>Ctrl + <left_click></em>：維修這棟建築物
+4403,<em>Ctrl + <left_click></em>: Repair this Drone,<em>Ctrl + <left_click></em>：維修這台無人機
+7588,<em>Ctrl + <left_click></em>: Repair this vehicle,<em>Ctrl + <left_click></em>：維修這台車輛
+7589,<red>Too many Drones are repairing this vehicle</red>,<red>太多無人機正在維修這台車輛</red>
 4404,Order the transport to load <resource_name>.,
-4339,<em>Ctrl + <left_click></em>: Move,
+4339,<em>Ctrl + <left_click></em>: Move,<em>Ctrl + <left_click></em>：移動
 4392,This Drone is disabled,
 720,Nothing,無
 7395,"<resource(amount,resource)>",
@@ -10705,10 +10829,10 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 905,Wind Turbines produce more Power at higher elevation.,
 904,Terrain,地形
 906,Elevation Boost<right><ElevationBoost>%,地勢加成<right><ElevationBoost>%
-910,<middle_click> <em>(press)</em> Rotate,<middle_click> <em>(press)</em> 旋轉
+910,<middle_click> <em>(press)</em> Rotate,<middle_click> <em>(按住)</em> 旋轉
 911,<middle_click> Zoom in/out,<middle_click> 視角縮放
 912,<em>Hold Shift</em> Place multiple,<em>按住 Shift</em> 可以連續放置
-913,Use <em>[</em> or <em>]</em> to cycle between visual variants for this building,使用 <em>[</em> or <em>]</em> 在可視範圍中切換鄰近的建築
+913,Use <em>[</em> or <em>]</em> to cycle between visual variants for this building,使用 <em>[</em> 或 <em>]</em> 在可視範圍中切換鄰近的建築
 916,<LB> Rotate <RB>,
 7365,<em>Hold<LT></em> Place multiple,
 917,<DPadLeft> cycle visual variants <DPadRight>,
@@ -10801,7 +10925,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 3973,Salvage,拆除
 7657,<ButtonY> Activate,
 7825,Destroy this Rover.,摧毀這台車輛
-7823,<UIRefundRes> will be refunded upon salvage.,拆除後將會回收這些資源 <UIRefundRes>
+7823,<UIRefundRes> will be refunded upon salvage.,拆除後將會回收這些資源 <UIRefundRes> 
 49,Status,狀態
 51,<ui_command>,
 526919900594,<UIResearchProject>,
@@ -10811,7 +10935,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 4492,Total number of Drones in the RC Rover.,漫遊者號所遙控的無人機數
 4491,Drones<right><count(drones)>/<MaxDrones>,無人機 <right><count(drones)>/<MaxDrones>
 4447,Slowed down <red><percent(DustDevilPenalty)></red> by a Dust Devil,
-917384214249,Basic and Advanced resources available from this vehicle,
+917384214249,Basic and Advanced resources available from this vehicle,這台車輛可攜帶的基本與進階資源
 704943662903,Resources carried,攜帶中的資源
 343032565187,Concrete<right><concrete(Stored_Concrete)>,混凝土 <right><concrete(Stored_Concrete)>
 455677282700,Metals<right><metals(Stored_Metals)>,金屬 <right><metals(Stored_Metals)>
@@ -10821,7 +10945,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 624861249564,Electronics<right><electronics(Stored_Electronics)>,電子零件<right><electronics(Stored_Electronics)>
 407728864620,Machine Parts<right><machineparts(Stored_MachineParts)>,機械零件<right><machineparts(Stored_MachineParts)>
 317815331128,Fuel<right><fuel(Stored_Fuel)>,燃料 <right><fuel(Stored_Fuel)>
-725519231960,Available storage space. This vehicle will stop gathering resources once full.,
+725519231960,Available storage space. This vehicle will stop gathering resources once full.,可用儲存空間。 一旦填滿， 車輛會停止收集資源。 
 109035890389,Capacity,載運量
 452762661451,Capacity<right><resource(StoredAmount)>/<resource(max_shared_storage)>,載運量<right><resource(StoredAmount)>/<resource(max_shared_storage)>
 39,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline><left><battery_ui_str>
@@ -10834,7 +10958,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 598,Connect,
 599,Split grid,切割資源網路
 313911890683,<description>,
-785,Remaining resources in the deposit.,
+785,Remaining resources in the deposit.,資源點剩下的資源。
 489,Available resources,可用資源
 810,"<ResourceName><right><resource(Amount,max_amount,resource)>",
 787,Grade<right><grade_name>,規模<right><grade_name>
@@ -10875,7 +10999,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 495262708189,Select new crop,選擇新作物
 7414,<warn><prod>.<frac><icon>,
 911264109357,"Stored <ui_current_crop_resource_type_display_name><right><resource(amount_stored, max_storage, ui_current_crop_resource_type)>","儲存 <ui_current_crop_resource_type_display_name><right><resource(amount_stored, max_storage, ui_current_crop_resource_type)>"
-679970579843,Soil Quality<right><UISoilQuality>%,
+679970579843,Soil Quality<right><UISoilQuality>%,土壤品質 <right><UISoilQuality>%
 363,"Filter Colonists in the Dome by desired or undesired traits. Colonists that do not match the filter will try to resettle in another Dome. If a Quarantine was set for the Dome, this action will remove it.",依照想要的特性過濾蒼穹頂內的殖民者， 殖民者如果不符合條件的話， 他們會嘗試尋找其它蒼穹頂並且搬離。 如果這個蒼穹頂已經設定為隔離區的話， 這項操作將會取消隔離區設置
 362,Filter by Traits,依特性過濾
 364,Open/Quarantined,開放進駐 / 隔離區
@@ -10889,15 +11013,15 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 371953345486,Colonists<right><ColonistCount> / <colonist(LivingSpace)>,殖民者<right><ColonistCount> / <colonist(LivingSpace)>
 201464169022,<EmploymentMessage>,
 613137333871,<ResidenceMessage>,
-244389183434,The average <em>Health</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>健康</em>
+244389183434,The average <em>Health</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>健康</em> 
 455859065748,Average Health <Stat(AverageHealth)>,平均健康 <Stat(AverageHealth)>
-607491882958,The average <em>Sanity</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>理智</em>
+607491882958,The average <em>Sanity</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>理智</em> 
 942703008133,Average Sanity <Stat(AverageSanity)>,平均理智 <Stat(AverageSanity)>
 327454642679,<ComfortRollover>,
 577070564514,Average Comfort <Stat(AverageComfort)>,平均舒適度 <Stat(AverageComfort)>
-856271865233,The average <em>Morale</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>士氣</em>
+856271865233,The average <em>Morale</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>士氣</em> 
 765210150801,Average Morale <Stat(AverageMorale)>,平均士氣 <Stat(AverageMorale)>
-241499798174,The condition of buildings deteriorates over time. Martian dust and disasters contribute to deterioration of outside buildings. Deteriorated buildings will need to be serviced by a Drone and supplied with their required maintenance resource or they will malfunction.<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left>Last serviced<right><LastMaintenance>,這棟建築物隨著時間的推移，火星上的塵土正在慢慢侵蝕建築物的外部。 被侵蝕的建築物需要由 無人機 進行維護作業，維護作業可能會需要消耗資源<newline><newline>目前侵蝕程度 <right><percent(MaintenanceProgress)><newline><left> 最後一次維護<right><LastMaintenance>
+241499798174,The condition of buildings deteriorates over time. Martian dust and disasters contribute to deterioration of outside buildings. Deteriorated buildings will need to be serviced by a Drone and supplied with their required maintenance resource or they will malfunction.<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left>Last serviced<right><LastMaintenance>,這棟建築物隨著時間的推移，火星上的塵土正在慢慢侵蝕建築物的外部。 被侵蝕的建築物需要由 無人機 進行維護作業，維護作業可能會需要消耗資源<newline><newline>目前侵蝕程度 <right><percent(MaintenanceProgress)><newline><left>最後一次維護<right><LastMaintenance>
 619281504128,Maintenance,維護
 601912665358,"<resource(maintenance_resource_amount, maintenance_resource_type)>",
 7878,A drone is on the way to repair this building.,無人機正在前往維修這棟建築
@@ -10931,7 +11055,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 452635643808,<UIResearchProject>,
 445070088246,Daily research<right><research(EstimatedDailyProduction)>,每日研究<right><research(EstimatedDailyProduction)>
 8017,Collaboration loss<right><research(EstimatedDailyLoss)>,合併損失<right><research(EstimatedDailyLoss)>
-327961439148,Colonists live and rest in Residential Buildings. Their Health and Sanity will deteriorate if they are homeless.,
+327961439148,Colonists live and rest in Residential Buildings. Their Health and Sanity will deteriorate if they are homeless.,殖民者在住宅中生活和休息。 如果他們沒有家， 他們的健康和理智會開始惡化。
 702480492408,Residents<right><UIResidentsCount> / <colonist(UICapacity)>,居住處<right><UIResidentsCount> / <colonist(UICapacity)>
 3976,Free slot,開放的空格
 7981,Reserved slot,預定的空格
@@ -10996,17 +11120,17 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 840359936837,<WaterProductionText>,
 474,"Stored Waste Rock<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>","廢棄碎石儲量<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>"
 692032513952,Water storage parameters and status. Water is consumed only when demanded.,
-956519352717,Water Storage,
+956519352717,Water Storage,儲水
 167218330040,<UIMode>,
 523,Stored Water<right><water(StoredWater)>,已儲存<right><water(StoredWater)>
 111319356806,Capacity<right><water(water_capacity)>,可儲存<right><water(water_capacity)>
 7785,Max output<right><water(max_water_discharge)>,最大輸出<right><water(max_water_discharge)>
-7415,<left><left_click> Toggle workshift<newline><em>Ctrl + <left_click></em> Toggle workshift on all <display_name_pl>,<left><left_click> 開關時段<newline><em>Ctrl + <left_click></em> 開關全部<display_name_pl>的時段
-7416,<left><ButtonA> Toggle workshift<newline><ButtonX> Toggle workshift on all <display_name_pl>,
-7417,Working on a heavy workload will increase the building performance but inflicts Sanity and Health penalties on the Worker.<newline><newline>Current status: <em><UIOvertimeText></em>,加班固然可以增加整體產能，但同時也會影響到員工們的理智與健康<newline><newline>Current status: <em><UIOvertimeText></em>
+7415,<left><left_click> Toggle workshift<newline><em>Ctrl + <left_click></em> Toggle workshift on all <display_name_pl>,<left><left_click> 開關值班時段<newline><em>Ctrl + <left_click></em> 開關全部 <display_name_pl> 的值班時段
+7416,<left><ButtonA> Toggle workshift<newline><ButtonX> Toggle workshift on all <display_name_pl>,<left><ButtonA> 開關值班時段<newline><ButtonX> 開關全部 <display_name_pl> 的值班時段
+7417,Working on a heavy workload will increase the building performance but inflicts Sanity and Health penalties on the Worker.<newline><newline>Current status: <em><UIOvertimeText></em>,加班固然可以增加整體產能，但同時也會影響到員工們的理智與健康<newline><newline>目前狀態： <em><UIOvertimeText></em>
 4211,Toggle Workload,開關超時工作
-736926488042,<left_click> Toggle Overtime  <newline><em>Ctrl + <left_click></em> Toggle Overtime for all <display_name_pl>,<left_click> 開關  <newline><em>Ctrl + <left_click></em> 開關全部 <display_name_pl>
-762021223496,<ButtonA> Toggle Overtime <newline><newline><ButtonX> Toggle Overtime for all <display_name_pl>,
+736926488042,<left_click> Toggle Overtime  <newline><em>Ctrl + <left_click></em> Toggle Overtime for all <display_name_pl>,<left_click> 開關加班 <newline><em>Ctrl + <left_click></em> 開關全部 <display_name_pl> 的加班
+762021223496,<ButtonA> Toggle Overtime <newline><newline><ButtonX> Toggle Overtime for all <display_name_pl>,<ButtonA> 開關加班 <newline><newline><ButtonX> 開關全部 <display_name_pl> 的加班
 143236127522,Building performance<right><em><performance></em><nbsp><nbsp>,設施工作效率<right><em><performance></em><nbsp><nbsp>
 7909,Basic construction material often used to construct and maintain Domes and Dome buildings.,基礎的建築材料，通常用來建造與維護 蒼穹頂本身與其相關的設施
 7910,Basic construction materials often used to construct and maintain outside buildings. Required for the creation of Machine Parts.,基礎的建築材料，通常用來建造與維護 戶外建築物。同時也是 生產機械零件的原料
@@ -11060,41 +11184,41 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 4800,Second Stage Construction,第二階段建築
 347,Consumption,消耗量
 4801,Workplace,工作場所
-217,Work Shifts,
+217,Work Shifts,工作班別
 4802,Outside building with shifts,
-32,Power Production,
-4803,Power Storage,
-4804,Deposit Requirements,
-4805,Resource Production,
-923,Oxygen Production,
-519,Storage,
-4808,Storage Space,
-4809,Residence,
-4810,Service,
-4811,Satisfying,
-4814,Education Building,
-4815,University,
-4816,Polymer Plant,
-4817,Spaceport,
-4819,Workshop,
-4820,UI,
+32,Power Production,電力生產
+4803,Power Storage,電力儲存
+4804,Deposit Requirements,資源點需求
+4805,Resource Production,資源生產
+923,Oxygen Production,氧氣生產
+519,Storage,儲存
+4808,Storage Space,儲存空間
+4809,Residence,住宅
+4810,Service,服務
+4811,Satisfying,滿意度
+4814,Education Building,教育建築
+4815,University,大學
+4816,Polymer Plant,聚合物工廠
+4817,Spaceport,太空站
+4819,Workshop,工坊
+4820,UI,介面
 4821,Alternative Entities,
-4822,Custom Labels,
-4823,Upgrade 1,
-4824,Upgrade 2,
-4825,Upgrade 3,
-4826,Pin,
-4827,Interaction,
-1000130,Gameplay
+4822,Custom Labels,自訂標籤
+4823,Upgrade 1,升級 1
+4824,Upgrade 2,升級 2
+4825,Upgrade 3,升級 3
+4826,Pin,釘選
+4827,Interaction,互動
+1000130,Gameplay,遊戲性
 4829,Cost,花費
 4290,Colonist,殖民者
 3715,Stat,屬性
 235,Traits,特性
-4830,Gamepad,
-4831,Choice,
-1234,Dome,
-4832,Night Light,
-4833,Movement,
+4830,Gamepad,遊戲手把
+4831,Choice,選擇
+1234,Dome,蒼穹頂
+4832,Night Light,夜燈
+4833,Movement,移動
 4834,<percentage>%,
 4835,<value><resource_icon>,
 4836,<prefix><n><postfix>,
@@ -11152,7 +11276,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 8666,Not enough Drones to create a Drone Prefab from.,沒有足夠的無人機 可拆卸回預製零件
 8667,Dismantle Drone,拆卸無人機
 8668,<left_click> Recall a Drone and dismantle it into a Drone Prefab.,<left_click> 將無人機拆卸回預製零件
-8669,<ButtonA> Recall a Drone and dismantle it into a Drone Prefab.,
+8669,<ButtonA> Recall a Drone and dismantle it into a Drone Prefab.,<ButtonA> 將無人機拆卸回預製零件
 8670,PARADOX ACCOUNT - LOGGING IN...,
 8671,"<resource('MysteryResource' )><right><fuel(Stored_MysteryResource, MaxAmount_MysteryResource)>",
 8672,"This version of <em>Surviving Mars</em> doesn't yet support uploading mods you created, but you can test them in the game.",
@@ -11171,26 +11295,26 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 8685,Removing modifier with invalid ID.,
 8686,Removing modifier outside of a running game.,
 8687,Removing a non-existing modifier.,
-8688,Can't assign residence.,
+8688,Can't assign residence.,無法指派住處
 8689,This mod is disabled due to version incompatibility.,
-8690,Unlocked,
-8691,Cargo <number>,
-8692,Status <number>,
-4560,Colonist Sanity decreases when a Colonist from the same Residence dies from non-natural causes,
-4561,Seeing Death,
-4564,This is the time it takes for Colonists outside of Domes to start losing health,
-4565,Oxygen max outside time,
-4566,When working during dark hours Colonists will lose this much Sanity (per work shift),
-4567,Dark hours work Sanity decrease,
-4568,Decreased Sanity from heavy workloads,
-4569,Heavy Workload Sanity Penalty,
-4570,Decreased Health from heavy workloads,
-4571,Heavy Workload Health Penalty,
-4572,Outside Workplace Sanity Penalty,
-7424,Minimum Colonist Comfort for Birth,
-7425,Minimum Colonist Comfort for Birth,
-7426,Decreases minimum Colonist Comfort for giving birth in a Dome Medical Building,
-4573,Penalty to Colonist Comfort for Birth from Medical Buildings,
+8690,Unlocked,解鎖
+8691,Cargo <number>,貨物 <number>
+8692,Status <number>,狀態 <number>
+4560,Colonist Sanity decreases when a Colonist from the same Residence dies from non-natural causes,如果有鄰居死於非命的話，殖民者將會降低理智
+4561,Seeing Death,看到死人
+4564,This is the time it takes for Colonists outside of Domes to start losing health,蒼穹頂外正在失去健康的殖民者
+4565,Oxygen max outside time,外部氧氣最大時效
+4566,When working during dark hours Colonists will lose this much Sanity (per work shift),當值大夜班的時候，將會快速降低理智 (每次上班)
+4567,Dark hours work Sanity decrease,理智因上大夜班而減少
+4568,Decreased Sanity from heavy workloads,理智因加班而減少
+4569,Heavy Workload Sanity Penalty,加班理智逞罰
+4570,Decreased Health from heavy workloads,健康因加班而減少
+4571,Heavy Workload Health Penalty,加班健康逞罰
+4572,Outside Workplace Sanity Penalty,蒼穹頂外工作理智逞罰
+7424,Minimum Colonist Comfort for Birth,殖民者孕育的最低舒適度標準
+7425,Minimum Colonist Comfort for Birth,殖民者孕育的最低舒適度標準
+7426,Decreases minimum Colonist Comfort for giving birth in a Dome Medical Building,可以利用蒼穹頂內的醫療設施，降低孕育的需求標準
+4573,Penalty to Colonist Comfort for Birth from Medical Buildings,因醫療設施而造成孕育兒童標準 逞罰
 4574,Renegade creation point,
 4575,"Chance of suicide when Sanity reaches zero, in %",當理智趨近於0%的時候，將有可能選擇自殺
 4576,Chance of Suicide,自殺機率
@@ -11406,10 +11530,10 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 4763,Comfort penalty when failing to satisfy a need via a visit,
 337606533515,Threshold of accumulated stat points to trigger birth of a new Colonist,
 6774,Error,錯誤
-950,Some downloadable content requires a game update in order to work.,
-951,Failed to complete operation.,
-952,Could not establish a connection with the Paradox server.,
-7704,The external service responded negatively.,
+950,Some downloadable content requires a game update in order to work.,一些可下載的內容需要更新遊戲才能運作
+951,Failed to complete operation.,無法完成操作
+952,Could not establish a connection with the Paradox server.,無法與Paradox服務器建立連接
+7704,The external service responded negatively.,外部伺服器無回應
 7705,Wrong email or password.,電子郵件或密碼錯誤
 955,You haven't agreed to the Terms of Service.,您尚未同意服務條款
 956,Please enter an email address.,請輸入電子郵件地址
@@ -11424,32 +11548,32 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 7691,Password can not contain the username.,密碼不能包含用戶名
 963,Please supply a valid email address.,請提供有效的電子郵件地址
 964,Account already exists.,用戶名已經被註冊
-965,Could not complete operation.,
-966,This Paradox account is already linked to another Steam account.,
-967,This Steam account is already linked to another Paradox account.,
-7707,"Unable to get Steam authentication ticket. If Steam is running in Offline mode, go online.",
-968,Problem communicating with Steam.,
-969,Supplied field keys are not supported.,
-970,One or more required keys are missing from account details.,
-971,Supplied country code is not valid - ISO 3166-1 alpha-2 code.,
-972,Supplied language code is not valid - ISO 639-1.,
-973,Supplied script is not valid - ISO 15924.,
+965,Could not complete operation.,無法完成操作
+966,This Paradox account is already linked to another Steam account.,這個Paradox帳戶已經與另一個Steam帳戶連接
+967,This Steam account is already linked to another Paradox account.,此Steam帳戶已與另一個Paradox帳戶連接
+7707,"Unable to get Steam authentication ticket. If Steam is running in Offline mode, go online.",無法獲得Steam身份驗證，  如果Steam設定為離線模式，請連線
+968,Problem communicating with Steam.,Steam連接問題
+969,Supplied field keys are not supported.,不支援輸入的字串
+970,One or more required keys are missing from account details.,帳戶詳細資訊中缺少一個或多個必要的密鑰
+971,Supplied country code is not valid - ISO 3166-1 alpha-2 code.,提供的國家代碼無效 - ISO 3166-1 alpha-2代碼
+972,Supplied language code is not valid - ISO 639-1.,提供的語言代碼無效 - ISO 639-1
+973,Supplied script is not valid - ISO 15924.,提供的腳本無效 - ISO 15924
 974,Please enter a valid date of birth.,請輸入有效的出生日期
-975,You are not eligible to create an account.,
-7531,Paradox Account is already connected to this Microsoft Account.,
-7532,This Paradox Account is already connected to another Microsoft Account.,
-7533,This Microsoft Account is already connected to another Paradox Account.,
-7535,This Sony<nbsp>Entertainment<nbsp>Network account is already connected to another Paradox Account.,
-7534,This Paradox Account is already connected to another Sony<nbsp>Entertainment<nbsp>Network account.,
+975,You are not eligible to create an account.,您沒有資格註冊帳戶
+7531,Paradox Account is already connected to this Microsoft Account.,Paradox帳戶已連接到此Microsoft帳戶
+7532,This Paradox Account is already connected to another Microsoft Account.,此Paradox帳戶已連接到另一個Microsoft帳戶
+7533,This Microsoft Account is already connected to another Paradox Account.,此Microsoft帳戶已連接到另一個Paradox帳戶
+7535,This Sony<nbsp>Entertainment<nbsp>Network account is already connected to another Paradox Account.,此Sony<nbsp>Entertainment<nbsp>網路帳戶已連接到另一個Paradox帳戶。
+7534,This Paradox Account is already connected to another Sony<nbsp>Entertainment<nbsp>Network account.,這個Paradox帳戶已經連接到另一個Sony<nbsp>Entertainment<nbsp>網路帳戶。
 8018,Sign in to PlayStation™Network to use network features.,登入PlayStation™網絡以使用網絡功能
 7890,There is no network connectivity. Please check your connection and try again.,網路未連結。請檢查網路連結後再次嘗試。
 7844,Failed to save your settings,儲存遊戲設定失敗。
-7845,"There is not enough storage space. To save your settings, delete old save data.",
+7845,"There is not enough storage space. To save your settings, delete old save data.",沒有足夠的存儲空間。 要保存您的設置，請刪除舊的存檔。
 1000599,Warning,警告
 7846,Failed to load your settings.,讀取遊戲設定失敗。
-7847,Failed to load game settings. The saved data is corrupted. This saved data will be deleted and new saved data will be created.,
-7773,Wireless controller disconnected,
-7774,Controller for <user> has been disconnected. Reconnect the controller in order to continue.,
+7847,Failed to load game settings. The saved data is corrupted. This saved data will be deleted and new saved data will be created.,無法載入遊戲設定。 存檔已損壞。 這些存檔將被刪除，新存檔將被創建。
+7773,Wireless controller disconnected,無線控制器已斷開
+7774,Controller for <user> has been disconnected. Reconnect the controller in order to continue.,<user>的控制器已斷開連接。 重新連接控制器才能繼續。
 8565,Deluxe Edition Upgrade Pack,白金豪華升級包
 8566,Stellaris Dome Set,群星蒼穹頂系列
 8247,The Last War: Too Many Unnatural Deaths,終戰：過多的非自然死亡
