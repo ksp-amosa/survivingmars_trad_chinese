@@ -33,5 +33,6 @@ TradChinese/Game.csv == 30%
 @Heyaya<br />
 @風之力<br />
 @櫻花貓<br />
+@tacodream<br />
 <br />
 跟阿MOSA實況社群的默默協助 :D<br />
