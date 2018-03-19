@@ -35,4 +35,4 @@ TradChinese/Game.csv == 90%
 @櫻花貓<br />
 @tacodream<br />
 <br />
-跟阿MOSA實況社群的默默協助 :D<br />
+跟阿MOSA實況社群的默默協助 twitch.tv/amosa2001 <br />
