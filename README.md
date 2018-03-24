@@ -5,7 +5,7 @@
 可訪問 github.com/ksp-amosa/survivingmars_trad_chinese <br />
 
 ## 翻譯進度
-TradChinese/Game.csv == 90%
+TradChinese/Game.csv == 93%
 
 ## 安裝方式 (可自動更新)
 直接於Steam Workshop工作坊訂閱
@@ -22,8 +22,8 @@ TradChinese/Game.csv == 90%
 2. 勾選啟動本模組，
 3. 返回 BACK(會跳出警告訊息)
 4. 離開遊戲 QUIT
-4. 重新啟動遊戲。
-5. 完成
+5. 重新啟動遊戲。
+6. 完成
 <br />
 
 
