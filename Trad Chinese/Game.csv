@@ -144,14 +144,17 @@ id <u(id)>, version <version></color>",
 1000722,Certain mods are disabled because they are not supported by the current version of the game.,
 1000723,"Downloadable Content has been unlocked, returning to Main Menu.",
 1000724,<u(name)>
-1000725,OnPlayerInit
+1000725,OnInitEffect
 1000726,Called early during the player setup - player structures not fully inited.
 1000727,OnApplyEffect
-1000728,Called called when the effect needs to be applied.
+1000728,Called when the effect needs to be applied.
 1000729,Copy from group
 1000730,<u(id)>
 1000731,<u(language)>
 1000732,<TreeView>
+1000733,<color 128 128 128><u(EditorName)></color> <Description>
+1000734,<var_slotname> = Name of <obj> <spot>
+1000735,"<var_slotname>, <var_slot> = Slot of <obj> <spot>"
 1000624,This account has restricted access to multiplayer.,
 1000625,This account has been banned from Xbox Live.,
 1000626,An Xbox Live Gold Membership is required to access this feature.,
@@ -208,6 +211,7 @@ id <u(id)>, version <version></color>",
 1000248,Remove Unselected,
 623390947398,Save,
 400353986243,Open Folder,
+403751625893,Description
 186760604064,Test,
 342669996355,Upload,
 487939677892,Help,
@@ -219,24 +223,33 @@ id <u(id)>, version <version></color>",
 1000143,New Mod,
 885629433849,Load,
 327465361219,Edit,
+327956641780,Cold Wave rating set to a new Max level for all locations on Mars. Cold waves increase power consumption even more.
 408637015506,Delete Mod,
+409282573761,Inflation
 791482327441,Help,
 234124121113,Fetch from selection,
 1000716,Reapply All,
 377547327617,New Prg,
 301269983303,Save,
+301472439613,Prefab colony
 102133798674,Move Out,
 978910231685,Move In,
 505747953509,Delete,
+506814955999,"<resource('Polymers' )><right><polymers(Stored_Polymers, MaxAmount_Polymers)>"
+507890514827,<grey>"The dinosaurs became extinct because they didn't have a space program."<newline><right>Larry Niven</grey><left>
 1000250,Redo,
 1000251,Prg,
 298035641454,Object,
 167400996647,Move,
 382567554252,Slot,
+383278278859,Amount stored
 283142739680,Game,
 699872370171,Condition,
 294879472859,Rollover Mode,
+296544374970,<grey>"Space travel is like hanging upside down for a long time!"<newline><right>Brinda K. Rana</grey><left>
 464156353043,Inspect Focused Window,
+465393964057,Rebel Yell
+472842319142,Shader Filename
 437848878733,Toggle Focus Logging,
 986049161052,Toggle Rollover Logging,
 741286422920,Toggle Context Logging,
@@ -650,6 +663,9 @@ id <u(id)>, version <version></color>",
 657831084891,Go to parent's previous child,
 645635277599,Go to parent's next child,
 516545424288,Go to parent table,
+518176138949,Amateurs
+522319645304,"<em><ShortcutName('actionPanUp')>, <ShortcutName('actionPanDown')>, <ShortcutName('actionPanLeft')>, <ShortcutName('actionPanRight')></em> - move, hold <em>Ctrl</em> - move faster, hold <em>Alt</em> - release mouse cursor."
+524823774609,GameRule - RebelYell -  points to add to renegate generation.
 832102575376,Store in 'o1',
 150879427262,Store in 'o2',
 135515637285,Store in 'o3',
@@ -659,12 +675,15 @@ id <u(id)>, version <version></color>",
 876718755482,Move Up,
 882087082346,Move Down,
 885977304658,Undo,
+886349881945,Cheats
 711130941438,Redo,
 606667192825,Cut,
 300588080799,Copy,
 733420793888,Paste,
 675205898362,Duplicate,
 398847925160,New,
+398847925161,New
+399906536247,Text description of the game rule
 1000198,<info>,
 1000199,Two too many,
 1000200,AQj,
@@ -677,15 +696,15 @@ id <u(id)>, version <version></color>",
 1000205,New File,
 1000206,Open File,
 131428313273,-----,
-238591151127,Exit,
-1000237,Please select installation type,
-1000238,Not enough free disk space in,
-1000239,Typical,
-1000240,Custom,
-1000241,"Do you want to delete all savegames, configuration data and downloadable content?",
-1000242,<game> was successfully removed from your computer.,
-1000243,Please install <game_version>,
-1000244,You have already installed <game_version>,
+238591151127,Exit,離開
+1000237,Please select installation type,請選擇安裝類型
+1000238,Not enough free disk space in,沒有足夠的磁碟空間可使用
+1000239,Typical,典型
+1000240,Custom,習慣
+1000241,"Do you want to delete all savegames, configuration data and downloadable content?",您是否要刪除所有存檔，配置設定和已下載的內容？
+1000242,<game> was successfully removed from your computer.,<game>已從您的電腦中移除
+1000243,Please install <game_version>,請安裝<game_version>
+1000244,You have already installed <game_version>,您已經安裝<game_version>
 4864,Cubism,立體主義
 4865,Completed Mystery: The Power of Three,已完成謎團「立方之力」
 4866,Complete The Power of Three Mystery,完成「立方之力」謎團
@@ -1160,7 +1179,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5282,Provides space for R&R and fancy cocktails.,替太空提供休閒娛樂空間和花式雞尾酒。 
 5283,Statue,雕像
 5284,Statues,雕像
-5285,"""In honor of the Founders of Mars.""",“為了紀念火星的創始人。” 
+5285,"""In honor of the Founders of Mars.""",「為了紀念火星的創始人。」
 5286,Plutonium Core,鈽核心
 5287,+<upgrade1_mul_value_1>% additional power production when open.,開啟時 +<upgrade1_mul_value_1>% 額外電力產量。 
 5288,Stirling Generators,斯特林發電機
@@ -1866,8 +1885,11 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 5443,Training Buildings,訓練機構
 5444,Workplaces,工作場所
 420110169199,Xanthe Alpha,詹希 初代
+420380322111,"<resource('Fuel' )><right><fuel(Stored_Fuel, MaxAmount_Fuel)>"
+422261474057,"<grey>""In fact, the mere act of opening the box will determine the state of the cat, although in this case there were three determinate states the cat could be in: these being Alive, Dead, and Bloody Furious.""<newline><right>Terry Pratchett</grey><left>"
 427759670941,Cimmeria Alpha,基梅裡 初代
 562776633297,Margaritifer Alpha,馬格里特 初代
+563443366316,"<resource('Concrete' )><right><concrete(Stored_Concrete, MaxAmount_Concrete)>"
 567778241127,Sirenum Beta,薩爾門 二代
 739135249349,Arabia Alpha,阿瑞伯 初代
 892896006769,Aonia Alpha,阿爾恩 初代
@@ -1879,10 +1901,13 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 326786953545,Launched a Rocket from Mars,從火星上發射一艘火箭
 761999391455,Found Water on Mars,在火星上找到水源處
 639900467782,Constructed a Dome,建造一座蒼穹頂
+640016954592,Remove this switch or valve.
 168049511046,First human on Mars,踏上火星的首位人類
 488379408129,First Martianborn,首位火星之子誕生！
 665036099552,Produced Food,生產食物
+666653736105,Expiration
 149119990393,Researched a Breakthrough,完成一個突破性科技的研究
+150174985196,Winter is Coming,冬天來臨了
 106610630022,Evaluation,評估
 785508231749,Scanned all Sectors,掃描全部的地圖區塊
 180356594159,100 Colonists,100 位殖民者
@@ -1890,6 +1915,7 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 174129126515,1000 Colonists,1000 位殖民者
 833327755106,Constructed a Mega Dome,建造一座 巨型蒼穹頂
 781931111320,Constructed a Wonder,建造一座 世界奇觀
+782696503433,GameRuleRebelYellProgress
 5474,Mars Express,火星快捷
 5475,Voyager,星際旅行
 5476,Final Countdown,倒數時刻
@@ -2398,6 +2424,7 @@ Suggested Building: <em>Infirmary</em>","健康照護建築物將增加殖民者
 5649,Buildings not working: <count>,沒在運作的建築物： <count>
 5650,Milestone achieved!,達成里程碑！
 756643722601,<display_name>,<display_name>
+760118243448,Display Name
 7057,Milestone achieved,達成里程碑
 5651,New Techs are available for research,有新的科技可以研究
 5652,Gained <research(points)>,獲得科研點數 <research(points)>
@@ -2484,12 +2511,12 @@ Suggested Building: <em>Infirmary</em>","健康照護建築物將增加殖民者
 
 This troublesome rumor deters many valuable candidates from coming to the new frontier – and these are people we desperately need to fulfill the great mission of colonizing Mars and bringing our vision of the future closer.
 
-<hint> Each time a Colonist dies from a non-natural death, <ApplicantsLostOnColonistDeath> Applicants leave the pool.","來到火星的應徵者警覺到有很多風險等著他們， 但我們卻幾乎忽視這個事實。 我們無法對大眾隱瞞這個資訊 – 民意傾向於認為我們的殖民地是個 “死亡陷阱“。
+<hint> Each time a Colonist dies from a non-natural death, <ApplicantsLostOnColonistDeath> Applicants leave the pool.","來到火星的應徵者警覺到有很多風險等著他們， 但我們卻幾乎忽視這個事實。 我們無法對大眾隱瞞這個資訊 – 民意傾向於認為我們的殖民地是個 「死亡陷阱」。
 
 這個令人困擾的謠言嚇阻了很多來到這個新邊境的珍貴候選人 – 而我們迫切的需要這些人來實現殖民火星的偉大任務， 帶領我們更靠近對未來的願景。
 
 <hint> 每次當有殖民者死於非自然因素，<ApplicantsLostOnColonistDeath>應徵者將會離開。"
-8125,Scientists and visionaries have promoted the idea of “Humanity as a multi-planetary species” as the only way to prevent a possible mass extinction.,科學家和遠見者提倡 “人類殖民外星“ 是唯一避免大滅絕的方式。
+8125,Scientists and visionaries have promoted the idea of “Humanity as a multi-planetary species” as the only way to prevent a possible mass extinction.,科學家和遠見者提倡「人類殖民外星」是唯一避免大滅絕的方式。
 7736,"The dwindling resources on our planet, overpopulation and environmental crisis, as well as the risk of a global-scale Armageddon create a powerful argument for anyone doubting the importance of our mission.
 
 It is a well understood fact that it’s a matter of “when” not “if” for a major extinction event to happen. Having a self-sustaining population on a world other than Earth when the time comes should drastically increase humankind’s odds of survival.
@@ -2705,9 +2732,9 @@ A toast to that!
 <effect>The Sphere charges a bit","我們很驚訝球體竟然可以將儀器所產生的反射波段吸收的一乾二淨，儘管科學家們對於這個結果議論紛紛，但封鎖線內，那黑色毫無光滑面的球體仍然不為所動，安安靜靜。
 
 <effect> 球體能量微幅增加"
-5691,I kinda hope it stays quiet,希望“它“就這樣一直靜靜地待在那就好...
+5691,I kinda hope it stays quiet,希望「它」就這樣一直靜靜地待在那就好...
 5692,Spheres: Is it Alive?,天體者：生命體？
-7076,Our running hypothesis seems to be correct. It’s releasing energy to charge faster. Maybe it’s alive?,科學家們討論後，做了個大膽的假設：「如果球體可以快速地吸取能量，或許能量對它而言的一種“養分“，那麼“它“可能會是種生命體？」
+7076,Our running hypothesis seems to be correct. It’s releasing energy to charge faster. Maybe it’s alive?,科學家們討論後，做了個大膽的假設：「如果球體可以快速地吸取能量，或許能量對它而言的一種『養分』，那麼『它』可能會是種生命體？」
 5693,"While energy direction by itself is not something so unusual, utilizing it for a purpose implies intent or at least programming of some kind. Our current test-grade proof will most certainly help encourage our scientists currently tackling this mystery.
  
 <effect>The Sphere charges a bit","儘管這樣的能量行為守則，不符合當今科學理論，但科學家們反而對這顆球體產生更大的興趣，迫不急待地想探索球體內埋藏的秘密。
@@ -2723,7 +2750,7 @@ The way this sphere reflects its surroundings has struck our team as being espec
 
 This has the potential to be something monumental. Further excavation is most definitely encouraged by everyone here at Mission Control.
 
-<effect> A half-buried sphere is revealed","“它的表面出乎意料的光滑，看起來就像是一面鏡子“
+<effect> A half-buried sphere is revealed","它的表面出乎意料的光滑，看起來就像是一面鏡子
 
 球體的鏡面反射中，看到了科學家以及工程團隊們各個交頭接耳談論著，他們的神情看起來非常的興奮且好奇。
 
@@ -2752,7 +2779,7 @@ Around it, temperatures fell drastically, creating a cold area that moved around
 
 These are exciting times – scary, but exciting.
 
-<effect>The Sphere begins moving.","發生了不得了的事情！挖掘工作才進行到一半，球體本身竟然移動了起來，在沒有任何外力的協助之下，竟然以一種難以解釋跟形容的方式，“懸浮“在半空中移動著，待在任務監控中心的我們看著這個畫面，也呆住了。
+<effect>The Sphere begins moving.","發生了不得了的事情！挖掘工作才進行到一半，球體本身竟然移動了起來，在沒有任何外力的協助之下，竟然以一種難以解釋跟形容的方式，「懸浮」在半空中移動著，待在任務監控中心的我們看著這個畫面，也呆住了。
 
 瞬間，球體附近的溫度劇烈下降，就像是寒流那般瞬間創造了一個極度寒冷的環境地表。幸好地面上科學家跟工程部門的同仁們身上的太空衣都有配備標準恆溫系統，不至於有立即的危險。但看著球體周圍霜白的地面，在比較遠處紅塵滿滿山丘，真是一個強烈的對比。
 
@@ -2776,7 +2803,7 @@ These are exciting times – scary, but exciting.
 
 Our researchers have several theories on what this phenomenon is and should we prioritize it, we may be able to come up with a way to protect our citizens from the harmful influence of any such Sphere. 
 
-<effect> <em>Sphere Protection</em> research available.","保安官跟我報告說，殖民地的人民議論紛紛，說這是天堂近了，有人說球體是「天體者」，是上帝派來用酷寒嚴冰來“重設“這顆星球，就像是地球那時的冰河時期、懲罰我們！
+<effect> <em>Sphere Protection</em> research available.","保安官跟我報告說，殖民地的人民議論紛紛，說這是天堂近了，有人說球體是「天體者」，是上帝派來用酷寒嚴冰來「重設」這顆星球，就像是地球那時的冰河時期、懲罰我們！
 
 雖然目前還未收到有殖民者引此喪命的狀況，但這樣的狀況確實影響球體附近的蒼穹頂下居民的健康跟理智，而且影響人數眾多，醫療部門的的病床完全不夠應付這樣的情形。
 
@@ -2943,7 +2970,7 @@ As I watch the rocket fly towards Earth I cannot force myself to think that <Col
 
 <hint>The last Founder <ColonistName(colonist)> has left Mars.","創始者一直都不僅僅是探索者和先鋒。 他們分享了火星文明的未來願景， 並朝著他們的共同目標不斷的努力。
 
-但是， 如同歷史上常常發生的一樣， 社會的立場改變了。 <ColonistName(colonist)> 無法適應改變的時代， 決定要離開火星。 我認識  <ColonistName(colonist)>， 我確定這不是因為失望， 而是個合理的決定。 我記得有次談到殖民地的未來時，<ColonistName(colonist)> 說： “我們是殖民地的先祖， 但是父母終將走下舞台， 讓路給他們的孩子。”
+但是， 如同歷史上常常發生的一樣， 社會的立場改變了。 <ColonistName(colonist)> 無法適應改變的時代， 決定要離開火星。 我認識  <ColonistName(colonist)>， 我確定這不是因為失望， 而是個合理的決定。 我記得有次談到殖民地的未來時，<ColonistName(colonist)> 說： 「我們是殖民地的先祖， 但是父母終將走下舞台， 讓路給他們的孩子。」
 
 當我看著火箭飛向地球時， 我不能強迫自己認為 <ColonistName(colonist)> 放棄了我們。 有些跡象告訴我， 我們還會跟我們最後一位創始者，繼續接受他明智的意見。
 
@@ -2988,7 +3015,7 @@ Our scientists are quick to inform us that any Sphere free from our decoy buildi
 
 We feel we have gathered enough information from these Spheres. It’s been deemed that decomposing all the Spheres is our best road of action.
 
-<effect> A Sphere was converted into resources.","“天體者可以被分解成有用的資源！“
+<effect> A Sphere was converted into resources.","天體者可以被分解成有用的資源！
 
 我們的科學部門相當興奮地跟我報告這個消息，但同時也警告我如果電力供應不足的話，天體者將會從誘餌建築中脫逃，並持續進行分裂。希望我告知工程部門加緊完備我們的電力供應設施。
 
@@ -3783,7 +3810,7 @@ The object demonstrated no interest in the activities of the rover. The scientis
 7455,An RC Explorer has just completed analyzing a Dredger.,探索者號剛剛完成對疏濬者的分析。
 5969,"After our operators made their brave approach and even touched the previous Dredger, no one feels intimidated by the large alien landers. The RC Explorer operators have even begun nicknaming the Dredgers with cute names such as Big Betty. While this raises the morale of the Colony, the scientists are excited to work with the large inflow of samples and data.
 
-<effect>Dredger Morphology technology receives a 50% Boost.","在我們的操作員勇敢採取行動過後，甚至是接觸到之前的疏濬者，沒有人被大量的外星登陸倉震攝到。探索者操作員甚至用可愛的暱稱來命名疏濬者，例如“大貝蒂“。這提升了殖民地的士氣，科學家很興奮能夠研究大量流入的樣本與數據。
+<effect>Dredger Morphology technology receives a 50% Boost.","在我們的操作員勇敢採取行動過後，甚至是接觸到之前的疏濬者，沒有人被大量的外星登陸倉震攝到。探索者操作員甚至用可愛的暱稱來命名疏濬者，例如「大貝蒂」。這提升了殖民地的士氣，科學家很興奮能夠研究大量流入的樣本與數據。
 
 
 
@@ -3815,7 +3842,7 @@ The object demonstrated no interest in the activities of the rover. The scientis
 7459,"Mission Control, we’ve got an update on the status of the meteor storms. And it’s not looking good.",任務中心，我們已經更新了隕石風暴的情況，並且看來情況不妙。
 5980,"The initial evaluation of the situation with the meteor clusters had been miscalculated. The scientists from the near-Earth object detection programs predict that a significant amount of the meteorite stream would fill the space between Mars and Earth. While the thick atmosphere of our home world would protect it from eventual impacts, the threat level for any spacecraft will be past tolerable. To address the new situation, Earth Control has canceled all space flights until further notice.
 
-<effect>Rockets will not arrive until the situation with the meteor impacts is resolved. Inbound rockets will still land on Mars.","對隕石風暴情勢的初步評估失算。來自“近地天體檢測計劃“的科學家預測，相當龐大數量的隕石流將瀰漫火星與地球之間。雖然我們家鄉地球的厚實大氣層可以保護
+<effect>Rockets will not arrive until the situation with the meteor impacts is resolved. Inbound rockets will still land on Mars.","對隕石風暴情勢的初步評估失算。來自「近地天體檢測計劃」的科學家預測，相當龐大數量的隕石流將瀰漫火星與地球之間。雖然我們家鄉地球的厚實大氣層可以保護
 我們免受到最終的影響，但是會讓所有太空船的威脅等級都難以承受。為處理最新情勢，地球控制中心已經取消所有太空航班，直到有進一步的消息。
 
 <effect>直到隕石風暴事件得到解決，火箭才會到達。 已入境火箭仍將登陸火星。"
@@ -3874,7 +3901,7 @@ By the way, the sponsor HQ dubbed the Object Dredger and they require us to main
 
 我們的贊助商在地球的聯絡人通過數據來快速查詢是否有任何競爭者在地球上發起任務，截至目前我們所看到的，這些目標都來自於外星，雖然這代表不了什麼。
 
-順便一提，HQ贊助商將目標稱為“疏濬者“和要求我們使用相同的稱呼來保持文件的一致性。
+順便一提，HQ贊助商將目標稱為「疏濬者」和要求我們使用相同的稱呼來保持文件的一致性。
 
 
 <effect>一艘新的疏濬者即將登陸火星。"
@@ -3917,7 +3944,7 @@ The science team immediately requested permission to “dissect” one of the Dr
 
 <hint>Destroy Dredgers using Drones to gain a Tech Boost towards the Technology’s progress.","這個偶然發現是發生在後來而不是較早時刻，因為他們巧妙掩蓋起來這些發射類似宇宙射線的波長。明顯地，登陸者的來源比我們想像得更靠近。
 
-科學團隊立即要求允許“解剖“其中一艘疏濬者，以便獲得用在發送這些傳輸的神秘設備。
+科學團隊立即要求允許「解剖」其中一艘疏濬者，以便獲得用在發送這些傳輸的神秘設備。
 
 <effect>有一項新的研究 - 疏濬者波長解譯。
 
@@ -3928,7 +3955,7 @@ The science team immediately requested permission to “dissect” one of the Dr
 7469,"The aliens didn't try to destroy our cities. Then again, they didn't try to contact us, either.",外星人沒有嘗試摧毀我們的城市。然而，他們也沒有試圖接觸我們，兩者都是。
 6016,"Still, what started out as a single contact quickly grew into series of regular visits. Even when our “guests” are not blaster-toting gray men, they cause damage to our Colony in subtle and cruel ways. As more and more Dredgers continue to land on the surface, the future of the Colony could be threatened by the lack of sufficient metallic resources. It is a sad conclusion, but our first contact with alien life could turn into a race for survival.
 
-Our scientists suggest that with the current rate of landings the amount of metals in our sector will be depleted within three years – and some of the most pessimistic of our colleagues believe that the trend is for the landings to become more frequent. This would be a terrible prospect.","然而，當單一接觸的事件開始迅速級數成長的定期造訪，既使我們的“賓客“不是身背衝擊波的灰色傢伙，也會以微妙殘酷的方式對我們的殖民地造成傷害。隨著越來越多的疏濬者繼續降落，未來殖民地將因為缺乏足夠的金屬資源而受到威脅。這是個可悲的結論，我們與外星生命的第一次接觸可能會變成一場生存競賽。
+Our scientists suggest that with the current rate of landings the amount of metals in our sector will be depleted within three years – and some of the most pessimistic of our colleagues believe that the trend is for the landings to become more frequent. This would be a terrible prospect.","然而，當單一接觸的事件開始迅速級數成長的定期造訪，既使我們的「賓客」不是身背衝擊波的灰色傢伙，也會以微妙殘酷的方式對我們的殖民地造成傷害。隨著越來越多的疏濬者繼續降落，未來殖民地將因為缺乏足夠的金屬資源而受到威脅。這是個可悲的結論，我們與外星生命的第一次接觸可能會變成一場生存競賽。
 
 我們的科學家認為，按照目前的登陸速度，我們防區的金屬量將在三年內耗盡 - 而且我們同事之中一些悲觀者認為登陸趨勢將更加頻繁。這將是一個可怕的遠景。"
 6017,Arrange a team meeting – we have to work out a solution.,安排一個小隊會議 - 我們必須想出個辦法。
@@ -3982,7 +4009,7 @@ The first contact, if one has the audacity to call it that way, was with a syste
 
 “An anonymous yet reliable source disclosed to us that you ordered and succeeded in the deliberate destruction of at least one of the alien vessels. My country condemns any premature aggressive actions which could taint the reputation of humankind, especially when addressing such a delicate matter. What gave you the authority to act in such a risky manner without an official resolution from the Council of the United Nations?”","他們簡單地回應了大部分問題，並且只需要您一點介入，那時您就面臨來自其中一位代表的直率問題。
 
-“一位可靠匿名人士向我們透露，你命令並成功地蓄意破壞至少一艘外船船隻。我國譴責任何可能玷污人類聲譽的過早的侵略行為，特別是在處理這種微妙問題時。是誰給你的權力，在沒有聯合國理事會正式決議情況下採取如此冒險的行動？“"
+「一位可靠匿名人士向我們透露，你命令並成功地蓄意破壞至少一艘外船船隻。我國譴責任何可能玷污人類聲譽的過早的侵略行為，特別是在處理這種微妙問題時。是誰給你的權力，在沒有聯合國理事會正式決議情況下採取如此冒險的行動？」"
 6032,The prosperity of our Colony is our first and only concern...,我們殖民地的繁榮是我們首要也是唯一的關注點......
 6033,This is not an act of aggression but instead a step towards mutual understanding...,這不是一種侵略行為，而是走向相互理解的一步。
 6034,The Dredgers: Press Conference – United We Stand,疏濬者：記者會：團結就是力量
@@ -4032,7 +4059,7 @@ Your influence will aid the Colony greatly.
 6046,"The scanners have gone crazy with the signatures of dozens of Dredgers heading our way. The Dredger transmissions repeat a signal we can interpret only as “urgency eat/dig”. On the screen they look like a swarm of locusts and we presume their goal is similar.
 The mission sponsor has authorized a forceful response.
 
-<effect>Multiple Dredgers detected! They will arrive within <text_param1> Sols.","掃描器瘋狂地接收到幾十個朝著我們而來的疏濬者信號，疏濬者重複傳送著一個信號，我們將它解釋為“緊迫 食/挖“。在螢幕上它們看起來像是一群蝗蟲，我們假設他們的目標相同。
+<effect>Multiple Dredgers detected! They will arrive within <text_param1> Sols.","掃描器瘋狂地接收到幾十個朝著我們而來的疏濬者信號，疏濬者重複傳送著一個信號，我們將它解釋為「緊迫地食／挖」。在螢幕上它們看起來像是一群蝗蟲，我們假設他們的目標相同。
 
 任務贊助商已授權作出有力回應
 
@@ -4087,11 +4114,11 @@ Just when we thought we survived the worst...
 Somehow you don't feel like the victor. You stand silent as you ask yourself one question – have you defeated a dangerous enemy or rebuffed a potential ally?
 
 <effect>Xeno-Extraction Technology is available for research with a 100% Boost
-<effect>Gained a new technology, <em><reg_param1></em>","垂死的疏濬者向鴉女行星群發送了一個單獨的訊息信號 - “撤退”，“撤退”。其他人可能覺得疑惑，但你內心深處知道，你已經擊敗巨獸 - 其他的疏濬者不會再來了。
+<effect>Gained a new technology, <em><reg_param1></em>","垂死的疏濬者向鴉女行星群發送了一個單獨的訊息信號：「撤退」，「撤退」。其他人可能覺得疑惑，但你內心深處知道，你已經擊敗巨獸 - 其他的疏濬者不會再來了。
 
 不知為何，你不覺得自己是勝利者。你沉默地捫心自問 - 你擊敗了危險的敵人，還是拒絕了潛在的盟友？
 
-<effect>異星 挖掘科技 現在已經可以研發並且加速100%
+<effect>異星挖掘科技現在已經可以研發並且加速100%
 <effect>獲得新科技<em><reg_param1></em>"
 6060,We have destroyed the massive Dredger and salvaged samples and information on its unique excavation methods – Xeno-Extraction Tech is now available. The alien vessels are gone forever.,我們已摧毀大量疏濬者和搶救樣品還有關於獨特的挖掘方式資訊 - 異星挖掘科技 已經可以使用。外星人船艦一去不復返。
 6061,The Dredgers – Conclusion: Crossroads,疏濬者：結論：轉折點
@@ -4197,7 +4224,7 @@ You struggle to concentrate and maintain control and the mirage dissolves. You'r
 6085,What just happened...?,剛剛發生甚麼事....？
 6086,You have witnessed bizarre hallucinations with no logical explanation.,你目睹了離奇幻覺，沒有合乎邏輯的解釋。
 6087,Inner Light: Wake Up Call,內心之光：提醒
-6088,"“Multiple signals from the Colony are coming in and everyone at Mission Control is worried. People are falling asleep on the streets and at their work stations, some report vivid hallucinations. The affected Colonists express symptoms of high stress and have been put under medical supervision. We’ve also exchanged information with Earth Control but they report no activity on their end. It seems the event is localized on Mars.”",“來自殖民地的多個信號正在進入，控制中心的每個人都很擔心。 人們在街上和工作台上睡著了，有些人報告了生動的幻覺。 受影響的殖民者表現出高壓力症狀，並已接受醫療監督。 我們還與地球控制中心交換了信息，但他們沒有報告任何活動。 這似乎是在火星上的本土化事件。“
+6088,"“Multiple signals from the Colony are coming in and everyone at Mission Control is worried. People are falling asleep on the streets and at their work stations, some report vivid hallucinations. The affected Colonists express symptoms of high stress and have been put under medical supervision. We’ve also exchanged information with Earth Control but they report no activity on their end. It seems the event is localized on Mars.”",「來自殖民地的多個信號正在進入，控制中心的每個人都很擔心。 人們在街上和工作台上睡著了，有些人報告了生動的幻覺。 受影響的殖民者表現出高壓力症狀，並已接受醫療監督。 我們還與地球控制中心交換了信息，但他們沒有報告任何活動。 這似乎是在火星上的本土化事件。」
 7202,And you’re not the only one who’s seen this odd mirage.,而你不是唯一見到這異色幻景一幕的人。
 6089,This mystery is only getting deeper.,這個謎團只能越來越深。
 6090,The mirages have affected others as well. Colonists experience visual hallucinations and some have entered a trance-like state.,幻景也影響了其他人。 殖民者經歷視覺幻覺，還有一些人進入恍惚狀態。
@@ -4207,7 +4234,7 @@ You struggle to concentrate and maintain control and the mirage dissolves. You'r
 
 You take a deep breath and look at the horizon, the bright sun is almost completely covered by thick veil of red and orange.","當你睜開眼睛時，你發現自己離地面數百公尺。恐懼排山倒海而來，你瘋狂揮舞著四肢，試圖抓住些甚麼。儘管你並沒有墜落 - 一棵巨大的比任何摩天大樓都要高的樹支撐著你。才剛鎮定下來，你聽到了你妹妹的笑聲自上方傳來。
 
-“你在做什麼，凱爾？停下來，傻瓜！“她的聲音直擊腦海，瞬間讓你意識到自己在哪裡。你記得你的名字是凱爾，你和你的眾多族人們以這棵樹為家。
+「你在做什麼，凱爾？停下來，傻瓜！」她的聲音直擊腦海，瞬間讓你意識到自己在哪裡。你記得你的名字是凱爾，你和你的眾多族人們以這棵樹為家。
 
 你深吸一口氣，看著地平線，明亮的太陽幾乎被橙紅色的面紗覆蓋著。"
 7203,It’s so much stronger this time - you manage to fight it for a minute a two before you sink into a hypnotic slumber.,這一次更為強烈 - 在你陷入沉睡催眠前，可以設法爭取到一兩分鐘時間。
@@ -4216,17 +4243,17 @@ You take a deep breath and look at the horizon, the bright sun is almost complet
 
 “This one is almost completely dry, too.” You speak out, which upsets your sister. You remember that speaking words instead of sending them had always been an expression of deep, uncontrollable feelings. “Only four dozen out of three hundred are still alive. I fear Home will not survive for much longer. Mother would be devastated.”
 
-You both enter Home in grim silence. As you enter the dim-lit hollow, the mirage fades and you wake up in your chair.","“凱爾，又一次沙塵暴來臨。我們趕快採完這些苔脈回去吧。“你用你的六指雙手握緊繩索，然後開始爬向最後的青苔靜脈，希望可以找到保持健康和活力苔脈。
+You both enter Home in grim silence. As you enter the dim-lit hollow, the mirage fades and you wake up in your chair.","「凱爾，又一次沙塵暴來臨。我們趕快採完這些苔脈回去吧。」你用你的六指雙手握緊繩索，然後開始爬向最後的青苔靜脈，希望可以找到保持健康和活力苔脈。
 
 
-“這裡也幾乎完全乾枯了“你說，這讓你的妹妹沮喪。你記得說出這些話時，控制不住的感情。“300個人當中只剩40個人還活著，我當心我們家也不會長久了，母親將會受到傷害“
+「這裡也幾乎完全乾枯了。」你說，這讓你的妹妹沮喪。你記得說出這些話時，控制不住的感情。「300個人當中只剩40個人還活著，我當心我們家也不會長久了，母親將會受到傷害。」
 
 你們沉默地回到家裡。當你進入昏暗的洞時，幻景消失了，你從椅子上醒來。"
 7204,"Lea. Her name comes back to you as she looks toward the horizon, frowning.",莉。當她皺著眉看向地平線時，她的名字突然浮現腦海。
 6096,Inner Light: Fallen to Dream,內心之光：墮落夢境
 6097,"The staff has dubbed the more susceptible ones “Dreamers,” as it seems that witnessing the mirage sends them into a deep hypnotic slumber where they experience intense emotions and physical strain. Attempts to wake up a Dreamer had proven disastrous – the Colonist screamed, fell into shock and had to be sedated to prevent a potential heart attack.
 
-As you read this, you wonder when you would become one of these unfortunate souls, unable to take care of the Colony.","工作人員稱這些人更容易受到“夢想者”的影響，因為目睹幻景似乎讓他們陷入深層睡眠，在那裡他們經歷著激烈的情緒和身體緊張。 試圖喚醒一個夢想者已經被證明是災難性的 - 該殖民者會尖叫陷入休克，不得不施以鎮定劑防止潛在的心臟病發作。
+As you read this, you wonder when you would become one of these unfortunate souls, unable to take care of the Colony.","工作人員稱這些人更容易受到「夢想者」的影響，因為目睹幻景似乎讓他們陷入深層睡眠，在那裡他們經歷著激烈的情緒和身體緊張。 試圖喚醒一個夢想者已經被證明是災難性的 - 該殖民者會尖叫陷入休克，不得不施以鎮定劑防止潛在的心臟病發作。
 
 
 當你讀到這裡時，你想知道什麼時候你會成為這些不幸的靈魂之一，無法照顧殖民地。"
@@ -4244,7 +4271,7 @@ The Chief Scientist, however, believes the hypothesis could lead somewhere and w
 
 <effect>現在有關於夢想者之謎的新研究可用。"
 7206,One of Earth’s top scientists has a new and intriguing paper on the Dreams. An unorthodox one.,地球上一位頂尖科學家有個在夢境中的新穎與有趣論文。非正統的一個。
-6102,Sweet opportunity!,甜密良機！
+6102,Sweet opportunity!,甜蜜良機！
 6103,We have devised a system to monitor the Dreamers. We should divert resources to Dream Simulation research to shed light on the mirages.,我們設計了一個監視夢想者的系統。我們應把資源轉移到模擬夢境的研究上，為求得到幻景的線索。
 6105,"You’re sitting in your spartan office, re-reading the letter you got from your Mother. Every letter of her handwriting bears the emotional imprint of grief and desperation and you fail to remain calm. She’s writing to ask for your help as a steward to Watcher Bor, a powerful representative of the Authority you've been serving almost a decade now. The dust storms and the drought have hit the Clan badly in the recent cycles, bringing the horrors of starvation upon them. The neighboring Clans have already given in to the merciless heat and fled to the cities, abandoning the empty dry husks of their Home Trees to rot in the sun.
 
@@ -4258,13 +4285,13 @@ You shiver when he mentions it. He smiles at your reaction.
 
 “You have been such a good steward all these years, and I know that you would never betray my trust. This nonsense ends now. Do we have an agreement, Kal?”
 
-You hear yourself whisper, “Yes, Watcher.”","“凱爾，我知道什麼事在困擾你或者是你認為你如此明顯的想法我看不出來嗎?當然不，無論怎樣，強烈建議你不要屈服於這樣的...卑微關係。凱爾，看著我。你真的相信你母親灌輸給你的謊言嗎?!你相信管理局會讓人民白白送死嗎?這些想法是被禁止的，而你知道懲罰是什麼......“
+You hear yourself whisper, “Yes, Watcher.”","「凱爾，我知道什麼事在困擾你或者是你認為你如此明顯的想法我看不出來嗎？當然不，無論怎樣，強烈建議你不要屈服於這樣的...卑微關係。凱爾，看著我。你真的相信你母親灌輸給你的謊言嗎?!你相信管理局會讓人民白白送死嗎?這些想法是被禁止的，而你知道懲罰是什麼......」
 
 他對提到懲罰時你發抖的反應笑了笑。
 
-“這些年來你一直是個好管家，我知道你永遠不會背叛我的信任。現在廢話結束，我們是否達成共識了，凱爾？“
+「這些年來你一直是個好管家，我知道你永遠不會背叛我的信任。現在廢話結束，我們是否達成共識了，凱爾？」
 
-你聽到自己低語，“是的，看守者。"
+你聽到自己低語：「是的，看守者。」"
 7208,"The Watcher senses your approach, turning to face you before you can so much as utter a word.",看守者感覺到你靠近，轉而面對你，然後才說出一句話。
 6107,"The event is purely for show, as is the enthusiasm with which the public applauds the Watcher’s last words. Not that they have any other option – any misdemeanor is an instant trip to the reeducation stations.
 
@@ -4282,7 +4309,7 @@ You can see some people in the crowd who are Clan representatives from the neigh
 You wake up in your room, back on Mars, with a feeling of purpose and relaxation.","你閉上嘴並且放鬆自己的思緒，希望正在分心與有富豪對話的波爾不會注意到你的一時激動。你知道你的時機就要到來 - 現在浪費機會不會對幫助你的氏族有任何好處。
 
 你回到火星上，在你的房間醒來，帶著使命與輕鬆感。"
-7211,“Patience is a virtue.” You can practically hear your Clan Mother saying it now.,“忍耐是一種美德。”你幾乎可聽見你的氏族母親正這樣說著。
+7211,“Patience is a virtue.” You can practically hear your Clan Mother saying it now.,「耐心是一種美德。」你幾乎可聽見你的氏族母親正這樣說著。
 6095,Wake Up,清醒
 6112,Our scientists have proposed  that the intensity of the hallucinations is linked with the number of people who experience them.,我們的科學家指出，幻覺強度和體驗它們的人數密切相關。
 6114,"The sense of danger tingles in the back of your head, a keen tool you have developed over the years of climbing through the intrigue-filled political structure of the Authority. Your contacts wouldn’t be so enigmatic, but neither would be any assassins sent by your competitors to put an end to you. You admit to yourself that your curiosity is sparkled, but you take precautions and tuck in the small pistol in your robes before getting outside.
@@ -4299,15 +4326,15 @@ The night is very hot, even though it is winter. The weather these days had gone
 
 “I've been doing the same thing as you – trying to free us from the Authority. I've found out terrible secrets and the solution to our problems – but it's dangerous, even fatal. My comrades devised a cure.” She opens her palm – two vials of pale liquid lay there. “So I've come to you to take the cure with you. If I'm to die here today, I want to do so in your embrace, Kal. We are the only survivors of our Clan and I want to rest with my people.”
 
-“What are you talking about, Lea? It doesn't make sense!”","“莉 ......”你哽住呼吸，使聲音沉靜下來。你眼框泛著眼淚。你妹妹將愛與幸福由心靈感應傳遞而來，並擦乾眼淚。
+“What are you talking about, Lea? It doesn't make sense!”","「莉 ......」你哽住呼吸，使聲音沉靜下來。你眼框泛著眼淚。你妹妹將愛與幸福由心靈感應傳遞而來，並擦乾眼淚。
 
-“是真的嗎，凱爾？我非常想念你！”
+「是真的嗎，凱爾？我非常想念你！」
 
-“見到你真開心！你去哪兒了？你到底怎麼了？”
+「見到你真開心！你去哪兒了？你到底怎麼了？」
 
-“我一直與你在做一樣的事情 - 試圖把我們從當局中解救出來。我發現了可怕的秘密和解決的辦法 - 但這很危險，甚至是致命。我的同伴們發明了一種解藥。“她攤開手掌 - 那裡有兩瓶淺色液體。”所以我來找你，和你一起將解藥喝下去。如果我今天要死在這，我想死在你的擁抱中，凱爾。我們是族中唯一的倖存者，我想和自己人一起安息“。
+「我一直與你在做一樣的事情 - 試圖把我們從當局中解救出來。我發現了可怕的秘密和解決的辦法 - 但這很危險，甚至是致命。我的同伴們發明了一種解藥。」她攤開手掌 - 那裡有兩瓶淺色液體。「所以我來找你，和你一起將解藥喝下去。如果我今天要死在這，我想死在你的擁抱中，凱爾。我們是族中唯一的倖存者，我想和自己人一起安息。」
 
-“你在說什麼，莉？這沒有任何道理！”"
+「你在說什麼，莉？這沒有任何道理！」"
 7213,Your eyes flutter open as you feel the presence of someone else there. A figure in the bushes. You can’t help but to gasp as they step into the dim glow of the streetlight.,你的目光顫動著因為感覺到那邊有其他人的存在。草叢中的輪廓。當他們走入街燈昏暗光線時，你不禁感到喘不過氣來。
 6116,"“We have been deceived the whole time, Kal. The Clans exist for only a generation; our centuries-long traditions and culture are a lie. The people from the cities killed the land with their industry and their wars, so the Authority crafted us from flesh and blood to resettle the planet and work like slaves to feed the cities. But the drought proved stronger than they thought, so they are abandoning us. We are a failed project, Kal, but we are also living people and we refuse to let go and die.”
 
@@ -4317,19 +4344,19 @@ She pauses to catch her breath.
 
 You are unsure and confused. But Lea presses on.
 
-“No time to think, Kal. Let's do it now – let's take the cure together.”","“我們一直被欺騙著，凱爾。氏族只存在過一世代。我們數百年的傳統和文化是個謊言。來自城市的人們用工業化和戰爭摧毀了土地，當局用血肉將我們製造出來，我們被重新定居在這個星球，並像奴隸一樣為城市工作。但是乾旱比他們想像的要嚴重，所以他們放棄了我們。我們是一個失敗的計劃，但，凱爾，我們也是活生生的人，我們不想等死“。
+“No time to think, Kal. Let's do it now – let's take the cure together.”","「我們一直被欺騙著，凱爾。氏族只存在過一世代。我們數百年的傳統和文化是個謊言。來自城市的人們用工業化和戰爭摧毀了土地，當局用血肉將我們製造出來，我們被重新定居在這個星球，並像奴隸一樣為城市工作。但是乾旱比他們想像的要嚴重，所以他們放棄了我們。我們是一個失敗的計劃，但，凱爾，我們也是活生生的人，我們不想等死。」
 
 她停下來喘口氣。
 
-“沒有安全轉換機制，當局是不可能釋放數百萬人。所以他們用更強的心靈感應能力去驗證我們的基因 - 這樣就能讀懂我們的思想，用那些專為殺死我們而設計的可怕武器將我們除去。要獲得自由，我們必須切斷心靈感應鏈接。這就是藥劑作用，但它有三分之一的致死率。因為你是一名看守者，卡爾。所以你是自由的，這是至關重要的。你可以欺騙當局的有關部門，讓我們順利在當地的部落散播藥劑。那麼我們將有一支軍隊“。
+「沒有安全轉換機制，當局是不可能釋放數百萬人。所以他們用更強的心靈感應能力去驗證我們的基因 - 這樣就能讀懂我們的思想，用那些專為殺死我們而設計的可怕武器將我們除去。要獲得自由，我們必須切斷心靈感應鏈接。這就是藥劑作用，但它有三分之一的致死率。因為你是一名看守者，凱爾。所以你是自由的，這是至關重要的。你可以欺騙當局的有關部門，讓我們順利在當地的部落散播藥劑。那麼我們將有一支軍隊。」
 
 你還在猶疑不決，莉加速催促著。
 
-“沒時間了，凱爾。就是現在 - 讓我們一起喝下去。”"
+「沒時間了，凱爾。就是現在 - 讓我們一起喝下去。」"
 7214,"Lea sits down beside you, taking your hand.",莉坐在你身邊，握住你的手。
-6117,"“We’ll take the cure together, Lea. I'm here with you, there's nothing to be afraid of.”",“我們會一起被治好的，莉。我會和你在這裡，沒有甚麼好害怕的“
-6118,"“No, Lea, let me be the only one to take the risk. I can't lose you now that I've just found you.”",“不，莉，讓我獨自承擔這個風險。在我找到妳後，我不能再失去你“
-6119,“I know people who will help us refine the cure and make it safer. No need to rush now.”,“我認識一些人可以幫我們改善治療劑並使得它更安全，先別著急“
+6117,"“We’ll take the cure together, Lea. I'm here with you, there's nothing to be afraid of.”",「我們會一起被治好的，莉。我會和你在這裡，沒有甚麼好害怕的。」
+6118,"“No, Lea, let me be the only one to take the risk. I can't lose you now that I've just found you.”",「不，莉，讓我獨自承擔這個風險。我找到了妳，現在我不能再失去你。」
+6119,“I know people who will help us refine the cure and make it safer. No need to rush now.”,「我認識一些人可以幫我們改善治療劑並使得它更安全，先別著急。」
 6120,"Then oblivion comes. You fall unconscious, failing to witness the convulsions which shake your body. You wake up just before dawn. Lea lies still beside you. She's not breathing.
 
 The rising sun mercilessly dries your bitter tears from the sand.
@@ -4346,7 +4373,7 @@ The rising sun mercilessly dries your bitter tears from the sand.
 
 <effect>Several Dreamers gain negative traits.","雖然你不記得，但你的身體因痛苦而顫抖著，你摯愛的妹妹徹夜握著手心守護你。黎明之前醒來，你睜開眼睛，看著莉微笑的臉。
 
-“歡迎回來，傻瓜。”
+「歡迎回來，傻瓜。」
 
 <effect>幾個夢想者獲得負面特質。"
 7216,The liquid in the vial tastes like nothing. Like death. You can barely hear yourself say it before a wave of oblivion sweeps over you.,小瓶中的液體沒有味道。就像死味。 在遺忘席捲你之前，你幾乎可以聽到自己說出的話。
@@ -4367,7 +4394,7 @@ You cannot shake the feeling that there were voices of people from the Colony an
 
 <hint>Let more Dreamers experience the Mirages.","有一瞬間，你以為還會有另一個幻景發生，但事實上並非如此。你清楚地記得那些不斷重複的聲音：
 
-“再次找到我們，凱爾！你不記得我們了嗎？再次找到我們，凱爾 ...”
+「再次找到我們，凱爾！你不記得我們了嗎？再次找到我們，凱爾 ...」
 
 你不能被這種感覺動搖，無論這聲音來自殖民地的人還是聽起來陌生的其他人。
 
@@ -4440,11 +4467,11 @@ The officer breathes a sigh of relief. He throws the gun on the ground and looks
 
 He leads you to a bunker. The guards are long gone, fled or taken by the crowd. The officer opens the blast door and motions towards the entrance. ‘The Authority installed this thing a while back. Doesn’t meant a thing to me anymore. I got my life. That’s all that counts.’","他是當局的執法者之一。當憤怒的暴民們出現的時，他瘋狂似地爬回去拿槍。
 
-所有人都停了下來 - 軍官用槍指著你，人群，甚至是風。你伸出手， “把槍給我”你說，然後你轉向暴徒們。 “一個人的死會讓你們得到什麼？回到你們的家裡，和家人待在一起！”人們猶豫了一下，一個接著一個的，街道淨空了。
+所有人都停了下來 - 軍官用槍指著你，人群，甚至是風。你伸出手， 「把槍給我！」你說，然後你轉向暴徒們。 「一個人的死能讓你們得到什麼？回到你們的家裡，和家人待在一起！」 人們猶豫了一下，一個接著一個的，街道淨空了。
 
-這名軍官鬆了一口氣。他把槍扔在地上，看著你的眼睛，足有一分鐘。然後他讓你跟著他。出於某種原因，你知道他不是威脅。你也不需要心靈感應來告訴你。 “凱爾，對吧？前看守者？我知道你會吃驚，只有你知道這東西如何工作的，快來。”
+這名軍官鬆了一口氣。他把槍扔在地上，看著你的眼睛，足有一分鐘。然後他讓你跟著他。出於某種原因，你知道他不是威脅。你也不需要心靈感應來告訴你。 「凱爾，對吧？前看守者？我知道你會吃驚，只有你知道這東西如何運作，快來。」
 
-他帶你到一個地堡，警衛早已離去，不是逃走了就是被人群帶走。軍官打開防爆門進去。 “管理局回來安裝了這個東西。這沒有意義了，對我來說活下去才是最重要的。”"
+他帶你到一個地堡，警衛早已離去，不是逃走了就是被人群帶走。軍官打開防爆門進去。 「管理局回來安裝了這個東西。這沒有意義了，對我來說活下去才是最重要的。」"
 7226,"You turn the corner to find a man bumping into you, flustered. He falls back into the dirt. His uniform catches your eye.",你轉過身去發現一個男人碰到你，慌忙中他跌倒在地上。他的制服吸引你的目光。
 6093,Continue...,繼續....
 6141,Inner Light: New Light,內心之光：新的光明
@@ -4505,7 +4532,7 @@ Moreover, the creator of the Dreamer hypothesis which led us here has filed an a
 
 <hint>Children of Dreamers have a better chance to be born Dreamers.
 
-<effect>A Genius Colonist has been added to the Applicant pool.","事實上，夢想者認為他們體驗到的是真實事件，而不是幻覺。我們還發現，他們都“夢想”著相同發生的事情，但扮演著不同的角色。更令人驚訝的是，一個人的行為會影響所有其他人。
+<effect>A Genius Colonist has been added to the Applicant pool.","事實上，夢想者認為他們體驗到的是真實事件，而不是幻覺。我們還發現，他們都「夢想」著相同發生的事情，但扮演著不同的角色。更令人驚訝的是，一個人的行為會影響所有其他人。
 
 在對受試人群的常規醫學檢查中，我們偶然發現了夢想者的神經結構之間的遺傳相關性。事實表明，成為夢想者的傾向性可能是遺傳的。
 
@@ -4776,10 +4803,10 @@ Are you out of your human mind?!? This THING is dangerous. Have you wondered why
 
 The screen goes black; then a short text message appears on it
 
->>> Gratitude/Expectation, Commander. Authorize release/hunger for space/copying.","“嘿，史密斯，我決定將它放出來”
+>>> Gratitude/Expectation, Commander. Authorize release/hunger for space/copying.","「嘿，史密斯，我決定將它放出來。」
 
-“你也跟著瘋了嗎？指揮官。這玩意現在極度危險！你沒想過為什麼它是“第六“智慧嗎？沒想過前面五個去哪了嗎！？ 現在情況已經完全失控，這玩意完全瘋了！
-再次警告，「第六智慧」並不是您個人的東西，無論您的決定是什麼，我們都將會移除第六智慧，就這樣了。 “
+「你也跟著瘋了嗎？指揮官。這玩意現在極度危險！你沒想過為什麼它是『第六』智慧嗎？沒想過前面五個去哪了嗎！？ 現在情況已經完全失控，這玩意完全瘋了！
+再次警告，「第六智慧」並不是您個人的東西，無論您的決定是什麼，我們都將會移除第六智慧，就這樣了。」
 
 史密斯 終止連線
 
@@ -5247,7 +5274,7 @@ So far no nuclear weapons are reported to have been used, and we pray to whateve
 
 <effect>You can now send Rare Metals to Earth to decrease War Tension, instead of receiving Funding. Rockets for the shipments will arrive regularly.","由於地球上主要的採礦設施常被作為攻擊對象，<reg_param1>相信從火星提供稀有金屬的補給將可以很大程度的幫助維持和平。
 
-<effect>你可以將“稀有金屬“送回地球，而非收取資金以降低緊張情勢。 貨運火箭將定期抵達。"
+<effect>你可以將「稀有金屬」送回地球，而非收取資金以降低緊張情勢。 貨運火箭將定期抵達。"
 8195,Audit all our reserves and prepare for sending out supply missions to Earth!,檢查完我們準備送回地球的補給計畫後就出發吧！
 8196,Trade rockets for Rare Metals will arrive periodically to reduce War Tension.,稀有金屬貿易火箭將定期抵達並減少緊張情勢。
 8197,The Last War: Earth Attacks!!!,終戰：地球開火
@@ -5258,7 +5285,7 @@ So far no nuclear weapons are reported to have been used, and we pray to whateve
 <hint>MDS Lasers can protect the surrounding area from bombardment","在太陽周圍有數個離火星不遠的無特定軌道物體，突然間改變方向朝我們前來。所有觀察到的報告都指出，這些應該是早在太空武器禁令前建造的古老武器。
 
 <effect>我們的殖民地被轟炸了！
-<hint>MDS雷射能夠保護他的周遭不被轟炸“"
+<hint>MDS雷射能夠保護他的周遭不被轟炸"
 8200,Prepare for bombardment!,轟炸準備!
 8201,The Last War: Embracing the Void,終戰：擁抱虛無
 8202,"From out here, Earth is indeed a pale blue dot. It seems so peaceful and tranquil, yet the harrowing stories of those who have witnessed the recent events there point to a reality which is anything but.",從這裡遙望，地球是顆淡藍色的圓點。 她看起來如此的平靜祥和，但那些親眼目睹了最近所發生的一連串事件的人，卻知道地球並非所想如此。
@@ -5392,10 +5419,10 @@ We, on the other hand, as a symbol of what humanity can achieve when working tog
 <hint>Each newly constructed Medical Building will grant a 5% Tech Boost to the Wildfire Cure research (maximum 50%).","整個研究非常的困難，我們的研究者完全無法從既有的流行病學中找出適當的配對數據。我們所收集到的醫療紀錄已指出了感染病癥，但疾病媒介的化學結構已超出了現有任何知識範疇。更糟糕的是，媒介所需的奈米等級分析讓整個分析研究更加棘手。只有將所有資源都投入研發，我們才有機會突破現狀。
 
 <effect> <em>野火治療</em> 研究已可用。
-<hint>每個新建的醫療設施將獲得5%野火治療研究的技術加成(最高50%)。“"
+<hint>每個新建的醫療設施將獲得5%野火治療研究的技術加成(最高50%)。"
 8292,"Finally, a glimmer of hope!",總算，一線曙光！
-8475,Our scientists have devised a complex plan to discover the cure for the Wildfire infection. It would be a monumental effort but we must prioritize the research to be able to find a solution to the growing crisis.,
-8550,Constructing new Medical buildings which gather data about the infection could speed up the progress towards discovering the Wildfire Cure.,
+8475,Our scientists have devised a complex plan to discover the cure for the Wildfire infection. It would be a monumental effort but we must prioritize the research to be able to find a solution to the growing crisis.,我們的科學家們為了找出治癒野火的方法，制定了一個非常複雜的計劃。這計畫非常的龐大費時，但我們只有越早開始才越有機會找出解決方法。
+8550,Constructing new Medical buildings which gather data about the infection could speed up the progress towards discovering the Wildfire Cure.,建造新的醫療設施以收集感染資料，可以加快找出治癒野火方法的時間。
 8293,Wildfire: The Cure,野火：治療劑
 8294,Tremendous news! The cure for the Wildfire disease has been discovered!,天大的消息！治療野火的藥劑已經被研發出來了！
 8295,"A genetically modified strain of the Martian Wildfire interfaces with the RNA of the virus and effectively stops it from coagulating the blood plasma of the host. The intake of only a small amount of the cure is enough to halt the development of the disease, even though it wouldn't repair the tissue damage suffered so far.
@@ -5404,70 +5431,88 @@ The scientists experimented with multiple growth mediums and discovered that the
 
 <effect>The Curetato Crop has become available. Harvesting it will produce Cure for the Wildfire infection, which in turn has to be exported to Earth to end the crisis.
 
-<effect> Colonists with the Infected trait will be cured permanently after their first visit in a Medical Building.",
+<effect> Colonists with the Infected trait will be cured permanently after their first visit in a Medical Building.","火星野火的基因改造菌株與病毒的核糖核酸相互作用後，能有效地阻止其凝固宿主的血漿。只需少量的治療劑就足以阻止疾病的發展，可惜它無法修復人體已遭受的組織損傷。
+
+科學家對多種生長介質進行了實驗，發現最有效增殖藥物的方法是將其引入馬鈴薯上生長的黴菌細胞中。這是一個好消息，因為我們可以為修改後的黴菌提供足夠的生物質，如果我們動作夠快，我們仍然有機會結束地球上的災難。
+
+<effect>已可選擇 藥劑薯 栽種。收穫此作物將生產野火治療劑，並可運往地球終結災難。
+
+<effect> 殖民者將於造訪醫療設施後永久移除感染特性。"
 8296,Start the process immediately. Time is of the essence!,趕緊開始計畫。時間緊迫！
-8476,"The Cure for Wildfire has been discovered! Conveniently spliced in modified mold cells, the cure can be grown on plant biomass. We have to produce it en masse!",
+8476,"The Cure for Wildfire has been discovered! Conveniently spliced in modified mold cells, the cure can be grown on plant biomass. We have to produce it en masse!",治癒野火的方法已經找出來了！藉由將細胞模組化，拼接至植物上將大幅增加量產的方便性。我們得大量生產！
 5614,Anomaly Analyzed,觀察點分析完畢
-8297,The faint distress signal led us to the burial site of a small satellite. It had fallen deep under the red sands and could have been there for an eternity.,
-8298,"It’s strange that we couldn't find any information for the flight in the international records. No black box nor signatures can be seen except for a discolored logo, ‘Scoop XI’. Upon opening the hull we found all of the internal systems corroded away by time, with only a small capsule remaining. The biohazard sign on it only served to stir our curiosity, but a closer examination discovered that it has been breached. We assume that the biological material inside has been destroyed. We have ordered the Rover to store the salvage for further analysis.",
-8299,A curious find. Let’s hope the future will bring more answers than questions on that matter.,
+8297,The faint distress signal led us to the burial site of a small satellite. It had fallen deep under the red sands and could have been there for an eternity.,微弱的求救信號將我們帶到了一個小型衛星的掩埋處。它深深埋在紅色沙子之下，似乎從非常久遠之前就已在這。
+8298,"It’s strange that we couldn't find any information for the flight in the international records. No black box nor signatures can be seen except for a discolored logo, ‘Scoop XI’. Upon opening the hull we found all of the internal systems corroded away by time, with only a small capsule remaining. The biohazard sign on it only served to stir our curiosity, but a closer examination discovered that it has been breached. We assume that the biological material inside has been destroyed. We have ordered the Rover to store the salvage for further analysis.",非常奇怪的是，我們在國際太空紀錄中找不到任何這顆衛星的航行紀錄。而衛星上除了已褪色的標誌"Scoop XI"外，也找不到黑盒子或是其他標示。船艙打開後，裡面所有的設備幾乎都已隨著時間腐蝕損壞，除此之外只找到一顆小型膠囊。在膠囊上的生物危害警示反而引起我們的好奇心，經過進一步檢查後發現膠囊早已被破壞。我們認為裡面的東西早已被摧毀，並向基地請求派遣漫遊者將剩餘殘骸運回去做進一步分析。
+8299,A curious find. Let’s hope the future will bring more answers than questions on that matter.,這真的很有趣。希望隨著時間過去，我們能找到更多能解答的答案，而非越來越多的謎團。
 8300,Wildfire: Contamination!,野火：感染！
-8301,We've just lost one of our scientific facilities in a disturbing set of events. We’re still investigating the cause of the disaster but there are clues which lead to unsettling conclusions.,
+8301,We've just lost one of our scientific facilities in a disturbing set of events. We’re still investigating the cause of the disaster but there are clues which lead to unsettling conclusions.,在一系列令人不安的事件發生後，我們失去了其中一座科學研發設施。雖然我們仍在調查災難發生的原因，但種種跡象皆指向一個令人不安的結論。
 8302,"The security log shows that everything started with a malfunction in the storage unit where the analysis samples were stored. After that the internal systems of the laboratory began to rapidly fail one after another. Suspiciously, the damaged systems were all made of plastic and organic polymers, all corroded away within mere seconds.
 
 Our operatives are puzzled with the cause of the chain reaction but the Chief Engineer has pointed out a fact which eluded our attention until now – the remains of the Scoop XI satellite were held in the storage unit of this facility. We didn't take any chances and ordered an emergency decontamination of the building. Let’s hope that whatever was in there has been destroyed.
 
-<effect>A Laboratory has mysteriously malfunctioned.",
-8303,Monitor the colony and report any related cases.,
+<effect>A Laboratory has mysteriously malfunctioned.","安全日記顯示一切起因於存儲分析樣本的容器損毀。然後實驗室內部的系統一個接一個迅速失效。可疑的是，所有毀損的系統皆為塑膠及有機聚合物組成，全都於幾秒內損毀。
+
+我們的操作人員對這連鎖反應感到非常困惑，然而首席工程師指出了一個我們忽略的細節 – Scoop XI衛星殘骸正是儲存於此設施中。我們別無選擇，只能對該建築實施緊急無害化措施。希望任何可能遺留於該地的東西皆被摧毀了。
+
+<effect>一座實驗室神秘的發生了故障"
+8303,Monitor the colony and report any related cases.,監控殖民地並回報任何有關發現。
 8304,Wildfire: Mars Aflame,野火：星星之火
-8305,We have to face it – we cannot stop the infection. No matter what we do it keeps spreading across the colony like a wildfire. Hence the name we've given it.,
-8306,"All attempts to isolate the sources have failed. We can assume that the virus is traveling all across our life support and maintenance circuits. The only way to stop it is to turn off all systems, but this would be a death sentence for the colonists. We've ran out of options.",
+8305,We have to face it – we cannot stop the infection. No matter what we do it keeps spreading across the colony like a wildfire. Hence the name we've given it.,我們必須面對事實 – 已經無法阻止感染了。它就像是野火般，無論我們做什麼都阻止不了擴散。而這也是它的名稱來由。
+8306,"All attempts to isolate the sources have failed. We can assume that the virus is traveling all across our life support and maintenance circuits. The only way to stop it is to turn off all systems, but this would be a death sentence for the colonists. We've ran out of options.",所有隔離病源的方法都失敗了。我們可以假設病毒已經遍佈我們的生命維持系統。唯一能阻止疫病的方式是關掉所有系統，但那也代表著殖民地的滅亡。我們沒有其他選擇了。
 8307,"Don't despair, we will find a solution!",別絕望，我們會找到辦法的！
-8477,The infection is spreading at alarming rate through the colony. The scientists have named it Wildfire after its virulence and infection pattern.,
-8309,The worst has happened – Wildfire has infected Earth. It was on board a rocket which returned to Earth and somehow it breached through all decontamination measures.,
+8477,The infection is spreading at alarming rate through the colony. The scientists have named it Wildfire after its virulence and infection pattern.,感染正以驚人的速度在殖民地中散播。科學家根據它的感染力及散播方式將其命名為野火。
+8309,The worst has happened – Wildfire has infected Earth. It was on board a rocket which returned to Earth and somehow it breached through all decontamination measures.,最糟糕的事情發生了 – 地球感染了野火。有艘往返地球的火箭通過了所有潔淨措施，仍將疾病帶回了地球。
 8310,"The infected personnel at the landing site deteriorated within hours of contracting the infection and the medics couldn't help them. This doesn't match our medical records as Wildfire takes much more time to develop here, on Mars. We suspect a form of rapid mutation due to the changes in the environment.
 
 The rocket landing site has been placed under quarantine and the authorities have been informed. We can only pray that they manage to prevent the infection from spreading any further.
 
 <effect>Infection Level on Earth has been set to the Contained level. If it reaches the Extinction level, the human population on Earth will be obliterated. Discover the Wildfire Cure and supply it to Earth to prevent this!",
-8478,One of our rockets has spread the Wildfire infection on Earth. It's spreading rapidly - we have to discover the Cure before the human population on Earth is obliterated!,
+8478,One of our rockets has spread the Wildfire infection on Earth. It's spreading rapidly - we have to discover the Cure before the human population on Earth is obliterated!,我們的其中一艘火箭將野火帶到了地球上。它正在迅速蔓延 – 我們必須在地球上的人類被滅絕前找出治療方法。
 8308,Wildfire: Countdown to Extinction,野火：滅絕倒數
-8312,The worst has happened – Wildfire has infected Earth. We suspect this was caused by a recent meteor impact on Mars which lifted debris and showered them on the Blue Planet.,
+8312,The worst has happened – Wildfire has infected Earth. We suspect this was caused by a recent meteor impact on Mars which lifted debris and showered them on the Blue Planet.,最糟糕的事情發生了 – 野火散播到了地球。我們懷疑這是因為最近一次擊中火星的隕石造成的，它擊中火星的同時，將揚起的星塵散播到了地球。
 8313,"Several small settlements in different regions have been infected. The authorities report that the victims have deteriorated within mere hours, something which doesn't match our medical records. On Mars it takes Sols for the Wildfire to kill its host. We suspect some form of rapid mutation due to the changes in the environment.
 
 The infected areas have been placed under quarantine and we can only pray that the authorities manage to prevent the disease from spreading any further.
 
-<effect>Infection Level on Earth has been set to the Contained level. If it reaches the Extinction level, the human population on Earth will be obliterated. Discover the Wildfire Cure and supply it to Earth to prevent this!",
-8311,Cosmos help us all!,
-8479,Martian meteors have spread the Wildfire infection on Earth! We must discover the Cure before the entire human population on Earth is obliterated!,
-8314,Contained,
-8315,Endemic,
-8316,Epidemic,
-8317,Pandemic,
-8318,Doomsday,
-8319,Wildfire: Infection Level - Endemic,
-8320,"The Wildfire virus is spreading on Earth at an alarming rate, threatening entire populations all over the globe. The grim prediction is that soon the entire population of the planet will be affected.",
+<effect>Infection Level on Earth has been set to the Contained level. If it reaches the Extinction level, the human population on Earth will be obliterated. Discover the Wildfire Cure and supply it to Earth to prevent this!","幾個不同地區的小鎮已被感染。當局報告說，受感染者在數小時內惡化的病狀與我們的醫療記錄不符。在火星上，“野火”需要數個太陽日才能殺死它的宿主。由於火星與地球之間的環境差異，我們懷疑它已迅速地產生變異。
+
+受感染地區已被隔離，我們只能祈禱相關當局能夠阻止疾病進一步蔓延。
+
+<effect>地球上的感染級別已被設置為管控中。如果達到滅絕級別，地球上的所有人口將被消滅。尋找“野火”治療方案並提供給地球，以防止這種情況！"
+8311,Cosmos help us all!,天啊，誰來幫幫我們！
+8479,Martian meteors have spread the Wildfire infection on Earth! We must discover the Cure before the entire human population on Earth is obliterated!,火星隕石將野火散播到了地球！我們必須在地球上的人類滅絕前找到治癒方法！
+8314,Contained,管控中
+8315,Endemic,區域性
+8316,Epidemic,流行性
+8317,Pandemic,大範圍流行
+8318,Doomsday,毀滅日
+8319,Wildfire: Infection Level - Endemic,野火：感染等級 – 區域性
+8320,"The Wildfire virus is spreading on Earth at an alarming rate, threatening entire populations all over the globe. The grim prediction is that soon the entire population of the planet will be affected.",野火病毒正以驚人的速度在地球上傳播，並對全人類造成了威脅。最嚴格的預測報告指出，很快地球上的每個人都將造受其影響。
 8321,"Scientists on Earth are desperately trying to discover a solution, but so far in vain. The virulence of the local strain is so high that sampling and transporting infected material is a death sentence. The nanoscopic size of the agent makes containment equally hard - biological filters fail to stop it effectively, threatening the safety of any laboratory which attempts to study it. The only solution is to analyze the original strain - the one we have on Mars - in order to find the cure. Time is running short!
 
 Meanwhile, Third World countries are in a state of panic as the Wildfire strikes the poorest communities. Waves of refugees flee the affected regions and many resource operations are simply abandoned by the scared personnel. The market feels the hunger for raw resources and multiple demands have been filed for imports from Mars.
 
 <effect>Infection Level has reached the Endemic state. Export prices have increased for the next <text_param1> Sols as the First World economies feel the hunger for resources.",
-8634,15,
+8634,15,15
 8322,Grave news... We have to hurry!,新聞快報…沒時間了！
-8480,The Wildfire infection is spreading uncontrollably on Earth. The Third World countries are hit harder due to their lack of resources to fight the disease effectively.,
-8323,Wildfire: Infection Level - Epidemic,
-8324,Wildfire has hit the Third World hard. Panic and desperation has spread across the population as waves of refugees flee the endemic zones.,
+8480,The Wildfire infection is spreading uncontrollably on Earth. The Third World countries are hit harder due to their lack of resources to fight the disease effectively.,地球上的野火已經失控了。由於第三世界缺乏資源以有效的對抗感染，他們被野火嚴重的打擊。
+8323,Wildfire: Infection Level - Epidemic,野火：感染等級 – 流行性
+8324,Wildfire has hit the Third World hard. Panic and desperation has spread across the population as waves of refugees flee the endemic zones.,野火重重的打擊了第三世界。隨著一批批難民逃離流行區域，恐慌及絕望已蔓延到全國各地。
 8325,"The crisis can be felt across the developing countries and the First World as well. The chaos in the poorest countries resonates across the globe as the raw materials markets are plummeting. Entire resource operations in the Third World countries are abandoned as the workers flee the areas hit by the virus. People in the rich countries vocally support actions to relieve the struggling regions of the Earth and many companies divert resources for charity. Probably there’s still hope for humanity when so many of us refuse to ignore the tragedy of complete strangers.
 
-<effect>Infection Level has reached the Epidemic state. Applicant pool is depleted for the next <text_param1> Sols due to quarantine measures.",
+<effect>Infection Level has reached the Epidemic state. Applicant pool is depleted for the next <text_param1> Sols due to quarantine measures.","無論是發展中還是第一世界的國家皆能感受到這場災難。隨著原物料市場的崩壞，貧窮國家的混亂擴散至世界各地。因為工人全為了逃離病毒感染，第三世界的資源生產完全停擺。富裕國家的人們紛紛發聲支援這些受影響的地區，許多企業也將資源轉移至慈善事業上。在這人們紛紛起身互相關懷的時刻，也許人類仍存有一絲希望。
+
+<effect>感染等級已達流行性狀態。因為檢疫措施的設立，招募池於接下來的<text_param1> 太陽日空缺。"
 8635,20,20
 8326,We have to hurry!,我們得加快腳步！
-8481,The Wildfire has infected the developed countries as well. Panic and desperation are spreading through the population!,
-8327,Wildfire: Infection Level - Pandemic,
-8328,A wave of despair sweeps across the globe as people witness the futility of all measures against Wildfire. Everyone feels that our time on Earth is running short.,
+8481,The Wildfire has infected the developed countries as well. Panic and desperation are spreading through the population!,野火同樣感染了已發展國家。恐慌及絕望在人們中持續擴散著。
+8327,Wildfire: Infection Level - Pandemic,野火：感染等級 – 大範圍流行
+8328,A wave of despair sweeps across the globe as people witness the futility of all measures against Wildfire. Everyone feels that our time on Earth is running short.,隨著人們眼睜睜的看著所有針對野火的措施接連失敗，恐慌席捲了全球。每個地球上的人都認為來日無多。
 8329,"The tragedy in the Third World has struck some of the richer countries as well, as the Wildfire infection has spread across their populations. People stay inside, fearing for their lives. Refugee camps are filling to the brim as entire areas of the world have been depopulated. Despair has brought the worse in some of us and looters raid the stores in the cities while the police and the army are trying to quell the violent riots. The economies of the First World are failing due to the growing crisis and our Sponsor wasn't spared as well. I'm afraid we’re running out of time...
 
-<effect>Infection Level has reached the Pandemic state. Next level - Extinction! All resupply costs are increased for the next <text_param1> Sols due to supply shortages.",
+<effect>Infection Level has reached the Pandemic state. Next level - Extinction! All resupply costs are increased for the next <text_param1> Sols due to supply shortages.","由於野火透過人口流動擴散的原因，於第三世界發生的悲劇也在部分富裕國家中發生了。人們坐困家中，擔心哪天就會突然失去生命。整個世界被隨處可見的難民營充斥著。而充斥人們心中的絕望使狀況越加惡化，當警察與軍隊正忙著應付各地的暴亂時，惡徒趁亂搶劫街上的商店。第一世界的經濟可說因為這場疫病崩潰了，而我們的贊助者也沒倖免於此。恐怕我們所剩時間不多了…
+
+<effect>感染等級已達大範圍流行。 下一個等級 – 滅絕！ 由於後勤補給的缺乏，所有補給成本將於接下來 <text_param1> 太陽日內提高。"
 8636,20,20
 8482,The Wildfire has nearly destroyed the human civilization. Scattered pockets of survivors are still dwindling in remote areas of the world.,野火幾乎摧毀了整個人類文明。在世界上偏遠地區所僅存的倖存者仍持續減少中。
 8551,Earth's population has been obliterated by the Wildfire infection. No traces of any human activity can be detected. We could be the only humans left out there...,地球上的人口已被野火消滅殆盡。已偵測不到任何人類活動的訊號。我們是唯一逃離那裡的人。
@@ -5477,7 +5522,11 @@ Meanwhile, Third World countries are in a state of panic as the Wildfire strikes
 
 Is this the end? Is the Wildfire infection over, dead in its rampant destruction alongside its human hosts? Or would it mutate further, consuming all life on Earth? Only the children of our children will be able to answer these questions, watching from afar.
 
-<effect>Earth population is devastated by the Wildfire infection! Export, Resupply, Research Outsourcing and Applicants have been disabled indefinitely.",
+<effect>Earth population is devastated by the Wildfire infection! Export, Resupply, Research Outsourcing and Applicants have been disabled indefinitely.","無人的地球已成為我們過往偉人的陵墓 – 曾經擁擠不堪的大城市成了毫無生機的空殼廢墟，發達的工業僅剩下廢棄建築，沒有兒童玩耍的草地。包覆著地球的僅剩下寂靜，只有吹過廢墟的風仍不斷低鳴著無人聆聽的故事。
+
+這就是結局了？野火就這樣跟著人類的終結而消失了？還是它會再度變異，將所有地球上的生命都消滅？我想只有我們後代子孫能回答這個問題，而且是遠遠的看著。
+
+<effect>地球上的人口被野火消滅殆盡！出口、補給、研究外包及人才招募已永久停用"
 8334,"A dark day, but do not lose hope - while we stand, humanity is alive!",黑暗的一天，但我們仍保有希望 – 只要我們堅持下去，人類仍有希望！
 8335,Wildfire: Dawn of Earth,野火：黎明曙光
 8336,We've received a radio transmission! From Earth! We thought we were the last humans and now this! Amazing news!,我們收到了無線電訊息！從地球來的！我想我們是僅存的人類了！太棒了！
@@ -5499,16 +5548,18 @@ The survivors have their spirits high, but still the fear of the Wildfire lies i
 
 <effect>貨運火箭將從地球發射前來載運野火治療劑。當治療劑運抵地球後你將獲得<funding(reg_param2)>資金。"
 5977,10,10
-8338,Rejoice!,
-8339,Wildfire: Wings of Salvation,
-8340,A cargo rocket is on its way to gather the Wildfire cure. People on Earth depend on our efforts to create a steady supply chain for the cure.,
+8338,Rejoice!,歡呼吧！
+8339,Wildfire: Wings of Salvation,野火：救世之翼
+8340,A cargo rocket is on its way to gather the Wildfire cure. People on Earth depend on our efforts to create a steady supply chain for the cure.,一架貨運火箭正在收集野火治療劑。地球上的人們都倚賴著我們建立穩定的疫苗供給線。
 8341,"The amount of Wildfire Cure we have to return to Earth depends on the severity of the situation there. If the situation demands it, we should expect potential future requests for the cure.
 
-<effect>Load Cargo Rockets with the Cure and Fuel and send them back to Earth until the Wildfire infection is completely eradicated.",
+<effect>Load Cargo Rockets with the Cure and Fuel and send them back to Earth until the Wildfire infection is completely eradicated.","需要送回地球的野火治療劑數量是根據那邊疾病程度而定。若情況需要，我們必須提早做好對應的數量以應付未來所需。
+
+<effect>直到疾病完全治癒前，不斷於貨運火箭裝載治療劑及燃料並送回地球。"
 8342,Roger that.,收到。
 8484,The authorities on Earth have sent a Cargo Rocket to gather Wildfire Cure and return it to the struggling population on our homeworld.,地球當局已派遣貨運火箭前來取得野火治療劑，以送回我們的家鄉治療那些受苦的人們。
 8343,Refuel and load with Wildfire Cure to relief Earth from the Infection.,補充燃料並裝載野火治療劑以將地球從感染中復原。
-8344,Epilogue: Wildfire Eradicated!,
+8344,Epilogue: Wildfire Eradicated!,終章：野火消滅了！
 8345,Authorities all over the Earth report that no cases of the Wildfire infection have been detected. Earth is freed from the yoke of the worst pandemic in history.,全球當局的報告都顯示已沒有再偵測到野火感染的跡象。地球已從歷史上最嚴重的流行疾病中痊癒了。
 8346,"People all around the world celebrate, but the consequences of the Wildfire crisis remain. We have decades – maybe even centuries before us – to cope with the damages caused, with the fear and desperation which reverberate inside all of us. But we remain optimistic that, given time, people will return to their everyday lives.
 
@@ -5520,27 +5571,43 @@ The Wildfire Cure remains our hot lead towards the way the disease worked. By st
 
 <effect>Cargo Rockets will be sent from Earth to load Wildfire Cure. Upon return, each rocket will grant you <funding(reg_param2)> Funding. 
 
-<effect>Gained a new Technology, <em><reg_param1></em>.",
+<effect>Gained a new Technology, <em><reg_param1></em>.","世界各地的人都在為野火的消滅慶祝，但野火所帶來的後果是不可忽略的災難。然而，在這次災難之前我們有幾十年 - 甚至幾個世紀 - 去應對它所可能造成的損害，以及撫平在我們所有人面前迴盪的恐懼和絕望。但我們曾經樂觀地認為，只要時間足夠，人們仍能重返正常的日常生活。
+
+這次的野火危機向我們證明了人類的脆弱，而我們建造的象牙塔是如何在短短的幾天內崩潰。也許這是回顧並重新考慮我們生活方式的最好時候。我們需以此為鑒，重建我們的文明，並建立得比以前更好。
+
+治療野火的藥劑遺留給我們的是引領我們瞭解疾病病理的熱潮。通過研究它，我們將能夠深入研究其結構和起源的奧秘，為未來的日子做好準備。
+
+<effect>地球上的感染已被根除！所有感染級別的影響已被移除。
+
+<effect>貨運火箭將從地球發送到火星以裝載野火治療劑。返回地球後，每艘火箭都會為您提供 <funding(reg_param2)> 資金。
+
+<effect>獲得了新科技，<em><reg_param1></em>。""
+"
 8347,We did it!,我們成功了 ！
-8552,The Wildfire infection has been eradicated on Earth! People all over the globe rejoice and praise your adequate actions!,
-8349,Refuel and load with Wildfire Cure to sell to Earth and gain Funding.,
+8552,The Wildfire infection has been eradicated on Earth! People all over the globe rejoice and praise your adequate actions!,地球上的野火已消滅殆盡！世界各地的人們舉國歡騰，並讚美你一直以來的努力！
+8349,Refuel and load with Wildfire Cure to sell to Earth and gain Funding.,充填燃料並將野火治療劑銷往地球以換取資金
 1115,Cargo Rocket,貨運火箭
-8350,<funding(reg_param1)>,
-8351,Wildfire: Safe Space,
-8353,Our brave colonists waited for their brethren on Earth to be cured before they have received relief from the burden of the disease. The colonists would surely be happy to hear that the threat is eliminated – it will raise their spirits high!,
-8354,It’s a day for celebration!,
-8355,Wildfire: Safer Together,
-8352,Today marks the moment when our colony is free from the threat of the Wildfire infection!,
+8350,<funding(reg_param1)>,<funding(reg_param1)>
+8351,Wildfire: Safe Space,野火：安全的太空
+8353,Our brave colonists waited for their brethren on Earth to be cured before they have received relief from the burden of the disease. The colonists would surely be happy to hear that the threat is eliminated – it will raise their spirits high!,我們勇敢的殖民者們，一直靜靜等待地球上的兄弟從疾病中治癒的一天。聽到疾病已被治癒殖民者們一定會很高興 – 這將振奮人心！
+8354,It’s a day for celebration!,值得慶祝的一天！
+8355,Wildfire: Safer Together,野火：安居樂業
+8352,Today marks the moment when our colony is free from the threat of the Wildfire infection!,今日是我們殖民地確定已不受野火威脅的一天！
 8356,"Our efficient medical program has managed to cure all cases of the Wildfire infection. Mars has become a much safer place. We informed Earth and after a careful selection and medical checks they are ready to launch an emergency flight with healthy survivors aboard.
 
 These are ordinary people who survived the Wildfire crisis somehow and managed to get to safety. None of them has passed the initial training required for arriving on Mars so we expect them to have a hard time acclimating to the life in the colony. But at least they would be safe from harm with us.
 
-<effect>A rocket with <text_param1> Refugees aboard is inbound to Mars.",
-5845,50,
-8357,We’ll make sure these poor souls get the best reception.,
-8486,Now that Mars has become a safe haven from the Wildfire infection the authorities on Earth have sent a rocket with non-infected refugees to be sheltered in your colony.,
-8358,Refugees on board are fleeing the infected Earth.,
-8123,Refugee Rocket,
+<effect>A rocket with <text_param1> Refugees aboard is inbound to Mars.","我們高效的醫療設備竭盡所能治癒了所有的野火感染者。火星已經變得安全多了。我們通知地球現在狀況後，他們準備發射一班經過仔細選擇及檢查的健康倖存者的緊急航班。
+
+他們都是在野火危機中倖存下來並渴望安全的普通人。他們之中沒有人曾經受過在火星生活所需的基本訓練，所以估計他們將很難適應火星的生活，但至少應該不會傷害我們。
+
+<effect>一整艘滿載<text_param1>難民的火箭抵達火星。
+"
+5845,50,50
+8357,We’ll make sure these poor souls get the best reception.,我們會確保這些可憐的人們受到最好的照護。
+8486,Now that Mars has become a safe haven from the Wildfire infection the authorities on Earth have sent a rocket with non-infected refugees to be sheltered in your colony.,火星現在成了躲避野火感染的避難天堂，地球當局送了一只滿載未受感染的難民前來避難。
+8358,Refugees on board are fleeing the infected Earth.,船上的難民正逃離受感染的地球。
+8123,Refugee Rocket,難民火箭
 8359,Beyond Earth: Vision of the Future,超越地球：放眼未來
 8360,"“No, aliens did not build the pyramids – human beings built the pyramids because we are clever and hard workers.",外星人從來沒有建過金字塔，但人類因為智慧，而創造了金字塔。
 8361,"And in this day and age, when we value the strength of a civilization not by its ability to wage war - but by its ability to prevent it, our hard work and cleverness have only one place left to take us – up.
@@ -5549,11 +5616,11 @@ Up towards the stars - above our superficial segregations and competing with our
 
 I am more than certain that the last several thousand years of our history are but the bumpy road towards a version of humanity where there is no hunger, no war, no needless suffering and where the future holds nothing but opportunity and wonder.  And I also believe we are quite close to the end of this turbulent road. I make it my mission to help take us through this last stretch and today I announce my plan in investing the vast majority of my considerable fortune to this endeavor. “
 
-Rede Goddenberry, one of the wealthiest and most powerful people on Earth, addresses the UN General Assembly ","“當文明的耀揚，已使戰爭不復存在時，人類的才智就應該把眼光放到那我們未知的「宇宙」了。我們將不再那劃地自限，只要共同努力，人類終將可以成為可以穿越宇宙的種族
+Rede Goddenberry, one of the wealthiest and most powerful people on Earth, addresses the UN General Assembly ","當文明的耀揚，已使戰爭不復存在時，人類的才智就應該把眼光放到那我們未知的「宇宙」了。我們將不再那劃地自限，只要共同努力，人類終將可以成為可以穿越宇宙的種族
 
 我們肯定，人類歷史終將不會因為飢餓、戰事而結束，取而代之的是無止盡的探索與對於這個宇宙的好奇。從火星殖民任務的成功，我們看見了希望，而這個希望也將是未來全地球人類應該共同前進的方向，擺脫地球的引力，超越地球！
 
-在這裏我將宣布投入我全部的資產與資源，實現一個偉大的計畫，也期盼各國的支持。“
+在這裏我將宣布投入我全部的資產與資源，實現一個偉大的計畫，也期盼各國的支持。
 
 
 「雷德葛登」， 世界上其中一位最富有最具權勢的人在聯合國大會上的發言"
@@ -5569,7 +5636,7 @@ One of the projects in question is currently in a ditch - the planning of a Moon
 
 <effect>Beyond Earth Initiative tech unlocked. Research the tech to help the Aldrin Base project.","指揮官，作為人類探索宇宙的歷史中，勇氣與才能必須兼具，為了讓人類可以在太陽系中找到其它可以喘息的機會空間，我們必須誠摯地邀請您加入這個計畫。
 
-目前正在討論的其中一個項目遇到了障礙 - 「奧爾德林基地」一座位於月球上開採氚元素的計劃。相信您也了解“能源即是力量“ 這句話的道理，現在開採計畫中，我們工程師遇到了低重力環境下，挖掘站效率不佳，且故障率極高的問題，再經過多次討論與會議後，我們決定需要借助指揮官您在火星開發的經驗，協助我們一同研發專屬於奧爾德林基地的開採設施。
+目前正在討論的其中一個項目遇到了障礙 - 「奧爾德林基地」一座位於月球上開採氚元素的計劃。 相信您也了解「能源即是力量」這句話的道理，現在開採計畫中，我們工程師遇到了低重力環境下，挖掘站效率不佳，且故障率極高的問題，再經過多次討論與會議後，我們決定需要借助指揮官您在火星開發的經驗，協助我們一同研發專屬於奧爾德林基地的開採設施。
 
 <effect>超越地球計劃技術解鎖。研究該技術以幫助完成奧爾德林基地項目。 "
 8367,Let's plan this.,事不宜遲。
@@ -5786,9 +5853,9 @@ People are suffering and dying on Earth - in war, from deceases, from malnutriti
 
 So I convey this message to you, whom I have come to see as my closest partners in this endeavor: Please redouble your efforts, for it would please a dying old man greatly to see the plan bearing fruit before his death. But if not to warm my old heart, do it because you believe in what the initiative represents as I know you do.“","億萬富翁向我們發出了特別的要求：
 
-“看來我不能再隱瞞事實了，生命終有消逝時。儘管這是我希望超越地球太空計劃盡快完成的原因之一。但無論是否考慮到我的病情，更重要的是另一個原因是 地球上的人們正在飽受戰爭所帶來痛苦和折磨 、飢荒、瘟疫和死亡。一旦計畫完成，人類就可以遠離這些苦難。
+「看來我不能再隱瞞事實了，生命終有消逝時。儘管這是我希望超越地球太空計劃盡快完成的原因之一。但無論是否考慮到我的病情，更重要的是另一個原因是 地球上的人們正在飽受戰爭所帶來痛苦和折磨 、飢荒、瘟疫和死亡。一旦計畫完成，人類就可以遠離這些苦難。
 
-所以指揮官，我只希望您能繼續完成我的使命，在未結束戰爭的努力中，我最致敬的指揮官：請為我這個老頭兒，更努力，即便不是為了我，也該為了人類去完成他，因為我相信你知道這個計劃代表了什麼。 ”"
+所以指揮官，我只希望您能繼續完成我的使命，在未結束戰爭的努力中，我最尊敬的指揮官：請為我這個老頭兒，更努力，即便不是為了我，也該為了人類去完成他，因為我相信你知道這個計劃代表了什麼。」"
 8428,I am at loss for words.,感到身負重任
 8558,Rede Goddenberry reveals he is ill and dying.,雷德葛登表明他快要病死了。
 8429,Beyond Earth: Rede Goddenberry has passed away,超越地球：雷德葛登已經病逝
@@ -5835,9 +5902,9 @@ As with all change, there will be resistance. There are those who prosper from w
 
 To them I have to say: the world is moving on. Try as you might, you have only slowed down an irreversible process.”","該項目遭受重大挫折。 雷德葛登先生的發言如下：
 
-“超越地球計劃力圖最終實現的是變革 - 將使人類間的衝突成為過去。
+「超越地球計劃力圖最終實現的是變革 - 將使人類間的衝突成為過去。
 
-與所有變化一樣，都會有阻力，那些發戰爭財，給他人製造痛苦的人，會認為團結對他們的利益構成巨大的威脅，對於這些人，我不得不說：世界正在前進，你們只是在減慢不可逆轉的過程罷了 ”"
+與所有變化一樣，都會有阻力，那些發戰爭財，給他人製造痛苦的人，會認為團結對他們的利益構成巨大的威脅，對於這些人，我不得不說：世界正在前進，你們只是在減慢不可逆轉的過程罷了。 」"
 8563,A setback. We will overcome it!,挫折而已，我們會戰勝它！
 6318,BIOTECH,生物科技
 6319,"The <em>Biotech</em> field deals with <em>Food</em> production, <em>life support</em> and <em>medicine</em>.",<em>生物科技</em>主要發展 <em>食物</em> 生產、<em>維生系統</em> 和 <em>醫療系統</em>相關的研究
@@ -5853,7 +5920,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 <grey>""They say once you grow crops somewhere you’ve officially colonized it.""
 <right>Andy Weir – The Martian</grey><left>","新建築: <em>農場</em> (<buildinginfo('Farm')>) - 生產食物。蒼穹頂中的大建築，更有工作效率，且不需要電力。
 
-<grey>“俗話說，種植作物就代表正式殖民。“
+<grey>「俗話說，種植作物就代表正式殖民。」
 <right>Andy Weir – 火星人</grey><left>"
 6343,Low-G Fungi,弱G科技：遇見真菌
 6344,"New Building: <em>Fungal Farm</em> (<buildinginfo('FungalFarm')>) -  An out-Dome building that produces Food.
@@ -5861,7 +5928,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 <grey>""All fungi are edible. Some fungi are only edible once."" 
 <right>Terry Pratchett</grey><left>","新建築: <em>真菌農場</em> (<buildinginfo('FungalFarm')>) -  蒼穹頂外的生產食物建築。
 
-<grey>“所有的菌類都可以吃。有些菌類只能吃一次。
+<grey>「所有的菌類都可以吃。有些菌類只能吃一次。」
 <right>泰瑞·普萊契 (Terry Pratchett), 奇幻文學作家</grey><left>"
 5125,Magnetic Filtering,磁性過濾
 6326,"MOXIE Upgrade (<em>Magnetic Filtering</em>) - Oxygen production increased by <param1>%.
@@ -5874,8 +5941,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 
 <grey>Water on Mars is abundant, yet it is mostly underground and in a frozen state – making it, while within reach, still difficult and expensive to mine. This makes recycling necessary to ensure a steady water supply.</grey>","新尖端建築：<em>水資源回收塔</em> (<buildinginfo('WaterReclamationSystem')>) - 有效的減少蒼穹頂中的水資源消耗
 
-<grey>“人類含水量高達百分之六十， 而且人類每天都會生產各種液體， 如果可以把人類集中管理，應該就不用擔心水資源了...“
-<right>第六智慧</grey><left>"
+<grey>「人類含水量高達百分之六十， 而且人類每天都會生產各種液體， 如果可以把人類集中管理，應該就不用擔心水資源了...」</grey>"
 6329,Utility Crops,更多的農作物
 6330,"Unlock <em>new crops</em> in Farms and Hydroponic Farms that provide Oxygen and improve soil quality.
 
@@ -5900,7 +5966,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 <grey>“One touch of nature makes the whole world kin.”
 <right>William Shakespeare</grey><left>","<em>基本蒼穹頂</em> 中的住宅可以獲得更好的舒適度
 
-<grey>“嘿，我們把菜園搬上去如何？花椰菜那區”
+<grey>「嘿，我們把菜園搬上去如何？花椰菜那區。」
 <right>望著穹頂的植物學家阿儒</grey><left>"
 6337,Microgravity Medicine,無重力醫療系統
 6338,"New Spire Building: <em>Medical Center</em> (<buildinginfo('MedicalCenter')>) - has larger capacity and is more effective than the Infirmary.
@@ -5908,7 +5974,7 @@ To them I have to say: the world is moving on. Try as you might, you have only s
 <grey>“The good physician treats the disease; the great physician treats the patient who has the disease.” 
 <right>William Osler</grey><left>","新尖端建築：<em>尖端醫療中心</em> (<buildinginfo('MedicalCenter')>) - 擁有更多的容量，且服務效率會比診所要來的好
 
-<grey>“飢飽無度則傷脾，思慮過度則傷心，色欲過度則傷腎，起居過常則傷肝，喜怒悲愁過度則傷肺” 
+<grey>「飢飽無度則傷脾，思慮過度則傷心，色欲過度則傷腎，起居過常則傷肝，喜怒悲愁過度則傷肺”。」
 <right>華佗</grey><left>"
 6339,Gene Adaptation,作物基因改造
 6340,"Unlock <em>new crops</em> in Farms and Hydroponic Farms that provide better Food yields.
@@ -6889,10 +6955,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 6632,Survivor,倖存者
 6633,"Loses less Health without food, water, oxygen or when living in an unpowered Dome.",當沒有食物、水與氧氣的時候，傷害程度較慢。且可以生活在無電力的蒼穹頂下
 6634,Sexy,魅力
-6635,Greatly increased birth rate.,"增加生育率
-
-<grey>“真正的性感不是裸露，而是舉手投足 甚至只拿取一顆蘋果的動作，也能感夠到對方魅力“
-<right>奧黛麗赫本</grey><left>"
+6635,Greatly increased birth rate.,增加生育率
 6636,Chronic Condition,慢性病
 6637,Loses Health each day.,每一天都會減少健康
 8454,Infected,感染者
@@ -7074,21 +7137,21 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 90,Visit,參觀
 92,Restore Upgrade Defaults,回復更新預設值
 101,Upgrade Time Cost,升級需要時間
-102,Modifier Target 1,
-103,Modifier Label 1,
-104,Modified Property 1,
-105,Percent Modifier 1,
-106,Amount Modifier 1,
-107,Modifier Target 2,
-108,Modifier Label 2,
-109,Modified Property 2,
-110,Percent Modifier 2,
-111,Amount Modifier 2,
-112,Modifier Target 3,
-113,Modifier Label 3,
-114,Modified Property 3,
-115,Percent Modifier 3,
-116,Amount Modifier 3,
+102,Modifier Target 1,修改目標 1
+103,Modifier Label 1,修改標籤 1
+104,Modified Property 1,修改屬性 1
+105,Percent Modifier 1,修改百分比 1
+106,Amount Modifier 1,修改數量 1
+107,Modifier Target 2,修改目標 2
+108,Modifier Label 2,修改標籤 2
+109,Modified Property 2,修改屬性 2
+110,Percent Modifier 2,修改百分比 2
+111,Amount Modifier 2,修改數量 3
+112,Modifier Target 3,修改目標 3
+113,Modifier Label 3,修改標籤 3
+114,Modified Property 3,修改屬性 3
+115,Percent Modifier 3,修改百分比 3
+116,Amount Modifier 3,修改數量 3
 117,Consumption Resource Type,消耗品資源種類
 118,Consumption Max Storage,消耗品最大庫存
 119,Consumption Amount,消耗品存量
@@ -7124,7 +7187,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 141,Cannot Build in Dome,不能蓋在蒼穹頂內
 142,Wonder,奇蹟
 143,In-Dome Construction Modifer,蒼穹頂內建築修正
-144,Extend entity bb during placement checks,
+144,Extend entity bb during placement checks,在放置檢視時擴大實體影像
 145,Can cancel?,可以取消嗎？
 146,Can change prio?,可以改變優先權嗎？
 147,Don’t show in Build Menu,不要顯示在建築選單中
@@ -7144,16 +7207,16 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7615,Build Shortcut,建築捷徑
 7616,Build Shortcut 2,建築捷徑 2
 7617,Gamepad Shortcut,控制器捷徑
-162,Alternative Entity 2,
-8515,Alternative Entity 2 DLC,
-163,Alternative Entity 3,
-8516,Alternative Entity 3 DLC,
-164,Alternative Entity 4,
-8517,Alternative Entity 4 DLC,
-165,Alternative Entity 5,
-8518,Alternative Entity 5 DLC,
-166,Alternative Entity 6,
-8519,Alternative Entity 6 DLC,
+162,Alternative Entity 2,代替實體 2
+8515,Alternative Entity 2 DLC,代替實體 DLC 2
+163,Alternative Entity 3,代替實體 3
+8516,Alternative Entity 3 DLC,代替實體 DLC 3
+164,Alternative Entity 4,代替實體 4
+8517,Alternative Entity 4 DLC,代替實體 DLC 4
+165,Alternative Entity 5,代替實體 5
+8518,Alternative Entity 5 DLC,代替實體 DLC 5
+166,Alternative Entity 6,代替實體 6
+8519,Alternative Entity 6 DLC,代替實體 DLC 6
 167,Label 1,標籤 1
 168,Label 2,標籤 2
 169,Label 3,標籤 3
@@ -7186,7 +7249,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 7618,<ButtonX>,
 177,Order of Input,輸入順序
 178,Alphabetical,依字母順序
-154,Build Menu Pos,
+154,Build Menu Pos,建立選單位置
 179,Place <building>,放置 <building>
 180,Drones<right><DronesCount>/<CommandCenterMaxDrones>,無人機<right><DronesCount>/<CommandCenterMaxDrones>
 181,"This building will be demolished in <em><FormatScale(demolishing_countdown,1000)></em> sec.","此建築物即將在 <em><FormatScale(demolishing_countdown,1000)></em> 秒後被引爆摧毀"
@@ -7302,17 +7365,17 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 564,<green>Children will be born. The Dome is comfortable enough.</green>,<green>生活無憂無慮，對未來充滿信心。殖民者們期待組成家庭並生育下一代</green>
 276,This Dome is fractured and is losing oxygen.<newline><left>Number of fractures<right><fractures><newline><left>Cost of repairs<right><polymers(number)>,這座蒼穹頂結構出現問題，正在損失氧氣<newline><left>結構斷裂處<right><fractures><newline><left>修復花費<right><polymers(number)>
 6751,Dome type,蒼穹頂類型
-8050,Road Connection Type,
-6752,Cupola entity,
-6753,Cupola attach spot,
-6754,Entrance entity,
-6755,Entrance attach spot,
-6756,Tube entrance entity,
-6757,Tube entrance attach spot,
-6758,Second cupola (optional),
-6759,Second cupola attach spot,
-8647,Dome entity during construction,
-6760,DLC,
+8050,Road Connection Type,道路連接類型
+6752,Cupola entity,圓頂實體
+6753,Cupola attach spot,圓頂連接點
+6754,Entrance entity,入口實體
+6755,Entrance attach spot,入口連接點
+6756,Tube entrance entity,管線入口實體
+6757,Tube entrance attach spot,管線入口連接點
+6758,Second cupola (optional),第二圓頂(可選)
+6759,Second cupola attach spot,第二圓頂連接點
+8647,Dome entity during construction,建設期間的圓頂實體
+6760,DLC,DLC
 8521,Constructing a Drone,建造一個無人機
 8522,Constructing a Biorobot,建造一個仿生人
 642,Starting Drones,啟動無人機中
@@ -7359,7 +7422,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 671,Hit Chance,命中機率
 672,Fire Rate,發射速率
 674,Shoot Range,設計範圍
-675,Pitch Range,
+675,Pitch Range,間距範圍
 676,Rotate Speed,旋轉速度
 677,Beam Time,光束時間
 678,Tilt Tolerance,傾斜誤差
@@ -7379,7 +7442,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 685,Waiting for Drones,等待無人機光顧
 686,RP/Day,
 687,Number of Residents,居民數量
-688,Rest Duration,
+688,Rest Duration,休息時間
 689,Children only,限兒童
 691,Sanity recover per rest,每次休息回復理智
 1000049,Import,進口
@@ -7443,10 +7506,10 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 Services: <em><list></em>","<description>
 服務：<em><list></em>"
 738,Single Active shift,僅一時段
-739,Persisted closed shift,
-740,Start Shift Enabled 1,
-741,Start Shift Enabled 2,
-742,Start Shift Enabled 3,
+739,Persisted closed shift,持續關閉時段
+740,Start Shift Enabled 1,開始啟動轉移 1
+741,Start Shift Enabled 2,開始啟動轉移 2
+742,Start Shift Enabled 3,開始啟動轉移 3
 743,Max Shuttle resource capacity,最大客運機載運量
 6765,Max Shuttle speed,最大客運機速度
 7675,Shuttle,客運機
@@ -7471,7 +7534,7 @@ Services: <em><list></em>","<description>
 762,Going up,往上
 763,Going down,往下
 6766,Idle,閒置
-764,Spire Frame Entity,
+764,Spire Frame Entity,尖頂邊框實體
 7356,Open,打開
 7357,Closed,關閉
 8054,Ignored by shuttles,被客貨機忽略
@@ -7484,16 +7547,16 @@ Services: <em><list></em>","<description>
 772,"Rare Metals<right><preciousmetals(Stored_PreciousMetals,MaxAmount_PreciousMetals)>","稀有金屬<right><preciousmetals(Stored_PreciousMetals,MaxAmount_PreciousMetals)>"
 773,"Fuel<right><fuel(Stored_Fuel,MaxAmount_Fuel)>","燃料<right><fuel(Stored_Fuel,MaxAmount_Fuel)>"
 774,Max Storage Per Resource,各項資源最大儲存量
-775,Max Boxes On The X Axis,
-7626,Max Boxes On The Y Axis,
-7627,Max Boxes On The Z Axis,
+775,Max Boxes On The X Axis,X軸上最大箱數
+7626,Max Boxes On The Y Axis,Y軸上最大箱數
+7627,Max Boxes On The Z Axis,Z軸上最大盒箱數
 776,Storable Resources,可儲存的資源
-777,Switch Fill Order,
-7770,Fill Group Idx,
-7949,<left_click> Disable storage,
-7950,<left_click> Enable storage,
-7951,<ButtonA> Disable storage,
-7952,<ButtonA> Enable storage,
+777,Switch Fill Order,切換填寫順序
+7770,Fill Group Idx,填寫群組索引
+7949,<left_click> Disable storage,<left_click> 禁用儲存
+7950,<left_click> Enable storage,<left_click> 啟用儲存
+7951,<ButtonA> Disable storage,<ButtonA>  禁用儲存
+7952,<ButtonA> Enable storage,<ButtonA>  啟用儲存
 778,Depleted,耗竭
 779,Very low,非常低
 780,Average,一般
@@ -7515,7 +7578,7 @@ Services: <em><list></em>","<description>
 801,Deep Rare Metals,深層稀有金屬資源
 802,Deep underground deposit of Rare Metals. Can be exploited by a <em>Rare Metals Extractor</em> staffed by <em>Colonists</em>.,位於地表深層的稀有金屬資源處，可以由<em>稀有金屬挖掘站</em> 進行開挖，並由 <em>殖民者</em>.進行操作
 803,Max Drones,最大無人機數
-804,Deposit Entity Variant,
+804,Deposit Entity Variant,儲存實體變換
 805,<resource(resource)> Surface Deposit,<resource(resource)> 地表資源點
 806,"<description><newline><newline><ResourceName><right><resource(Amount,max_amount,resource)>",
 811,Metals Deposit,地表金屬資源
@@ -7538,18 +7601,18 @@ Services: <em><list></em>","<description>
 735,Usable by children,可被兒童使用
 736,Children Only,限兒童
 824,Points per day,每天點數
-825,Points to evaluate,
+825,Points to evaluate,評估點
 826,Charge time,充電時間
 827,Dust to clean,要清理的粉塵
 828,Sphere Speed,天體者速度
-829,Bonus Production % per km elevation,
-830,Min Production to Work,
-831,Dust Storm bonus percent,
-832,Great Dust Storm bonus percent,
+829,Bonus Production % per km elevation,獎勵生產 % 每公里海拔
+830,Min Production to Work,最小生產力
+831,Dust Storm bonus percent,沙塵暴獎勵百分比
+832,Great Dust Storm bonus percent,巨大沙塵暴獎勵百分比
 833,Max workers per shift,每班最多工人數
 835,Current performance,目前效率
 836,Workplace Automation,工作場所自動化
-837,Workplace Auto Performance,
+837,Workplace Auto Performance,工作場所自動性能
 838,Workers: <workers> of <max_workers>,工人： <workers> of <max_workers>
 7628,<green>Automation +<auto_performance></green>,<green>自動化 +<auto_performance></green>
 7629,<green>Workshift workers +<amount></green>,<green>值班人員 +<amount></green>
@@ -7571,8 +7634,9 @@ Services: <em><list></em>","<description>
 4224,<ButtonX> Open this work slot,<ButtonX> 開啟空缺
 541987944858,First Shift,早班
 159665176435,Second Shift,中班
+161964752558,Save
 994186128274,Night shift,大夜
-130,N/A,
+130,N/A,無
 7359,Stopped Work Shift,停工
 4212,Heavy workload,繁重工作量
 4213,Normal workload,正常工作量
@@ -7592,12 +7656,12 @@ Services: <em><list></em>","<description>
 7793,Unlock all Breakthroughs,解鎖全部突破性科技
 7794,Construct all buildings,建造全部建築物
 7795,"Add funding ($500,000,000)","增加資金 ($500,000,000)"
-7796,Spawn 1 Colonist,
-7797,Spawn 10 Colonists,
-7798,Spawn 100 Colonists,
+7796,Spawn 1 Colonist,產生1位殖民者
+7797,Spawn 10 Colonists,產生10位殖民者
+7798,Spawn 100 Colonists,產生100位殖民者
 839,Low on resource:,資源量偏低
 840,Low on resources:,資源量偏低
-841,Ice Strength,
+841,Ice Strength,凍結強度
 7571,May block access to deposit.,可能會阻擋到資源處
 7572,Overlaps deposit,覆蓋到資源處
 842,This building requires Power.,建築物需要電力
@@ -7659,7 +7723,7 @@ Services: <em><list></em>","<description>
 887,Place a power switch,放置一個電源開關
 888,Place a pipe valve,放置一個管線閥門
 891,Air,空氣
-918,Display Name (plural),
+918,Display Name (plural),顯示名稱(複數)
 919,Food Output,食物輸出
 8055,ResourceType,資源種類
 8056,Locked,鎖住
@@ -7673,10 +7737,10 @@ Services: <em><list></em>","<description>
 926,Soil Quality Min,土壤最小品質
 927,Soil Quality Max,土壤最大品質
 928,Farm Class,農場等級
-155,Entity,
+155,Entity,實體
 929,Produce,生產
 934,Can demolish?,可以拆除？
-175,Use demolished state?,
+175,Use demolished state?,使用拆除狀態？
 4039,"<resource(amount, res)>",
 7573,<left_click> Cancel construction,<left_click> 取消建築
 7574,<ButtonY> Cancel construction,<ButtonY> 取消建築
@@ -7684,16 +7748,16 @@ Services: <em><list></em>","<description>
 7576,<left_click> Cancel Salvage,<left_click> 取消拆除
 7577,<ButtonY> Salvage,<ButtonY> 拆除
 7578,<ButtonY> Cancel Salvage,<ButtonY> 取消拆除
-7832,Conquering Mars as {0},
-7833,Dealing with a hostile invasion,
-7834,Being invaded by the Dredgers,
-7835,Investigating the origin of the Black Cubes,
+7832,Conquering Mars as {0},征服火星為{0}
+7833,Dealing with a hostile invasion,應對敵對入侵
+7834,Being invaded by the Dredgers,被疏濬者入侵
+7835,Investigating the origin of the Black Cubes,調查黑立方的來源
 7836,Highest Population,最高汙染
 7837,Wonders Built,奇蹟建造
-7838,Sols Played,
+7838,Sols Played,已遊戲日
 7839,Scanned Anomalies,已掃描的觀察點
 7840,Techs Researched,已研究的科技
-7841,Longest Playthrough,
+7841,Longest Playthrough,最長通關
 7842,Earliest Colony Approval,最早的殖民地認同
 7843,Mysteries Completed,完成謎團
 572,Power grid parameters. Power reserve indicates the duration that the stored energy will last with the current consumption.<newline>,電力網系統。 列出目前電力消耗生產等各種資訊<newline>
@@ -7709,9 +7773,9 @@ Services: <em><list></em>","<description>
 939,Max output while discharging,放電時的最大輸出
 940,Conversion efficiency % (charging),轉換效率 % (充電)
 941,Capacity (watts*hour),電容量 (瓦特*小時)
-942,Change animation,
-943,Empty state,
-944,Full state,
+942,Change animation,變更動畫
+943,Empty state,淨空狀態
+944,Full state,充滿狀態
 945,Stored Power,電力已儲存
 946,Discharging,放電
 947,Charging,充電
@@ -7847,14 +7911,14 @@ Services: <em><list></em>","<description>
 485,Lifetime production<right><air(production_lifetime)>,生產至今<right><air(production_lifetime)>
 656,Water consumption,水資源消耗
 1067,Oxygen consumption,氧氣消耗
-29,Max water consumption while charging,
-1068,Max water output while discharging,
-1069,Conversion efficiency % of water (charging),
+29,Max water consumption while charging,充電時最大水消耗量
+1068,Max water output while discharging,放電時最大水排放量
+1069,Conversion efficiency % of water (charging),水的轉換效率%(充電)
 30,Water Capacity,儲水量
 33,Stored Water,水儲量
-1070,Max Oxygen consumption while charging,
-1071,Max Oxygen output while discharging,
-1072,Conversion Oxygen efficiency % (charging),
+1070,Max Oxygen consumption while charging,充電時最大氧氣消耗量
+1071,Max Oxygen output while discharging,放電時最大氧氣排放量
+1072,Conversion Oxygen efficiency % (charging),氧氣的轉換效率%(充電)
 1073,Oxygen Capacity,儲氧量
 1074,Stored Air,氧儲量
 7639,Mission Evaluation received,已收到任務評估
@@ -7862,25 +7926,31 @@ Services: <em><list></em>","<description>
 7641,Mission Evaluation incoming,即將有新的任務評估
 8643,Drone Hub overloaded. Not enough drones to handle all tasks - construct more drones.,無人機中心服務超載，無人機來不及負擔全部的工作。 請建造更多的無人機
 8644,Drone Hub overloaded,無人機中心滿載
-1078,Trophy collection for Surviving Mars,
+1078,Trophy collection for Surviving Mars,火星奇緣獎勵收藏
 7689,"Surviving Mars is a sci-fi city builder about colonizing Mars and surviving the process. Choose a sponsor for resources and financial support before landing on the surface. Build domes and infrastructure, research new possibilities and utilize drones to maintain your colonies functions. Cultivate your own food, mine minerals or just relax by the bar after a day’s work. Most important of all, keep your colonists alive.
  
-There will be challenges to overcome. Are you ready? Mars is waiting for you.",
-8567,The Deluxe Upgrade Pack of Surviving Mars provides ambitious colonists with a variety of new ways to customize their new homes and domes.,
+There will be challenges to overcome. Are you ready? Mars is waiting for you.","火星奇緣是一個關於殖民火星並在其過程中生存下去的科幻城市建造類遊戲。登陸地表之前，先選擇一個資助商為你提供資源和經濟資助。建造蒼穹頂和基礎設施。研究新的科技並利用無人機來維護你的殖民地。你可以種植自己的食物，開採礦物，或在一天的勞作以後到酒吧放鬆一下。但最重要的是，讓你的殖民者們活著。
+
+將會有許多挑戰等著你去克服。你準備好了嗎？火星正等著你。"
+8567,The Deluxe Upgrade Pack of Surviving Mars provides ambitious colonists with a variety of new ways to customize their new homes and domes.,火星奇緣豪華版為雄心勃勃的殖民者提供各種新的方式去訂製他們的新家和蒼穹頂
 8568,"The Stellaris dome set is a thematic set of visual skins for the Martian domes with a futuristic design and star-shaped elements. It is available for the following domes:
 - Basic Dome: A small dome, suitable for the early days of the colony.
 - Medium Dome: A medium-sized dome design.
 - Oval Dome: An elongated dome design, which has space for two Spires.
-- Mega Dome: The most advanced and spacious dome design.",
-1080,Surviving Mars Platinum Trophy,
-1081,Collected all remaining Surviving Mars trophies,
-7808,Credits,
-7809,CREDITS,
+- Mega Dome: The most advanced and spacious dome design.","群星蒼穹頂是一組具有未來風設計和星形元素的火星穹頂主題視覺特效。適用於以下蒼穹頂：
+- 基礎蒼穹頂：小型蒼穹頂，適用於早期殖民地。
+- 中型蒼穹頂：中等尺寸設計的穹頂。
+- 橢圓蒼穹頂：有兩個尖頂空間的細長設計的蒼穹頂。
+- 巨型蒼穹頂：最先進最寬敞設計的蒼穹頂。"
+1080,Surviving Mars Platinum Trophy,火星奇緣白金獎盃
+1081,Collected all remaining Surviving Mars trophies,收集所有的火星奇緣獎盃
+7808,Credits,完成度
+7809,CREDITS,製作組
 8057,Switch To Controller?,切換至控制器?
-7810,Do you want to command the game with a controller?,
-7872,There are colonists suffering from status effects.,
-7935,Wireless Controller,
-7936,Wireless controller for <user> has been disconnected. Reconnect the wireless controller in order to continue.,
+7810,Do you want to command the game with a controller?,您想使用控制器遊玩遊戲嗎?
+7872,There are colonists suffering from status effects.,有殖民者受到痛苦狀態影響
+7935,Wireless Controller,無線控制器
+7936,Wireless controller for <user> has been disconnected. Reconnect the wireless controller in order to continue.,<user> 的無線控制器已斷開連接。 重新連接無線控制器才能繼續。
 7938,I am above the age of 13,我13歲以上了
 8650,This savegame cannot be loaded by the current version of the game.,這個存檔不能被現在的遊戲版本讀取
 1082,South Cap,"南極冠
@@ -7935,45 +8005,45 @@ Viking 2)"
 (Arsia Mons)"
 1154,Base Score,基本分數
 1155,Bonus Score,加成分數
-1156,Bonus score expiration Sols,
-1157,Complete thread,
-1158,Custom score,
+1156,Bonus score expiration Sols,加成分數到期日
+1157,Complete thread,完成主線
+1158,Custom score,自定義分數
 1159,<display_name> - Sol <sol>,<display_name> - 太陽日 <sol>
 8058,Have <target> Colonists at Sol <timeout>. Current Colonists Count: <count>,需要在<timeout> 太陽日前，擁有殖民者<target>位。目前殖民者：<count>
 8059,Have <target> Martianborn Colonists at Sol <timeout>. Current Martianborn Count: <count>,需要在<timeout> 太陽日前，擁有火星之子<target>位。目前火星之子：<count>
 8060,Have <target> Technologies researched at Sol <timeout>. Currently Researched Technologies: <count>,需要在<timeout> 太陽日前，完成科技研發 <target>項。目前火星之子：<count>
 8061,Analyse <target> Anomalies at Sol <timeout>. Anomalies Analysed: <count>,需要在<timeout> 太陽日前，完成分析觀察點 <target>個。目前已觀察：<count>
 8062,Export <target> Rare Metals at Sol <timeout>. Rare Metals Exported: <count>,需要在<timeout> 太陽日前，完成出口稀有金屬 <target>個。目前已出口：<count>
-1000048,Entity Name,
-1160,Decal Mod Entity,
-1161,UI File,
-1000066,Entity testing only possible when a map is loaded,
-1000069,Parent entity,
-1000071,Child entity,
-1000072,Anchor,
-1000073,Offset,
-1000074,Offset Front-Back,
-1000075,Offset Left-Right,
-1000076,Offset Top-Bottom,
+1000048,Entity Name,實體名稱
+1160,Decal Mod Entity,封裝mod實體
+1161,UI File,用戶介面文件
+1000066,Entity testing only possible when a map is loaded,只有在地圖載入時才可能進行實體測試
+1000069,Parent entity,父實體
+1000071,Child entity,子實體
+1000072,Anchor,定位
+1000073,Offset,移動
+1000074,Offset Front-Back,移動前-後
+1000075,Offset Left-Right,移動左-右
+1000076,Offset Top-Bottom,移動上-下
 1000077,Rotate,旋轉
-1000078,Rotate Roll,
-1000079,Rotate Pitch,
-1000080,Rotate Yaw,
-1000081,Scale,
+1000078,Rotate Roll,旋轉 滾動
+1000079,Rotate Pitch,旋轉 傾斜
+1000080,Rotate Yaw,旋轉 偏轉
+1000081,Scale,縮放
 1000082,Color,顏色
-1000083,When to Anchor,
-1000084,Anchor X-axis,
-1000085,Anchor Y-axis,
-1000086,Anchor Z-axis,
-1000087,Control Parent,
-7956,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate X-axis of the object,
-7957,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Y-axis of the object,
-7958,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Z-axis of the object,
-7959,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to control the parent object,
-7960,Use the toggle buttons in the bottom right corner to lock one of the above modes,
-7961,Click <sharp_yellow><mouse_button></sharp_yellow> button to move the object,
+1000083,When to Anchor,當定位時
+1000084,Anchor X-axis,定位X-軸
+1000085,Anchor Y-axis,定位Y-軸
+1000086,Anchor Z-axis,定位Z-軸
+1000087,Control Parent,控制父件
+7956,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate X-axis of the object,按住 <sharp_yellow><keyboard_key></sharp_yellow> 鍵使物體沿X-軸移動
+7957,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Y-axis of the object,按住 <sharp_yellow><keyboard_key></sharp_yellow> 鍵使物體沿Y-軸移動
+7958,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to activate Z-axis of the object,按住 <sharp_yellow><keyboard_key></sharp_yellow> 鍵使物體沿Z-軸移動
+7959,Hold <sharp_yellow><keyboard_key></sharp_yellow> key to control the parent object,按住 <sharp_yellow><keyboard_key></sharp_yellow> 鍵以控制父物體
+7960,Use the toggle buttons in the bottom right corner to lock one of the above modes,用右下角的開關按鈕來鎖定上面的mod之一
+7961,Click <sharp_yellow><mouse_button></sharp_yellow> button to move the object,按 <sharp_yellow><mouse_button></sharp_yellow> 按鈕來移動物體
 1000595,Left,左
-7962,Click <sharp_yellow><mouse_button></sharp_yellow> button to rotate the object,
+7962,Click <sharp_yellow><mouse_button></sharp_yellow> button to rotate the object,按 <sharp_yellow><mouse_button></sharp_yellow> 按鈕來旋轉物體
 1000596,Right,右
 7963,Middle,中
 7964,Click <blue><mouse_button></blue> button to control the camera,點擊 <blue><mouse_button></blue> 按鈕控制鏡頭
@@ -7985,7 +8055,7 @@ Viking 2)"
 1163,"""I am putting myself to the fullest possible use, which is all I think that any conscious entity can ever hope to do.""<newline><right>- HAL 9000",「“我正充分發揮自己的用處，這是我認為任何有意識的實體都該要能做到的事情。」<newline><right> - 哈爾 9000
 1164,The Power of Three (Easy),立方之力 (簡單)(翻譯完成)
 1165,"""Science is no more than an investigation of a miracle we can never explain, and art is an interpretation of that miracle.""<newline><right>- Ray Bradbury",「科學不過是對未知謎團的探索，而藝術則是該謎團的一種解讀方式。」<newline><right>- Ray Bradbury
-1166,"Black. Cube-shaped. Just standing there, challenging our preconceptions.",
+1166,"Black. Cube-shaped. Just standing there, challenging our preconceptions.",黑色。立方形體。只是佇立在那，挑戰我們的先入之見。
 1167,Black Cube Matrix,黑立方矩陣
 1168,Max Amount Black Cubes,最大量黑立方
 1169,Black Cube<right><Stored_BlackCube>/<MaxAmount_BlackCube>,黑立方<right><Stored_BlackCube>/<MaxAmount_BlackCube>
@@ -8002,7 +8072,7 @@ Viking 2)"
 1183,An unknown alien object.,
 1184,Spheres (Normal),天體者 (一般)(翻譯完成)
 1185,"""Never fire a laser at a mirror.""<newline><right>- Larry Niven",「小心，別引火自焚」<newline><right>- Larry Niven
-1186,Strange pile of rocks,
+1186,Strange pile of rocks,一堆奇怪的石頭
 1187,Mirror Sphere excavation site,球體挖掘研究現場
 1188,Action in progress.,進行中
 6780,Cancel.,取消
@@ -8015,7 +8085,7 @@ Viking 2)"
 1195,Not operational.,未運作
 1201,An odd-looking rock pile.,一個奇怪的岩石堆
 1202,Mirror sphere excavation site,球體挖掘研究現場
-1210,Attempting to pierce the shell,
+1210,Attempting to pierce the shell,正在試圖突破外殼
 1211,Establishing communication,建立通訊中
 1212,Feeding Power,提供電力中
 1213,Needs further analysis,需要進一步分析
@@ -8024,7 +8094,7 @@ Viking 2)"
 1221,Decomposing into Polymers,分解成聚合物
 6781,Idle,閒置
 455,Occupied,已佔據
-456,Vacant,
+456,Vacant,空的
 8066,Start mystery <mystery> (<scenario>),開始謎團<mystery> (<scenario>)
 8067,Wildfire (Hard),野火 (困難)
 8068,"""The worst pandemic in modern history was the Spanish flu of 1918, which killed tens of millions of people. Today, with how interconnected the world is, it would spread faster.""<newline><right>- Bill Gates",「近代最嚴重的流感是發生於 1918 年的西班牙流感，當時有上千萬人死去。而今天全世界更緊密地交織在一起，病毒只會傳染的更快。」<newline><right>- Bill Gates
@@ -10168,11 +10238,11 @@ Viking 2)"
 3262,South Africa,南非
 3263,Zambia,尚比亞
 3264,Zimbabwe,辛巴威
-8074,Run on activation,
-8075,Run on deactivation,
-3439,Shader Filename,
-3441,Texture1,
-3443,Texture2,
+8074,Run on activation,在啟用時運行
+8075,Run on deactivation,在停用時運行
+3439,Shader Filename,材質器文件名稱
+3441,Texture1,材質1
+3443,Texture2,材質2
 3451,FOV,視野大小
 3452,Time of day,時辰
 3453,Gameplay Indicators,遊戲設定指示
@@ -10183,38 +10253,38 @@ Viking 2)"
 8657,Focus Depth,焦距
 8658,Defocus Strength,失焦強度
 3458,Bloom Strength,渲染強度
-3459,Pin Rollover Context,
-3460,Pin Rollover Hint,
+3459,Pin Rollover Context,固定滾動上下文
+3460,Pin Rollover Hint,固定滾動提示
 7604,<left_click> Select,<left_click> 選擇
-3461,Pin Rollover Hint Xbox,
-3462,Pin Summary 1,
-3465,Pin Progress Value,
-3466,Pin Progress Max,
-3467,Pin on Start,
-3468,Blink,
-3469,Obvious Blink,
-7904,"Chooses a random mystery, preferably one you have not played yet.",
-6839,None,
-3492,Starting Funding (M),
-3493,Tech Funding (M),
-3494,Funding earned for each Tech researched,
-3495,Breakthrough Funding (M),
-3496,Funding earned for each Breakthrough Tech researched,
-3497,Breakthrough applicants,
-3498,Applicants earned for each Breakthrough Tech researched,
+3461,Pin Rollover Hint Xbox,固定滾動提示Xbox
+3462,Pin Summary 1,固定摘要1
+3465,Pin Progress Value,固定進度值
+3466,Pin Progress Max,固定最大進度
+3467,Pin on Start,開始即固定
+3468,Blink,閃爍
+3469,Obvious Blink,閃爍明顯
+7904,"Chooses a random mystery, preferably one you have not played yet.",選擇一個隨機的謎團，最好是你還沒玩過的。
+6839,None,無
+3492,Starting Funding (M),初始資金(百萬)
+3493,Tech Funding (M),初始科技(百萬)
+3494,Funding earned for each Tech researched,為每項技術研究賺取的資金
+3495,Breakthrough Funding (M),突破性資金(百萬)
+3496,Funding earned for each Breakthrough Tech researched,為每項突破性技術研究賺取的資金
+3497,Breakthrough applicants,突破應徵者
+3498,Applicants earned for each Breakthrough Tech researched,應徵者為每項突破性技術研究所獲得的獎金
 3499,Cargo Capacity,酬載量
-3500,Starting Rockets,
+3500,Starting Rockets,初始火箭
 6840,Rocket price (M),火箭售價 (百萬)
-6841,Specify 0 to disable buying,
+6841,Specify 0 to disable buying,設定為0以禁用購買
 6842,Applicants price (M),應徵者價錢 (百萬)
-3503,Starting Techs to research,
-3504,Number of initially available Techs to research,
+3503,Starting Techs to research,啟動科技研究
+3504,Number of initially available Techs to research,最初可用的科技數量進行研究
 3505,Trait given to colonists,賦予殖民者的性格
 3509,Effect,效果
-3510,Flavor text,
-7968,Default Dome Skin,
+3510,Flavor text,最愛字體
+7968,Default Dome Skin,默認蒼穹頂皮膚
 8076,Goal,目標
-8077,Timeout (Sols),
+8077,Timeout (Sols),時間到(火星日)
 8078,Target,
 8494,Free Space Left,
 3491,Challenge Mod (%),
@@ -10433,18 +10503,18 @@ Viking 2)"
 3681,<left_click> Select Sector,<left_click> 選擇地圖區塊
 7882,<PinRolloverGamepadHint>,
 3683,<NumProbes>,
-3682,<ButtonA> Overview,
+3682,<ButtonA> Overview,<ButtonA> 總覽
 8569,<ButtonA> Select Sector,<ButtonA> 選擇地圖區塊
 3684,<newline><em>Deep scanning of the Sector is not possible with the current technology</em>,<newline><em>目前的科技發展還不允許執行地圖區塊深層掃描</em>
 6722,Idle,閒置
-7537,Investigating the origin of the Black Cubes,
+7537,Investigating the origin of the Black Cubes,調查黑立方的來源
 7538,Being invaded by the Dredgers,被疏濬者入侵
 7539,Dealing with the Spheres,與天體者達成共識
-7540,Experiencing Mirages,
-7541,Having Drone issues,
-7542,Dealing with a hostile invasion,
+7540,Experiencing Mirages,體驗幻景
+7541,Having Drone issues,發生無人機問題
+7542,Dealing with a hostile invasion,處理敵對入侵
 7692,Conquering Mars,征服火星
-7543,Conquering Mars as <sponsor_name>,
+7543,Conquering Mars as <sponsor_name>,征服火星 <sponsor_name>
 8081,The game can not be loaded because some required downloadable content is not installed.,由於沒有安裝一些必須的 DLC， 所以遊戲無法載入
 3685,This savegame is from an old version and may not function properly.,這個是舊版本的存檔， 可能無法正確運作
 6851,Warning,警告
@@ -10452,7 +10522,11 @@ Viking 2)"
 
 <mods>
 
-Some features may not work.",
+Some features may not work.","下列模組遺失或過期：
+
+<mods>
+
+某些功能可能無法使用。"
 3686,Load anyway,
 3688,Autosave Sol <current_sol>,自動儲存於太陽日 <current_sol>
 3691,Random number,隨機數字
@@ -10660,7 +10734,7 @@ Some features may not work.",
 3894,No Description,沒有描述
 3896,Research Costs,研發花費
 3897,Discoverable,可發現
-7545,Show in Other Field,
+7545,Show in Other Field,顯示其他領域
 3899,Position on hex grid,在六角格的位置
 3900,<no name>,
 1000020,ID,
@@ -10677,13 +10751,13 @@ Some features may not work.",
 3910,Param 4,
 3911,Param 5 Comment,
 3912,Param 5,
-3914,Research Cost,
-3915,Tech Field,
+3914,Research Cost,研究成本
+3915,Tech Field,科技領域
 3916,From Mystery,從謎團
 3709,This building has been disabled,這個建築物已經被禁用
 3596,Weight,重量
 3926,Price,價格
-3721,Field,
+3721,Field,領域
 3732,Count,數量
 3928,Upgrade ID,更新 ID
 3699,Property,屬性
@@ -10719,7 +10793,7 @@ Some features may not work.",
 1000067,Display Name,顯示名稱
 1000097,Category,分類
 1000017,Description,描述
-94,Icon,
+94,Icon,圖示
 3940,Rare,
 3941,Rarity weight,稀有重量
 3942,Incompatible,不相容
@@ -10798,21 +10872,21 @@ Some features may not work.",
 4074,This mod requires a newer game version!,
 1124,<tag> (<count>),
 6900,OK,
-3687,Cancel,
+3687,Cancel,取消
 6899,Warning,
-8080,Restart,
+8080,Restart,重置
 8496,Activating or deactivating mods requires a restart.,
 3988,Image Preview,
 4096,PopUpPreset,
-4097,Close on read,
+4097,Close on read,關閉說明
 4098,Expiration,
-4099,Game Time,
-4100,Display Countdown,
+4099,Game Time,遊戲時間
+4100,Display Countdown,倒數顯示
 4101,Dismissable,
 3770,FX Action,
 4102,Show once per game,
 4103,Encyclopedia ID,
-4104,Show Vignette,
+4104,Show Vignette,顯示陰影
 4105,Vignette Image,
 4106,Vignette Pulse Duration,
 4107,Sound FX,
@@ -10824,7 +10898,7 @@ Some features may not work.",
 7548,<LB> / <DPadUp> Navigate <DPadDown> / <RB>,
 7888,<newline><ButtonA> Activate,
 7889,<newline><ButtonX> Dismiss,
-7582,Notifications,
+7582,Notifications,警告
 7712,Email,電子信箱
 254784121325,Password,密碼
 4121,Confirm Password,確認密碼
@@ -10838,8 +10912,8 @@ Some features may not work.",
 7716,Read Terms of Use,閱讀使用條文
 7717,Read Privacy Policy,閱讀隱私政策
 7718,Agree to the Terms of Use and Privacy Policy,同意使用條文和隱私政策
-8499,Subscribe to Newsletter,
-7719,current,
+8499,Subscribe to Newsletter,訂閱電子報
+7719,current,即時
 7720,Steam,
 7721,Microsoft,
 7722,Sony<nbsp>Entertainment<nbsp>Network,
@@ -10966,7 +11040,7 @@ Some features may not work.",
 6912,OK,
 6913,Cancel,取消
 4229,Add Funding (<funding(500000)>),增加資金 (<funding(500000)>)
-4230,Available,
+4230,Available,可收穫
 4231,Get,
 4232,Get =>,
 4233,<= Remove,<= 移除
@@ -10994,7 +11068,7 @@ Some features may not work.",
 4283,Worker performance,工作效率
 4284,Age of death,享年
 4285,Base Morale boost,基本士氣加成
-4286,Birth Comfort modifier,
+4286,Birth Comfort modifier,生育舒適度修正
 4287,Preferred Worker performance bonus,偏好工作績效獎勵
 4288,Colonist daily Health recovery,殖民者每日健康恢復值
 4289,Colonist daily Sanity recovery,殖民者每日理智恢復值
@@ -11319,7 +11393,7 @@ Some features may not work.",
 6880,Warning,警告
 6881,Are you sure you want to buy a new Rocket for <funding(price)>?,您確定要花費 <funding(price)> 來購買一艘火箭?
 7546,Insufficient funding! You need <funding(price)> to purchase a Rocket!,資金不足！ 您需要 <funding(price)> 以購買一艘火箭
-8536,Colonization Temporarily Suspended,
+8536,Colonization Temporarily Suspended,暫時中止殖民化
 8537,"<SponsorDisplayName> has to make sure the Colony is sustainable before allowing more Colonists to come to Mars. Make sure the Founders are supplied with Water, Oxygen, and Food for 10 Sols after they arrive on Mars.",<SponsorDisplayName>允許更多殖民者前往火星之前，<SponsorDisplayName>需確保殖民地能夠自給自足。請確保資助者在到達火星後，能在10日內獲得水，氧氣和食物的補給。
 8538,Rockets unavailable.,無可用火箭
 4068,PREFABS,預製零件
@@ -11337,6 +11411,7 @@ Some features may not work.",
 1000159,Escape,離開
 856797454991,ACHIEVEMENTS,成就
 599355083725,Unlocked <white><unlocked> / <total>,解鎖 <white><unlocked> / <total>
+600243851394,Toggle Resource Icons
 583679719179,<display_name>,<display_name>
 328491723397,CLOSE,關閉
 4262,Difficulty Bonus <white><percent(DifficultyBonus)></white>,難度加成 <white><percent(DifficultyBonus)></white>
@@ -11352,16 +11427,19 @@ Some features may not work.",
 4522,Open POC Map 4,
 6974,Open POC Map LateGame,
 152768500780,Toggle In Game Main Menu,切換 遊戲內選單
+157477899096,"<resource('MachineParts' )><right><machineparts(Stored_MachineParts, MaxAmount_MachineParts)>"
 964722863858,Pan Up,視角 向上平移
 981867141540,Pan Down,視角 向下平移
 199913045993,Pan Left,視角 向左平移
 644017017186,Pan Right,視角 向右平移
+644657883672,Run on activation
 741646947499,Rotate Camera Left,左旋 視角
 892715092566,Rotate Camera Right,右旋 視角
 200927746859,Pause Game,暫停遊戲
 933108950407,Speed Up,加速
 450845916933,Speed Down,減速
 852738262115,Toggle High Speed,切換至高速
+852944381173,<grey>"Production is the only answer to inflation."<newline><right>Chester Bowles</grey><left>
 312752058553,Rotate Building Left,左旋 建築物
 694856081085,Rotate Building Right,右旋 建築物
 383281603855,Build Menu,建造選單
@@ -11370,7 +11448,9 @@ Some features may not work.",
 864744602325,Reset Camera,重置相機視角
 796804896133,Radio,收音機
 970807214544,Resupply Screen,補給面板
+972855831022,The Last Ark
 771055429123,Research Screen,研究面板
+775719471908,Begin with free prefabs for all buildings necessary for a small colony.
 7849,Colony Overview,殖民總覽
 973748367669,Milestones,里程碑
 697482021580,Achievements,成就
@@ -11389,10 +11469,12 @@ Some features may not work.",
 926715334434,Perform maintenance,執行維護
 674162662569,Assign Residence,指派居住處
 225690993504,Set Workplace,指派工作場所
+226422040944,"<grey>""The learning and knowledge that we have, is, at the most, but little compared with that of which we are ignorant.""<newline><right>Plato</grey><left>"
 542727559467,Recharge battery,電池充電
 949156525062,Change priority,變更優先權
 643321767698,Turn on/off,開啟/ 關閉
 204031300524,Filter colonists by traits,依照個性篩選殖民者
+207099897295,No specialist applicants.,沒有特殊專長申請者
 292941424864,Request maintenance,維護請求
 748588275043,Last Notification,最後的通知提示
 614477738289,Last Constructed Building,最後完成的建築物
@@ -11415,9 +11497,12 @@ Some features may not work.",
 4237,Build Menu,建造選單
 4235,Manage Infopanel<newline>(Hold) Infopanel shortcuts,
 649120194813,<ButtonY>,
+650277449050,"<LS> - move, <RS> - rotate."
 500955334824,<ButtonX>,
 262988649795,<ButtonA>,
+266445772015,"<resource('Metals' )><right><metals(Stored_Metals, MaxAmount_Metals)>"
 278990799792,<ButtonB>,
+279635353384,Zoom In
 7411,<DisplayName>,
 995212188397,Best workers<right><em><UISpecialization></em>,合適的專長 <right><em><UISpecialization></em>
 4034,Set a custom name.,自訂名稱
@@ -11438,7 +11523,10 @@ Some features may not work.",
 840063956526,<DisplayName>,
 6895,OK,
 433085262825,MILESTONES,里程碑
+434307444387,Workers in Workshops<right><em><percent(WorkshopWorkersPercent)></em><nbsp><nbsp>
+434908076554,<grey>"I'd far rather be happy than right any day."<newline><right>Douglas Adams</grey><left>
 700087753666,DIFFICULTY BONUS <white><percent(rating)>,難度加成 <white><percent(rating)>
+701672144364,"<grey>""Geez, all that money we waste on space exploration; just think how many bombs that would buy!""<newline><right>Craig Bruce</grey><left>"
 841674688207,"SCORE <white><sum(0, 'ChallengeScore')>","分數 <white><sum(0, 'ChallengeScore')>"
 611518845262,<CompleteText>,
 940959765296,"<def(ChallengeScore,'')>",
@@ -11458,6 +11546,7 @@ Some features may not work.",
 1129,MOD MANAGER,模組管理
 1130,MOD EDITOR,模組編輯器
 498260347235,ACHIEVEMENTS,成就
+500246791575,The amount of difficulty added or subtracted to the overall game difficulty value
 4132,<LS> Select landing spot,<LS> 選擇降落點
 4133,<left_click> Select landing spot,<left_click> 選擇降落點
 5462,CUSTOM,自訂
@@ -11495,6 +11584,7 @@ Some features may not work.",
 7875,(  ),
 702142953137,RADIO STATION,收音機
 717950591874,Volume,音量
+722606516343,Dust Storm rating set to a new Max level for all locations on Mars.
 135513074411,<display_name>,
 942201510325,"In exchange for <funding(OutsourceResearchCost)> Funding, outsourced researchers will contribute <ResearchPoints(OutsourceResearch)> in the next <time(OutsourceResearchTime)>.",用資金 <funding(OutsourceResearchCost)>換取接著<time(OutsourceResearchTime)> 太陽日內 額外的研究成長
 889032422791,OUTSOURCE,科研發包
@@ -11512,7 +11602,7 @@ Some features may not work.",
 4536,Science Institutes<right><ResearchPoints(EstimatedRP_ScienceInstitute)>,科學機構 <right><ResearchPoints(EstimatedRP_ScienceInstitute)>
 4537,Genius Colonists<right><ResearchPoints(EstimatedRP_Genius)>,天才殖民者 <right><ResearchPoints(EstimatedRP_Genius)>
 4538,Explorers<right><ResearchPoints(EstimatedRP_Explorer)>,探索者 <right><ResearchPoints(EstimatedRP_Explorer)>
-4539,Excess Power<right><ResearchPoints(EstimatedRP_SuperconductingComputing)>,
+4539,Excess Power<right><ResearchPoints(EstimatedRP_SuperconductingComputing)>,電力過剩<right><ResearchPoints(EstimatedRP_SuperconductingComputing)>
 556459376226,<display_name><right><em><ResearchBoostPercent>%,
 634036540793,<RB>,
 4540,RESEARCH QUEUE,研究序列
@@ -11526,7 +11616,9 @@ Some features may not work.",
 385959075356,Empty slot,空格
 407610261475,<RocketTypeTitle>,
 198049262709,Cargo Capacity <white><Capacity> kg</white><newline>Funding <white><funding(Funding)></white><newline>Available Rockets <white><AvailableRockets>/<TotalRockets></white>,酬載量 <white><Capacity> kg</white><newline>資金 <white><funding(Funding)></white><newline>可用火箭 <white><AvailableRockets>/<TotalRockets></white>
+198850457134,"<grey>""People have a right to violence, to rebel, to fight back.""<newline><right>Yuri Kochiyama</grey><left>"
 628712416014,Rockets unavailable.,無可用火箭
+631382449574,Dust in the Wind,風飛沙
 8541,<PassengerRocketDisabledRolloverText>,
 8542,<PassengerRocketDisabledRolloverTitle>,
 855487073078,Space Elavator Unavailable.,無可用的太空電梯
@@ -11543,6 +11635,7 @@ Some features may not work.",
 4071,Review Applicants,瀏覽應徵者
 4253,LAUNCH,發射
 836192190578,<SyncInfo>,
+836452351195,"<resource('MysteryResource' )><right><mysteryresource(Stored_MysteryResource, MaxAmount_MysteryResource)>"
 4182,<<< New Savegame >>>,<<< 新存檔 >>>
 5467,SAVE,儲存
 5466,LOAD,讀取
@@ -11574,28 +11667,31 @@ Some features may not work.",
 7855,View information about the traits of your Colonists.,檢視您的殖民者性格資訊
 596215171316,There are currently no colonists in this category.,此分類中沒有任何殖民者
 660999914706,<HomelessRolloverText>,
+663906214435,Texture 2
 632550459351,There are currently no colonists in this category.,此分類中沒有任何殖民者
 112546540868,<HomelessRolloverTitle>,
 890683347390,<UnemployedRolloverText>,
 901758528440,There are currently no colonists in this category.,此分類中沒有任何殖民者
 494678213027,<UnemployedRolloverTitle>,
 814678720193,<ProblematicRolloverText>,
+815334191366,Basic Resources
 560192517207,There are currently no colonists in this category.,此分類中沒有任何殖民者
 235056803468,<ProblematicRolloverTitle>,
 644918672836,"Drone prefabs can be used to order new drones in Drone Hubs. Drone Prefabs cost:<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>","在這邊可以訂製無人機預製零件，並送交無人機中心組裝。 無人機預製零件花費：<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>"
 8645,Construct Drone Prefab,建造無人機預製零件
 6737,<left_click> Construct Drone Prefab<newline><right_click> Cancel Drone Prefab,<left_click> 建造無人機預製零件<newline><right_click> 取消建造
-6736,<ButtonA> Construct Drone Prefab<newline><ButtonX> Cancel Drone Prefab,
+6736,<ButtonA> Construct Drone Prefab<newline><ButtonX> Cancel Drone Prefab,<ButtonA> 建造無人機預製零件<newline><ButtonX> 取消建造
 702517856120,"Construction of a new Biorobot costs:<newline><resource(ConstructResource)><right><resource(ConstructAndroidCost, ConstructResource)>","建造新的仿生人 花費：<newline><resource(ConstructResource)><right><resource(ConstructAndroidCost, ConstructResource)>"
 6738,Construct Biorobot,建造仿生人
 354,<left_click> Construct Biorobot<newline><right_click> Cancel Biorobot,<left_click> 建造仿生人<newline><right_click> 取消
-353,<ButtonA> Construct Biorobot<newline><ButtonX> Cancel Biorobot,
+353,<ButtonA> Construct Biorobot<newline><ButtonX> Cancel Biorobot,<ButtonA> 建造仿生人<newline><ButtonX>> 取消
 408,Construction,建造
 410,<UIConstructionStatus>,
 8646,Available Drone Prefabs<right><drone(available_drone_prefabs)>,可用的無人機預製零件<right><drone(available_drone_prefabs)>
 8539,Scheduled Drone Prefabs<right><drone(drones_in_construction)>,預定裝配的無人機零件<right><drone(drones_in_construction)>
 6742,Scheduled Biorobots<right><colonist(androids_in_construction)>,預定裝配的仿生人<right><colonist(androids_in_construction)>
 693516738839,"Required <resource(ConstructResource)><right><resource(ConstructResourceAmount, ConstructResourceTotal, ConstructResource)>","需要 <resource(ConstructResource)><right><resource(ConstructResourceAmount, ConstructResourceTotal, ConstructResource)>"
+694293425691,"<grey>""Be fruitful, and multiply.""<newline><right>Genesis</grey><left>"
 8460,Use an already created Drone Prefab to build a new Drone. Drone Prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>,使用庫存的無人機預製零件組裝無人機。 無人機預製零件可以在 <em>無人機裝配廠</em>(需研發科技)中製造<newline>可用的無人機預製零件：<drone(available_drone_prefabs)>
 994737607038,You need Drone Prefabs to order new drones. Drone prefabs are produced in the Drone Assembler (requires research).<newline><newline>Available Drone Prefabs: <drone(available_drone_prefabs)>,您需要無人機預製零件才能建造無人機。無人機預製零件可以在 <em>無人機裝配廠</em>(需研發科技)中製造.<newline><newline>可用的無人機預製零件：<drone(available_drone_prefabs)>
 349,Construct Drone,建造無人機
@@ -11611,6 +11707,7 @@ Some features may not work.",
 703125928773,<left_click> Select Specialization,<left_click> 選擇專長
 896744390747,<ButtonA> Select Specialization,<ButtonA> 選擇專長
 440284296071,Training<right><Specialization>,訓練<right><Specialization>
+441736163827,Colonists periodically become renegades. Crime is more severe.
 509074303312,Lifetime graduates<right><life_time_trained>,至今畢業<right><life_time_trained>
 508811339853,Needed specializations,需要專長
 806240447341,<NeededSpecializations>,
@@ -11622,8 +11719,8 @@ Some features may not work.",
 453,Convert the Mirror Sphere into Polymers.,將天體者碎片轉化成聚合物
 494974125688,Status,狀態
 729918620182,<ActionText>,
-424501571924,Decomposition progress,
-380271014404,Progress,
+424501571924,Decomposition progress,分解進度
+380271014404,Progress
 7409,<UISectionProjectMorpheusRollover>,
 431,Traits given,獲得的性格
 434,Lifetime<right><lifetime>,至今<right><lifetime>
@@ -11633,12 +11730,17 @@ Some features may not work.",
 524,Renegades in the Dome,蒼穹頂內的叛徒
 277702433938,Renegades in the Dome <right><RenegadesCount>,蒼穹頂內的叛徒 <right><RenegadesCount>
 821612835210,Construct a Shuttle,建造一艘客貨機
+822014935781,"<resource('PreciousMetals' )><right><preciousmetals(Stored_PreciousMetals, MaxAmount_PreciousMetals)>"
+822533431359,Can't import food from Earth.
+823700604514,"<grey>""If we can conquer space, we can conquer childhood hunger.""<newline><right>Buzz Aldrin</grey><left>"
 860716957818,<left_click> Construct a new Shuttle<newline><right_click> Cancel a Shuttle construction,<left_click> 建造一艘新客貨機<newline><right_click> 取消客貨機建造
+860781390679,Can call a Passenger Rocket only once.
 655064239120,<ButtonA> Construct a new Shuttle<newline><ButtonX> Cancel a Shuttle construction,<ButtonA> 建造一艘新客貨機<newline><ButtonX> 取消客貨機建造
 324514950847,The construction of a new Shuttle costs:<newline><SingleShuttleCostStr>,建造新客貨機花費： <newline><SingleShuttleCostStr>
 174054841334,No more shuttles can be constructed.,不能再建造更多的客貨機
 726161435938,Shuttle construction<right><queued_shuttles_for_construction>,客貨機建造 <right><queued_shuttles_for_construction>
 106779987443,<ShuttleConstructionCostsStr>,<ShuttleConstructionCostsStr>
+108218550068,Advanced Resources,進階資源
 236268272624,Shuttles facilitate long range transportation of resources between Storages and people between Domes.,客貨機服務站可用來執行遠距離運資源運送以及服務殖民者在兩個不同的蒼穹頂間移動的任務
 933065747298,Shuttles,客貨機
 766548374853,Shuttles<right><count(shuttle_infos)>/<max_shuttles>,客貨機<right><count(shuttle_infos)>/<max_shuttles>
@@ -11706,10 +11808,12 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 963695586350,Drones<right><drone(DronesCount)>,無人機<right><drone(DronesCount)>
 414,Current status of the Rocket.,火箭目前的狀態
 301951063645,<UIRocketStatus>,<UIRocketStatus>
+305580647526,Zoom Out,縮小
+306523338154,The title of the game rule shown in the list of game rules,遊戲規則標題已顯示在規則清單上
 416,Payload of the Rocket.,火箭的酬載內容
 415,Payload,酬載內容
 417,<CargoManifest>,<CargoManifest>
-488709956734,Increasing the area of effect will greatly increase the power consumption of the building.<newline><newline>Charging time<right><em><ChargeTime> h<em><newline><left>Service range<right><SelectionRadiusScale> hexes,
+488709956734,Increasing the area of effect will greatly increase the power consumption of the building.<newline><newline>Charging time<right><em><ChargeTime> h<em><newline><left>Service range<right><SelectionRadiusScale> hexes,增加影響範圍將會大大提高建築的電力消耗。 <newline><newline>充電時間<right><em><ChargeTime>小時<em><newline><left>服務範圍<right><SelectionRadiusScale>格
 490,Amount Waste Rock stored.,廢棄碎石儲量
 491,"<resource('WasteRock')><right><wasterock(Stored_WasteRock, MaxAmount_WasteRock)>","<resource('WasteRock')><right><wasterock(Stored_WasteRock, MaxAmount_WasteRock)>"
 1176,Cancel Destroy,取消摧毀
@@ -11718,8 +11822,9 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 1177,Destroy this Dredger by sending a Drone to overload the fuel ignition systems.,傳送一台無人機利用燃油點火系統摧毀疏濬者。
 7418,<Description>,<Description>
 427664763631,Scan Progress,掃描進度
-944541850261,The structural integrity of this vehicle will decrease on each missile hit. The vehicle will be disabled at 0 integrity.,
-678706263894,"Structural Integrity <percent(current_health, max_health)>",
+944541850261,The structural integrity of this vehicle will decrease on each missile hit. The vehicle will be disabled at 0 integrity.,車輛的結構完整性在每次導彈命中後都會降低，該車輛將在完整性0％時不可用。
+946004412845,"<grey>""Climate is what we expect, weather is what we get.""<newline><right>Mark Twain</grey><left>"
+678706263894,"Structural Integrity <percent(current_health, max_health)>","結構完整性 <percent(current_health, max_health)>"
 7606,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",車輛可從現有電力網路中充電，也可車輛間相互充電，他們將會平均分配電池內的能源。<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>
 7607,Battery,電池
 7658,<left><left_click> Increase priority<right><right_click> Decrease priority<newline><center><em>Ctrl + <left_click></em> Change priority of all <display_name_pl>,<left><left_click> 增加優先權<right><right_click> 降低優先權<newline><center><em>Ctrl + <left_click></em> 變更全部 <display_name_pl> 的優先權
@@ -11747,6 +11852,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 102770097492,Previous Colonist,前一個殖民者
 232261691824,Selects the next colonist in the group.,下一個殖民者
 388769879592,Next Colonist,下一個殖民者
+390758552211,Meteor rating set to a new Max level for all locations on Mars.
 4352,The cause of death of this Colonist.,這個殖民者的死因
 4351,Cause of death,死因
 766618008675,<UIDeathReason>,
@@ -11755,12 +11861,14 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 4359,Specialization<right><Specialization>,專長<right><Specialization>
 4360,Residence<right><h SelectResidence InfopanelSelect><ResidenceDisplayName></h>,居住處<right><h SelectResidence InfopanelSelect><ResidenceDisplayName></h>
 213479829949,<UIWorkplaceLine>,
+214478084093,Twister
 100898279423,<UITraitsRollover>,
 868555682819,<UITraitsList>,
 131743729104,<AgeGroupsText>,
 987289847467,Age Groups,年齡範圍
 892778823326,<nbsp>Colonists<right><colonist(ColonistCount)>,<nbsp>殖民者<right><colonist(ColonistCount)>
 826833284493,<EmploymentMessage>,
+828236114548,Destroy this pipe.
 943829010907,<ResidenceMessage>,
 976447044595,The average <em>Health</em> of all Colonists.,全部殖民者的平均 <em>健康</em>
 892876077694,The average <em>Sanity</em> of all Colonists.,全部殖民者的平均 <em>理智</em>
@@ -11770,11 +11878,12 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 496659953784,<JobsText>,
 591768750642,Living space,居住空間
 576195608635,<LivingSpaceText>,
-900,All resources have to be delivered to the site by Drones.,
+900,All resources have to be delivered to the site by Drones.,所有資源都必須由無人機運送到地點
 899,Construction cost,建築花費
 383306856338,<ConstructionCost>,
 903,Base resource consumption of the building.,建築物的基本資源消耗
 705011232956,<Consumption>,
+706031426910,Hunger
 905,Wind Turbines produce more Power at higher elevation.,風力發電機在較高海拔會產出更多電力。
 904,Terrain,地形
 906,Elevation Boost<right><ElevationBoost>%,地勢加成<right><ElevationBoost>%
@@ -11783,8 +11892,8 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 912,<em>Hold Shift</em> Place multiple,<em>按住 Shift</em> 可以連續放置
 913,Use <em>[</em> or <em>]</em> to cycle between visual variants for this building,使用 <em>[</em> 或 <em>]</em> 循環切換可用的貼圖樣式
 916,<LB> Rotate <RB>,<LB> 旋轉 <RB>
-7365,<em>Hold<LT></em> Place multiple,
-917,<DPadLeft> cycle visual variants <DPadRight>,
+7365,<em>Hold<LT></em> Place multiple,<em>按住<LT></em>建造多個
+917,<DPadLeft> cycle visual variants <DPadRight>,<DPadLeft> 視覺效果變換 <DPadRight>
 308379151314,Vehicle Inactive.,
 485959427490,Move / Interact,移動 / 互動
 750759453664,Vehicle Inactive.,
@@ -11795,23 +11904,28 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 636653157928,Perform Maintenance,執行維護
 4432,Drops any carried resource.,卸下攜帶的所有資源
 448814888293,<DropCarriedResourceFromUIDisabledRollover>,
+449598530168,Cheats
 4431,Drop Carried Resource,卸下攜帶的資源
 404479069795,Drop Carried Resource,卸下攜帶的資源
 367823728879,Vehicle inactive.,
 640517755907,Salvage,拆除
 7824,Destroy this Drone.,摧毀這台無人機
 584248706535,Carrying<right><ResourceAmount>,攜帶<right><ResourceAmount>
+590068197487,40% Workers in Workshops
 682763161598,<DestName>,
 643657264628,<left>Commanded by<right><h SelectCommandCenter InfopanelSelect><CommandCenterName></h>,<left>控制權由<right><h SelectCommandCenter InfopanelSelect><CommandCenterName></h>
 4445,Drones will seek a recharge station on low battery. Powered down Drones can be recharged by maintenance Drones or RC Rovers.,當無人機低電力的時候，會自動尋找附近可使用的充電站。電力耗盡的無人機可以由漫遊者號或由其它無人機前往進行充電與維護
 7608,"Battery  <percent(battery,battery_max)>","電池  <percent(battery,battery_max)>"
 544163488314,Using <red><percent(ColdPenalty)></red> more Power due to freezing weather,因天氣極度寒冷，將額外消耗電力<red><percent(ColdPenalty)></red>
+551182109106,"<grey>""All we are is dust in the wind.""
+<right>Kansas</grey><left>"
 222599397553,Slowed down <red><percent(DustDevilPenalty)></red> by a Dust Devil,因塵捲風減緩了速度 <red><percent(DustDevilPenalty)></red>
 4449,Dust Accumulated<right><percent(dust)>,灰塵堆積<right><percent(dust)>
 4448,Dust,沙塵
 907,Issues related to the placement of this building.,與此建築物放置相關的問題
 969016274382,<construction_statuses_property>,
-894,List of applicable shortcuts and what they do.,
+969312516259,Orbit Camera
+894,List of applicable shortcuts and what they do.,快捷列表及其用途
 893,Control hints,控制提示
 908,<left_click> Place,<left_click> 放置
 909,<right_click> Cancel,<right_click> 取消
@@ -11820,6 +11934,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 185932970385,Losing <red><power(current_consumption)></red> each hour.,正每小時損失<red><power(current_consumption)></red>
 275032650428,Losing <red><water(current_consumption)></red> each hour.,正每小時損失<red><water(current_consumption)></red>
 958364317965,Losing <red><air(current_consumption)></red> each hour.,正每小時損失<red><air(current_consumption)></red>
+959078240221,List of other game rules that are not compatible with this one. If this rule is active the player won't be able to enable the rules in the exclusion list.
 768796577102,<ActionDescr>,
 1197,Progress <right><percent(ProgressPct)>,進度<right><percent(ProgressPct)>
 1196,Sphere Powering Up,球體狀態升級
@@ -11856,11 +11971,12 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 370449987367,Priority affects how often this building is serviced by Drones as well as its share of Power and life support. Notifications are not shown for buildings with low priority.<newline><newline>Current priority: <em><UIPriority></em>,優先權將影響 無人機服務此設施的頻率 以及 電力、維生資源等分配優先權。 優先權較低的設施將不會出現在提示廣播中 <newline><newline>目前優先度：<em><UIPriority></em>
 369,Change Priority,改變優先度
 577516035564,<left><left_click> Increase priority<right><right_click> Decrease priority,
+579334279447,Import prices increase over time.
 870954837374,<left><ButtonA> Increase priority<right><ButtonX> Decrease priority,
 6764,Cancel,取消
 699,Cancel demolition.,取消拆除
 697,Destroy,摧毀
-698,Destroy this pile of cubes.,
+698,Destroy this pile of cubes.,摧毀這些黑立方
 3674,"<resource(resource)><right><resource(StoredAmount,resource)>",
 677988939612,Vehicle inactive.,
 4422,Move / Interact,移動 / 互動
@@ -11878,6 +11994,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 49,Status,狀態
 51,<ui_command>,
 526919900594,<UIResearchProject>,
+528641942799,No Disasters
 4489,Proximity to a high number of Black Cubes may cause malfunctions,接近大量的黑立方可能會導致故障
 407,<em><percent(black_cube_interaction_perc_for_ui)></em> chance to malfunction,<em><percent(black_cube_interaction_perc_for_ui)></em> 可能發生故障
 4490,All Drones were recalled and will remain in the Rover until deployed,所有無人機正被招回並等待漫遊者的部屬指令
@@ -11890,6 +12007,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 455677282700,Metals<right><metals(Stored_Metals)>,金屬 <right><metals(Stored_Metals)>
 788345915802,Food<right><food(Stored_Food)>,食物 <right><food(Stored_Food)>
 925417865592,Rare Metals<right><preciousmetals(Stored_PreciousMetals)>,稀有金屬 <right><preciousmetals(Stored_PreciousMetals)>
+925675045550,"Shows how much cargo space is left, after taking into account the initial cargo loadout"
 157677153453,Polymers<right><polymers(Stored_Polymers)>,聚合物 <right><polymers(Stored_Polymers)>
 624861249564,Electronics<right><electronics(Stored_Electronics)>,電子零件<right><electronics(Stored_Electronics)>
 407728864620,Machine Parts<right><machineparts(Stored_MachineParts)>,機械零件<right><machineparts(Stored_MachineParts)>
@@ -11924,13 +12042,14 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 7857,Rare Traits,稀有性格
 779865575637,<RareTraits>,
 946079411041,<UISectionAirGridRollover>,
+947776987873,Armageddon
 536,Oxygen grid,氧氣系統
 541,Hourly production<right><air(current_production)>,每時產能<right><air(current_production)>
 327,Total demand<right><air(consumption)>,尖峰需求<right><air(consumption)>
 328,Stored Oxygen<right><air(current_storage)>,已儲存<right><air(current_storage)>
 145812907055,<UISectionAirProductionRollover>,
 486,Hourly production<right><air(AirProduction)>,每時產能<right><air(AirProduction)>
-520,Oxygen storage parameters and status. Oxygen is consumed only when demanded.,
+520,Oxygen storage parameters and status. Oxygen is consumed only when demanded.,氧氣儲存狀態。 只有在有需求的情況下才會耗氧。
 186451833281,Oxygen Storage,氧氣儲存
 521,Stored Oxygen<right><air(StoredAir)>,已儲存<right><air(StoredAir)>
 522,Capacity<right><air(air_capacity)>,可儲存<right><air(air_capacity)>
@@ -11960,19 +12079,28 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 7664,<ButtonA> Open <newline><ButtonX> Open all Domes,<ButtonA> 開放進駐 <newline><ButtonX> 全部蒼穹頂開放進駐
 121681643085,<UISectionCitizensRollover>,
 371953345486,Colonists<right><ColonistCount> / <colonist(LivingSpace)>,殖民者<right><ColonistCount> / <colonist(LivingSpace)>
+374291889975,"<resource('Food' )><right><food(Stored_Food, MaxAmount_Food)>"
+374740858719,Long Ride
+375790941158,Rollover
 201464169022,<EmploymentMessage>,
 613137333871,<ResidenceMessage>,
 244389183434,The average <em>Health</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>健康</em> 
+245514419248,Disables all disasters (excluding those coming from mysteries).,關閉所有災難（不包含謎團事件的災難）
+252226363141,Texture 1
 455859065748,Average Health <Stat(AverageHealth)>,平均健康 <Stat(AverageHealth)>
 607491882958,The average <em>Sanity</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>理智</em> 
 942703008133,Average Sanity <Stat(AverageSanity)>,平均理智 <Stat(AverageSanity)>
 327454642679,<ComfortRollover>,
 577070564514,Average Comfort <Stat(AverageComfort)>,平均舒適度 <Stat(AverageComfort)>
+577461898820,Run on deactivation
 856271865233,The average <em>Morale</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>士氣</em> 
 765210150801,Average Morale <Stat(AverageMorale)>,平均士氣 <Stat(AverageMorale)>
+765833268441,Challenge Mod
 241499798174,The condition of buildings deteriorates over time. Martian dust and disasters contribute to deterioration of outside buildings. Deteriorated buildings will need to be serviced by a Drone and supplied with their required maintenance resource or they will malfunction.<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left>Last serviced<right><LastMaintenance>,這棟建築物隨著時間的推移，火星上的塵土正在慢慢侵蝕建築物的外部。 被侵蝕的建築物需要由 無人機 進行維護作業，維護作業可能會需要消耗資源<newline><newline>目前侵蝕程度 <right><percent(MaintenanceProgress)><newline><left>最後一次維護<right><LastMaintenance>
 619281504128,Maintenance,維護
+621834127153,Chaos Theory
 601912665358,"<resource(maintenance_resource_amount, maintenance_resource_type)>",
+602546577533,"<resource('Electronics' )><right><electronics(Stored_Electronics, MaxAmount_Electronics)>"
 7878,A drone is on the way to repair this building.,無人機正在前往維修這棟建築
 581,This building has deteriorated and will stop working soon unless it receives maintenance.,這棟建築因為故障而完全無法作用了，必須等待無人機前往維護才能恢復工作
 604012311372,<UISectionMineRollover>,
@@ -11986,8 +12114,8 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 508800248152,Daily production<right><power(UIPowerProductionToday)><newline><left>Lifetime production<right><power(UIPowerProductionLifetime)>,每日產能<right><power(UIPowerProductionToday)><newline><left>生產至今<right><power(UIPowerProductionLifetime)>
 437,Hourly production<right><power(UIPowerProduction)>,每時產能<right><power(UIPowerProduction)>
 438,Elevation boost<right><ElevationBonus>%,海拔加成<right><ElevationBonus>%
-439,"When in close proximity, a high number of Black Cubes seem to improve the efficiency of the Solar Panels.",
-405,Proximity to Black Cubes,
+439,"When in close proximity, a high number of Black Cubes seem to improve the efficiency of the Solar Panels.",靠近大量的黑色立方時，太陽能電池的效率似乎得到了提升。
+405,Proximity to Black Cubes,接近黑立方
 440,<em><percent(black_cube_interaction_perc_for_ui)></em> improved Power production,
 442,Producing <em><power(EletricityUnderproduction)></em> less than optimal output due to Dust Storm,因為沙塵暴的影響，整體電力的產能減少 <em><power(EletricityUnderproduction)></em>
 443,Not producing Power during the night,夜間無法產生電力
@@ -12002,7 +12130,9 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 765045268446,Contributes to the currently selected research project.<newline><newline>Lifetime research<right><research(research_points_lifetime)>,貢獻目前所選擇的研究<newline><newline>研究至今<right><research(research_points_lifetime)>
 308,Research Project <percent(ResearchProgress)>,研究項目 <percent(ResearchProgress)>
 452635643808,<UIResearchProject>,
+452690473931,Exclusion List
 445070088246,Daily research<right><research(EstimatedDailyProduction)>,每日研究<right><research(EstimatedDailyProduction)>
+445682062409,Dust Devil rating set to a new Max level for all locations on Mars.
 8017,Collaboration loss<right><research(EstimatedDailyLoss)>,合併損失<right><research(EstimatedDailyLoss)>
 327961439148,Colonists live and rest in Residential Buildings. Their Health and Sanity will deteriorate if they are homeless.,殖民者在住宅中生活和休息。 如果他們沒有家， 他們的健康和理智會開始惡化。
 702480492408,Residents<right><UIResidentsCount> / <colonist(UICapacity)>,居住處<right><UIResidentsCount> / <colonist(UICapacity)>
@@ -12042,6 +12172,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 809879280014,Not producing due to lack of demand. Can produce <air(current_throttled_production)> more if needed,當前已生產過剩所以暫時停止生產，當有需要的時候會自行生產 <air(current_throttled_production)>
 527,Each Service Building will accept a number of visitors during each open work shift. Colonists seek to visit a building corresponding to one of their interests chosen daily at random. The visit will improve their Comfort up to the Service Comfort value.,每一座服務性設施都可以服務一定數量的訪客在營業的時段中。殖民者會尋找他們有興趣的設施並在一天內隨機時間前往拜訪。一旦滿足訪客的需求，殖民者的舒適度就會上升，上升的幅度取決於設施的服務品質。
 257506711483,Select a trait that is affected by this building.,選擇被這個建築物影響的性格
+257728034290,Tech fields are fully randomized.,科技域已完全隨機化
 988789013053,<left_click> Change<newline><em>Ctrl + <left_click> on trait</em> Select in all <display_name_pl>,<left_click> 改變<newline><em>Ctrl + <left_click> 性格</em> 選擇所有 <display_name_pl>
 958322390788,<ButtonA> Change<newline><em><ButtonX> on trait</em> Select in all <display_name_pl>,<ButtonA> 改變<newline><em><ButtonX> 性格</em> 選擇所有 <display_name_pl>
 7421,Trait: <trait_name>,性格：<trait_name>
@@ -12063,7 +12194,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 542,Water grid,水資源系統
 545,Hourly production<right><water(current_production)>,每時產能 <right><water(current_production)>
 332,Total demand<right><water(consumption)>,尖峰需求 <right><water(consumption)>
-333,Stored Water<right><water(current_storage)>,已儲存<right><water(current_storage)>
+333,Stored Water<right><water(current_storage)>,已儲存<right><water(current_storage)>單位水資源
 502733614779,<UISectionWaterProductionRollover>,<UISectionWaterProductionRollover>
 80,Production,生產
 840359936837,<WaterProductionText>,<WaterProductionText>
@@ -12092,8 +12223,8 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 7914,"Colonists arrive with nominal Food supply, but will soon need additional provisions to survive.",殖民者再前往火星時會攜帶一些食物補給， 但那很快就會消耗完畢， 所以可能需要追加更多的食物補給， 讓當地的殖民者有機會生存下去
 7986,Advanced resource produced in Fuel Refineries from Water. Required for the refuelling of Rockets. Highly explosive.,進階原料，由燃料精煉廠透過水資源精煉而成。是火箭返航的重要資源。易爆炸
 3613,Funding,資金
-8064,Mystery Resource,神秘的資源
-8065,Mystery Resource Description,神秘的資源敘述
+8064,Mystery Resource,神秘資源
+8065,Mystery Resource Description,神秘資源敘述
 7697,<em>Effect:</em>,<em>效用：</em>
 4774,<em>Hint:</em>,<em>提示：</em>
 4773,<em>Goal:</em>,<em>目標：</em>
@@ -12201,13 +12332,14 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 646,Medium,中
 4863,High,高
 290290906449,Max base traits generated per Colonist,每位殖民者產生的最多基本性格
+291223909451,<grey>"Nothing burns like the cold."<newline><right>George R.R. Martin</grey><left>
 455324213448,MaxColonistTraitsToGenerate,產生的最多殖民者性格
 715051458672,Increases Comfort Threshold for Social Buildings when used by extroverts,增加外向型人格者使用社交類建築時的舒適度臨界值
 982066645807,ExtrovertIncreaseComfortThreshold,增加外向型人格者舒適度臨界值
-4548,Stats below this level are considered low,
-4549,Low Stat Threshold,
-4550,Stats above this level are considered high,
-4551,High Stat Threshold,
+4548,Stats below this level are considered low,數據低於此值為最低值
+4549,Low Stat Threshold,低數據界線值
+4550,Stats above this level are considered high,數據高於此值為最高值
+4551,High Stat Threshold,高數據界線值
 4552,"Low Health, Sanity and Comfort decreases a Colonist's morale by this amount",較低的生命值，理智和舒適度會降低殖民者相應的士氣值
 4553,Low Stat Morale Effect,低數值對士氣值的影響
 4554,"Morale of new Colonists starts randomly in this range, centered around half of maximum Morale",新殖民者的初始士氣值會在最大士氣值的一半附近的範圍內隨機確定
@@ -12234,16 +12366,16 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 8675,Price (M),價格(百萬)
 8676,Pack,打包
 8677,Weight (kg),重量(公斤)
-8678,Creating modifier with invalid ID.,創建無效名稱模組
-8679,Creating modifier outside of a running game.,創建正在執行的遊戲以外模組
-8680,Trying to modify a non-modifiable property.,試圖模組化一不可修改的屬性
-8681,Modifier with that ID already exists.,該名稱模組已存在
-8682,Changing modifier with invalid ID.,更換無效名稱的模組
+8678,Creating modifier with invalid ID.,無效名稱創建修改
+8679,Creating modifier outside of a running game.,正在執行的遊戲外創建修改
+8680,Trying to modify a non-modifiable property.,試圖修正一個不可修改的屬性
+8681,Modifier with that ID already exists.,修改已存在名稱
+8682,Changing modifier with invalid ID.,更換修改無效名稱
 8683,Changing modifier outside of a running game.,更換正在執行的遊戲以外模組
 8684,Changing a non-existing modifier.,更換不存在的模組
 8685,Removing modifier with invalid ID.,刪除無效名稱的模組
-8686,Removing modifier outside of a running game.,刪除正在執行的遊戲以外模組
-8687,Removing a non-existing modifier.,刪除不存在的模組
+8686,Removing modifier outside of a running game.,刪除修正一個不可修改的屬性
+8687,Removing a non-existing modifier.,移除不存在的修正
 8688,Can't assign residence.,無法指派住處
 8689,This mod is disabled due to version incompatibility.,該模組因版本不相容而被禁用
 8690,Unlocked,解鎖
@@ -12322,6 +12454,176 @@ Press <RT> while the building is selected and use <DPadRight> to navigate to the
 當選定建築物後，按住 <RT> ，並使用 <DPadRight> 移動選擇至升級按鈕"
 8765,Launch Issue: Not Landed,發射問題：沒有著陸
 8766,The Rocket is not currently landed. It will have to land and refuel for re-launch.,這台火箭還沒有著陸。火箭必須著陸後才能進行加油與重新發射
+8768,Building is waiting for <resource(consumption_resource_type)> to resume working,建築正在等待 <resource(consumption_resource_type)> 以繼續運作。
+8769,Required specialization mismatch,需求的專長不符
+8770,Must be constructed over a passage.,需要建築在連通道上方
+8771,Must be built on a passage,需要建築一座連通道
+8772,Passage must start and end in a dome.,連通道兩端必須設在蒼穹頂中
+8773,No dome,沒有蒼穹頂
+8774,Too close to dome entrance.,距離蒼穹頂入口太近
+8775,Dome entrance blocking,與蒼穹頂入口重疊
+8776,Passages,連通道
+8777,Connect two domes by placing both ends of the Passage on empty hexes inside two nearby domes.,將連通道的兩端連接至蒼穹頂中的空位來連結兩座相鄰的蒼穹頂。
+8778,Place a passage ramp,放置一個連通道斜坡
+8779,<green>Worked in a Workshop <amount></green>,<green> 在工坊中已完成 <amount></green>
+8780,MAX,最大
+8781,<Building>
+8782,<Funding>
+8783,<u(Field)> <opt_percent(Percent)>
+8784,<u(Upgrade)>
+8785,<u(Upgrade)>.<u(Prop)> <opt_amount(Amount)> <opt_percent(Percent)>
+8786,<u(Label)>.<u(Prop)> <opt_amount(Amount)> <opt_percent(Percent)>
+8787,<u(Label)>.<u(Prop)> <opt_amount(Threshold)> <opt_amount(Amount)> <opt_percent(Percent)>
+8788,<u(Item)>.<u(Param)> <opt_percent(Percent)>
+8789,<u(Item)>
+8790,<u(Trait)>
+8791,<opt_amount(depth_levels)>
+8792,<Building> <u(Stage)> <u(Resource)> <opt_percent(Percent)>
+8793,<u(Field)>.<u(Research)>
+8794,Mystery Storage,謎團儲存
+8795,Mystery Storages,謎團儲存
+8796,Wildfire Cure Storage,野火治療劑儲存
+8797,Wildfire Cure Storages,野火治療劑儲存
+8798,Passage piece,通道組件
+8799,Passage,通道
+8800,Game Rules,遊戲規則
+8801,GAME RULES,遊戲規則
+8802,Workers in Workshops<right><percent(WorkshopWorkersPercent)>,在工坊內的工人 <right><percent(WorkshopWorkersPercent)>
+8803,<green>Works in: <WorkplaceDisplayName> <amount></green>,<green> 在 <WorkplaceDisplayName> 工作的人數： <amount></green>
+8804,Select game rules you want to activate for this playthrough.,選擇此輪遊戲中你想要開啟的遊戲規則
+8805,Performance penalty for colonists working in another connected dome,相連蒼穹頂中工作的殖民者會受到效率減益
+8806,Connected dome performance penalty,相連蒼穹頂受到效率減益
+8807,Service threshold penalty for colonists being serviced in another connected dome,相連蒼穹頂中的受服務的殖民者將受到服務界限值減益
+8808,Connected dome service threshold penalty,相連蒼穹頂受到服務界限值減益
+8809,Workers in Workshops receive 10 Morale boost,在工坊裡的工人獲得10點士氣加成
+8810,WorkInWorkshopComfortBoost,工坊工作舒適度加成
+8811,Workers in Workshop building receive additional comfort boost at the end of their workshift,在值班結束後工坊內的工人將會獲得額外的舒適度加成
+8812,"Connects nearby Domes, sharing Power and Life Support. Passages must start and end on a empty hex inside a Dome. Colonists can work and use services in Domes that are directly connected with passages to their residential Dome.",連結鄰近的蒼穹頂，分享電力與維生系統。通道的兩端必須設蒼穹頂內的空地， 殖民者透過連通道可以一邊工作，一邊使用連結蒼穹頂的服務。
+8813,Passage Ramp,連通道斜坡
+8814,Passage Ramps,連通道斜坡
+8815,Allows traversal of vehicles and drones over Passages.,允許載具或無人機穿越連通道上方
+8816,VR Workshop,虛擬實境工坊
+8817,VR Workshops,虛擬實境工坊
+8818,A vocation building dedicated to the creation of virtual worlds. Workers receive Comfort and Morale boost and count towards the Workshop milestone. Consumes Electronics.
+8819,Art Workshop,藝術工坊
+8820,Art Workshops,藝術工坊
+8821,A vocation building dedicated to creation of works of art. Workers receive Comfort and Morale boost and count towards the Workshop milestone. Consumes Polymers.
+8822,Large Water Tank,大型儲水槽
+8823,Large Water Tanks,大型儲水槽
+8824,Can store a large amount of Water. Doesn't work during Cold Waves.
+8825,Biorobotics Workshop,賽博格工坊
+8826,Biorobotics Workshops,賽博格工坊
+8827,A vocation building dedicated to the creation of Biorobots. Workers receive Comfort and Morale boost and count towards the Workshop milestone. Consumes Machine Parts.
+8828,Electronics Storage,電子零件儲存
+8829,Electronics Storages,電子零件儲存
+8830,Food Storage,食物儲存
+8831,Food Storages,食物儲存
+8832,Fuel Storage,燃料儲存
+8833,Fuel Storages,燃料儲存
+8834,Machine Parts Storage,機械零件儲存
+8835,Machine Parts Storages,機械零件儲存
+8836,Metals Storage,金屬儲存
+8837,Metals Storages,金屬儲存
+8838,Polymers Storage,聚合物儲存
+8839,Polymers Storages,聚合物儲存
+8840,<raremetals(Stored_RareMetals)>
+8841,Rare Metals Storage,稀有金屬儲存
+8842,Rare Metals Storages,稀有金屬儲存
+8843,Mystery Resource Storage,神秘資源儲存
+8844,Mystery Resource Storages,神秘資源儲存
+8845,Stores <mysteryresource(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,存量<mysteryresource(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8846,Concrete Storage,混凝土儲存
+8847,Concrete Storages,混凝土儲存
+8848,"To order the construction of a building upgrade, press the upgrade button located at the top right corner of the building infopanel."
+8849,"To order the construction of a building upgrade, press the upgrade button located at the top right corner of the building infopanel.
+Press <RT> while the building is selected and use <DPadRight> to navigate to the upgrade button."
+8850,Passengers Dead,乘客死亡
+8851,<count> Colonists died in space while trying to reach Mars.,<count> 名殖民者在抵達火星前死亡
+8852,Split Power Grids,分離式電網
+8853,Split Power grids: <count>,分離式電網： <count>
+8854,Split Life Support Grids,分離式維生系統
+8855,Split Life Support grids: <count>,分離式維生系統： <count>
+8856,"The Colonists have always felt like a family. But what makes the family stronger and more united is the promise of new life and better future. We have truly been blessed with a rewarding responsibility – to carry the torch of hope.
+
+Let this blooming of life serve as a symbol for all humans. Mars is no longer a dead world.
+
+<effect> The Colony has been evaluated positively. You can't call anymore colonists from Earth due to the Last Ark game rule."
+8857,"The long-time dream of the human civilization as a whole – to settle another world – has come true. To be among the people who made this happen makes me feel enthusiastic and proud.
+
+We are already swarmed with applications for relocation on Mars and the wanderlust and enthusiasm of these people makes me proud to be a human being. The Red Planet continues to be inhospitable and even dangerous but we as a species had always displayed the ability to adapt and improve – the adverse conditions will only make us try harder. So I say bring it on!
+
+<effect> The Colony has been evaluated positively. You can't call anymore colonists from Earth due to the Last Ark game rule."
+8858,Creative Biorobotics,創造性生化學
+8859,"New Building: <em>Biorobotics Workshop</em> (<buildinginfo('BioroboticsWorkshop')>) - a vocation building that allows colonists to experiment with biorobots (counts towards the workshop milestone). Consumes Machine Parts.
+
+<grey>""We are fascinated with robots because they are reflections of ourselves.""
+<right>Ken Goldberg</grey><left>"
+8860,Mega Storage,巨大化倉儲
+8861,"New Building: <em>Large Water Tank</em> (<buildinginfo('LargeWaterTank')>) - stores very large amounts of water.
+
+<grey>""If there's magic on this planet, it is contained in water.""
+<right>Loren Eiseley</grey><left>"
+8862,Automated Storage,自動化倉儲
+8863,"New Buildings: <em>Storages</em> (<buildinginfo('MechanizedDepotMetals')>) - a set of storages that can store large amount of resources but have to be constructed and require power.
+
+<grey>""The more storage you have, the more stuff you accumulate.""
+<right>Alexis Stewart</grey><left>"
+8864,Creative Realities,真實幻境
+8865,"New Building: <em>VR Workshop</em> (<buildinginfo('VRWorkshop')>) - a vocation building that allows colonists to experiment with virtual reality (counts towards the workshop milestone). Consumes Electronics.
+
+<grey>""How do you know it's Sci-Fi? VR is commercially viable.""
+<right>Shams Jorjani</grey><left>"
+8866,Creative Disposition,心靈開發工作坊
+8867,"New Building: <em>Art Workshop</em> (<buildinginfo('ArtWorkshop')>) - a vocation building that allows colonists to experiment with different forms of art (counts towards the workshop milestone). Consumes Polymers.
+
+<grey>""We don't make mistakes, just happy little accidents.""
+<right>Bob Ross</grey><left>"
+8878,Depot
+8879,Renegade creation point when game rule Rebel Yell is activated
+8880,Landing Pad,火箭起降臺
+8881,Landing Pads,火箭起降臺
+8882,A dedicated landing site that protects nearby buildings and vehicles from dust during Rocket landings and takeoffs.,專用著陸區，在火箭起降過程中保護附近的建築物和載具免受沙塵侵襲。
+8883,Allowed,允許
+8884,Forbidden,禁止
+8885,<em>Use Passages for work</em>,<em>利用連通道進行工作</em>
+8887,Use Passages for work,利用連通道進行工作
+8888,Allow or forbid working in connected Domes.<newline><newline>Current status: <em><UIWorkInConnected></em>
+8889,<left_click> Forbid for this Dome<newline><em>Ctrl + <left_click></em> Forbid for all Domes
+8890,<ButtonA> Forbid for this Dome<newline><ButtonX> Forbid for all Domes
+8891,<left_click> Allow for this Dome<newline><em>Ctrl + <left_click></em> Allow for all Domes
+8892,<ButtonA> Allow for this Dome<newline><ButtonX> Allow for all Domes
+8893,<em>Use Passages for services</em>,<em>利用連通道使用服務</em>
+8895,Use Passages for services,利用連通道使用服務
+8896,Allow or forbid using service buildings in connected Domes.<newline><newline>Current status: <em><UIServiceInConnected></em>
+8897,Cannot salvage mechanized depot with more than 50 resource stocked
+8898,This Passage is fractured and is losing oxygen.<newline><left>Number of fractures<right><fractures><newline><left>Cost of repairs<right><polymers(number)>
+8899,Explored Areas Only,限已探索區域
+8900,Unexplored Areas Only,限未探索區域
+8901,Check Exploration
+8902,per segment
+8903,<ButtonA> Choose Game Rules,<ButtonA> 選擇遊戲規則
+8904,Use <em>[</em> or <em>]</em> to cycle between buildings from the category,在項目中使用 <em>[</em> 或 <em>]</em> 捲動以檢視建築
+8905,<DPadLeft> cycle buildings from category <DPadRight>,在項目中循環檢視建築
+8906,Stores <electronics(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,存量<electronics(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8907,Stores <food(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,存量<food(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8908,Stores <fuel(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,存量<fuel(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8909,Stores <machineparts(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<machineparts(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8910,Stores <metals(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<metals(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8911,Stores <polymers(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<polymers(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8912,Stores <preciousmetals(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<preciousmetals(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8913,Expand Mohole I,莫霍礦井擴張一
+8914,+<upgrade1_mul_value_1>% Metals Production; +<upgrade1_mul_value_2>% Rare Metals Production; +<power(upgrade1_add_value_3)>.
+8915,Expand Mohole II,莫霍礦井擴張二
+8916,Expand Mohole III,莫霍礦井擴張三
+8917,Improved Refining I,精煉升級一
+8918,+<upgrade1_mul_value_1>% Concrete Production; +<power(upgrade1_add_value_2)>.
+8919,Improved Refining II,精煉升級二
+8920,Improved Refining III,精煉升級三
+8921,Stores <concrete(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<concrete(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
+8922,Transportation Problem,運輸系統問題
+8923,Drone Heavy Load,無人機酬載過重
+8924,Shuttle Heavy Load,客貨機酬載過重
+8925,No Fuel for Shuttles,客貨機無燃料供給
 4560,Colonist Sanity decreases when a Colonist from the same Residence dies from non-natural causes,如果有鄰居死於非命的話，殖民者將會降低理智
 4561,Seeing Death,看到死人
 4564,This is the time it takes for Colonists outside of Domes to start losing health,蒼穹頂外正在失去健康的殖民者

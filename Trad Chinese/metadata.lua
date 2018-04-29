@@ -5,14 +5,14 @@ return PlaceObj('ModDef', {
 	'id', "JtYVpy",
 	'steam_id', "1331777861",
 	'author', "twitch.tv/amosa2001",
-	'version', 42,
-	'lua_revision', 228722,
+	'version', 43,
+	'lua_revision', 229422,
 	'loctables', {
 		{
 			filename = "Game.csv",
 			language = "Any",
 		},
 	},
-	'saved', 1523901142,
+	'saved', 1524992341,
 	'TagTranslations', true,
 })
