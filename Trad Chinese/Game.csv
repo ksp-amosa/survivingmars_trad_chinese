@@ -897,10 +897,10 @@ id <u(id)>, version <version></color>",
 5046,Drone Assemblers,無人機裝配廠
 5047,Produces Drones Prefabs which can then be used to order new drones in Drone Hubs multiplying the obedient workforce of the Colony. Probably not a threat to humans.,生產無人機預製件， 可用在無人機中心訂購新的無人機， 使殖民地服從勞動力增加。應該不會對人類造成威脅。 
 4478,<description><newline><newline>Current status: <DronesStatusText><newline>Drones<right><drone(DronesCount)>,<description><newline><newline> 目前狀態： <DronesStatusText><newline> 無人機 <right><drone(DronesCount)>
-4479,<DronesCount><icon_Drone_small>,<DronesCount><icon_Drone_small>
+4479,<DronesCount><icon_Drone_small>
 5048,Drone Hubs,無人機中心
 5049,Controls Drones and allocates them to different tasks.,控制並分派不同任務給無人機
-5050,<wasterock(Stored_WasteRock)>,<wasterock(Stored_WasteRock)>
+5050,<wasterock(Stored_WasteRock)>
 5051,Dumping Site,棄置場
 5052,Dumping Sites,棄置場
 5053,Stores <wasterock(max_amount_WasteRock)>. Waste Rock is produced as side product of different mining activities.,存放 <wasterock(max_amount_WasteRock)>。 廢棄碎石是挖掘資源的副產品。 
@@ -917,13 +917,13 @@ id <u(id)>, version <version></color>",
 5067,Buy the latest and greatest gadgets Mars has to offer! Consumes Electronics on each visit.,購買火星上最感心的小工具！ 同步提供地球上最潮的電動玩具與遊戲機。 每次造訪時消耗電子零件
 8044,Decreases Workplaces by <abs(upgrade1_add_value_1)>.,減少工作職缺 <abs(upgrade1_add_value_1)>
 4812,Farm,農場
-5070,<food(Stored_Food)>,<food(Stored_Food)>
+5070,<food(Stored_Food)>
 5071,Food Depot,食物存放區
 5072,Food Depots,食物存放區
 5073,Stores <food(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <food(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。 
 5114,Fountain,噴泉
 5115,Fountains,噴泉
-5077,<fuel(Stored_Fuel)>,<fuel(Stored_Fuel)>
+5077,<fuel(Stored_Fuel)>
 5078,Fuel Depot,燃料存放區
 5079,Fuel Depots,燃料存放區
 5080,Stores <fuel(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <fuel(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。 
@@ -1061,7 +1061,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5185,Open Air Gym,露天運動場
 5186,Open Air Gyms,露天運動場
 5187,Visitors recover a small amount of Health and may become Fit.,來訪的人回復少量的健康值，並可能變強壯。 
-5016,<GetColonistCount><icon_Colonist_small>,<GetColonistCount><icon_Colonist_small>
+5016,<GetColonistCount><icon_Colonist_small>
 5188,Oval Dome,橢圓蒼穹頂
 5189,Oval Domes,橢圓蒼穹頂
 5190,An elongated Dome design which has space for two Spires.,一個經過複數螺旋化結構設計、可以容納兩座尖端建築的蒼穹頂設計。 
@@ -1081,7 +1081,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 3524,Polymer Factory,聚合物工廠
 5199,Polymer Factories,聚合物工廠
 5200,Produces Polymers from Water and Fuel.,用水與燃料製造聚合物。
-5201,<polymers(Stored_Polymers)>,<polymers(Stored_Polymers)>
+5201,<polymers(Stored_Polymers)>
 5202,Polymers Depot,聚合物存放區
 5203,Polymers Depots,聚合物存放區
 5204,Stores <polymers(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <polymers(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
@@ -1106,7 +1106,7 @@ Moisture Vaporators are based on WAVAR tech (Water-Vapor Adsorption Reactor), a 
 5221,RC Rovers,漫遊者
 4477,"Remote-controlled vehicle that transports, commands and repairs Drones.",用於運輸、指揮與維護無人機的遠端遙控車輛
 4461,Remote-controlled vehicle that transports resources. Use it to establish permanent supply routes or to gather resources from surface deposits.,用於運輸、採集地表資源的遠端遙控車輛
-5225,<preciousmetals(Stored_PreciousMetals)>,<preciousmetals(Stored_PreciousMetals)>
+5225,<preciousmetals(Stored_PreciousMetals)>
 5226,Rare Metals Depot,稀有金屬存放區
 5227,Rare Metals Depots,稀有金屬存放區
 5228,Stores <preciousmetals(max_storage_per_resource)>. Excess resources will be delivered automatically to other depots within Drone range.,存放 <preciousmetals(max_storage_per_resource)> 無人機會自動將滿出來的資源送到範圍內的其他存放區。
@@ -1886,7 +1886,7 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 5444,Workplaces,工作場所
 420110169199,Xanthe Alpha,詹希 初代
 420380322111,"<resource('Fuel' )><right><fuel(Stored_Fuel, MaxAmount_Fuel)>"
-422261474057,"<grey>""In fact, the mere act of opening the box will determine the state of the cat, although in this case there were three determinate states the cat could be in: these being Alive, Dead, and Bloody Furious.""<newline><right>Terry Pratchett</grey><left>"
+422261474057,"<grey>""In fact, the mere act of opening the box will determine the state of the cat, although in this case there were three determinate states the cat could be in: these being Alive, Dead, and Bloody Furious.""<newline><right>Terry Pratchett</grey><left>","<grey>""In fact, the mere act of opening the box will determine the state of the cat, although in this case there were three determinate states the cat could be in: these being Alive, Dead, and Bloody Furious.""<newline><right>泰瑞·普萊契</grey><left>"
 427759670941,Cimmeria Alpha,基梅裡 初代
 562776633297,Margaritifer Alpha,馬格里特 初代
 563443366316,"<resource('Concrete' )><right><concrete(Stored_Concrete, MaxAmount_Concrete)>"
@@ -1901,11 +1901,11 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 326786953545,Launched a Rocket from Mars,從火星上發射一艘火箭
 761999391455,Found Water on Mars,在火星上找到水源處
 639900467782,Constructed a Dome,建造一座蒼穹頂
-640016954592,Remove this switch or valve.
+640016954592,Remove this switch or valve.,拆下這個開關或閥門
 168049511046,First human on Mars,踏上火星的首位人類
 488379408129,First Martianborn,首位火星之子誕生！
 665036099552,Produced Food,生產食物
-666653736105,Expiration
+666653736105,Expiration,截止
 149119990393,Researched a Breakthrough,完成一個突破性科技的研究
 150174985196,Winter is Coming,冬天來臨了
 106610630022,Evaluation,評估
@@ -1915,7 +1915,7 @@ Each wonder is unique and can be constructed only once.","世界奇觀是一座�
 174129126515,1000 Colonists,1000 位殖民者
 833327755106,Constructed a Mega Dome,建造一座 巨型蒼穹頂
 781931111320,Constructed a Wonder,建造一座 世界奇觀
-782696503433,GameRuleRebelYellProgress
+782696503433,GameRuleRebelYellProgress,遊戲規則造反聲浪進展
 5474,Mars Express,火星快捷
 5475,Voyager,星際旅行
 5476,Final Countdown,倒數時刻
@@ -2423,15 +2423,15 @@ Suggested Building: <em>Infirmary</em>","健康照護建築物將增加殖民者
 5648,Buildings Not Working,沒在運作的建築物
 5649,Buildings not working: <count>,沒在運作的建築物： <count>
 5650,Milestone achieved!,達成里程碑！
-756643722601,<display_name>,<display_name>
-760118243448,Display Name
+756643722601,<display_name>
+760118243448,Display Name,顯示名稱
 7057,Milestone achieved,達成里程碑
 5651,New Techs are available for research,有新的科技可以研究
 5652,Gained <research(points)>,獲得科研點數 <research(points)>
 5653,Research cost of all Techs reduced,全部科技的研究花費減少
 7042,Anomaly analyzed,觀察點分析完畢
 5654,Research Complete,研究完畢
-3846,<name>,<name>
+3846,<name>
 7058,Research complete,研究完畢
 5656,Cube countdown: <value> hours,立方體倒數： <value> 小時
 7438,Sphere Unknown Event: <percent(value)>,天體者未知事件： <percent(value)>
@@ -2460,7 +2460,7 @@ Suggested Building: <em>Infirmary</em>","健康照護建築物將增加殖民者
 5663,Select a Sector to scan,選擇一個地圖區塊掃描
 7063,Select a Sector to scan,選擇一個地圖區塊掃描
 5664,Sector <u(name)> scanned,地圖區塊 <u(name)> 掃描完成
-5665,<results>,<results>
+5665,<results>
 7064,Sector scanned,地圖區塊掃描完成
 5666,Low Battery,低電力
 5667,Vehicles with low Power: <count>,低電力的車輛：<count>
@@ -2485,7 +2485,7 @@ Suggested Building: <em>Infirmary</em>","健康照護建築物將增加殖民者
 5680,Founder Stage,創始者階段
 5619,Remaining duration: <countdown>,持續時間：<countdown>
 7441,Achievement Unlocked: <achievement>,解鎖成就：<achievement>
-7383,<description>,<description>
+7383,<description>
 7071,None,無
 7072,None,無
 5681,B&W 1,黑白 1
@@ -5466,7 +5466,12 @@ Our operatives are puzzled with the cause of the chain reaction but the Chief En
 
 The rocket landing site has been placed under quarantine and the authorities have been informed. We can only pray that they manage to prevent the infection from spreading any further.
 
-<effect>Infection Level on Earth has been set to the Contained level. If it reaches the Extinction level, the human population on Earth will be obliterated. Discover the Wildfire Cure and supply it to Earth to prevent this!",
+<effect>Infection Level on Earth has been set to the Contained level. If it reaches the Extinction level, the human population on Earth will be obliterated. Discover the Wildfire Cure and supply it to Earth to prevent this!","著陸點受到感染的感染者在數小時內惡化，醫務人員無法救治他們。這跟我們的醫療記錄不符，因為""野火""在火星上需要更多時間才會擴散。由於環境的變化，我們懷疑野火已經發生快速變異。
+
+火箭著陸點已經隔離，並已通知當局。我們只能祈禱他們能夠防止感染進一步蔓延。
+
+<effect>地球上的感染等級已被設置為受控等級。如果達到滅絕等級，地球上的人口將被消滅。尋找野火治療方案並提供給地球，以防止這種情況發生！
+"
 8478,One of our rockets has spread the Wildfire infection on Earth. It's spreading rapidly - we have to discover the Cure before the human population on Earth is obliterated!,我們的其中一艘火箭將野火帶到了地球上。它正在迅速蔓延 – 我們必須在地球上的人類被滅絕前找出治療方法。
 8308,Wildfire: Countdown to Extinction,野火：滅絕倒數
 8312,The worst has happened – Wildfire has infected Earth. We suspect this was caused by a recent meteor impact on Mars which lifted debris and showered them on the Blue Planet.,最糟糕的事情發生了 – 野火散播到了地球。我們懷疑這是因為最近一次擊中火星的隕石造成的，它擊中火星的同時，將揚起的星塵散播到了地球。
@@ -5492,7 +5497,11 @@ The infected areas have been placed under quarantine and we can only pray that t
 
 Meanwhile, Third World countries are in a state of panic as the Wildfire strikes the poorest communities. Waves of refugees flee the affected regions and many resource operations are simply abandoned by the scared personnel. The market feels the hunger for raw resources and multiple demands have been filed for imports from Mars.
 
-<effect>Infection Level has reached the Endemic state. Export prices have increased for the next <text_param1> Sols as the First World economies feel the hunger for resources.",
+<effect>Infection Level has reached the Endemic state. Export prices have increased for the next <text_param1> Sols as the First World economies feel the hunger for resources.","地球上的科學家們拼命想要找出解決方案，但至今仍然徒勞無功。當地毒株的致死性非常高，以至於對感染物的取樣和運輸都相當於判處死刑。它的奈米級尺寸使得控制它們的傳播同樣困難，生物過濾器無法有效阻止它，這使試圖研究它的實驗室的安全性受到威脅。唯一的解決辦法是分析原始菌株，也就是在火星上的菌株，以尋找治療方法。留給我們的時間不多了！
+
+同時，由於野火侵略了許多貧困地區，第三世界國家處於恐慌狀態。一大批難民逃離感染地區，人們閉門不出，工礦企業停工。市場渴求更多的原材料，並已從火星進口多項物品以滿足需求。
+
+<effect>感染等級已達區域性感染。隨著第一世界經濟體對資源的渴求，接下來<text_param1>太陽日出口價格上漲。"
 8634,15,15
 8322,Grave news... We have to hurry!,新聞快報…沒時間了！
 8480,The Wildfire infection is spreading uncontrollably on Earth. The Third World countries are hit harder due to their lack of resources to fight the disease effectively.,地球上的野火已經失控了。由於第三世界缺乏資源以有效的對抗感染，他們被野火嚴重的打擊。
@@ -7440,7 +7449,7 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 433,Information about the traits developed by Colonists under the effect of Project Morpheus,在莫非斯計畫影響下， 殖民者性格發展的資訊
 684,Charging<right><percent(charging_progress)>,充電中<right><percent(charging_progress)>
 685,Waiting for Drones,等待無人機光顧
-686,RP/Day,
+686,RP/Day,標準/天數
 687,Number of Residents,居民數量
 688,Rest Duration,休息時間
 689,Children only,限兒童
@@ -7634,7 +7643,7 @@ Services: <em><list></em>","<description>
 4224,<ButtonX> Open this work slot,<ButtonX> 開啟空缺
 541987944858,First Shift,早班
 159665176435,Second Shift,中班
-161964752558,Save
+161964752558,Save,儲存
 994186128274,Night shift,大夜
 130,N/A,無
 7359,Stopped Work Shift,停工
@@ -8099,10 +8108,10 @@ Viking 2)"
 8067,Wildfire (Hard),野火 (困難)
 8068,"""The worst pandemic in modern history was the Spanish flu of 1918, which killed tens of millions of people. Today, with how interconnected the world is, it would spread faster.""<newline><right>- Bill Gates",「近代最嚴重的流感是發生於 1918 年的西班牙流感，當時有上千萬人死去。而今天全世界更緊密地交織在一起，病毒只會傳染的更快。」<newline><right>- Bill Gates
 8458,Wildfire Cure,野火治療劑
-8459,Medicine preventing the Wildfire infection from destroying its host and from spreading to other humans.,
-8531,Wildefire Cure Depot,
-8532,Wildefire Cure Depots,
-8533,Stores the cure for the Wildfire infection.,
+8459,Medicine preventing the Wildfire infection from destroying its host and from spreading to other humans.,治療劑阻止了野火對宿主的侵害與對他人的傳染。
+8531,Wildefire Cure Depot,野火治療劑倉庫
+8532,Wildefire Cure Depots,野火治療劑倉庫
+8533,Stores the cure for the Wildfire infection.,儲存野火感染預防劑
 8070,Beyond Earth (Easy),超越地球 (簡單)(翻譯完成)
 8071,"""It isn't all over; everything has not been invented; the human adventure is just beginning.""<newline><right>- Gene Roddenberry",「一切尚未結束；我們還沒發明完所有東西；人類的冒險才剛要開始。」<newline><right>- Gene Roddenberry
 8072,The Last War (Hard),終戰 (困難)(翻譯完成)
@@ -10285,20 +10294,20 @@ Viking 2)"
 7968,Default Dome Skin,默認蒼穹頂皮膚
 8076,Goal,目標
 8077,Timeout (Sols),時間到(火星日)
-8078,Target,
-8494,Free Space Left,
-3491,Challenge Mod (%),
-1000108,Filter,
-3506,Bonus Breakthrough Anomalies,
-3507,Bonus event Anomalies,
-3508,Bonus free Tech Anomalies,
-3511,Bonus Rockets,
-8022,Game Apply,
+8078,Target,目標
+8494,Free Space Left,剩餘空間
+3491,Challenge Mod (%),挑戰模組(%)
+1000108,Filter,篩選
+3506,Bonus Breakthrough Anomalies,額外突破性異常點
+3507,Bonus event Anomalies,額外事件異常點
+3508,Bonus free Tech Anomalies,額外免費科學異常點
+3511,Bonus Rockets,額外火箭
+8022,Game Apply,遊戲應用
 1109,Prefab Buildings,預製建築
 7677,RC Rover,漫遊者號
 3512,RC Explorer,探索者號
-3541,Modifier name <number>,
-3542,Modifier value <number>,
+3541,Modifier name <number>,模組名稱 <number>
+3542,Modifier value <number>,模組數據 <number>
 3543,Sponsor nation name <number>,贊助商國名 <number>
 3544,Sponsor nation percent <number>,贊助商國家百分比 <number>
 3548,Borderless,無邊框
@@ -10317,7 +10326,7 @@ Viking 2)"
 3551,Ultra,超高
 7380,High,高
 6844,Off,關閉
-3555,FXAA,
+3555,FXAA,反鋸齒
 6845,Off,關閉
 3556,2x,
 7969,4x,
@@ -10363,9 +10372,9 @@ Viking 2)"
 3582,Mute when Minimized,最小化時靜音
 3583,Radio Station,廣播電台
 3584,Invert Mouse Wheel,反轉滑鼠滾輪
-3585,Invert Look,
+3585,Invert Look,反轉視角
 3586,Invert Rotation,反向旋轉
-3587,Scroll Outside Window,
+3587,Scroll Outside Window,視窗外滾動
 3588,Right-click Action,右鍵動作
 3589,Controller,控制器
 3590,Camera Movement Speed,鏡頭移動速度
@@ -10375,23 +10384,23 @@ Viking 2)"
 8529,Autosave to Cloud,自動儲存到雲端
 1000102,Language,語言
 7579,Restart the game to display the selected language,重新開始遊戲以顯示所選語言
-3593,Folder,
-3594,Silence between tracks (sec),
-7905,Play,
+3593,Folder,文件夾
+3594,Silence between tracks (sec),音樂間隔(秒)
+7905,Play,播放
 3595,Color,顏色
-1000110,Type,
-3598,Dormant Min,
-3599,Dormant Max,
-3600,Active Min,
-3601,Active Max,
-3602,Warning Min,
-3603,Warning Max,
-3604,Warm Opacity,
-3605,Dust Opacity Time,
-3606,Cool Down Opacity Time,
+1000110,Type,類型
+3598,Dormant Min,最小休眠
+3599,Dormant Max,最大休眠
+3600,Active Min,最小活動
+3601,Active Max,最大活動
+3602,Warning Min,最小警報
+3603,Warning Max,最大警報
+3604,Warm Opacity,暖流不透明度
+3605,Dust Opacity Time,粉塵不透明時間
+3606,Cool Down Opacity Time,冷卻不透明時間
 3607,Sanity/Sec Damage,理智/秒傷害
 8495,Dust/Sec,塵/秒
-3609,Any,
+3609,Any,任何
 7350,<red>No active research</red>,<red>沒有正在執行的研究</red>
 3918,Unknown Tech (<FieldDisplayName>),未知科技 (<FieldDisplayName>)
 3919,"<FieldDescription><newline><newline>To unlock, research more technologies in this field or use the Explorer rover to analyze anomalies.",<FieldDescription><newline><newline>研究更多這個領域的科技，或是使用探索者分析觀察點，來解鎖。
@@ -10527,114 +10536,114 @@ Some features may not work.","下列模組遺失或過期：
 <mods>
 
 某些功能可能無法使用。"
-3686,Load anyway,
+3686,Load anyway,仍然載入
 3688,Autosave Sol <current_sol>,自動儲存於太陽日 <current_sol>
 3691,Random number,隨機數字
 3692,Random percent,隨機百分比
-3693,Input register,
-3694,Output register,
-3695,NOT,
-3697,Other register,
-3698,Base Class,
-3696,Class,
-3701,Op,
-3702,A building label,
+3693,Input register,輸入註冊
+3694,Output register,輸出註冊
+3695,NOT,不
+3697,Other register,其他註冊
+3698,Base Class,基礎類
+3696,Class,類
+3701,Op,機會
+3702,A building label,建築標籤
 3703,Trait: <display_name>,性格： <display_name>
 7906,Working-age Colonists,工作年齡的殖民者
-3704,Always Available,
-3705,Not Available,
+3704,Always Available,始終可用
+3705,Not Available,無法使用
 3706,Use Game Logic,使用遊戲邏輯
 3707,Behavior,行為
-3708,Disable reason,
+3708,Disable reason,禁用原因
 3711,Demolish,拆除
 3712,Amount of dust,粉塵量
 3689,Label,標籤
 3713,Cause of Death,死亡原因
 3714,Killed by unforeseen circumstances,意外死亡
-3716,"Duration hours (only for morale, -1 forever)",
+3716,"Duration hours (only for morale, -1 forever)",持續時間(僅限於士氣，-1 永遠)
 3717,Reason for Morale change,士氣改變的原因
-3718,NONE,
-834,Specialist,
-3719,Exclude Dead,
-6852,Command,
-3710,Number,
+3718,NONE,無
+834,Specialist,學者
+3719,Exclude Dead,排除死者
+6852,Command,指揮
+3710,Number,編號
 3720,Trait,性格
-3722,State,
-3690,Register,
-3723,New body text,
-3724,Limit log to,
-7799,<em>Sol <sol>:</em> <text>,
-3725,Notification ID,
+3722,State,狀態
+3690,Register,註冊表
+3723,New body text,新文本
+3724,Limit log to,限制登錄
+7799,<em>Sol <sol>:</em> <text>,<em>太陽日<sol>:</em> <text>
+3725,Notification ID,通知ID
 6853,Auto Update,自動更新
-3726,Expression,
-3727,Upd. Interval,
-3728,Text Register,
-7308,Popup Text,
-7309,Popup Text Register,
-3729,Countdown Hours,
-3730,Countdown Register,
-3731,Position Register,
-3733,Random Breakthrough,
+3726,Expression,表現
+3727,Upd. Interval,更新間隔
+3728,Text Register,註冊文本
+7308,Popup Text,跳出文本
+7309,Popup Text Register,跳出註冊文本
+3729,Countdown Hours,倒數計時
+3730,Countdown Register,註冊倒數
+3731,Position Register,註冊位置
+3733,Random Breakthrough,隨機突破性
 3734,Tech,科技
-6854,Cost (RP),
-3735,Anywhere,
+6854,Cost (RP),花費(RP)
+3735,Anywhere,任何地方
 3736,Inside Dome,蒼穹頂內
 3737,Outside Dome,蒼穹頂內
-3738,Check passability?,
-3739,Check buildable?,
-3740,Check playable?,
+3738,Check passability?,檢查可行性?
+3739,Check buildable?,檢查是否可建築?
+3740,Check playable?,檢查是否運行?
 3741,Check Dome,檢查蒼穹頂
 3742,Check Terran Deposit,檢查表土資源點
-3743,Exclude class in buildable checks,
-3744,Random pos is near label,
-3745,Random pos label max distance,
-3746,Class name,
-3750,Place as construction site?,
-3752,Stored pos is of spot name?,
-3755,"Force pos Z, terrain relative",
-3756,Force skip cable cleanup,
-3758,Param Name 1,
-3759,Param Value 1,
-3760,Param Name 2,
-3761,Param Value 2,
-3762,Param Name 3,
-3763,Param Value 3,
-3767,Number of objects to destroy,
-3768,Destroy all?,全部摧毀？
-3769,Return resources?,返回資源？
-3751,Store pos in register,
-3771,FX Moment,
-3764,Pick object from label,
-3765,Pick object from class,
-3766,Pick object from register,
-8037,Store object in register,
-8038,Visible only,
-3747,Placement pos,
-3748,Use pos from register:,
-3749,Use random pos?,
-3772,Attach to object in register,
-3773,Attach to object's spot,
-3753,Store spawned obj in register,
-3754,Append to register?,
-3774,Generate Breakthrough Tech,
-3775,Sequence List,
-5,Sequence,
-3776,Anomaly starts revealed?,
-3757,Show me spawned obj (dbg),
-3777,Wait type,
+3743,Exclude class in buildable checks,排除種類在可建立的檢查
+3744,Random pos is near label,將位置隨機放置在標籤附近
+3745,Random pos label max distance,將位置隨機放置在標籤的最大距離
+3746,Class name,等級名稱
+3750,Place as construction site?,此處是否可建造?
+3752,Stored pos is of spot name?,存儲位置使用現在名稱?
+3755,"Force pos Z, terrain relative",強制Z坐標與地形匹配
+3756,Force skip cable cleanup,強制跳過電纜清理
+3758,Param Name 1,參數名稱1
+3759,Param Value 1,參數值1
+3760,Param Name 2,參數名稱2
+3761,Param Value 2,參數值2
+3762,Param Name 3,參數名稱3
+3763,Param Value 3,參數值3
+3767,Number of objects to destroy,將要銷毀的對象數量
+3768,Destroy all?,全部摧毀?
+3769,Return resources?,返回資源?
+3751,Store pos in register,將位置存儲在註冊表中
+3771,FX Moment,FX時刻
+3764,Pick object from label,從標籤中選擇對象
+3765,Pick object from class,從類中選擇對象
+3766,Pick object from register,從存取器中選擇對象
+8037,Store object in register,將對象存儲在存取器中
+8038,Visible only,僅可見
+3747,Placement pos,放置位置
+3748,Use pos from register:,從存取器調取位置：
+3749,Use random pos?,使用隨機位置？
+3772,Attach to object in register,從存取器中添加對象
+3773,Attach to object's spot,添加到對象位置
+3753,Store spawned obj in register,將產生的對象存儲在存取器中
+3754,Append to register?,追加到存取器
+3774,Generate Breakthrough Tech,產生突破性技術
+3775,Sequence List,序列表
+5,Sequence,序列
+3776,Anomaly starts revealed?,是否開始顯露異常？
+3757,Show me spawned obj (dbg),顯示產生的對象（DBG）
+3777,Wait type,等待類型
 3778,Hours,小時
 3779,Sols,太陽日
 3780,Random Hours,隨機小時
 3781,Random Sols,隨機太陽日
 3782,Target hour,目標小時
 3783,Target Sol,目標太陽日
-3784,Wait subtype,
+3784,Wait subtype,等待子類型
 15,Resource,資源
 7885,Travel time (to Earth),旅行時間 (到地球)
 7886,Fuel Amount,燃料量
 7887,Wait status,等待狀態
 7884,Travel time (to Mars),旅行時間 (到火星)
-8457,Passenger Orbit Lifetime,
+8457,Passenger Orbit Lifetime,客運軌道壽命
 8083,Num Refugees,難民數量
 8084,Add Refugee Trait,增加難民性格
 8085,Trait 1,性格 1
@@ -10644,46 +10653,46 @@ Some features may not work.","下列模組遺失或過期：
 8089,Trait 3,性格 3
 8090,Trait 3 chance,性格 3 改變
 93,ID,
-8091,g_RefugeeOutcome[id] will be either 'success' or 'timeout' after this.,
-8092,Choice Result,
-8093,Text Register 1,
-8094,Text Register 2,
-8095,Text Register 3,
-8096,Text Register 4,
-8097,Add Choice Entry,
-3567,Preset,
-8098,Wait Choice Entries,
+8091,g_RefugeeOutcome[id] will be either 'success' or 'timeout' after this.,難民結果[ID]在此之後將會變更為'成功'或'超時“。
+8092,Choice Result,選擇結果
+8093,Text Register 1,文本存取器1
+8094,Text Register 2,文本存取器2
+8095,Text Register 3,文本存取器3
+8096,Text Register 4,文本存取器4
+8097,Add Choice Entry,添加選擇條目
+3567,Preset,預設
+8098,Wait Choice Entries,等待選擇條目
 3700,Value,值
-3789,Choice Id,
-3790,Check Result of Last Choice,
+3789,Choice Id,選擇ID
+3790,Check Result of Last Choice,檢查最後選擇的結果
 3791,Choice <value>,選擇 <value>
 3792,Choice <value> <id>,選擇 <value> <id>
-3795,Text Param 1,
-3796,"This is translatable text, ref as text_param1 in the body",
-3797,Text Param 2,
-3798,"This is translatable text, ref as text_param2 in the body",
-3799,Text Param 3,
-3800,"This is translatable text, ref as text_param3 in the body",
-3801,Reg Param 1,
-3802,"This is a register name, ref as reg_param1 in the body",
-3803,Reg Param 2,
-3804,"This is a register name, ref as reg_param2 in the body",
-3805,Reg Param 3,
-3806,"This is a register name, ref as reg_param3 in the body",
-3827,Choice Param 1,
-3828,Choice Param 2,
-3829,Choice Param 3,
-3830,Choice Param 4,
-3831,Choice Register,
-3832,Wait Choice,
+3795,Text Param 1,文本參數1
+3796,"This is translatable text, ref as text_param1 in the body",這是可翻譯的文本，在文本中作為text_param1引用
+3797,Text Param 2,文本參數2
+3798,"This is translatable text, ref as text_param2 in the body",這是可翻譯的文本，在文本中作為text_param2引用
+3799,Text Param 3,文本參數3
+3800,"This is translatable text, ref as text_param3 in the body",這是可翻譯的文本，在文本中作為text_param3引用
+3801,Reg Param 1,註冊參數1
+3802,"This is a register name, ref as reg_param1 in the body",這是一個註冊名稱，參考文本中reg_param1
+3803,Reg Param 2,註冊參數2
+3804,"This is a register name, ref as reg_param2 in the body",這是一個註冊名稱，參考文本中reg_param1
+3805,Reg Param 3,註冊參數3
+3806,"This is a register name, ref as reg_param3 in the body",這是一個註冊名稱，參考文本中reg_param1
+3827,Choice Param 1,選擇參數1
+3828,Choice Param 2,選擇參數2
+3829,Choice Param 3,選擇參數3
+3830,Choice Param 4,選擇參數4
+3831,Choice Register,選擇存取器
+3832,Wait Choice,等待選擇
 3833,Button,按鈕
 6858,OK,
-3834,Button Image,
-1000112,Rollover,
-3835,Rollover Title,
-3836,Rollover Hint 1,
-3837,Rollover Hint 2,
-3838,Wait Message,
+3834,Button Image,按鍵圖像
+1000112,Rollover,滾動
+3835,Rollover Title,滾動標題
+3836,Rollover Hint 1,滾動提示1
+3837,Rollover Hint 2,滾動提示2
+3838,Wait Message,等待訊息
 3839,Left Mouse Button,滑鼠左鍵
 3840,Right Mouse Button,滑鼠右鍵
 3841,Middle Mouse Button,滑鼠中鍵
@@ -10741,16 +10750,16 @@ Some features may not work.","下列模組遺失或過期：
 3895,Required DLC,需要 DLC
 3901,Unlock Position,解鎖位置
 3902,Research Repeatable,研究為可重複性的
-3903,Param 1 Comment,
-3904,Param 1,
-3905,Param 2 Comment,
-3906,Param 2,
-3907,Param 3 Comment,
-3908,Param 3,
-3909,Param 4 Comment,
-3910,Param 4,
-3911,Param 5 Comment,
-3912,Param 5,
+3903,Param 1 Comment,參數1評論
+3904,Param 1,參數1
+3905,Param 2 Comment,參數2評論
+3906,Param 2,參數2
+3907,Param 3 Comment,參數3評論
+3908,Param 3,參數3
+3909,Param 4 Comment,參數4評論
+3910,Param 4,參數4
+3911,Param 5 Comment,參數5評論
+3912,Param 5,參數5
 3914,Research Cost,研究成本
 3915,Tech Field,科技領域
 3916,From Mystery,從謎團
@@ -10794,26 +10803,26 @@ Some features may not work.","下列模組遺失或過期：
 1000097,Category,分類
 1000017,Description,描述
 94,Icon,圖示
-3940,Rare,
+3940,Rare,稀有
 3941,Rarity weight,稀有重量
 3942,Incompatible,不相容
-3943,Used in base auto generated,
+3943,Used in base auto generated,用於基礎自動生成
 3944,Initial filter,初始篩選
 3945,Hidden on start,起始時隱藏
 3946,Show in traits UI,在性格介面中顯示
 6863,Show in traits Dome filters UI but not in Applicants filters,在蒼穹頂性格篩選介面中顯示，但不在應徵者篩選中顯示
-3947,Add interest,
-3948,Remove interest,
+3947,Add interest,添加興趣
+3948,Remove interest,移除興趣
 3949,Parameter,參數
-3950,"Daily update func(colonist, trait)",
-3951,"Apply func(colonist, trait, init)",
-3952,"Remove func(colonist, trait)",
+3950,"Daily update func(colonist, trait)","每日更新 func(colonist, trait)"
+3951,"Apply func(colonist, trait, init)","應用 func(colonist, trait, init)"
+3952,"Remove func(colonist, trait)","移除 func(colonist, trait)"
 930,Modifier target,修正目標
 3953,Target only Colonists with trait,只針對有性格的殖民者
 931,Modified property,修正屬性
 932,Modification amount,修正數量
 933,Modification percent,修正百分比
-3954,Infopanel effect text,
+3954,Infopanel effect text,訊息面板效果文本
 3955,<green><tech_name> researched! +<amount> (Nerd)</green>,<green>挖呼~ <tech_name>研發完成了！ +<amount> (科技宅)</green>
 8627,Is School Trait,在學校的性格
 8628,Is Sanatorium Trait,在尖端療養院的性格
@@ -10914,25 +10923,25 @@ Some features may not work.","下列模組遺失或過期：
 7718,Agree to the Terms of Use and Privacy Policy,同意使用條文和隱私政策
 8499,Subscribe to Newsletter,訂閱電子報
 7719,current,即時
-7720,Steam,
-7721,Microsoft,
-7722,Sony<nbsp>Entertainment<nbsp>Network,
+7720,Steam,Steam
+7721,Microsoft,Microsoft
+7722,Sony<nbsp>Entertainment<nbsp>Network,Sony<nbsp>Entertainment<nbsp>Network
 7724,This will link your Paradox account to your <account_type> account. Do you want to proceed?,這會將你的 Paradox 帳號連結到你的 <account_type> 帳號。繼續嗎？
 4087,Your account is now linked,你的帳號已連結
 8500,Login successful,成功登入
 7725,Unlink Paradox Account,中斷 Paradox 帳號連結
-7726,Are you sure you want to unlink your <account_type> account from your Paradox account?,
+7726,Are you sure you want to unlink your <account_type> account from your Paradox account?,這將會把你的Paradox帳號和<account_type>帳號解除連結，是否繼續？
 7727,Your account has been unlinked,你的帳號已經中斷連結
-8501,Logout successful,
-7723,Link Account,
-7728,This will link your newly created Paradox account to your <account_type> account. Do you want to proceed?,
-4088,Account created successfully,
-1000015,Success,
+8501,Logout successful,成功登出
+7723,Link Account,連結帳號
+7728,This will link your newly created Paradox account to your <account_type> account. Do you want to proceed?,這將會使你的新創帳號與<account_type>連結，是否繼續?
+4088,Account created successfully,帳號成功創立
+1000015,Success,成功
 4524,<h Link ParadoxFeed>,
-6886,S,
-6887,N,
-6888,E,
-6889,W,
+6886,S,S
+6887,N,N
+6888,E,E
+6889,W,W
 1103,Colony Site,殖民地點
 4128,<clr><font PGLandingPosName><name></font></color><newline>,
 4129,<pos_name><lat>°<lat_dir> <long>°<long_dir><newline><font PreGamePlanetCoordinatesHint><control_img> Move spot</font>,<pos_name><lat>°<lat_dir> <long>°<long_dir><newline><font PreGamePlanetCoordinatesHint><control_img>移動地點</font>
@@ -10961,42 +10970,42 @@ Some features may not work.","下列模組遺失或過期：
 4147,"Meteors can destroy or damage structures, colonists and vehicles in their impact area. Some meteors are composed of useful resources like Metal or Polymers.",隕石可以摧毀或是損害衝擊區內的建築、 殖民者、 和車輛。 有些隕石是由有用的資源組成， 像是金屬或聚合物。
 4148,Cold Waves,寒流
 4150,"Cold Waves last several Sols, increasing the power consumption of vehicles, Drones and many field buildings. Water Towers are frozen during Cold Waves.",寒流會持續幾個太陽日， 增加車輛、 無人機、 和很多野外建築物的耗電量。 水塔在寒流期間會凍結。
-4151,Mars Locales,
+4151,Mars Locales,火星地區
 4152,Select a Colony Site,選擇一個殖民地點
 4153,<color 203 120 30><font PGLandingPosName><name></font></color>,
 4092,Custom coordinates,自訂座標
 4093,Invalid coordinates.,無效座標
 6885,Error,錯誤
-6855,Voiced Text,
-3793,Body Text,
-6856,Log Entry,
-6857,Voice Actor,
-3794,Image,
-3785,Choice 1,
-3807,Choice 1 Image,
-3808,Rollover 1,
-3809,Rollover Title 1,
-3810,Rollover 1 Hint 1,
-3811,Rollover 1 Hint 2,
-3786,Choice 2,
-3812,Choice 2 Image,
-3813,Rollover 2,
-3814,Rollover Title 2,
-3815,Rollover 2 Hint 1,
-3816,Rollover 2 Hint 2,
-3787,Choice 3,
-3817,Choice 3 Image,
-3818,Rollover 3,
-3819,Rollover Title 3,
-3820,Rollover 3 Hint 1,
-3821,Rollover 3 Hint 2,
-3788,Choice 4,
-3822,Choice 4 Image,
-3823,Rollover 4,
-3824,Rollover Title 4,
-3825,Rollover 4 Hint 1,
-3826,Rollover 4 Hint 2,
-6896,"Mission Control, Log #<number><newline><newline>",
+6855,Voiced Text,發生文本
+3793,Body Text,主體文本
+6856,Log Entry,日誌記錄
+6857,Voice Actor,聲音演員
+3794,Image,圖像
+3785,Choice 1,選擇1
+3807,Choice 1 Image,選擇1圖像
+3808,Rollover 1,滾動頁1
+3809,Rollover Title 1,滾動頁標題1
+3810,Rollover 1 Hint 1,滾動頁1提示1
+3811,Rollover 1 Hint 2,滾動頁1提示1
+3786,Choice 2,選擇2
+3812,Choice 2 Image,選擇2圖像
+3813,Rollover 2,滾動頁2
+3814,Rollover Title 2,滾動頁標題2
+3815,Rollover 2 Hint 1,滾動頁1提示1
+3816,Rollover 2 Hint 2,滾動頁1提示1
+3787,Choice 3,選擇3
+3817,Choice 3 Image,選擇3圖像
+3818,Rollover 3,滾動頁3
+3819,Rollover Title 3,滾動頁標題3
+3820,Rollover 3 Hint 1,滾動頁1提示1
+3821,Rollover 3 Hint 2,滾動頁1提示1
+3788,Choice 4,選擇4
+3822,Choice 4 Image,選擇4圖像
+3823,Rollover 4,滾動頁4
+3824,Rollover Title 4,滾動頁標題4
+3825,Rollover 4 Hint 1,滾動頁4提示1
+3826,Rollover 4 Hint 2,滾動頁4提示2
+6896,"Mission Control, Log #<number><newline><newline>",任務中心，日誌編碼#<number><newline><newline>
 4167,Return to Earth?,回到地球？
 4263,Press any button,按下任何鍵
 1000623,You are not signed into a profile. You will be unable to save any game content until you sign in.,
@@ -11058,8 +11067,8 @@ Some features may not work.","下列模組遺失或過期：
 7975,Unload Resource,卸載資源
 673,Protect Range,保護範圍
 6921,Experimental Vehicle,實驗車輛
-6922,"A remote-controlled vehicle, property of EsoCorp.",
-6923,"A remote-controlled combat vehicle, reclaimed by the Colony. Protects against meteor strikes and EsoCorp vehicles.",
+6922,"A remote-controlled vehicle, property of EsoCorp.",一輛遙控載具，是艾索企業的財產
+6923,"A remote-controlled combat vehicle, reclaimed by the Colony. Protects against meteor strikes and EsoCorp vehicles.",一輛被殖民地掌控的遙控戰鬥載具，用來防止隕石與艾索載具的襲擊
 6720,Cancel,取消
 6925,Send Drones to this vehicle.,派遣無人機前往這台車輛
 6926,Cancel repairs.,取消修復
@@ -11084,7 +11093,7 @@ Some features may not work.","下列模組遺失或過期：
 4299,Min age <display_name>,最小年齡<display_name>
 4300,Min age for <name>,<name> <roman(serial)>
 8039,Trait: Idiot (can cause a malfunction),性格：天兵 (可能造成建築物故障)
-4301,<name> <roman(serial)>,Min age <display_name>
+4301,<name> <roman(serial)>
 6927,<green>Correct workplace specialization +<amount></color>,<green>在正確崗位上工作的殖民者 +<amount></color>
 6928,<red>Wrong workplace specialization <amount></color>,<red>在錯誤崗位上工作的殖民者 <amount></color>
 4304,<green>Nocturnal Adaptation <amount></color>,<green>夜貓子 <amount></color>
@@ -11102,8 +11111,8 @@ Some features may not work.","下列模組遺失或過期：
 6936,<clr><reason></color>,<clr><reason></color>
 4371,<green>Spire in Dome: <spire_name></green>,<green>蒼穹頂內的佈道者<spire_name></green>
 4372,Trait: <trait_name> <amount>,性格： <trait_name> <amount>
-4373,<green><trait_text></green>,<green><trait_text></green>
-4374,<red><trait_text></red>,<red><trait_text></red>
+4373,<green><trait_text></green>
+4374,<red><trait_text></red>
 4370,Effects:,影響：
 4375,Interests: <em><list></em><newline>,興趣： <em><list></em><newline>
 4380,Sol <sol>: <clr><reason></color>,太陽日 <sol>：<clr><reason></color>
@@ -11116,8 +11125,8 @@ Some features may not work.","下列模組遺失或過期：
 4365,Outside the workforce (Senior),無法工作 (老年人)
 6935,Not looking for a job,遊手好閒
 4366,Workplace<right>Unemployed,工作處<right>未受雇
-7550,<em><trait></em>,<em><trait></em>
-7551,<trait>,<trait>
+7550,<em><trait></em>
+7551,<trait>
 7552,No traits,無性格
 4383,Traits are the individual characteristics of the Colonists.,性格代表殖民者的個人特質
 4384,<newline><em><trait></em>: <descr>,<newline><em><trait></em>： <descr>
@@ -11186,7 +11195,7 @@ Some features may not work.","下列模組遺失或過期：
 4339,<em>Ctrl + <left_click></em>: Move,<em>Ctrl + <left_click></em>：移動
 4392,This Drone is disabled,此無人機已禁用
 720,Nothing,無
-7395,"<resource(amount,resource)>","<resource(amount,resource)>"
+7395,"<resource(amount,resource)>"
 7396,Location,地點
 4439,Going to<right><h SelectTarget InfopanelSelect><Target></h>,前往 <right><h SelectTarget InfopanelSelect><Target></h>
 7397,No particular destination,無特定目標
@@ -11287,12 +11296,12 @@ Some features may not work.","下列模組遺失或過期：
 6970,Off,關閉
 6971,Off,關閉
 6972,Off,關閉
-1000120,<arg1> x <arg2>,<arg1> x <arg2>
+1000120,<arg1> x <arg2>
 6973,Off,關閉
 3869,Homeless,無家可歸
 6859,Unemployed,未受雇
 7934,Problematic colonists,問題人口
-7679,<name><right><index> / <max>,<name><right><index> / <max>
+7679,<name><right><index> / <max>
 3996,Map Overview,地圖總覽
 6867,Game,遊戲
 4001,"Save, load, change options or quit the game.",存檔，讀取，改變設定或是離開遊戲。
@@ -11335,7 +11344,7 @@ Some features may not work.","下列模組遺失或過期：
 7680,<LB> / <RB>    Decrease / increase service radius,<LB> / <RB>增大 / 減少服務範圍
 7681,<LB> / <RB>    Previous / next colonist,<LB> / <RB> 上一個 / 下一個殖民者
 7558,<newline><center>Selection specific shortcuts,<newline><center>選擇特定捷徑
-7559,<GamepadShortcutName(shortcut)>    <name>,<GamepadShortcutName(shortcut)>    <name>
+7559,<GamepadShortcutName(shortcut)>    <name>
 3968,You can only build this building once.,您只能建造此建築物一次
 3969,Available prefabs: <number>,可用的預製零件: <number>
 3970,"You need prefab parts for this building. Use a resupply Rocket to bring more <em>prefabs</em> from Earth, or research the corresponding <em>Technology</em>.",您需要預製零件才能建造此建築。使用火箭 從地球帶些 <em>預製零件</em> 過來，或者研究相關的<em>科技</em>.以解鎖
@@ -11344,14 +11353,10 @@ Some features may not work.","下列模組遺失或過期：
 3971,Connect Power producers and consumers by establishing Power grids.,連結電力提供設備 與 需求電力的設備 才能建構電力網路
 8101,"<description>
 
-<formatedbuildinginfo('ElectricitySwitch')>","<description>
-
 <formatedbuildinginfo('ElectricitySwitch')>"
-8102,<formatedbuildinginfo('LifeSupportGridElement')>,<formatedbuildinginfo('LifeSupportGridElement')>
+8102,<formatedbuildinginfo('LifeSupportGridElement')>
 3972,Transport Water and Oxygen.,運輸氧氣與水
 8103,"<description>
-
-<formatedbuildinginfo('LifesupportSwitch')>","<description>
 
 <formatedbuildinginfo('LifesupportSwitch')>"
 3974,"Marks buildings, cables and pipes to be demolished. Half of the construction resource cost of any salvaged buildings will be refunded.",當您選擇摧毀建築物、電線或者管線的時候，您可以取回當初建築時所消耗的一半資源。
@@ -11359,7 +11364,7 @@ Some features may not work.","下列模組遺失或過期：
 1000145,Text,設定
 4094,Gamepad text,手把設定
 7586,<center><Back> Dismiss hint,<center><Back>關閉提示
-8108,<Title>,<Title>
+8108,<Title>
 4079,Press a key to assign to <action>...,按任意鍵設定為<action> ...
 4081,<key> cannot be used for <action>.,<key>鍵無法設定為<action>
 4080,Conflicting controls,按鍵衝突
@@ -11385,11 +11390,11 @@ Some features may not work.","下列模組遺失或過期：
 3488,Select an active storyline for this playthrough.,選擇此局的故事內容
 3489,<ButtonA> Choose Mystery,<ButtonA> 選擇謎團
 3546,Starting Rockets: <rockets>,起始火箭: <rockets>
-4065,<color 203 120 30><font PGLandingPosName><name></font></color><newline>,<color 203 120 30><font PGLandingPosName><name></font></color><newline>
+4065,<color 203 120 30><font PGLandingPosName><name></font></color><newline>
 4069,Rename Rocket,命名火箭
-7560,<h RenameRocket Rename>,<h RenameRocket Rename>
-6898,<h RenameRocket Rename>< image <img> 2000 >,<h RenameRocket Rename>< image <img> 2000 >
-4162,</h>,</h>
+7560,<h RenameRocket Rename>
+6898,<h RenameRocket Rename>< image <img> 2000 >
+4162,</h>
 6880,Warning,警告
 6881,Are you sure you want to buy a new Rocket for <funding(price)>?,您確定要花費 <funding(price)> 來購買一艘火箭?
 7546,Insufficient funding! You need <funding(price)> to purchase a Rocket!,資金不足！ 您需要 <funding(price)> 以購買一艘火箭
@@ -11400,26 +11405,26 @@ Some features may not work.","下列模組遺失或過期：
 4067,SELECT ROCKET,選擇火箭
 4075,<funding(money)>,
 1114,Weight: <value> kg<newline>Cost: <funding(cost)>,重量: <value> kg<newline>花費 <funding(cost)>
-7580,<DPadLeft> Change value <DPadRight>,<DPadLeft> Change value <DPadRight>
+7580,<DPadLeft> Change value <DPadRight>
 1110,Prefab Buildings,預製建築物
 1111,Prefabricated parts needed for the construction of certain buildings on Mars.,在地球預先建置好的設備，免去在火星還需採集資源來建造的麻煩，可以快速地在火星上建構。
 1112,<left_click> Browse Prefab Buildings,<left_click> 瀏覽 預製建築物
 1113,<ButtonA> Browse Prefab Buildings,<ButtonA> 瀏覽 預製建築物
 7730,Invalid input,無效的輸入
-7731,<field> should be in the format <format>,<field> should be in the format <format>
+7731,<field> should be in the format <format>
 7976,SKIP,跳過
 1000159,Escape,離開
 856797454991,ACHIEVEMENTS,成就
 599355083725,Unlocked <white><unlocked> / <total>,解鎖 <white><unlocked> / <total>
 600243851394,Toggle Resource Icons
-583679719179,<display_name>,<display_name>
+583679719179,<display_name>
 328491723397,CLOSE,關閉
 4262,Difficulty Bonus <white><percent(DifficultyBonus)></white>,難度加成 <white><percent(DifficultyBonus)></white>
-347194033198,<DomeName>,<DomeName>
-837650465667,<DomeSubtitle>,<DomeSubtitle>
+347194033198,<DomeName>
+837650465667,<DomeSubtitle>
 5446,PREVIOUS DOME,上一座蒼穹頂
 5445,NEXT DOME,下一座蒼穹頂
-410148310585,<tag>,<tag>
+410148310585,<tag>
 727272233433,Open Empty Map,開啟空白地圖
 4521,Open POC Map 1,
 722962309661,Open POC Map 2,
@@ -11616,7 +11621,7 @@ Some features may not work.","下列模組遺失或過期：
 385959075356,Empty slot,空格
 407610261475,<RocketTypeTitle>,
 198049262709,Cargo Capacity <white><Capacity> kg</white><newline>Funding <white><funding(Funding)></white><newline>Available Rockets <white><AvailableRockets>/<TotalRockets></white>,酬載量 <white><Capacity> kg</white><newline>資金 <white><funding(Funding)></white><newline>可用火箭 <white><AvailableRockets>/<TotalRockets></white>
-198850457134,"<grey>""People have a right to violence, to rebel, to fight back.""<newline><right>Yuri Kochiyama</grey><left>"
+198850457134,"<grey>""People have a right to violence, to rebel, to fight back.""<newline><right>Yuri Kochiyama</grey><left>",<grey> 面對暴政，群眾有權利抵抗、背叛並反擊 <newline><right> 河內山 百合 </grey><left>
 628712416014,Rockets unavailable.,無可用火箭
 631382449574,Dust in the Wind,風飛沙
 8541,<PassengerRocketDisabledRolloverText>,
@@ -11674,7 +11679,7 @@ Some features may not work.","下列模組遺失或過期：
 901758528440,There are currently no colonists in this category.,此分類中沒有任何殖民者
 494678213027,<UnemployedRolloverTitle>,
 814678720193,<ProblematicRolloverText>,
-815334191366,Basic Resources
+815334191366,Basic Resources,基礎資源
 560192517207,There are currently no colonists in this category.,此分類中沒有任何殖民者
 235056803468,<ProblematicRolloverTitle>,
 644918672836,"Drone prefabs can be used to order new drones in Drone Hubs. Drone Prefabs cost:<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>","在這邊可以訂製無人機預製零件，並送交無人機中心組裝。 無人機預製零件花費：<newline><resource(ConstructResource)><right><resource(ConstructDroneCost, ConstructResource)>"
@@ -11731,7 +11736,7 @@ Some features may not work.","下列模組遺失或過期：
 277702433938,Renegades in the Dome <right><RenegadesCount>,蒼穹頂內的叛徒 <right><RenegadesCount>
 821612835210,Construct a Shuttle,建造一艘客貨機
 822014935781,"<resource('PreciousMetals' )><right><preciousmetals(Stored_PreciousMetals, MaxAmount_PreciousMetals)>"
-822533431359,Can't import food from Earth.
+822533431359,Can't import food from Earth.,不能從地球進口食物
 823700604514,"<grey>""If we can conquer space, we can conquer childhood hunger.""<newline><right>Buzz Aldrin</grey><left>"
 860716957818,<left_click> Construct a new Shuttle<newline><right_click> Cancel a Shuttle construction,<left_click> 建造一艘新客貨機<newline><right_click> 取消客貨機建造
 860781390679,Can call a Passenger Rocket only once.
@@ -11795,27 +11800,27 @@ Current status: Exports are <em>allowed</em>.","允許 / 禁止 向地球出口�
 Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出口貴重金屬。 如果出口貨物順利返回地球的話，將可以獲得額外的資金
 
 目前狀態：<em>允許</em>.出口貨物"
-931298770139,<CargoManifest>,<CargoManifest>
+931298770139,<CargoManifest>
 495,Basic Resources available in this Depot.,此存放區可用的基本資源
-509,<resource('Metals' )><right><metals(Stored_Metals)>,<resource('Metals' )><right><metals(Stored_Metals)>
-510,<resource('Concrete' )><right><concrete(Stored_Concrete)>,<resource('Concrete' )><right><concrete(Stored_Concrete)>
-511,<resource('Food' )><right><food(Stored_Food)>,<resource('Food' )><right><food(Stored_Food)>
+509,<resource('Metals' )><right><metals(Stored_Metals)>
+510,<resource('Concrete' )><right><concrete(Stored_Concrete)>
+511,<resource('Food' )><right><food(Stored_Food)>
 501,Advanced Resources available in this Depot.,此存放區可用的進階資源
-512,<resource('Polymers' )><right><polymers(Stored_Polymers)>,<resource('Polymers' )><right><polymers(Stored_Polymers)>
-513,<resource('Electronics' )><right><electronics(Stored_Electronics)>,<resource('Electronics' )><right><electronics(Stored_Electronics)>
-514,<resource('MachineParts' )><right><machineparts(Stored_MachineParts)>,<resource('MachineParts' )><right><machineparts(Stored_MachineParts)>
+512,<resource('Polymers' )><right><polymers(Stored_Polymers)>
+513,<resource('Electronics' )><right><electronics(Stored_Electronics)>
+514,<resource('MachineParts' )><right><machineparts(Stored_MachineParts)>
 260933228141,Drones commanded by the Rocket ship.,無人機由火箭控制中心指揮
 963695586350,Drones<right><drone(DronesCount)>,無人機<right><drone(DronesCount)>
 414,Current status of the Rocket.,火箭目前的狀態
-301951063645,<UIRocketStatus>,<UIRocketStatus>
+301951063645,<UIRocketStatus>
 305580647526,Zoom Out,縮小
 306523338154,The title of the game rule shown in the list of game rules,遊戲規則標題已顯示在規則清單上
 416,Payload of the Rocket.,火箭的酬載內容
 415,Payload,酬載內容
-417,<CargoManifest>,<CargoManifest>
+417,<CargoManifest>
 488709956734,Increasing the area of effect will greatly increase the power consumption of the building.<newline><newline>Charging time<right><em><ChargeTime> h<em><newline><left>Service range<right><SelectionRadiusScale> hexes,增加影響範圍將會大大提高建築的電力消耗。 <newline><newline>充電時間<right><em><ChargeTime>小時<em><newline><left>服務範圍<right><SelectionRadiusScale>格
 490,Amount Waste Rock stored.,廢棄碎石儲量
-491,"<resource('WasteRock')><right><wasterock(Stored_WasteRock, MaxAmount_WasteRock)>","<resource('WasteRock')><right><wasterock(Stored_WasteRock, MaxAmount_WasteRock)>"
+491,"<resource('WasteRock')><right><wasterock(Stored_WasteRock, MaxAmount_WasteRock)>"
 1176,Cancel Destroy,取消摧毀
 1178,Cancel the order to destroy the alien Dredger.,取消摧毀外星疏濬者的指令
 1175,Destroy,摧毀
@@ -11852,7 +11857,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 102770097492,Previous Colonist,前一個殖民者
 232261691824,Selects the next colonist in the group.,下一個殖民者
 388769879592,Next Colonist,下一個殖民者
-390758552211,Meteor rating set to a new Max level for all locations on Mars.
+390758552211,Meteor rating set to a new Max level for all locations on Mars.,流星評級設置為火星上所有位置的新的最高等級。
 4352,The cause of death of this Colonist.,這個殖民者的死因
 4351,Cause of death,死因
 766618008675,<UIDeathReason>,
@@ -11861,14 +11866,14 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 4359,Specialization<right><Specialization>,專長<right><Specialization>
 4360,Residence<right><h SelectResidence InfopanelSelect><ResidenceDisplayName></h>,居住處<right><h SelectResidence InfopanelSelect><ResidenceDisplayName></h>
 213479829949,<UIWorkplaceLine>,
-214478084093,Twister
+214478084093,Twister,說謊者
 100898279423,<UITraitsRollover>,
 868555682819,<UITraitsList>,
 131743729104,<AgeGroupsText>,
 987289847467,Age Groups,年齡範圍
 892778823326,<nbsp>Colonists<right><colonist(ColonistCount)>,<nbsp>殖民者<right><colonist(ColonistCount)>
 826833284493,<EmploymentMessage>,
-828236114548,Destroy this pipe.
+828236114548,Destroy this pipe.,摧毀管線
 943829010907,<ResidenceMessage>,
 976447044595,The average <em>Health</em> of all Colonists.,全部殖民者的平均 <em>健康</em>
 892876077694,The average <em>Sanity</em> of all Colonists.,全部殖民者的平均 <em>理智</em>
@@ -11883,7 +11888,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 383306856338,<ConstructionCost>,
 903,Base resource consumption of the building.,建築物的基本資源消耗
 705011232956,<Consumption>,
-706031426910,Hunger
+706031426910,Hunger,飢餓度
 905,Wind Turbines produce more Power at higher elevation.,風力發電機在較高海拔會產出更多電力。
 904,Terrain,地形
 906,Elevation Boost<right><ElevationBoost>%,地勢加成<right><ElevationBoost>%
@@ -11894,12 +11899,12 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 916,<LB> Rotate <RB>,<LB> 旋轉 <RB>
 7365,<em>Hold<LT></em> Place multiple,<em>按住<LT></em>建造多個
 917,<DPadLeft> cycle visual variants <DPadRight>,<DPadLeft> 視覺效果變換 <DPadRight>
-308379151314,Vehicle Inactive.,
+308379151314,Vehicle Inactive.,載具停止活動
 485959427490,Move / Interact,移動 / 互動
-750759453664,Vehicle Inactive.,
+750759453664,Vehicle Inactive.,載具停止活動
 4427,Reassign,重新指派
 926548406718,Reassign,重新指派
-136037016366,Vehicle Inactive.,
+136037016366,Vehicle Inactive.,載具停止活動
 4433,Perform Maintenance,執行維護
 636653157928,Perform Maintenance,執行維護
 4432,Drops any carried resource.,卸下攜帶的所有資源
@@ -11907,7 +11912,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 449598530168,Cheats
 4431,Drop Carried Resource,卸下攜帶的資源
 404479069795,Drop Carried Resource,卸下攜帶的資源
-367823728879,Vehicle inactive.,
+367823728879,Vehicle inactive.,載具停止活動
 640517755907,Salvage,拆除
 7824,Destroy this Drone.,摧毀這台無人機
 584248706535,Carrying<right><ResourceAmount>,攜帶<right><ResourceAmount>
@@ -11970,23 +11975,23 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 10,<Description>,
 370449987367,Priority affects how often this building is serviced by Drones as well as its share of Power and life support. Notifications are not shown for buildings with low priority.<newline><newline>Current priority: <em><UIPriority></em>,優先權將影響 無人機服務此設施的頻率 以及 電力、維生資源等分配優先權。 優先權較低的設施將不會出現在提示廣播中 <newline><newline>目前優先度：<em><UIPriority></em>
 369,Change Priority,改變優先度
-577516035564,<left><left_click> Increase priority<right><right_click> Decrease priority,
-579334279447,Import prices increase over time.
-870954837374,<left><ButtonA> Increase priority<right><ButtonX> Decrease priority,
+577516035564,<left><left_click> Increase priority<right><right_click> Decrease priority,<left><left_click> 增加優先度 <right><right_click> 減少優先度
+579334279447,Import prices increase over time.,進口價格會隨著時間增加
+870954837374,<left><ButtonA> Increase priority<right><ButtonX> Decrease priority,<left><ButtonA> 增加優先度 <right><ButtonX> 減少優先度
 6764,Cancel,取消
 699,Cancel demolition.,取消拆除
 697,Destroy,摧毀
 698,Destroy this pile of cubes.,摧毀這些黑立方
 3674,"<resource(resource)><right><resource(StoredAmount,resource)>",
-677988939612,Vehicle inactive.,
+677988939612,Vehicle inactive.,載具停止活動
 4422,Move / Interact,移動 / 互動
 738958862221,Move / Interact,移動 / 互動
-806760132448,Vehicle inactive.,
-504147094031,Vehicle inactive.,
-381999431042,Vehicle inactive.,
-266581508662,Vehicle inactive.,
-221351751895,Vehicle inactive.,
-124367847840,Vehicle inactive.,
+806760132448,Vehicle inactive.,載具停止活動
+504147094031,Vehicle inactive.,載具停止活動
+381999431042,Vehicle inactive.,載具停止活動
+266581508662,Vehicle inactive.,載具停止活動
+221351751895,Vehicle inactive.,載具停止活動
+124367847840,Vehicle inactive.,載具停止活動
 3973,Salvage,拆除
 7657,<ButtonY> Activate,
 7825,Destroy this Rover.,摧毀這台車輛
@@ -11994,7 +11999,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 49,Status,狀態
 51,<ui_command>,
 526919900594,<UIResearchProject>,
-528641942799,No Disasters
+528641942799,No Disasters,無災難
 4489,Proximity to a high number of Black Cubes may cause malfunctions,接近大量的黑立方可能會導致故障
 407,<em><percent(black_cube_interaction_perc_for_ui)></em> chance to malfunction,<em><percent(black_cube_interaction_perc_for_ui)></em> 可能發生故障
 4490,All Drones were recalled and will remain in the Rover until deployed,所有無人機正被招回並等待漫遊者的部屬指令
@@ -12042,7 +12047,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 7857,Rare Traits,稀有性格
 779865575637,<RareTraits>,
 946079411041,<UISectionAirGridRollover>,
-947776987873,Armageddon
+947776987873,Armageddon,大決戰
 536,Oxygen grid,氧氣系統
 541,Hourly production<right><air(current_production)>,每時產能<right><air(current_production)>
 327,Total demand<right><air(consumption)>,尖峰需求<right><air(consumption)>
@@ -12095,10 +12100,10 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 577461898820,Run on deactivation
 856271865233,The average <em>Morale</em> of all Colonists living in this Dome.,這個蒼穹頂內殖民者的平均 <em>士氣</em> 
 765210150801,Average Morale <Stat(AverageMorale)>,平均士氣 <Stat(AverageMorale)>
-765833268441,Challenge Mod
+765833268441,Challenge Mod,挑戰模組
 241499798174,The condition of buildings deteriorates over time. Martian dust and disasters contribute to deterioration of outside buildings. Deteriorated buildings will need to be serviced by a Drone and supplied with their required maintenance resource or they will malfunction.<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left>Last serviced<right><LastMaintenance>,這棟建築物隨著時間的推移，火星上的塵土正在慢慢侵蝕建築物的外部。 被侵蝕的建築物需要由 無人機 進行維護作業，維護作業可能會需要消耗資源<newline><newline>目前侵蝕程度 <right><percent(MaintenanceProgress)><newline><left>最後一次維護<right><LastMaintenance>
 619281504128,Maintenance,維護
-621834127153,Chaos Theory
+621834127153,Chaos Theory,混沌理論
 601912665358,"<resource(maintenance_resource_amount, maintenance_resource_type)>",
 602546577533,"<resource('Electronics' )><right><electronics(Stored_Electronics, MaxAmount_Electronics)>"
 7878,A drone is on the way to repair this building.,無人機正在前往維修這棟建築
@@ -12130,7 +12135,7 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 765045268446,Contributes to the currently selected research project.<newline><newline>Lifetime research<right><research(research_points_lifetime)>,貢獻目前所選擇的研究<newline><newline>研究至今<right><research(research_points_lifetime)>
 308,Research Project <percent(ResearchProgress)>,研究項目 <percent(ResearchProgress)>
 452635643808,<UIResearchProject>,
-452690473931,Exclusion List
+452690473931,Exclusion List,排除清單
 445070088246,Daily research<right><research(EstimatedDailyProduction)>,每日研究<right><research(EstimatedDailyProduction)>
 445682062409,Dust Devil rating set to a new Max level for all locations on Mars.
 8017,Collaboration loss<right><research(EstimatedDailyLoss)>,合併損失<right><research(EstimatedDailyLoss)>
@@ -12152,18 +12157,18 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 994862568830,Service area,服務範圍
 887447102904,<ButtonA> Customize storage permissions,<ButtonA>自訂儲存權
 494,Basic Resources,基礎資源
-497,"<resource('Concrete' )><right><concrete(Stored_Concrete, MaxAmount_Concrete)>","<resource('Concrete' )><right><concrete(Stored_Concrete, MaxAmount_Concrete)>"
-498,"<resource('Food' )><right><food(Stored_Food, MaxAmount_Food)>","<resource('Food' )><right><food(Stored_Food, MaxAmount_Food)>"
-499,"<resource('PreciousMetals' )><right><preciousmetals(Stored_PreciousMetals, MaxAmount_PreciousMetals)>","<resource('PreciousMetals' )><right><preciousmetals(Stored_PreciousMetals, MaxAmount_PreciousMetals)>"
-496,"<resource('Metals' )><right><metals(Stored_Metals, MaxAmount_Metals)>","<resource('Metals' )><right><metals(Stored_Metals, MaxAmount_Metals)>"
+497,"<resource('Concrete' )><right><concrete(Stored_Concrete, MaxAmount_Concrete)>"
+498,"<resource('Food' )><right><food(Stored_Food, MaxAmount_Food)>"
+499,"<resource('PreciousMetals' )><right><preciousmetals(Stored_PreciousMetals, MaxAmount_PreciousMetals)>"
+496,"<resource('Metals' )><right><metals(Stored_Metals, MaxAmount_Metals)>"
 7983,You can disable the storage of certain resource types in this depot. No additional resources of these types will be transported to the depot.,您可以關閉這個存放區中的某個特定資源，一旦關閉後該資源將不會在被存入，而且會被移出到其它可以放置存放區
 7984,<left_click> Customize storage permissions,<left_click>自訂儲存權
 383513035809,<ButtonA> Customize storage permissions,<ButtonA>自訂儲存權
 500,Advanced Resources,進階資源
-502,"<resource('Polymers' )><right><polymers(Stored_Polymers, MaxAmount_Polymers)>","<resource('Polymers' )><right><polymers(Stored_Polymers, MaxAmount_Polymers)>"
-503,"<resource('Electronics' )><right><electronics(Stored_Electronics, MaxAmount_Electronics)>","<resource('Electronics' )><right><electronics(Stored_Electronics, MaxAmount_Electronics)>"
-504,"<resource('MachineParts' )><right><machineparts(Stored_MachineParts, MaxAmount_MachineParts)>","<resource('MachineParts' )><right><machineparts(Stored_MachineParts, MaxAmount_MachineParts)>"
-505,"<resource('Fuel' )><right><fuel(Stored_Fuel, MaxAmount_Fuel)>","<resource('Fuel' )><right><fuel(Stored_Fuel, MaxAmount_Fuel)>"
+502,"<resource('Polymers' )><right><polymers(Stored_Polymers, MaxAmount_Polymers)>"
+503,"<resource('Electronics' )><right><electronics(Stored_Electronics, MaxAmount_Electronics)>"
+504,"<resource('MachineParts' )><right><machineparts(Stored_MachineParts, MaxAmount_MachineParts)>"
+505,"<resource('Fuel' )><right><fuel(Stored_Fuel, MaxAmount_Fuel)>"
 459,Storage facilities cannot discharge until they are charged with a minimum amount of their stored resource.,儲存設備儲藏量須達到最低存量才可輸出
 277,Attention,注意
 460,<UIDischargeStr>,<UIDischargeStr>
@@ -12180,8 +12185,8 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 745754891525,Lifetime cured<right><life_time_trained>,至今已治癒<right><life_time_trained>
 186914304841,Lifetime graduates<right><life_time_trained>,至今已畢業<right><life_time_trained>
 962812330186,Upgrade Construction,升級建設
-622222701550,<GetUpgradeDisplayName(i)>,<GetUpgradeDisplayName(i)>
-395198263790,<UpgradeCosts(i)>,<UpgradeCosts(i)>
+622222701550,<GetUpgradeDisplayName(i)>
+395198263790,<UpgradeCosts(i)>
 7423,Each Service Building will accept a number of visitors during each open work shift. Colonists seek to visit a building corresponding to one of their interests chosen daily at random. The visit will improve their Comfort up to the Service Comfort value.,每一座服務性設施都可以服務一定數量的訪客在營業的時段中。殖民者會尋找他們有興趣的設施並在一天內隨機時間前往拜訪。一旦滿足訪客的需求，殖民者的舒適度就會上升，上升的幅度取決於設施的服務品質。
 526,Visitors,訪客
 708009583391,Inside<right><count(visitors)>/<colonist(max_visitors)>,內部 <right><count(visitors)>/<colonist(max_visitors)>
@@ -12190,12 +12195,12 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 531,Service Comfort<right><Stat(EffectiveServiceComfort)>,服務品質 <right><Stat(EffectiveServiceComfort)>
 47,<red>Warning</red>,<red>警告</red>
 584,<center><UIWarning>,<center><UIWarning>
-733271764708,<UISectionWaterGridRollover>,UISectionWaterGridRollover>
+733271764708,<UISectionWaterGridRollover>
 542,Water grid,水資源系統
 545,Hourly production<right><water(current_production)>,每時產能 <right><water(current_production)>
 332,Total demand<right><water(consumption)>,尖峰需求 <right><water(consumption)>
 333,Stored Water<right><water(current_storage)>,已儲存<right><water(current_storage)>單位水資源
-502733614779,<UISectionWaterProductionRollover>,<UISectionWaterProductionRollover>
+502733614779,<UISectionWaterProductionRollover>
 80,Production,生產
 840359936837,<WaterProductionText>,<WaterProductionText>
 474,"Stored Waste Rock<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>","廢棄碎石儲量<right><wasterock(GetWasterockAmountStored,wasterock_max_storage)>"
@@ -12299,34 +12304,34 @@ Current status: Exports are <em>forbidden</em>.","允許 / 禁止 向地球出�
 1234,Dome,蒼穹頂
 4832,Night Light,夜燈
 4833,Movement,移動
-4834,<percentage>%,<percentage>%
-4835,<value><resource_icon>,<value><resource_icon>
-4836,<prefix><n><postfix>,<prefix><n><postfix>
-4837,<prefix><n>.<d1><postfix>,<prefix><n>.<d1><postfix>
-4838,<prefix><n>.<d1><d2><postfix>,<prefix><n>.<d1><d2><postfix>
+4834,<percentage>%
+4835,<value><resource_icon>
+4836,<prefix><n><postfix>
+4837,<prefix><n>.<d1><postfix>
+4838,<prefix><n>.<d1><d2><postfix>
 4839,<em><hours>h</em>,<em><hours> 小時 </em>
 4840,"<em><sols> Sols, <hours>h</em>",<em><sols> 太陽日， <hours> 小時 </em>
 4841,<em><sols> Sols</em>,<em><sols> 太陽日 </em>
-4842,/<int>,/<int>
-4843,/<int>.<frac>,/<int>.<frac>
-4844,<int>,<int>
-4845,<int>.<frac>,<int>.<frac>
-6981,-,-
-4847,<value>k,<value>k
-4848,<value>.<rem>k,<value>.<rem>k
-4849,<value>.<rem>K,<value>.<rem>K
-4850,<value>M,<value>M
-4851,<value>.<rem>M,<value>.<rem>M
-4852,<value>G,<value>G
-4853,<value>.<rem>G,<value>.<rem>G
-4854,#<index>,#<index>
+4842,/<int>
+4843,/<int>.<frac>
+4844,<int>
+4845,<int>.<frac>
+6981,-
+4847,<value>k
+4848,<value>.<rem>k
+4849,<value>.<rem>K
+4850,<value>M
+4851,<value>.<rem>M
+4852,<value>G
+4853,<value>.<rem>G
+4854,#<index>
 4855,<red>INVALID RESOURCE</red>,<red>無效資源</red>
-4856,<em><points><image UI/Icons/res_experimental_research.tga></em>,<em><points><image UI/Icons/res_experimental_research.tga></em>
-4857,<em>$<integer></em>,<em>$<integer></em>
-4858,k,k
-6983,M,M
-4859,<em>$<integer> <suffix></em>,<em>$<integer> <suffix></em>
-4860,<em>$<integer>.<fractional> <suffix></em>,<em>$<integer>.<fractional> <suffix></em>
+4856,<em><points><image UI/Icons/res_experimental_research.tga></em>
+4857,<em>$<integer></em>
+4858,k
+6983,M
+4859,<em>$<integer> <suffix></em>
+4860,<em>$<integer>.<fractional> <suffix></em>
 6761,None,關閉
 4862,Low,低
 646,Medium,中
@@ -12578,7 +12583,7 @@ We are already swarmed with applications for relocation on Mars and the wanderlu
 
 <grey>""We don't make mistakes, just happy little accidents.""
 <right>Bob Ross</grey><left>"
-8878,Depot
+8878,Depot,倉庫
 8879,Renegade creation point when game rule Rebel Yell is activated
 8880,Landing Pad,火箭起降臺
 8881,Landing Pads,火箭起降臺
@@ -12587,20 +12592,20 @@ We are already swarmed with applications for relocation on Mars and the wanderlu
 8884,Forbidden,禁止
 8885,<em>Use Passages for work</em>,<em>利用連通道進行工作</em>
 8887,Use Passages for work,利用連通道進行工作
-8888,Allow or forbid working in connected Domes.<newline><newline>Current status: <em><UIWorkInConnected></em>
-8889,<left_click> Forbid for this Dome<newline><em>Ctrl + <left_click></em> Forbid for all Domes
-8890,<ButtonA> Forbid for this Dome<newline><ButtonX> Forbid for all Domes
-8891,<left_click> Allow for this Dome<newline><em>Ctrl + <left_click></em> Allow for all Domes
-8892,<ButtonA> Allow for this Dome<newline><ButtonX> Allow for all Domes
+8888,Allow or forbid working in connected Domes.<newline><newline>Current status: <em><UIWorkInConnected></em>,允許或禁止在連接的蒼穹頂中工作<newline> <newline>當前狀態：<em> <UIWorkInConnected> </em>
+8889,<left_click> Forbid for this Dome<newline><em>Ctrl + <left_click></em> Forbid for all Domes,<left_click> 禁止這個蒼穹頂<newline><em>Ctrl + <left_click></em> 禁止所有蒼穹頂
+8890,<ButtonA> Forbid for this Dome<newline><ButtonX> Forbid for all Domes,<ButtonA> 禁止這個蒼穹頂<newline><ButtonX> 禁止所有蒼穹頂
+8891,<left_click> Allow for this Dome<newline><em>Ctrl + <left_click></em> Allow for all Domes,<left_click>允許這個蒼穹頂<newline><em>Ctrl + <left_click></em>允許所有蒼穹頂
+8892,<ButtonA> Allow for this Dome<newline><ButtonX> Allow for all Domes,<ButtonA> 允許這個蒼穹頂<newline><ButtonX> 允許所有蒼穹頂
 8893,<em>Use Passages for services</em>,<em>利用連通道使用服務</em>
 8895,Use Passages for services,利用連通道使用服務
-8896,Allow or forbid using service buildings in connected Domes.<newline><newline>Current status: <em><UIServiceInConnected></em>
-8897,Cannot salvage mechanized depot with more than 50 resource stocked
-8898,This Passage is fractured and is losing oxygen.<newline><left>Number of fractures<right><fractures><newline><left>Cost of repairs<right><polymers(number)>
+8896,Allow or forbid using service buildings in connected Domes.<newline><newline>Current status: <em><UIServiceInConnected></em>,允許或禁止在連接的蒼穹頂中使用服務建築物<newline> <newline>當前狀態：<UIServiceInConnected> </em>
+8897,Cannot salvage mechanized depot with more than 50 resource stocked,無法搶救超過50個資源的機械化倉庫
+8898,This Passage is fractured and is losing oxygen.<newline><left>Number of fractures<right><fractures><newline><left>Cost of repairs<right><polymers(number)>,這個通道斷裂並正在失去氧氣。<newline> <left>裂縫數目<right> <fractures> <newline> <left>修理成本<right><polymers(number)>
 8899,Explored Areas Only,限已探索區域
 8900,Unexplored Areas Only,限未探索區域
-8901,Check Exploration
-8902,per segment
+8901,Check Exploration,探索檢查
+8902,per segment,分區
 8903,<ButtonA> Choose Game Rules,<ButtonA> 選擇遊戲規則
 8904,Use <em>[</em> or <em>]</em> to cycle between buildings from the category,在項目中使用 <em>[</em> 或 <em>]</em> 捲動以檢視建築
 8905,<DPadLeft> cycle buildings from category <DPadRight>,在項目中循環檢視建築
@@ -12612,11 +12617,11 @@ We are already swarmed with applications for relocation on Mars and the wanderlu
 8911,Stores <polymers(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<polymers(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
 8912,Stores <preciousmetals(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<preciousmetals(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
 8913,Expand Mohole I,莫霍礦井擴張一
-8914,+<upgrade1_mul_value_1>% Metals Production; +<upgrade1_mul_value_2>% Rare Metals Production; +<power(upgrade1_add_value_3)>.
+8914,+<upgrade1_mul_value_1>% Metals Production; +<upgrade1_mul_value_2>% Rare Metals Production; +<power(upgrade1_add_value_3)>.,+<upgrade1_mul_value_1>% 金屬生產 +<upgrade1_mul_value_2>% 稀有金屬生產 +<power(upgrade1_add_value_3)>.
 8915,Expand Mohole II,莫霍礦井擴張二
 8916,Expand Mohole III,莫霍礦井擴張三
 8917,Improved Refining I,精煉升級一
-8918,+<upgrade1_mul_value_1>% Concrete Production; +<power(upgrade1_add_value_2)>.
+8918,+<upgrade1_mul_value_1>% Concrete Production; +<power(upgrade1_add_value_2)>.,+<upgrade1_mul_value_1>% 混擬土生產 +<power(upgrade1_add_value_2)>.
 8919,Improved Refining II,精煉升級二
 8920,Improved Refining III,精煉升級三
 8921,Stores <concrete(UIMaxStorageAmount)>. Excess resources will be delivered automatically to other depots within Drone range.,儲存<concrete(UIMaxStorageAmount)>，多餘資源將會自動轉送至其他無人機範圍內的存放區。
